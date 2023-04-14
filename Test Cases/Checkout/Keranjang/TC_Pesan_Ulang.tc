@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fungsi pesan ulang produk</description>
+   <name>TC_Pesan_Ulang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e371939d-c3f1-41b1-a7b3-7d16cd23c46b</testCaseGuid>
+</TestCaseEntity>

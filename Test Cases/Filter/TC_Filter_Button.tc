@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tap tombol 'Filter'</description>
+   <name>TC_Filter_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dcdfd20-3e24-4bd1-a493-728c63a149a0</testCaseGuid>
+</TestCaseEntity>

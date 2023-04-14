@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register_ResetProvinsi" time="48.646" tests="2" failures="0" errors="0">
+   <testsuite name="Register_ResetProvinsi" tests="2" failures="0" errors="0" time="48.646" skipped="0" timestamp="2023-03-21 09:29:42" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Register/Address/Register_ResetProvinsi">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_092931\\Register\\Address\\Register_ResetProvinsi\\20230321_092931"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_092931\\Register\\Address\\Register_ResetProvinsi\\20230321_092931\\appium.log, C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_092931\\Register\\Address\\Register_ResetProvinsi\\20230321_092931\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Register/Redirect_to_RegisterPage" time="37.856" classname="Test Cases/Register/Redirect_to_RegisterPage" status="PASSED">
+         <system-out><![CDATA[2023-03-21 09:29:42 - [TEST_CASE][PASSED] - Test Cases/Register/Redirect_to_RegisterPage: Test Cases/Register/Redirect_to_RegisterPage
+
+2023-03-21 09:29:42 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-21 09:29:43 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-03-21 09:29:43 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-21 09:29:45 - [MESSAGE][INFO] - Appium server started on port 58,904
+
+2023-03-21 09:30:16 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-21 09:30:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Redirect_To_RegisterPage/android.view.View"), 0): Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.view.View'
+
+2023-03-21 09:30:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.view.View'
+
+2023-03-21 09:30:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button"), 0): Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button'
+
+2023-03-21 09:30:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button'
+
+2023-03-21 09:30:19 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-21 09:30:20 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Address/TC_Reset_Provinsi" time="10.498" classname="Test Cases/Register/Address/TC_Reset_Provinsi" status="PASSED">
+         <system-out><![CDATA[2023-03-21 09:30:20 - [TEST_CASE][PASSED] - Test Cases/Register/Address/TC_Reset_Provinsi: Test Cases/Register/Address/TC_Reset_Provinsi
+
+2023-03-21 09:30:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View'
+
+2023-03-21 09:30:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View'
+
+2023-03-21 09:30:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (1)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (1)'
+
+2023-03-21 09:30:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (1)'
+
+2023-03-21 09:30:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (2)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (2)'
+
+2023-03-21 09:30:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (2)'
+
+2023-03-21 09:30:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (3)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (3)'
+
+2023-03-21 09:30:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (3)'
+
+2023-03-21 09:30:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (4)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (4)'
+
+2023-03-21 09:30:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (4)'
+
+2023-03-21 09:30:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (5)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (5)'
+
+2023-03-21 09:30:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (5)'
+
+2023-03-21 09:30:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (6)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (6)'
+
+2023-03-21 09:30:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (6)'
+
+2023-03-21 09:30:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (7)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (7)'
+
+2023-03-21 09:30:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (7)'
+
+2023-03-21 09:30:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (8)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (8)'
+
+2023-03-21 09:30:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (8)'
+
+2023-03-21 09:30:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (9)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (9)'
+
+2023-03-21 09:30:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:30:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetProvinsi/android.view.View (9)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-21 09:29:42 - [TEST_SUITE][PASSED] - Register_ResetProvinsi: Test Cases/Register/Address/TC_Reset_Provinsi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

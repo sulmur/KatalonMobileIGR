@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Checkout tanpa pilih opsi pengiriman</description>
+   <name>TC_No_Shipping</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7d86799-543b-4ced-91f3-54b374068e1d</testCaseGuid>
+</TestCaseEntity>

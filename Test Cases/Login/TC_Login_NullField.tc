@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengakses laman Login</description>
+   <name>TC_Login_NullField</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>296a7fcc-3664-4a26-96bc-3c567e484ab2</testCaseGuid>
+</TestCaseEntity>

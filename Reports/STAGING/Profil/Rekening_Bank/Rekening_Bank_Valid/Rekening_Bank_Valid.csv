@@ -1,0 +1,38 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Rekening_Bank_Valid;;Test module Profil, berhasil submit rekening bank yang valid;24/03/2023 11:43;24/03/2023 11:44;1m - 16.092s;PASSED
+;;;;;;
+Test Cases/Profil/TC_Profil_Button;;Test case tap menu 'Akun';24/03/2023 11:43;24/03/2023 11:43;36.244s;PASSED
+startApplication(APP;;;24/03/2023 11:43;24/03/2023 11:43;34.010s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Profil_Button/android.view.View"")";;Tap menu 'Akun';24/03/2023 11:43;24/03/2023 11:43;1.862s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Button;;Test case Profil tap tombol 'Rekening Bank';24/03/2023 11:43;24/03/2023 11:44;4.054s;PASSED
+swipe(100, 400, 0, 0);;;24/03/2023 11:44;24/03/2023 11:44;1.109s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/Rekening_Bank_Button/android.view.View"")";;"Tap tombol ""Rekening Bank""";24/03/2023 11:44;24/03/2023 11:44;1.456s;PASSED
+delay(1;;;24/03/2023 11:44;24/03/2023 11:44;1.038s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_PilihBank;;Test case Profil memilih bank pada form Rekening Bank;24/03/2023 11:44;24/03/2023 11:44;18.129s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/RekeningBank_Pilih/android.view.View"")";;Tap dropdown 'Pilih Bank';24/03/2023 11:44;24/03/2023 11:44;0.716s;PASSED
+delay(1;;;24/03/2023 11:44;24/03/2023 11:44;1.008s;PASSED
+swipe(0, 1685, 0, 0);;;24/03/2023 11:44;24/03/2023 11:44;1.045s;PASSED
+delay(2;;;24/03/2023 11:44;24/03/2023 11:44;2.011s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/RekeningBank_Pilih/android.view.View (1)"")";;Pilih bank 'BCA';24/03/2023 11:44;24/03/2023 11:44;13.020s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Cabang;;Test case Profil input field Cabang pada form Rekening Bank;24/03/2023 11:44;24/03/2023 11:44;2.460s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/RekeningBank_Field/android.widget.EditText - Cabang"")";;Tap field 'Cabang';24/03/2023 11:44;24/03/2023 11:44;1.711s;PASSED
+"setText(findTestObject(""Profil/Rekening_Bank/RekeningBank_Field/android.widget.EditText - Cabang"")";" ""KPP Ciputat""";Input data pada field Cabang;24/03/2023 11:44;24/03/2023 11:44;0.483s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Norek;;Test case Profil input field 'Nomor Rekening' pada form Rekening Bank;24/03/2023 11:44;24/03/2023 11:44;2.106s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/RekeningBank_Field/android.widget.EditText - Nomor Rekening"")"; 0);Tap field 'Nomor Rekening';24/03/2023 11:44;24/03/2023 11:44;1.388s;PASSED
+"setText(findTestObject(""Profil/Rekening_Bank/RekeningBank_Field/android.widget.EditText - Nomor Rekening"")";" ""0670372120""";Input data pada field 'Nomor Rekening';24/03/2023 11:44;24/03/2023 11:44;0.430s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningValid;;Test case Profil input data valid pada field 'Nama Rekening' pada form Rekening Bank;24/03/2023 11:44;24/03/2023 11:44;4.248s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/RekeningBank_Field/android.widget.EditText - Nama Rekening"")";;Tap field 'Nama Rekening';24/03/2023 11:44;24/03/2023 11:44;0.493s;PASSED
+"setText(findTestObject(""Profil/Rekening_Bank/RekeningBank_Field/android.widget.EditText - Nama Rekening"")";" ""Sulthan Muhammad Raihan""";Input data valid pada 'Nama Rekening';24/03/2023 11:44;24/03/2023 11:44;1.343s;PASSED
+hideKeyboard();;;24/03/2023 11:44;24/03/2023 11:44;2.119s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_Submit_Success;;Test case Rekening Bank, tap tombol 'Simpan';24/03/2023 11:44;24/03/2023 11:44;8.521s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/Submit_Success/android.widget.Button"")";;Tap tombol 'Simpan';24/03/2023 11:44;24/03/2023 11:44;0.780s;PASSED
+delay(3;;;24/03/2023 11:44;24/03/2023 11:44;3.012s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/Submit_Success/android.widget.Button (1)"")";;Tap tombol 'Lanjutkan' pada pop-up konfirmasi rekening bank;24/03/2023 11:44;24/03/2023 11:44;0.247s;PASSED
+delay(3;;;24/03/2023 11:44;24/03/2023 11:44;3.004s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/Submit_Success/android.widget.Button (2)"")";;Tap tombol 'Tutup';24/03/2023 11:44;24/03/2023 11:44;1.077s;PASSED

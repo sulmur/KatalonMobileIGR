@@ -1,0 +1,37 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+SMotor_Mandiri;Test module Checkout produk, Pengiriman Sameday Motor, Pembayaran VA Mandiri;20/03/2023 09:58;20/03/2023 09:59;1m - 33.259s;PASSED
+;;;;;
+Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk;;20/03/2023 09:58;20/03/2023 09:59;55.612s;PASSED
+startApplication(APP, false);;20/03/2023 09:58;20/03/2023 09:58;36.661s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.ImageView"")";Tap Jenis Kategori 'Lebaran 2023';20/03/2023 09:58;20/03/2023 09:58;2.385s;PASSED
+delay(2, STOP_ON_FAILURE);;20/03/2023 09:58;20/03/2023 09:58;2.059s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button"")";Tap tombol '+ Keranjang' pada produk 'Monde Biskuit Butter Cookies KLG 454g';20/03/2023 09:58;20/03/2023 09:58;0.639s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"")";Tap icon '+' untuk menambah jumlah produk;20/03/2023 09:58;20/03/2023 09:58;1.811s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"")";Tap icon '+' untuk menambah jumlah produk;20/03/2023 09:58;20/03/2023 09:58;0.913s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.view.View"")";Tap tombol '+ Keranjang' untuk menambah produk ke menu Keranjang;20/03/2023 09:58;20/03/2023 09:59;3.387s;PASSED
+delay(3, STOP_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;3.018s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Icon_Keranjang/android.widget.Button"")";Tap icon 'Keranjang' untuk masuk ke menu 'Keranjang';20/03/2023 09:59;20/03/2023 09:59;1.078s;PASSED
+delay(3, STOP_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;3.022s;PASSED
+;;;;;
+Test Cases/Checkout/Pengiriman/TC_Sameday_Motor;Test case pengiriman sameday motor;20/03/2023 09:59;20/03/2023 09:59;20.186s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.Button (1)"")";Tap icon 'panah ke atas';20/03/2023 09:59;20/03/2023 09:59;0.437s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.Button (2)"")";Tap tombol 'Pengiriman';20/03/2023 09:59;20/03/2023 09:59;1.450s;PASSED
+delay(8, CONTINUE_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;8.012s;PASSED
+swipe(0, 600, 0, 0);Scroll ke bawah;20/03/2023 09:59;20/03/2023 09:59;1.111s;PASSED
+delay(3, CONTINUE_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;3.017s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.ImageView"")";Tap opsi pengiriman 'Sameday Motor';20/03/2023 09:59;20/03/2023 09:59;0.818s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.Button (3)"")";Tap tombol 'Pembayaran';20/03/2023 09:59;20/03/2023 09:59;0.816s;PASSED
+delay(4, CONTINUE_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;4.015s;PASSED
+;;;;;
+Test Cases/Checkout/Pembayaran/TC_Bayar_Mandiri;Test case bayar dengan VA Mandiri;20/03/2023 09:59;20/03/2023 09:59;2.549s;PASSED
+swipe(0, 475, 0, 0);;20/03/2023 09:59;20/03/2023 09:59;1.054s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pembayaran/Mandiri/android.widget.ImageView"")";Pilih opsi 'Virtual Account Mandiri';20/03/2023 09:59;20/03/2023 09:59;1.210s;PASSED
+;;;;;
+Test Cases/Checkout/TC_Checkout;Test case tap tombol Checkout;20/03/2023 09:59;20/03/2023 09:59;14.546s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button"")";Tap tombol 'Checkout';20/03/2023 09:59;20/03/2023 09:59;1.102s;PASSED
+delay(7, STOP_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;7.015s;PASSED
+swipe(0, 600, 0, 0);;20/03/2023 09:59;20/03/2023 09:59;1.050s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;1.016s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.view.View"")";Tap tombol 'Lihat cara pembayaran';20/03/2023 09:59;20/03/2023 09:59;1.187s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;20/03/2023 09:59;20/03/2023 09:59;1.007s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button (1)"")";Tap icon 'Back' dari laman Lihat Cara Pembayaran;20/03/2023 09:59;20/03/2023 09:59;1.779s;PASSED

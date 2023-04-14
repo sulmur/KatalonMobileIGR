@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fitur sorting harga termurah pada list Favorite</description>
+   <name>TC_LowestSort_Favourite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>667303f9-9a01-450d-ae6c-d3af1b810840</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case register dengan format nama yang valid (minimal 3 karakter)</description>
+   <name>TC_Register_ValidName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91e485a5-1f83-4ec6-9102-0991cbbe07e6</testCaseGuid>
+</TestCaseEntity>

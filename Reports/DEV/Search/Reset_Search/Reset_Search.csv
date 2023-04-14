@@ -1,0 +1,11 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Reset_Search;;Test module filter, tes fungsi reset field search;27/03/2023 16:28;27/03/2023 16:29;43.459s;PASSED
+;;;;;;
+Test Cases/Filter/Search/TC_Reset_Search;;Test case cek fungsi reset search;27/03/2023 16:28;27/03/2023 16:29;43.119s;PASSED
+startApplication(APP;;;27/03/2023 16:28;27/03/2023 16:29;34.808s;PASSED
+"tap(findTestObject(""Filter/Search/Menu Search"")";;Tap menu search;27/03/2023 16:29;27/03/2023 16:29;2.479s;PASSED
+"tap(findTestObject(""Filter/Search/Field Search"")";;Tap field search;27/03/2023 16:29;27/03/2023 16:29;1.628s;PASSED
+"tap(findTestObject(""Filter/Search/android.widget.EditText - Cari Produk"")";;Tap field cari produk;27/03/2023 16:29;27/03/2023 16:29;0.449s;PASSED
+"setText(findTestObject(""Filter/Search/android.widget.EditText - Cari Produk (1)"")";" ""bendera""";Input data produk;27/03/2023 16:29;27/03/2023 16:29;0.445s;PASSED
+"tap(findTestObject(""Filter/Search/Reset Search (Active)"")";;Reset data field search produk;27/03/2023 16:29;27/03/2023 16:29;1.740s;PASSED
+"tap(findTestObject(""Filter/Search/Back Search"")";;Tap tombol icon 'Back';27/03/2023 16:29;27/03/2023 16:29;1.211s;PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Profil tap tombol 'Alamat Penerima'</description>
+   <name>TC_Alamat_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea4de201-0733-4b8a-a48b-dbe481d2dfce</testCaseGuid>
+</TestCaseEntity>

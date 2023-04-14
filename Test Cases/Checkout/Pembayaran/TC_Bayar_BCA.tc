@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case pembayaran dengan VA BCA</description>
+   <name>TC_Bayar_BCA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa3ae5d2-e0cc-4009-9340-a23f06ef79f0</testCaseGuid>
+</TestCaseEntity>

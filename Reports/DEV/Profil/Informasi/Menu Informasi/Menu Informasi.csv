@@ -1,0 +1,22 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Menu Informasi;Test module Profil skenario melihat menu Tentang Kami;03/04/2023 14:42;03/04/2023 14:43;42.949s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';03/04/2023 14:42;03/04/2023 14:43;26.447s;PASSED
+startApplication(APP;;03/04/2023 14:42;03/04/2023 14:43;24.352s;PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun"")";Tap menu 'Akun';03/04/2023 14:43;03/04/2023 14:43;1.783s;PASSED
+;;;;;
+Test Cases/Profil/Informasi/TC_Tentang_Kami;Test module Profil skenario melihat menu Tentang Kami;03/04/2023 14:43;03/04/2023 14:43;9.538s;PASSED
+swipe(100, 600, 0, 0);;03/04/2023 14:43;03/04/2023 14:43;1.089s;PASSED
+delay(1;;03/04/2023 14:43;03/04/2023 14:43;1.090s;PASSED
+"tap(findTestObject(""Profil/Informasi/Tentang Kami"")";Tap menu 'Tentang Kami';03/04/2023 14:43;03/04/2023 14:43;1.258s;PASSED
+delay(2;;03/04/2023 14:43;03/04/2023 14:43;2.009s;PASSED
+swipe(100, 1000, 0, 0);;03/04/2023 14:43;03/04/2023 14:43;1.389s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Back"")";Tap icon 'Back' untuk kembali ke laman Profil;03/04/2023 14:43;03/04/2023 14:43;2.180s;PASSED
+;;;;;
+Test Cases/Profil/Informasi/TC_Tentang_Aplikasi;Test module Profil skenario melihat menu Tentang Aplikasi;03/04/2023 14:43;03/04/2023 14:43;6.655s;PASSED
+delay(1;;03/04/2023 14:43;03/04/2023 14:43;1.009s;PASSED
+"tap(findTestObject(""Profil/Informasi/Tentang Aplikasi"")";Tap menu 'Tentang Aplikasi';03/04/2023 14:43;03/04/2023 14:43;0.784s;PASSED
+delay(1;;03/04/2023 14:43;03/04/2023 14:43;1.009s;PASSED
+"tap(findTestObject(""Profil/Informasi/Bintang 5"")";Tap icon 'Bintang 5';03/04/2023 14:43;03/04/2023 14:43;0.252s;PASSED
+"tap(findTestObject(""Profil/Informasi/Beri Rating"")";Tap tombol 'Beri Rating';03/04/2023 14:43;03/04/2023 14:43;0.208s;PASSED
+delay(3;;03/04/2023 14:43;03/04/2023 14:43;3.015s;PASSED

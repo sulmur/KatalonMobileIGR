@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Rekening_Bank_Invalid" time="74.067" tests="7" failures="0" errors="0">
+   <testsuite name="Rekening_Bank_Invalid" tests="7" failures="0" errors="0" time="74.067" skipped="0" timestamp="2023-03-30 09:58:42" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Profil/Rekening_Bank/Rekening_Bank_Invalid">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230330_095830\\Profil\\Rekening_Bank\\Rekening_Bank_Invalid\\20230330_095830"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230330_095830\\Profil\\Rekening_Bank\\Rekening_Bank_Invalid\\20230330_095830\\appium.log, C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230330_095830\\Profil\\Rekening_Bank\\Rekening_Bank_Invalid\\20230330_095830\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Profil/TC_Profil_Button" time="45.146" classname="Test Cases/Profil/TC_Profil_Button" status="PASSED">
+         <system-out><![CDATA[2023-03-30 09:58:42 - [TEST_CASE][PASSED] - Test Cases/Profil/TC_Profil_Button: Test Cases/Profil/TC_Profil_Button
+
+2023-03-30 09:58:42 - [TEST_STEP][PASSED] - startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-03-30 09:58:43 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-03-30 09:58:43 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-30 09:58:45 - [MESSAGE][INFO] - Appium server started on port 55,512
+
+2023-03-30 09:59:22 - [MESSAGE][PASSED] - Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-03-30 09:59:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profil/Profil_Button/android.view.View"), 0): Tapped on element 'Object Repository/Profil/Profil_Button/android.view.View'
+
+2023-03-30 09:59:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Profil_Button/android.view.View']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Button" time="3.282" classname="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Button" status="PASSED">
+         <system-out><![CDATA[2023-03-30 09:59:27 - [TEST_CASE][PASSED] - Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Button: Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Button
+
+2023-03-30 09:59:28 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-03-30 09:59:29 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-03-30 09:59:29 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Menu Rekening Bank"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Menu Rekening Bank'
+
+2023-03-30 09:59:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Menu Rekening Bank']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_PilihBank" time="6.799" classname="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_PilihBank" status="PASSED">
+         <system-out><![CDATA[2023-03-30 09:59:31 - [TEST_CASE][PASSED] - Test Cases/Profil/Rekening_Bank/TC_RekeningBank_PilihBank: Test Cases/Profil/Rekening_Bank/TC_RekeningBank_PilihBank
+
+2023-03-30 09:59:31 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Dropdown Pilih Bank"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Dropdown Pilih Bank'
+
+2023-03-30 09:59:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Dropdown Pilih Bank'
+
+2023-03-30 09:59:32 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-30 09:59:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-30 09:59:33 - [TEST_STEP][PASSED] - swipe(100, 1765, 0, 0): Swiped from 100,1,765 to 0,0
+
+2023-03-30 09:59:34 - [MESSAGE][PASSED] - Swiped from 100,1,765 to 0,0
+
+2023-03-30 09:59:34 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-03-30 09:59:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-30 09:59:36 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/BCA"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/BCA'
+
+2023-03-30 09:59:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/BCA']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Cabang" time="1.921" classname="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Cabang" status="PASSED">
+         <system-out><![CDATA[2023-03-30 09:59:37 - [TEST_CASE][PASSED] - Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Cabang: Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Cabang
+
+2023-03-30 09:59:38 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Field Cabang"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Field Cabang'
+
+2023-03-30 09:59:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Field Cabang'
+
+2023-03-30 09:59:39 - [TEST_STEP][PASSED] - setText(findTestObject("Profil/Rekening_Bank/Field Cabang"), "KPP Ciputat", 0): Text 'KPP Ciputat' has been set to element 'Object Repository/Profil/Rekening_Bank/Field Cabang'
+
+2023-03-30 09:59:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:39 - [MESSAGE][PASSED] - Text 'KPP Ciputat' has been set to element 'Object Repository/Profil/Rekening_Bank/Field Cabang']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Norek" time="4.727" classname="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Norek" status="PASSED">
+         <system-out><![CDATA[2023-03-30 09:59:39 - [TEST_CASE][PASSED] - Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Norek: Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Norek
+
+2023-03-30 09:59:39 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Field Nomor Rekening"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Field Nomor Rekening'
+
+2023-03-30 09:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Field Nomor Rekening'
+
+2023-03-30 09:59:41 - [TEST_STEP][PASSED] - setText(findTestObject("Profil/Rekening_Bank/Field Nomor Rekening"), "0670372120", 0): Text '0670372120' has been set to element 'Object Repository/Profil/Rekening_Bank/Field Nomor Rekening'
+
+2023-03-30 09:59:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:41 - [MESSAGE][PASSED] - Text '0670372120' has been set to element 'Object Repository/Profil/Rekening_Bank/Field Nomor Rekening'
+
+2023-03-30 09:59:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-03-30 09:59:44 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningInvalid" time="2.954" classname="Test Cases/Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningInvalid" status="PASSED">
+         <system-out><![CDATA[2023-03-30 09:59:44 - [TEST_CASE][PASSED] - Test Cases/Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningInvalid: Test Cases/Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningInvalid
+
+2023-03-30 09:59:44 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Field Nama Rekening"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Field Nama Rekening'
+
+2023-03-30 09:59:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Field Nama Rekening'
+
+2023-03-30 09:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("Profil/Rekening_Bank/Field Nama Rekening"), "Sulmur", 0): Text 'Sulmur' has been set to element 'Object Repository/Profil/Rekening_Bank/Field Nama Rekening'
+
+2023-03-30 09:59:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:46 - [MESSAGE][PASSED] - Text 'Sulmur' has been set to element 'Object Repository/Profil/Rekening_Bank/Field Nama Rekening'
+
+2023-03-30 09:59:46 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-03-30 09:59:47 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Rekening_Bank/TC_Submit_Failed" time="8.923" classname="Test Cases/Profil/Rekening_Bank/TC_Submit_Failed" status="PASSED">
+         <system-out><![CDATA[2023-03-30 09:59:47 - [TEST_CASE][PASSED] - Test Cases/Profil/Rekening_Bank/TC_Submit_Failed: Test Cases/Profil/Rekening_Bank/TC_Submit_Failed
+
+2023-03-30 09:59:47 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Submit/Tombol Simpan"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Submit/Tombol Simpan'
+
+2023-03-30 09:59:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Submit/Tombol Simpan'
+
+2023-03-30 09:59:48 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-03-30 09:59:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-30 09:59:51 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Submit/Setuju Simpan Rekening gagal"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Submit/Setuju Simpan Rekening gagal'
+
+2023-03-30 09:59:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Submit/Setuju Simpan Rekening gagal'
+
+2023-03-30 09:59:52 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-03-30 09:59:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-30 09:59:55 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Rekening_Bank/Submit/Submit Rekening Bank Gagal"), 0): Tapped on element 'Object Repository/Profil/Rekening_Bank/Submit/Submit Rekening Bank Gagal'
+
+2023-03-30 09:59:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-30 09:59:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Rekening_Bank/Submit/Submit Rekening Bank Gagal']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-30 09:58:42 - [TEST_SUITE][PASSED] - Rekening_Bank_Invalid: Test Cases/Profil/Rekening_Bank/TC_Submit_Failed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

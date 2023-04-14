@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Detail_Promo" time="43.495" tests="2" failures="0" errors="0">
+   <testsuite name="Detail_Promo" tests="2" failures="0" errors="0" time="43.495" skipped="0" timestamp="2023-03-23 11:14:16" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Promotion/Detail_Promo">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230323_111407\\Promotion\\Detail_Promo\\20230323_111407"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230323_111407\\Promotion\\Detail_Promo\\20230323_111407\\appium.log, C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230323_111407\\Promotion\\Detail_Promo\\20230323_111407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Promotion/TC_Promo_Selengkapnya" time="39.012" classname="Test Cases/Promotion/TC_Promo_Selengkapnya" status="PASSED">
+         <system-out><![CDATA[2023-03-23 11:14:17 - [TEST_CASE][PASSED] - Test Cases/Promotion/TC_Promo_Selengkapnya: Test Cases/Promotion/TC_Promo_Selengkapnya
+
+2023-03-23 11:14:17 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-23 11:14:17 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-03-23 11:14:18 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-23 11:14:19 - [MESSAGE][INFO] - Appium server started on port 58,982
+
+2023-03-23 11:14:51 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-23 11:14:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Promotion/Promo_Selengkapnya/android.view.View"), 0): Tapped on element 'Object Repository/Promotion/Promo_Selengkapnya/android.view.View'
+
+2023-03-23 11:14:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-23 11:14:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Promotion/Promo_Selengkapnya/android.view.View'
+
+2023-03-23 11:14:54 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-03-23 11:14:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Promotion/TC_Detail_Promo" time="4.171" classname="Test Cases/Promotion/TC_Detail_Promo" status="PASSED">
+         <system-out><![CDATA[2023-03-23 11:14:56 - [TEST_CASE][PASSED] - Test Cases/Promotion/TC_Detail_Promo: Test Cases/Promotion/TC_Detail_Promo
+
+2023-03-23 11:14:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Promotion/Detail_Promo/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Promotion/Detail_Promo/android.widget.ImageView'
+
+2023-03-23 11:14:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-23 11:14:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Promotion/Detail_Promo/android.widget.ImageView'
+
+2023-03-23 11:14:58 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-23 11:14:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-23 11:14:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Promotion/Detail_Promo/android.widget.Button"), 0): Tapped on element 'Object Repository/Promotion/Detail_Promo/android.widget.Button'
+
+2023-03-23 11:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-23 11:15:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Promotion/Detail_Promo/android.widget.Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-23 11:14:16 - [TEST_SUITE][PASSED] - Detail_Promo: Test Cases/Promotion/TC_Detail_Promo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

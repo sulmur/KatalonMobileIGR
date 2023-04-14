@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>STAGING</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Staging Mobile IGR</description>
+      <initValue>'C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\AndroidApp\\Klik SANDBOX v5.1.9(104).apk'</initValue>
+      <name>APP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.indogrosir.sd1.klikindogrosir'</initValue>
+      <name>APP_EXIST</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

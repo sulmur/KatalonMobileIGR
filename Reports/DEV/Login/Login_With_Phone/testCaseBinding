@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Login/TC_Login_NullField","testCaseId":"Test Cases/Login/TC_Login_NullField","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC_Login_InvalidPhone","testCaseId":"Test Cases/Login/TC_Login_InvalidPhone","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC_Login_ValidPhone","testCaseId":"Test Cases/Login/TC_Login_ValidPhone","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC_Logout","testCaseId":"Test Cases/Login/TC_Logout","iterationVariableName":""}

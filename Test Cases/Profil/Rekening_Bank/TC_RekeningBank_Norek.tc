@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Profil input field 'Nomor Rekening' pada form Rekening Bank</description>
+   <name>TC_RekeningBank_Norek</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0bee113-2c87-4c37-b4bf-0dd92bd20d5c</testCaseGuid>
+</TestCaseEntity>

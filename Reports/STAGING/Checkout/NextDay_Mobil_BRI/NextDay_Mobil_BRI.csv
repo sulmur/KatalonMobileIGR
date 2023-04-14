@@ -1,0 +1,35 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+NextMobil_BRI;;20/03/2023 09:43;20/03/2023 09:44;1m - 22.088s;PASSED
+;;;;;
+Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk;Test case untuk menambah produk ke keranjang;20/03/2023 09:43;20/03/2023 09:44;46.773s;PASSED
+startApplication(APP, false);;20/03/2023 09:43;20/03/2023 09:43;26.581s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.ImageView"")";Tap Jenis Kategori 'Lebaran 2023';20/03/2023 09:43;20/03/2023 09:43;3.220s;PASSED
+delay(2, STOP_ON_FAILURE);;20/03/2023 09:43;20/03/2023 09:43;2.080s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button"")";Tap tombol '+ Keranjang' pada produk 'Monde Biskuit Butter Cookies KLG 454g';20/03/2023 09:43;20/03/2023 09:43;1.727s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"")";Tap icon '+' untuk menambah jumlah produk;20/03/2023 09:43;20/03/2023 09:43;0.949s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"")";Tap icon '+' untuk menambah jumlah produk;20/03/2023 09:43;20/03/2023 09:43;1.012s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.view.View"")";Tap tombol '+ Keranjang' untuk menambah produk ke menu Keranjang;20/03/2023 09:43;20/03/2023 09:44;3.423s;PASSED
+delay(3, STOP_ON_FAILURE);;20/03/2023 09:44;20/03/2023 09:44;3.009s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Icon_Keranjang/android.widget.Button"")";Tap icon 'Keranjang' untuk masuk ke menu 'Keranjang';20/03/2023 09:44;20/03/2023 09:44;1.068s;PASSED
+delay(3, STOP_ON_FAILURE);;20/03/2023 09:44;20/03/2023 09:44;3.007s;PASSED
+;;;;;
+Test Cases/Checkout/Pengiriman/TC_Nextday_Mobil;Test case pengiriman dengan opsi nextday mobil;20/03/2023 09:44;20/03/2023 09:44;18.973s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Nextday_Mobil/android.widget.Button"")";Tap icon 'panah ke atas';20/03/2023 09:44;20/03/2023 09:44;0.929s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Nextday_Mobil/android.widget.Button (1)"")";Tap tombol 'Pengiriman';20/03/2023 09:44;20/03/2023 09:44;1.058s;PASSED
+delay(8;;20/03/2023 09:44;20/03/2023 09:44;8.015s;PASSED
+swipe(0, 600, 0, 0);Scroll ke bawah;20/03/2023 09:44;20/03/2023 09:44;1.091s;PASSED
+delay(2, CONTINUE_ON_FAILURE);;20/03/2023 09:44;20/03/2023 09:44;2.014s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Nextday_Mobil/android.widget.ImageView"")";Tap opsi pengiriman 'Nextday Mobil';20/03/2023 09:44;20/03/2023 09:44;0.800s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Nextday_Mobil/android.widget.Button (2)"")";Tap tombol 'Pembayaran';20/03/2023 09:44;20/03/2023 09:44;0.774s;PASSED
+delay(4, CONTINUE_ON_FAILURE);;20/03/2023 09:44;20/03/2023 09:44;4.019s;PASSED
+;;;;;
+Test Cases/Checkout/Pembayaran/TC_Bayar_BRI;Test case bayar dengan VA BRI;20/03/2023 09:44;20/03/2023 09:44;2.567s;PASSED
+swipe(0, 475, 0, 0);;20/03/2023 09:44;20/03/2023 09:44;1.056s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pembayaran/BRI/android.widget.ImageView"")";Pilih opsi 'Virtual Account BRI';20/03/2023 09:44;20/03/2023 09:44;1.243s;PASSED
+;;;;;
+Test Cases/Checkout/TC_Checkout;Test case tap tombol Checkout;20/03/2023 09:44;20/03/2023 09:44;12.885s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button"")";Tap tombol 'Checkout';20/03/2023 09:44;20/03/2023 09:44;1.135s;PASSED
+delay(7, STOP_ON_FAILURE);;20/03/2023 09:44;20/03/2023 09:44;7.009s;PASSED
+swipe(0, 600, 0, 0);;20/03/2023 09:44;20/03/2023 09:44;1.074s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.view.View"")";Tap tombol 'Lihat cara pembayaran';20/03/2023 09:44;20/03/2023 09:44;1.643s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button (1)"")";Tap icon 'Back' dari laman Lihat Cara Pembayaran;20/03/2023 09:44;20/03/2023 09:44;1.756s;PASSED

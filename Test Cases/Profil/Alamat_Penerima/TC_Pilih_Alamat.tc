@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case memilih alamat penerima</description>
+   <name>TC_Pilih_Alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d467a332-15bb-4ba2-beda-e45e6d19b7af</testCaseGuid>
+</TestCaseEntity>

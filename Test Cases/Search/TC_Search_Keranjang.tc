@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek tombol icon keranjang pada laman search</description>
+   <name>TC_Search_Keranjang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec008177-7488-4710-8d4e-a48c027a91b4</testCaseGuid>
+</TestCaseEntity>

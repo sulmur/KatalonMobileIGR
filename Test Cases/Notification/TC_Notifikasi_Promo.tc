@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek notifikasi promo</description>
+   <name>TC_Notifikasi_Promo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e351ac95-2e81-46e8-a5ea-e936454f61d7</testCaseGuid>
+</TestCaseEntity>

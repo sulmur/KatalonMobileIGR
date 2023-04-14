@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Search cek fungsi reset filter produk pada laman search</description>
+   <name>TC_ResetFilter_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92b75e30-bc38-4cc6-8971-eef61ff74dc9</testCaseGuid>
+</TestCaseEntity>

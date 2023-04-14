@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Search cek fungsi harga minimum-maksimum filter produk pada laman search</description>
+   <name>TC_MinMaxFilter_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec06ef76-05a1-4a4d-88bb-13855895c5d4</testCaseGuid>
+</TestCaseEntity>

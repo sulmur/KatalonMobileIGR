@@ -1,0 +1,21 @@
+Suite/Test/Step Name;Browser;Description;Tag;Start time;End time;Duration;Status
+Tambah_Kurangi_Produk;;Test module keranjang, menambah dan mengurangi produk pada keranjang;;27/03/2023 07:14;27/03/2023 07:15;45.005s;PASSED
+;;;;;;;
+Test Cases/Checkout/Keranjang/TC_Keranjang_Home;;Test case tap tombol keranjang pada homepage;;27/03/2023 07:14;27/03/2023 07:15;35.489s;PASSED
+startApplication(APP;;;;27/03/2023 07:14;27/03/2023 07:15;32.633s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Keranjang Home"")";;Tap tombol 'Keranjang';;27/03/2023 07:15;27/03/2023 07:15;2.467s;PASSED
+;;;;;;;
+Test Cases/Checkout/Keranjang/TC_Kurangi_Produk;;Test case keranjang mengurangi produk;;27/03/2023 07:15;27/03/2023 07:15;1.455s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Kurangi Produk Keranjang"")";;Tap icon '-';;27/03/2023 07:15;27/03/2023 07:15;1.066s;PASSED
+;;;;;;;
+Test Cases/Checkout/Keranjang/TC_Button_Perbaharui;;"Test case tap tombol ""Perbaharui""";;27/03/2023 07:15;27/03/2023 07:15;3.030s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Perbaharui Keranjang"")";;;;27/03/2023 07:15;27/03/2023 07:15;0.767s;PASSED
+delay(2;;;;27/03/2023 07:15;27/03/2023 07:15;2.043s;PASSED
+;;;;;;;
+Test Cases/Checkout/Keranjang/TC_Tambah_Produk;;Test case keranjang mengurangi produk;;27/03/2023 07:15;27/03/2023 07:15;1.989s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Tambah Produk Keranjang"")";;Tap icon '+';;27/03/2023 07:15;27/03/2023 07:15;0.909s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Tambah Produk Keranjang"")";;Tap icon '+';;27/03/2023 07:15;27/03/2023 07:15;0.891s;PASSED
+;;;;;;;
+Test Cases/Checkout/Keranjang/TC_Button_Perbaharui;;"Test case tap tombol ""Perbaharui""";;27/03/2023 07:15;27/03/2023 07:15;2.726s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Perbaharui Keranjang"")";;;;27/03/2023 07:15;27/03/2023 07:15;0.716s;PASSED
+delay(2;;;;27/03/2023 07:15;27/03/2023 07:15;2.004s;PASSED

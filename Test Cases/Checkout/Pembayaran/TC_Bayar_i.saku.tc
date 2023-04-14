@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case pembayaran dengan i.saku</description>
+   <name>TC_Bayar_i.saku</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>881a3027-d210-4e36-ae72-ec6ac4219a05</testCaseGuid>
+</TestCaseEntity>

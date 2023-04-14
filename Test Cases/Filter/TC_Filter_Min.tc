@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Filter harga minimum</description>
+   <name>TC_Filter_Min</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c240b24-95ea-450b-8afa-b598e4908a83</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case pengiriman sameday motor</description>
+   <name>TC_Sameday_Motor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2df7e94-66ca-44b4-8a69-d7cd83e10b48</testCaseGuid>
+</TestCaseEntity>

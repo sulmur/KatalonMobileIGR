@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fungsi sorting produk diurut berdasarkan harga dari yang termahal pada menu search</description>
+   <name>TC_Highest_Sort_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07a55c38-9144-4864-8841-419ae3608056</testCaseGuid>
+</TestCaseEntity>

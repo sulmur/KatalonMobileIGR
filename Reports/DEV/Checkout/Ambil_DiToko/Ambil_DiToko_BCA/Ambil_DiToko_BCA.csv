@@ -1,0 +1,40 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Ambil_DiToko_BCA;Test module checkout, pengiriman ambil di grosir, pembayaran dengan VA BCA;29/03/2023 07:36;29/03/2023 07:37;1m - 24.925s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_NEW_Tambah_Keranjang;Test case menambah produk ke keranjang;29/03/2023 07:36;29/03/2023 07:37;50.209s;PASSED
+startApplication(APP;;29/03/2023 07:36;29/03/2023 07:36;26.393s;PASSED
+"tap(findTestObject(""Kategori/Ibu dan Anak"")";Tap Jenis Kategori 'Lebaran 2023';29/03/2023 07:36;29/03/2023 07:36;2.244s;PASSED
+delay(2;;29/03/2023 07:36;29/03/2023 07:37;2.047s;PASSED
+"tap(findTestObject(""Sorting/Tombol Sort"")";;29/03/2023 07:37;29/03/2023 07:37;1.066s;PASSED
+"tap(findTestObject(""Sorting/Harga Termahal"")";;29/03/2023 07:37;29/03/2023 07:37;1.488s;PASSED
+swipe(100, 400, 0, 0);;29/03/2023 07:37;29/03/2023 07:37;1.168s;PASSED
+delay(1;;29/03/2023 07:37;29/03/2023 07:37;1.013s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Tambah Keranjang Enfagrow Susu Madu 800g"")";Tap tombol '+ Keranjang' pada salah satu produk kategori Ibu & Anak;29/03/2023 07:37;29/03/2023 07:37;1.006s;PASSED
+delay(1;;29/03/2023 07:37;29/03/2023 07:37;1.014s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Tambah Produk"")";Tap icon '+' untuk menambah jumlah produk;29/03/2023 07:37;29/03/2023 07:37;0.863s;PASSED
+delay(1;;29/03/2023 07:37;29/03/2023 07:37;1.011s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Tambah Keranjang"")";Tap tombol '+ Keranjang' untuk menambah produk ke menu Keranjang;29/03/2023 07:37;29/03/2023 07:37;3.424s;PASSED
+delay(3;;29/03/2023 07:37;29/03/2023 07:37;3.010s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Keranjang Ibu dan Anak 4"")";Tap icon 'Keranjang' untuk masuk ke menu 'Keranjang';29/03/2023 07:37;29/03/2023 07:37;1.084s;PASSED
+delay(3;;29/03/2023 07:37;29/03/2023 07:37;3.017s;PASSED
+;;;;;
+Test Cases/Checkout/Pengiriman/TC_Ambil_DiGrosir;Test case Checkout dengan opsi pengiriman ambil di grosir;29/03/2023 07:37;29/03/2023 07:37;17.268s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Ambil_Di_Grosir/android.widget.Button (1)"")";Tap icon 'panah ke atas';29/03/2023 07:37;29/03/2023 07:37;0.949s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman"")";Tap tombol 'Pengiriman';29/03/2023 07:37;29/03/2023 07:37;1.094s;PASSED
+delay(4;;29/03/2023 07:37;29/03/2023 07:37;4.015s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Ambil di Toko Indogrosir"")";Tap opsi pengiriman 'Ambil di Grosir';29/03/2023 07:37;29/03/2023 07:37;5.921s;PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran"")";Tap tombol 'Pembayaran';29/03/2023 07:37;29/03/2023 07:37;0.857s;PASSED
+delay(4;;29/03/2023 07:37;29/03/2023 07:37;4.013s;PASSED
+;;;;;
+Test Cases/Checkout/Pembayaran/TC_Bayar_BCA;Test case pembayaran dengan VA BCA;29/03/2023 07:37;29/03/2023 07:37;2.577s;PASSED
+swipe(0, 475, 0, 0);;29/03/2023 07:37;29/03/2023 07:37;1.097s;PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA BCA"")";Pilih opsi 'Virtual Account BCA';29/03/2023 07:37;29/03/2023 07:37;1.161s;PASSED
+;;;;;
+Test Cases/Checkout/TC_Checkout;Test case tap tombol Checkout;29/03/2023 07:37;29/03/2023 07:37;14.506s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout"")";Tap tombol 'Checkout';29/03/2023 07:37;29/03/2023 07:37;1.054s;PASSED
+delay(7;;29/03/2023 07:37;29/03/2023 07:37;7.008s;PASSED
+swipe(0, 600, 0, 0);;29/03/2023 07:37;29/03/2023 07:37;1.073s;PASSED
+delay(1;;29/03/2023 07:37;29/03/2023 07:37;1.019s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran"")";Tap tombol 'Lihat cara pembayaran';29/03/2023 07:37;29/03/2023 07:37;1.316s;PASSED
+delay(1;;29/03/2023 07:37;29/03/2023 07:37;1.004s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout"")";Tap icon 'Back' dari laman Lihat Cara Pembayaran;29/03/2023 07:37;29/03/2023 07:37;1.706s;PASSED

@@ -1,0 +1,14 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Aktivasi Email;;Test module cek fitur Aktivasi ulang email;13/04/2023 08:40;13/04/2023 08:41;38.978s;PASSED
+;;;;;;
+Test Cases/Aktivasi Email/TC_Email_Aktivasi;;;13/04/2023 08:40;13/04/2023 08:41;38.723s;PASSED
+startApplication(APP;;Buka Aplikasi Klik IGR;13/04/2023 08:40;13/04/2023 08:40;27.690s;PASSED
+"tap(findTestObject(""Aktivasi Email/Menu Akun"")";;Tap menu Akun;13/04/2023 08:40;13/04/2023 08:40;0.938s;PASSED
+"tap(findTestObject(""Aktivasi Email/Kirim Ulang Email Aktivasi"")";;"Tap tombol ""Kirim Ulang Email Aktivasi""";13/04/2023 08:40;13/04/2023 08:41;1.156s;PASSED
+"tap(findTestObject(""Aktivasi Email/Field Email Aktivasi"")";;Tap field 'Email';13/04/2023 08:41;13/04/2023 08:41;0.567s;PASSED
+"setText(findTestObject(""Aktivasi Email/Field Email Aktivasi"")";" ""sulthanraihan@ymail.com""";Input email yang valid;13/04/2023 08:41;13/04/2023 08:41;0.251s;PASSED
+"tap(findTestObject(""Aktivasi Email/Kirim Email Aktivasi"")";;"Tap tombol ""Kirim Email Aktivasi""";13/04/2023 08:41;13/04/2023 08:41;4.100s;PASSED
+delay(1;;;13/04/2023 08:41;13/04/2023 08:41;1.038s;PASSED
+"takeScreenshot(getReportFolder() + ""Cek Email Aktivasi.png""";;;13/04/2023 08:41;13/04/2023 08:41;0.718s;PASSED
+"tap(findTestObject(""Aktivasi Email/Back Aktivasi Email"")";;"Tap tombol ""Back""";13/04/2023 08:41;13/04/2023 08:41;1.470s;PASSED
+closeApplication();;Tutup Aplikasi Klik IGR;13/04/2023 08:41;13/04/2023 08:41;0.456s;PASSED

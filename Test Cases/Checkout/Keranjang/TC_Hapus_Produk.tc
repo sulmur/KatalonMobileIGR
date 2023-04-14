@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case hapus 1 produk</description>
+   <name>TC_Hapus_Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a68232cd-491a-43ac-9dde-0ca84f355073</testCaseGuid>
+</TestCaseEntity>

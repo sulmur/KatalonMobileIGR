@@ -1,0 +1,12 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Detail_Promo;Test module Promosi cek detail promo;23/03/2023 11:14;23/03/2023 11:15;43.495s;PASSED
+;;;;;
+Test Cases/Promotion/TC_Promo_Selengkapnya;Test case Promosi tap tombol 'Selengkapnya';23/03/2023 11:14;23/03/2023 11:14;39.012s;PASSED
+startApplication(APP, false);;23/03/2023 11:14;23/03/2023 11:14;33.788s;PASSED
+"tap(findTestObject(""Object Repository/Promotion/Promo_Selengkapnya/android.view.View"")";Tap tombol 'Selengkapnya';23/03/2023 11:14;23/03/2023 11:14;2.769s;PASSED
+delay(2, CONTINUE_ON_FAILURE);;23/03/2023 11:14;23/03/2023 11:14;2.059s;PASSED
+;;;;;
+Test Cases/Promotion/TC_Detail_Promo;Test case Promosi tap salah satu Promo;23/03/2023 11:14;23/03/2023 11:15;4.171s;PASSED
+"tap(findTestObject(""Object Repository/Promotion/Detail_Promo/android.widget.ImageView"")";Tap salah satu banner Promo;23/03/2023 11:14;23/03/2023 11:14;1.501s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;23/03/2023 11:14;23/03/2023 11:14;1.019s;PASSED
+"tap(findTestObject(""Object Repository/Promotion/Detail_Promo/android.widget.Button"")";Tap tombol 'Syarat & Ketentuan';23/03/2023 11:14;23/03/2023 11:15;1.259s;PASSED

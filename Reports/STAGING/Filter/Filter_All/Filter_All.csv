@@ -1,0 +1,28 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Filter_All;;Test module Filter memilih semua fungsi filter;21/03/2023 15:28;21/03/2023 15:28;56.912s;PASSED
+;;;;;;
+Test Cases/Kategori/TC_Kategori_IbuAnak;;Test case kategori jenis produk 'Ibu & Anak';21/03/2023 15:28;21/03/2023 15:28;38.177s;PASSED
+startApplication(APP, false);;;21/03/2023 15:28;21/03/2023 15:28;35.188s;PASSED
+"tap(findTestObject(""Object Repository/Kategori/Ibu_Anak/android.widget.ImageView"")";;Tap kategori jenis 'Ibu & Anak';21/03/2023 15:28;21/03/2023 15:28;1.567s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;;21/03/2023 15:28;21/03/2023 15:28;1.061s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Button;;Test case tap tombol 'Filter';21/03/2023 15:28;21/03/2023 15:28;1.928s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Filter_Button/android.view.View"")";;Tap tombol 'Filter';21/03/2023 15:28;21/03/2023 15:28;1.145s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_TwoProduct;;Test case Filter dua produk;21/03/2023 15:28;21/03/2023 15:28;2.100s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Filter_TwoProduct/android.view.View"")";;Tap opsi produk 'Anmum';21/03/2023 15:28;21/03/2023 15:28;0.829s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Filter_TwoProduct/android.view.View (1)"")";;Tap opsi produk 'B&B Kids';21/03/2023 15:28;21/03/2023 15:28;0.871s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_MinMax;;Test case Filter rentang harga minimum dan maksimum;21/03/2023 15:28;21/03/2023 15:28;6.650s;PASSED
+"tap(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 9999999"")";;Tap field 'Maksimum';21/03/2023 15:28;21/03/2023 15:28;1.648s;PASSED
+"setText(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 9999999 (1)"")";" ""30000""";Input field maksimum dengan data '30000';21/03/2023 15:28;21/03/2023 15:28;0.557s;PASSED
+"tap(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 0"")";;Tap field 'Minimum';21/03/2023 15:28;21/03/2023 15:28;1.261s;PASSED
+"setText(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 0 (1)"")";" ""15000""";Input field minimum dengan data '15000';21/03/2023 15:28;21/03/2023 15:28;1.203s;PASSED
+pressBack();;;21/03/2023 15:28;21/03/2023 15:28;0.546s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;;21/03/2023 15:28;21/03/2023 15:28;1.008s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Submit;;Test case Filter tap tombol 'Terapkan';21/03/2023 15:28;21/03/2023 15:28;7.723s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Submit_Button/android.widget.Button"")";;Tap tombol 'Terapkan';21/03/2023 15:28;21/03/2023 15:28;1.056s;PASSED
+delay(2, CONTINUE_ON_FAILURE);;;21/03/2023 15:28;21/03/2023 15:28;2.016s;PASSED
+swipe(100, 600, 0, 0);;;21/03/2023 15:28;21/03/2023 15:28;1.138s;PASSED
+delay(3, CONTINUE_ON_FAILURE);;;21/03/2023 15:28;21/03/2023 15:28;3.011s;PASSED

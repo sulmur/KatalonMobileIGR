@@ -1,0 +1,11 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Filter_Search;;Test module untuk mencari produk;21/03/2023 14:33;21/03/2023 14:33;41.978s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Search;;Test case Filter untuk mencari produk yang diinginkan;21/03/2023 14:33;21/03/2023 14:33;41.700s;PASSED
+startApplication(APP, false);;;21/03/2023 14:33;21/03/2023 14:33;34.365s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Search/android.widget.Button"")";;Tap tombol 'Pencarian';21/03/2023 14:33;21/03/2023 14:33;1.499s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Search/android.widget.EditText - Cari Produk"")";;Tap field 'Pencarian';21/03/2023 14:33;21/03/2023 14:33;1.568s;PASSED
+"sendKeys(findTestObject(""Object Repository/Filter/Search/android.widget.EditText - Cari Produk (1)"")";" ""dancow""";Input data 'dancow' pada field pencarian;21/03/2023 14:33;21/03/2023 14:33;0.407s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;;21/03/2023 14:33;21/03/2023 14:33;1.034s;PASSED
+hideKeyboard();;;21/03/2023 14:33;21/03/2023 14:33;1.278s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Search/android.view.View"")";;Tap salah satu produk 'dancow';21/03/2023 14:33;21/03/2023 14:33;1.137s;PASSED

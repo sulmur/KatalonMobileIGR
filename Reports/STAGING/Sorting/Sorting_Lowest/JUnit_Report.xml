@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sorting_Lowest" time="48.206" tests="3" failures="0" errors="0">
+   <testsuite name="Sorting_Lowest" tests="3" failures="0" errors="0" time="48.206" skipped="0" timestamp="2023-03-23 10:32:01" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Sorting/Sorting_Lowest">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230323_103151\\Sorting\\Sorting_Lowest\\20230323_103151"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230323_103151\\Sorting\\Sorting_Lowest\\20230323_103151\\appium.log, C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230323_103151\\Sorting\\Sorting_Lowest\\20230323_103151\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Kategori/TC_Kategori_IbuAnak" time="37.79" classname="Test Cases/Kategori/TC_Kategori_IbuAnak" status="PASSED">
+         <system-out><![CDATA[2023-03-23 10:32:01 - [TEST_CASE][PASSED] - Test Cases/Kategori/TC_Kategori_IbuAnak: Test Cases/Kategori/TC_Kategori_IbuAnak
+
+2023-03-23 10:32:02 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-23 10:32:02 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-03-23 10:32:03 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-23 10:32:04 - [MESSAGE][INFO] - Appium server started on port 57,615
+
+2023-03-23 10:32:35 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-23 10:32:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Kategori/Ibu_Anak/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Kategori/Ibu_Anak/android.widget.ImageView'
+
+2023-03-23 10:32:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-23 10:32:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Kategori/Ibu_Anak/android.widget.ImageView'
+
+2023-03-23 10:32:37 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-03-23 10:32:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sorting/TC_Sort_Button" time="2.754" classname="Test Cases/Sorting/TC_Sort_Button" status="PASSED">
+         <system-out><![CDATA[2023-03-23 10:32:39 - [TEST_CASE][PASSED] - Test Cases/Sorting/TC_Sort_Button: Test Cases/Sorting/TC_Sort_Button
+
+2023-03-23 10:32:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sorting/Sort_Button/android.view.View"), 0): Tapped on element 'Object Repository/Sorting/Sort_Button/android.view.View'
+
+2023-03-23 10:32:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-23 10:32:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sorting/Sort_Button/android.view.View'
+
+2023-03-23 10:32:41 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-23 10:32:42 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sorting/TC_Sort_Lowest" time="7.33" classname="Test Cases/Sorting/TC_Sort_Lowest" status="PASSED">
+         <system-out><![CDATA[2023-03-23 10:32:42 - [TEST_CASE][PASSED] - Test Cases/Sorting/TC_Sort_Lowest: Test Cases/Sorting/TC_Sort_Lowest
+
+2023-03-23 10:32:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sorting/Sort_Lowest/android.view.View"), 0): Tapped on element 'Object Repository/Sorting/Sort_Lowest/android.view.View'
+
+2023-03-23 10:32:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-23 10:32:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sorting/Sort_Lowest/android.view.View'
+
+2023-03-23 10:32:42 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-03-23 10:32:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-23 10:32:46 - [TEST_STEP][PASSED] - swipe(100, 600, 0, 0): Swiped from 100,600 to 0,0
+
+2023-03-23 10:32:47 - [MESSAGE][PASSED] - Swiped from 100,600 to 0,0
+
+2023-03-23 10:32:47 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-03-23 10:32:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-23 10:32:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-23 10:32:49 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-23 10:32:01 - [TEST_SUITE][PASSED] - Sorting_Lowest: Test Cases/Sorting/TC_Sort_Lowest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

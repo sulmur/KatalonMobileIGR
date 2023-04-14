@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test module Profil skenario melihat menu Cara Belanja</description>
+   <name>TC_Cara_Belanja</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e60ecf7b-ec19-44f0-876f-fce7e5e2a3a6</testCaseGuid>
+</TestCaseEntity>

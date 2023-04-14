@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fitur sorting dari huruf Z sampai A pada list Favorite</description>
+   <name>TC_Z-A_Sort_Favourite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9971b5f-5c29-455f-8122-6f2fb7015a62</testCaseGuid>
+</TestCaseEntity>

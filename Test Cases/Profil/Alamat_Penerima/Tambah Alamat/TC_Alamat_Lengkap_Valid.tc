@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Tambah Alamat input field Alamat Lengkap valid</description>
+   <name>TC_Alamat_Lengkap_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44d0528b-958c-4fba-ac56-8e432870a9d1</testCaseGuid>
+</TestCaseEntity>

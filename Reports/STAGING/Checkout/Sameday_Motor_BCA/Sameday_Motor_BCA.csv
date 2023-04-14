@@ -1,0 +1,34 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+SMotor_BCA;Test module Checkout produk, Pengiriman Sameday Motor, Pembayaran VA BCA;17/03/2023 17:06;17/03/2023 17:07;1m - 16.043s;PASSED
+;;;;;
+Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk;;17/03/2023 17:06;17/03/2023 17:06;40.417s;PASSED
+startApplication(APP, false);;17/03/2023 17:06;17/03/2023 17:06;25.526s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.ImageView"")";Tap Jenis Kategori 'Lebaran 2023';17/03/2023 17:06;17/03/2023 17:06;2.038s;PASSED
+delay(2, STOP_ON_FAILURE);;17/03/2023 17:06;17/03/2023 17:06;2.089s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button"")";Tap tombol '+ Keranjang' pada produk 'Monde Biskuit Butter Cookies KLG 454g';17/03/2023 17:06;17/03/2023 17:06;1.600s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"")";Tap icon '+' untuk menambah jumlah produk;17/03/2023 17:06;17/03/2023 17:06;0.897s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.view.View"")";Tap tombol '+ Keranjang' untuk menambah produk ke menu Keranjang;17/03/2023 17:06;17/03/2023 17:06;0.776s;PASSED
+delay(3, STOP_ON_FAILURE);;17/03/2023 17:06;17/03/2023 17:06;3.018s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Icon_Keranjang/android.widget.Button"")";Tap icon 'Keranjang' untuk masuk ke menu 'Keranjang';17/03/2023 17:06;17/03/2023 17:06;1.105s;PASSED
+delay(3, STOP_ON_FAILURE);;17/03/2023 17:06;17/03/2023 17:06;3.019s;PASSED
+;;;;;
+Test Cases/Checkout/Pengiriman/TC_Sameday_Motor;Test case pengiriman sameday motor;17/03/2023 17:06;17/03/2023 17:07;20.189s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.Button (1)"")";;17/03/2023 17:06;17/03/2023 17:06;0.952s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.Button (2)"")";;17/03/2023 17:06;17/03/2023 17:06;1.102s;PASSED
+delay(8, CONTINUE_ON_FAILURE);;17/03/2023 17:06;17/03/2023 17:07;8.019s;PASSED
+swipe(0, 600, 0, 0);;17/03/2023 17:07;17/03/2023 17:07;1.107s;PASSED
+delay(3, CONTINUE_ON_FAILURE);;17/03/2023 17:07;17/03/2023 17:07;3.006s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.ImageView"")";;17/03/2023 17:07;17/03/2023 17:07;0.802s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Sameday_Motor/android.widget.Button (3)"")";;17/03/2023 17:07;17/03/2023 17:07;0.789s;PASSED
+delay(4, CONTINUE_ON_FAILURE);;17/03/2023 17:07;17/03/2023 17:07;4.009s;PASSED
+;;;;;
+Test Cases/Checkout/Pembayaran/TC_Bayar_BCA;Test case pembayaran dengan VA BCA;17/03/2023 17:07;17/03/2023 17:07;2.582s;PASSED
+swipe(0, 475, 0, 0);;17/03/2023 17:07;17/03/2023 17:07;1.064s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pembayaran/BCA/android.widget.ImageView"")";Pilih opsi 'Virtual Account BCA';17/03/2023 17:07;17/03/2023 17:07;1.221s;PASSED
+;;;;;
+Test Cases/Checkout/TC_Checkout;Test case tap tombol Checkout;17/03/2023 17:07;17/03/2023 17:07;12.570s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button"")";Tap tombol 'Checkout';17/03/2023 17:07;17/03/2023 17:07;1.111s;PASSED
+delay(7, STOP_ON_FAILURE);;17/03/2023 17:07;17/03/2023 17:07;7.018s;PASSED
+swipe(0, 600, 0, 0);;17/03/2023 17:07;17/03/2023 17:07;1.070s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.view.View"")";Tap tombol 'Lihat cara pembayaran';17/03/2023 17:07;17/03/2023 17:07;1.260s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button (1)"")";Tap icon 'Back' dari laman Lihat Cara Pembayaran;17/03/2023 17:07;17/03/2023 17:07;1.750s;PASSED

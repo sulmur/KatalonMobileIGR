@@ -1,0 +1,31 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Opsi_Pengiriman;;Test module keranjang cek tombol 'Pengiriman' jika di bawah dan di atas Rp. 10.000 dan cek opsi Pengiriman ketika total harga produk di keranjang di bawah dan di atas Rp. 100.000;11/04/2023 08:44;11/04/2023 08:45;1m - 1.928s;PASSED
+;;;;;;
+Test Cases/Checkout/Keranjang/TC_NEW_Opsi_Pengiriman;;Test case tambah produk pada card section baru;11/04/2023 08:44;11/04/2023 08:45;1m - 1.702s;PASSED
+startApplication(APP;;;11/04/2023 08:44;11/04/2023 08:44;23.881s;PASSED
+"tap(findTestObject(""Kategori/Kesehatan dan Kecantikan"")";;Tap kategori 'Kesehatan & Kecantikan';11/04/2023 08:44;11/04/2023 08:44;1.630s;PASSED
+delay(2;;;11/04/2023 08:44;11/04/2023 08:44;2.047s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Tambah Produk Lifebuoy"")";;Tap '+ Keranjang' Produk Lifebuoy pada laman Kategori;11/04/2023 08:44;11/04/2023 08:44;1.108s;PASSED
+delay(1;;;11/04/2023 08:44;11/04/2023 08:44;1.012s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan"")";;Tap '+ Keranjang' Produk Lifebuoy;11/04/2023 08:44;11/04/2023 08:44;3.206s;PASSED
+delay(2;;;11/04/2023 08:44;11/04/2023 08:44;2.010s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Keranjang Kategori 1"")";;Tap icon 'Keranjang' pada laman Kategori;11/04/2023 08:44;11/04/2023 08:44;0.285s;PASSED
+delay(2;;;11/04/2023 08:44;11/04/2023 08:44;2.012s;PASSED
+"takeScreenshotAsCheckpoint(""Keranjang di bawah 150000.png""";;;11/04/2023 08:44;11/04/2023 08:44;1.658s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Detail Produk/Edit Produk Row 1 Jumlah 1"")";;Tap Edit jumlah Produk pada Lifebuoy yang berjumlah 1;11/04/2023 08:44;11/04/2023 08:44;0.770s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Lifebuoy"")";;;11/04/2023 08:44;11/04/2023 08:44;1.446s;PASSED
+"setText(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Lifebuoy"")";" ""3""";Input data '3' pada field Edit Jumlah Produk;11/04/2023 08:44;11/04/2023 08:44;0.400s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Simpan Edit Produk"")";;;11/04/2023 08:44;11/04/2023 08:44;1.320s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Perbaharui Keranjang"")";;tap 'Perbaharui';11/04/2023 08:44;11/04/2023 08:44;0.717s;PASSED
+delay(1;;;11/04/2023 08:44;11/04/2023 08:44;1.004s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Edit Jumlah Produk Row 1 Jumlah 3"")";;Tap Edit jumlah Produk pada Lifebuoy yang berjumlah 3;11/04/2023 08:44;11/04/2023 08:44;0.828s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 3 Lifebuoy"")";;;11/04/2023 08:44;11/04/2023 08:45;0.864s;PASSED
+"setText(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 3 Lifebuoy"")";" ""50""";Input data '30' pada field Edit Jumlah Produk;11/04/2023 08:45;11/04/2023 08:45;1.248s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Simpan Edit Produk"")";;;11/04/2023 08:45;11/04/2023 08:45;1.313s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Perbaharui Keranjang"")";;tap 'Perbaharui';11/04/2023 08:45;11/04/2023 08:45;0.689s;PASSED
+"takeScreenshotAsCheckpoint(""Keranjang di atas 150000.png""";;;11/04/2023 08:45;11/04/2023 08:45;1.229s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman"")";;tap 'Pengiriman';11/04/2023 08:45;11/04/2023 08:45;1.061s;PASSED
+delay(5;;;11/04/2023 08:45;11/04/2023 08:45;5.010s;PASSED
+swipe(0, 600, 0, 0);;;11/04/2023 08:45;11/04/2023 08:45;1.116s;PASSED
+"takeScreenshotAsCheckpoint(""Pengiriman di atas 150000.png""";;;11/04/2023 08:45;11/04/2023 08:45;2.015s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Back from Pengiriman"")";;tap icon 'Back' untuk kembali ke laman Keranjang;11/04/2023 08:45;11/04/2023 08:45;1.507s;PASSED

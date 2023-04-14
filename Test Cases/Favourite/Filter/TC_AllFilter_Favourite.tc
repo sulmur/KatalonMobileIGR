@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fitur semua filter list Favorite</description>
+   <name>TC_AllFilter_Favourite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9621b681-5919-432f-aef0-e72813208610</testCaseGuid>
+</TestCaseEntity>

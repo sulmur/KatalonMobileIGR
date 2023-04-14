@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Promosi tap salah satu Promo</description>
+   <name>TC_Detail_Promo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe9eb5f3-e9f2-48bd-a250-a9fda25b83ea</testCaseGuid>
+</TestCaseEntity>

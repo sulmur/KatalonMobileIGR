@@ -1,0 +1,33 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Verifikasi_Kode_Member;Test module profil cek fitur verifikasi kode member;13/04/2023 14:47;13/04/2023 14:48;49.348s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';13/04/2023 14:47;13/04/2023 14:48;25.178s;PASSED
+startApplication(APP;;13/04/2023 14:47;13/04/2023 14:48;23.313s;PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun"")";Tap menu 'Akun';13/04/2023 14:48;13/04/2023 14:48;1.572s;PASSED
+;;;;;
+Test Cases/Profil/Member/TC_Cek_Barkode;Test case cek barkode member;13/04/2023 14:48;13/04/2023 14:48;4.369s;PASSED
+"tap(findTestObject(""Profil/Member/Tampilkan Barcode"")";Tap tombol 'Tampilkan Barcode';13/04/2023 14:48;13/04/2023 14:48;1.026s;PASSED
+delay(1;;13/04/2023 14:48;13/04/2023 14:48;1.032s;PASSED
+"takeScreenshot(getReportFolder() + ""Cek Pop up Barcode.png""";;13/04/2023 14:48;13/04/2023 14:48;0.897s;PASSED
+"verifyElementExist(findTestObject(""Profil/Member/Pop-up Barcode"")";Pastikan muncul pop-up Barcode member;13/04/2023 14:48;13/04/2023 14:48;0.233s;PASSED
+"tap(findTestObject(""Profil/Member/Tutup Barcode"")";Tap tombol 'Tutup' pada pop-up barcode member;13/04/2023 14:48;13/04/2023 14:48;0.698s;PASSED
+;;;;;
+Test Cases/Profil/Member/TC_Verifikasi_Akun;Test case cek barkode member;13/04/2023 14:48;13/04/2023 14:48;3.529s;PASSED
+"tap(findTestObject(""Profil/Member/Tombol Verifikasi Akun"")";Tap tombol 'Tampilkan Barcode';13/04/2023 14:48;13/04/2023 14:48;1.421s;PASSED
+delay(1;;13/04/2023 14:48;13/04/2023 14:48;1.008s;PASSED
+"takeScreenshot(getReportFolder() + ""Cek Verifikasi Akun.png""";;13/04/2023 14:48;13/04/2023 14:48;0.841s;PASSED
+;;;;;
+Test Cases/Profil/Member/TC_Verifikasi_Kode_Member;Test case cek verifikasi kode member;13/04/2023 14:48;13/04/2023 14:48;16.031s;PASSED
+"tap(findTestObject(""Profil/Member/Tombol Verifikasi Kode Member"")";Tap tombol 'Verifikasi' pada laman Verifikasi Akun;13/04/2023 14:48;13/04/2023 14:48;1.332s;PASSED
+"tap(findTestObject(""Profil/Member/OK Peringatan belum verifikasi akun"")";Tap tombol 'Oke' pada alert belum verifikasi member;13/04/2023 14:48;13/04/2023 14:48;1.045s;PASSED
+delay(1;;13/04/2023 14:48;13/04/2023 14:48;1.016s;PASSED
+"takeScreenshot(getReportFolder() + ""Cek Alert Verifikasi Kode Member.png""";;13/04/2023 14:48;13/04/2023 14:48;0.959s;PASSED
+"verifyElementExist(findTestObject(""Profil/Member/Alert Verifikasi Kode Member"")";Pastikan muncul alert verifikasi member;13/04/2023 14:48;13/04/2023 14:48;0.341s;PASSED
+"tap(findTestObject(""Profil/Member/Verifikasi Kode Member"")";Tap tombol 'Verifikasi' pada laman Kode Member;13/04/2023 14:48;13/04/2023 14:48;2.965s;PASSED
+"tap(findTestObject(""Profil/Member/Benefit Member"")";Tap 'Benefit Member';13/04/2023 14:48;13/04/2023 14:48;1.000s;PASSED
+pressBack();;13/04/2023 14:48;13/04/2023 14:48;0.186s;PASSED
+"tap(findTestObject(""Profil/Member/Back Verifikasi Akun"")";;13/04/2023 14:48;13/04/2023 14:48;2.104s;PASSED
+"tap(findTestObject(""Profil/Member/Back Verifikasi Akun"")";;13/04/2023 14:48;13/04/2023 14:48;1.092s;PASSED
+"tap(findTestObject(""Profil/Member/Setuju Verifikasi Member"")";Tap 'Verifikasi' pada alert belum lakukan verifikasi kode member;13/04/2023 14:48;13/04/2023 14:48;1.514s;PASSED
+"tap(findTestObject(""Profil/Member/Back Verifikasi Akun"")";;13/04/2023 14:48;13/04/2023 14:48;1.162s;PASSED
+"tap(findTestObject(""Profil/Member/Batal Verifikasi Member"")";Tap 'Tidak' pada alert belum lakukan verifikasi kode member;13/04/2023 14:48;13/04/2023 14:48;1.063s;PASSED

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register_ResetKecamatan" time="42.996" tests="2" failures="0" errors="0">
+   <testsuite name="Register_ResetKecamatan" tests="2" failures="0" errors="0" time="42.996" skipped="0" timestamp="2023-03-31 09:10:32" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Register/Address/Register_ResetKecamatan">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230331_091022\\Register\\Address\\Register_ResetKecamatan\\20230331_091022"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230331_091022\\Register\\Address\\Register_ResetKecamatan\\20230331_091022\\appium.log, C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230331_091022\\Register\\Address\\Register_ResetKecamatan\\20230331_091022\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="192.168.1.7:5555"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Register/Redirect_to_RegisterPage" time="31.224" classname="Test Cases/Register/Redirect_to_RegisterPage" status="PASSED">
+         <system-out><![CDATA[2023-03-31 09:10:33 - [TEST_CASE][PASSED] - Test Cases/Register/Redirect_to_RegisterPage: Test Cases/Register/Redirect_to_RegisterPage
+
+2023-03-31 09:10:33 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.0(105).apk'
+
+2023-03-31 09:10:33 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-03-31 09:10:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-31 09:10:36 - [MESSAGE][INFO] - Appium server started on port 51,610
+
+2023-03-31 09:11:01 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.0(105).apk'
+
+2023-03-31 09:11:01 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Profil_Button/Menu Akun"), 0): Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-03-31 09:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-03-31 09:11:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login/Tombol Daftar"), 0): Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-03-31 09:11:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-03-31 09:11:03 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-31 09:11:04 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Address/TC_Reset_Kecamatan" time="11.518" classname="Test Cases/Register/Address/TC_Reset_Kecamatan" status="PASSED">
+         <system-out><![CDATA[2023-03-31 09:11:04 - [TEST_CASE][PASSED] - Test Cases/Register/Address/TC_Reset_Kecamatan: Test Cases/Register/Address/TC_Reset_Kecamatan
+
+2023-03-31 09:11:04 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Provinsi - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-03-31 09:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-03-31 09:11:06 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-03-31 09:11:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-03-31 09:11:07 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kota - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-03-31 09:11:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-03-31 09:11:08 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-03-31 09:11:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-03-31 09:11:09 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kecamatan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-03-31 09:11:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-03-31 09:11:10 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-03-31 09:11:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-03-31 09:11:11 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kelurahan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-03-31 09:11:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-03-31 09:11:12 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-03-31 09:11:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-03-31 09:11:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetAddress/Dropdown Kecamatan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Dropdown Kecamatan -Cisauk-'
+
+2023-03-31 09:11:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Dropdown Kecamatan -Cisauk-'
+
+2023-03-31 09:11:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Balaraja-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Balaraja-'
+
+2023-03-31 09:11:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-31 09:11:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Balaraja-']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-31 09:10:32 - [TEST_SUITE][PASSED] - Register_ResetKecamatan: Test Cases/Register/Address/TC_Reset_Kecamatan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

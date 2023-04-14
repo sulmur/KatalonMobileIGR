@@ -1,0 +1,23 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Hapus_Produk;Test module keranjang, menghapus produk pada keranjang;04/04/2023 06:19;04/04/2023 06:20;1m - 0.391s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_Tambah_Keranjang;Test case cek fungsi pesan ulang dan tambah produk;04/04/2023 06:19;04/04/2023 06:20;52.155s;PASSED
+startApplication(APP;;04/04/2023 06:19;04/04/2023 06:20;35.839s;PASSED
+"tap(findTestObject(""Homepage/Pesan Ulang 1"")";"Tap tombol ""Pesan Ulang"" pada homepage";04/04/2023 06:20;04/04/2023 06:20;1.740s;PASSED
+delay(1;;04/04/2023 06:20;04/04/2023 06:20;1.045s;PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang"")";"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang";04/04/2023 06:20;04/04/2023 06:20;1.012s;PASSED
+swipe(0, 500, 0, 0);;04/04/2023 06:20;04/04/2023 06:20;1.103s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1"")";Tap '+ Keranjang' pada card salah satu produk pilihan;04/04/2023 06:20;04/04/2023 06:20;1.372s;PASSED
+delay(2;;04/04/2023 06:20;04/04/2023 06:20;2.012s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan"")";Tap '+ Keranjang' pada detail produk;04/04/2023 06:20;04/04/2023 06:20;3.416s;PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 2"")";"Tap tombol icon ""Keranjang"" pada homepage";04/04/2023 06:20;04/04/2023 06:20;1.241s;PASSED
+delay(3;;04/04/2023 06:20;04/04/2023 06:20;3.014s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_BatalHapus_Produk;Test case batal hapus produk;04/04/2023 06:20;04/04/2023 06:20;1.998s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Hapus Produk"")";Tap tombol 'Hapus' pada salah satu produk;04/04/2023 06:20;04/04/2023 06:20;0.813s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Batal Hapus Produk"")";Tap 'Tidak' pada pop-up konfirmasi hapus produk;04/04/2023 06:20;04/04/2023 06:20;0.899s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_Hapus_Produk;Test case hapus 1 produk;04/04/2023 06:20;04/04/2023 06:20;5.930s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Hapus Produk"")";Tap tombol 'Hapus' pada salah satu produk;04/04/2023 06:20;04/04/2023 06:20;0.779s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Setuju Hapus Produk"")";Tap 'Ya' pada pop-up konfirmasi hapus produk;04/04/2023 06:20;04/04/2023 06:20;0.907s;PASSED
+delay(4;;04/04/2023 06:20;04/04/2023 06:20;4.008s;PASSED

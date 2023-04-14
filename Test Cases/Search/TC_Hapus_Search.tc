@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case hapus riwayat pencarian search</description>
+   <name>TC_Hapus_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae493fa2-f138-40b3-92b6-c3bcb8fd455a</testCaseGuid>
+</TestCaseEntity>

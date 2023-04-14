@@ -1,0 +1,40 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Menu Bantuan;Test module Profil skenario melihat menu Bantuan;03/04/2023 14:37;03/04/2023 14:38;1m - 7.556s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';03/04/2023 14:37;03/04/2023 14:38;28.157s;PASSED
+startApplication(APP;;03/04/2023 14:37;03/04/2023 14:38;25.367s;PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun"")";Tap menu 'Akun';03/04/2023 14:38;03/04/2023 14:38;2.262s;PASSED
+;;;;;
+Test Cases/Profil/Bantuan/TC_Cara_Belanja;Test module Profil skenario melihat menu Cara Belanja;03/04/2023 14:38;03/04/2023 14:38;10.401s;PASSED
+swipe(100, 600, 0, 0);;03/04/2023 14:38;03/04/2023 14:38;1.125s;PASSED
+delay(1;;03/04/2023 14:38;03/04/2023 14:38;1.076s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Cara Belanja"")";Tap menu 'Cara Belanja';03/04/2023 14:38;03/04/2023 14:38;1.540s;PASSED
+delay(2;;03/04/2023 14:38;03/04/2023 14:38;2.014s;PASSED
+swipe(100, 1000, 0, 0);;03/04/2023 14:38;03/04/2023 14:38;1.529s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Back"")";Tap icon 'Back' untuk kembali ke laman Profil;03/04/2023 14:38;03/04/2023 14:38;2.567s;PASSED
+;;;;;
+Test Cases/Profil/Bantuan/TC_FAQ;Test module Profil skenario melihat menu Cara Belanja;03/04/2023 14:38;03/04/2023 14:38;8.367s;PASSED
+delay(1;;03/04/2023 14:38;03/04/2023 14:38;1.013s;PASSED
+"tap(findTestObject(""Profil/Bantuan/FAQ"")";Tap menu 'FAQ';03/04/2023 14:38;03/04/2023 14:38;1.103s;PASSED
+delay(2;;03/04/2023 14:38;03/04/2023 14:38;2.009s;PASSED
+swipe(100, 1000, 0, 0);;03/04/2023 14:38;03/04/2023 14:38;1.760s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Back"")";Tap icon 'Back' untuk kembali ke laman Profil;03/04/2023 14:38;03/04/2023 14:38;2.192s;PASSED
+;;;;;
+Test Cases/Profil/Bantuan/TC_Kebijakan;Test module Profil skenario melihat menu Kebijakan;03/04/2023 14:38;03/04/2023 14:38;8.113s;PASSED
+delay(1;;03/04/2023 14:38;03/04/2023 14:38;1.014s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Kebijakan"")";Tap menu 'Kebijakan';03/04/2023 14:38;03/04/2023 14:38;1.086s;PASSED
+delay(2;;03/04/2023 14:38;03/04/2023 14:38;2.023s;PASSED
+swipe(100, 1000, 0, 0);;03/04/2023 14:38;03/04/2023 14:38;1.484s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Back"")";Tap icon 'Back' untuk kembali ke laman Profil;03/04/2023 14:38;03/04/2023 14:38;2.214s;PASSED
+;;;;;
+Test Cases/Profil/Bantuan/TC_Syarat_Ketentuan;Test module Profil skenario melihat menu Syarat & Ketentuan;03/04/2023 14:38;03/04/2023 14:38;8.510s;PASSED
+delay(1;;03/04/2023 14:38;03/04/2023 14:38;1.016s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Syarat dan Ketentuan"")";Tap menu 'Syarat dan Ketentuan';03/04/2023 14:38;03/04/2023 14:38;1.225s;PASSED
+delay(2;;03/04/2023 14:38;03/04/2023 14:38;2.007s;PASSED
+swipe(100, 1250, 0, 0);;03/04/2023 14:38;03/04/2023 14:38;1.604s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Back"")";Tap icon 'Back' untuk kembali ke laman Profil;03/04/2023 14:38;03/04/2023 14:38;2.351s;PASSED
+;;;;;
+Test Cases/Profil/Bantuan/TC_Hubungi_Kami;Test module Profil skenario melihat menu Hubungi Kami;03/04/2023 14:38;03/04/2023 14:38;3.592s;PASSED
+delay(1;;03/04/2023 14:38;03/04/2023 14:38;1.006s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Hubungi Kami"")";Tap menu 'Hubungi Kami';03/04/2023 14:38;03/04/2023 14:38;0.285s;PASSED
+delay(2;;03/04/2023 14:38;03/04/2023 14:38;2.002s;PASSED

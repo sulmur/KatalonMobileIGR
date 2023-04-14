@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek barkode member</description>
+   <name>TC_Cek_Barkode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b23cd622-775e-443b-badc-5734b92ed439</testCaseGuid>
+</TestCaseEntity>

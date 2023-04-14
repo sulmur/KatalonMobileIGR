@@ -1,0 +1,22 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Detail_Pesanan;Test module pesanan mengecek detail pesanan;12/04/2023 06:17;12/04/2023 06:18;57.019s;PASSED
+;;;;;
+Test Cases/Pesanan/TC_Menu_Pesanan;Test case mengakses menu 'Pesanan';12/04/2023 06:17;12/04/2023 06:17;35.177s;PASSED
+startApplication(APP;;12/04/2023 06:17;12/04/2023 06:17;33.507s;PASSED
+"tap(findTestObject(""Pesanan/Menu Pesanan"")";Tap menu 'Pesanan';12/04/2023 06:17;12/04/2023 06:17;1.326s;PASSED
+;;;;;
+Test Cases/Pesanan/TC_Detail_Pesanan;Test case cek detail pesanan;12/04/2023 06:17;12/04/2023 06:18;21.584s;PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Detail Pesanan TRX-299704"")";Tap detail pesanan pada baris pertama;12/04/2023 06:17;12/04/2023 06:17;1.346s;PASSED
+delay(2;;12/04/2023 06:17;12/04/2023 06:17;2.043s;PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Daftar Produk Pesanan"")";Tap dropdown 'Daftar Produk';12/04/2023 06:17;12/04/2023 06:17;1.079s;PASSED
+"takeScreenshotAsCheckpoint(""Detail Pesanan.png""";;12/04/2023 06:17;12/04/2023 06:18;1.943s;PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Tambah Keranjang Pesanan"")";Tap tombol 'Tambah Keranjang';12/04/2023 06:18;12/04/2023 06:18;3.308s;PASSED
+delay(2;;12/04/2023 06:18;12/04/2023 06:18;2.015s;PASSED
+swipe(100, 600, 0, 0);swipe ke bawah;12/04/2023 06:18;12/04/2023 06:18;1.070s;PASSED
+delay(1;;12/04/2023 06:18;12/04/2023 06:18;1.010s;PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan"")";Tap tombol 'Pesan Ulang';12/04/2023 06:18;12/04/2023 06:18;0.870s;PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Batal Pesan Ulang"")";Tap tombol 'Tidak' pada pop-up konfirmasi pesan ulang;12/04/2023 06:18;12/04/2023 06:18;0.896s;PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan"")";Tap tombol 'Pesan Ulang';12/04/2023 06:18;12/04/2023 06:18;0.815s;PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Setuju Pesan Ulang"")";Tap tombol 'Ya' pada pop-up konfirmasi pesan ulang;12/04/2023 06:18;12/04/2023 06:18;1.123s;PASSED
+delay(2;;12/04/2023 06:18;12/04/2023 06:18;2.019s;PASSED
+"takeScreenshotAsCheckpoint(""Berhasil Pesan Ulang Pesanan.png""";;12/04/2023 06:18;12/04/2023 06:18;1.659s;PASSED

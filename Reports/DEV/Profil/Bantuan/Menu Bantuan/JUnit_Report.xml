@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Menu Bantuan" time="67.556" tests="6" failures="0" errors="0">
+   <testsuite name="Menu Bantuan" tests="6" failures="0" errors="0" time="67.556" skipped="0" timestamp="2023-04-03 14:37:36" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Profil/Bantuan/Menu Bantuan">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230403_143719\\Profil\\Bantuan\\Menu Bantuan\\20230403_143719"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230403_143719\\Profil\\Bantuan\\Menu Bantuan\\20230403_143719\\appium.log, C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230403_143719\\Profil\\Bantuan\\Menu Bantuan\\20230403_143719\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Profil/TC_Profil_Button" time="28.157" classname="Test Cases/Profil/TC_Profil_Button" status="PASSED">
+         <system-out><![CDATA[2023-04-03 14:37:36 - [TEST_CASE][PASSED] - Test Cases/Profil/TC_Profil_Button: Test Cases/Profil/TC_Profil_Button
+
+2023-04-03 14:37:36 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.4.apk'
+
+2023-04-03 14:37:37 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-04-03 14:37:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 14:37:39 - [MESSAGE][INFO] - Appium server started on port 65,032
+
+2023-04-03 14:38:02 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.4.apk'
+
+2023-04-03 14:38:02 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Profil_Button/Menu Akun"), 0): Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-04-03 14:38:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Bantuan/TC_Cara_Belanja" time="10.401" classname="Test Cases/Profil/Bantuan/TC_Cara_Belanja" status="PASSED">
+         <system-out><![CDATA[2023-04-03 14:38:04 - [TEST_CASE][PASSED] - Test Cases/Profil/Bantuan/TC_Cara_Belanja: Test Cases/Profil/Bantuan/TC_Cara_Belanja
+
+2023-04-03 14:38:05 - [TEST_STEP][PASSED] - swipe(100, 600, 0, 0): Swiped from 100,600 to 0,0
+
+2023-04-03 14:38:06 - [MESSAGE][PASSED] - Swiped from 100,600 to 0,0
+
+2023-04-03 14:38:06 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-03 14:38:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-03 14:38:07 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Cara Belanja"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Cara Belanja'
+
+2023-04-03 14:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Cara Belanja'
+
+2023-04-03 14:38:08 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-03 14:38:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-03 14:38:10 - [TEST_STEP][PASSED] - swipe(100, 1000, 0, 0): Swiped from 100,1,000 to 0,0
+
+2023-04-03 14:38:12 - [MESSAGE][PASSED] - Swiped from 100,1,000 to 0,0
+
+2023-04-03 14:38:12 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Back"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Back'
+
+2023-04-03 14:38:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Bantuan/TC_FAQ" time="8.367" classname="Test Cases/Profil/Bantuan/TC_FAQ" status="PASSED">
+         <system-out><![CDATA[2023-04-03 14:38:14 - [TEST_CASE][PASSED] - Test Cases/Profil/Bantuan/TC_FAQ: Test Cases/Profil/Bantuan/TC_FAQ
+
+2023-04-03 14:38:15 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-03 14:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-03 14:38:16 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/FAQ"), 0): Tapped on element 'Object Repository/Profil/Bantuan/FAQ'
+
+2023-04-03 14:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/FAQ'
+
+2023-04-03 14:38:17 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-03 14:38:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-03 14:38:19 - [TEST_STEP][PASSED] - swipe(100, 1000, 0, 0): Swiped from 100,1,000 to 0,0
+
+2023-04-03 14:38:21 - [MESSAGE][PASSED] - Swiped from 100,1,000 to 0,0
+
+2023-04-03 14:38:21 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Back"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Back'
+
+2023-04-03 14:38:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Bantuan/TC_Kebijakan" time="8.113" classname="Test Cases/Profil/Bantuan/TC_Kebijakan" status="PASSED">
+         <system-out><![CDATA[2023-04-03 14:38:23 - [TEST_CASE][PASSED] - Test Cases/Profil/Bantuan/TC_Kebijakan: Test Cases/Profil/Bantuan/TC_Kebijakan
+
+2023-04-03 14:38:23 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-03 14:38:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-03 14:38:24 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Kebijakan"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Kebijakan'
+
+2023-04-03 14:38:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Kebijakan'
+
+2023-04-03 14:38:25 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-03 14:38:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-03 14:38:27 - [TEST_STEP][PASSED] - swipe(100, 1000, 0, 0): Swiped from 100,1,000 to 0,0
+
+2023-04-03 14:38:29 - [MESSAGE][PASSED] - Swiped from 100,1,000 to 0,0
+
+2023-04-03 14:38:29 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Back"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Back'
+
+2023-04-03 14:38:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Bantuan/TC_Syarat_Ketentuan" time="8.51" classname="Test Cases/Profil/Bantuan/TC_Syarat_Ketentuan" status="PASSED">
+         <system-out><![CDATA[2023-04-03 14:38:31 - [TEST_CASE][PASSED] - Test Cases/Profil/Bantuan/TC_Syarat_Ketentuan: Test Cases/Profil/Bantuan/TC_Syarat_Ketentuan
+
+2023-04-03 14:38:31 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-03 14:38:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-03 14:38:32 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Syarat dan Ketentuan"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Syarat dan Ketentuan'
+
+2023-04-03 14:38:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Syarat dan Ketentuan'
+
+2023-04-03 14:38:33 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-03 14:38:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-03 14:38:35 - [TEST_STEP][PASSED] - swipe(100, 1250, 0, 0): Swiped from 100,1,250 to 0,0
+
+2023-04-03 14:38:37 - [MESSAGE][PASSED] - Swiped from 100,1,250 to 0,0
+
+2023-04-03 14:38:37 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Back"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Back'
+
+2023-04-03 14:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profil/Bantuan/TC_Hubungi_Kami" time="3.592" classname="Test Cases/Profil/Bantuan/TC_Hubungi_Kami" status="PASSED">
+         <system-out><![CDATA[2023-04-03 14:38:39 - [TEST_CASE][PASSED] - Test Cases/Profil/Bantuan/TC_Hubungi_Kami: Test Cases/Profil/Bantuan/TC_Hubungi_Kami
+
+2023-04-03 14:38:40 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-03 14:38:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-03 14:38:41 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Bantuan/Hubungi Kami"), 0): Tapped on element 'Object Repository/Profil/Bantuan/Hubungi Kami'
+
+2023-04-03 14:38:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 14:38:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Bantuan/Hubungi Kami'
+
+2023-04-03 14:38:41 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-03 14:38:43 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-03 14:37:36 - [TEST_SUITE][PASSED] - Menu Bantuan: Test Cases/Profil/Bantuan/TC_Hubungi_Kami]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

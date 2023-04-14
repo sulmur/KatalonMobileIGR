@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case edit jumlah produk</description>
+   <name>TC_Edit_Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c74e64dd-1104-4ee1-8074-c5bfd2f45b48</testCaseGuid>
+</TestCaseEntity>

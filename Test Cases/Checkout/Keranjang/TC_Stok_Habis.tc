@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ketika stok produk habis</description>
+   <name>TC_Stok_Habis</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5c17a54-9d0f-4828-9383-6bbe10ca112e</testCaseGuid>
+</TestCaseEntity>

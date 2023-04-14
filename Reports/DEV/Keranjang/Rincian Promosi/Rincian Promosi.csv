@@ -1,0 +1,28 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Rincian Promosi;Test module Keranjang cek rincian promosi;04/04/2023 08:09;04/04/2023 08:10;57.779s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2;Test case cek fungsi pesan ulang dan tambah produk;04/04/2023 08:09;04/04/2023 08:10;44.000s;PASSED
+startApplication(APP;;04/04/2023 08:09;04/04/2023 08:10;26.994s;PASSED
+"tap(findTestObject(""Homepage/Pesan Ulang 1"")";"Tap tombol ""Pesan Ulang"" pada homepage";04/04/2023 08:10;04/04/2023 08:10;1.785s;PASSED
+delay(1;;04/04/2023 08:10;04/04/2023 08:10;1.049s;PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang"")";"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang";04/04/2023 08:10;04/04/2023 08:10;1.040s;PASSED
+swipe(0, 500, 0, 0);;04/04/2023 08:10;04/04/2023 08:10;1.117s;PASSED
+delay(1;;04/04/2023 08:10;04/04/2023 08:10;1.017s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1"")";Tap '+ Keranjang' pada produk pilihan paling kiri;04/04/2023 08:10;04/04/2023 08:10;0.992s;PASSED
+delay(2;;04/04/2023 08:10;04/04/2023 08:10;2.019s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan"")";Tap '+ Keranjang' pada detail produk yang telah dipilih;04/04/2023 08:10;04/04/2023 08:10;3.391s;PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 2"")";"Tap tombol icon ""Keranjang"" pada homepage";04/04/2023 08:10;04/04/2023 08:10;1.270s;PASSED
+delay(3;;04/04/2023 08:10;04/04/2023 08:10;3.017s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_Rincian_Promosi;Test case cek rincian promosi pada laman keranjang;04/04/2023 08:10;04/04/2023 08:10;13.544s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Panah Ke atas Ringkasan Belanja"")";Tap panah ke atas untuk membuka ringkasan belanja;04/04/2023 08:10;04/04/2023 08:10;0.940s;PASSED
+delay(1;;04/04/2023 08:10;04/04/2023 08:10;1.004s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Detail Hadiah"")";;04/04/2023 08:10;04/04/2023 08:10;1.046s;PASSED
+"takeScreenshotAsCheckpoint(""Detail Hadiah.png""";;04/04/2023 08:10;04/04/2023 08:10;1.930s;PASSED
+delay(1;;04/04/2023 08:10;04/04/2023 08:10;1.015s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Cancel Detail Hadiah"")";;04/04/2023 08:10;04/04/2023 08:10;1.058s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Rincian Promosi"")";Tap tombol 'Rincian Promosi';04/04/2023 08:10;04/04/2023 08:10;1.081s;PASSED
+"takeScreenshotAsCheckpoint(""RIncian Promosi.png""";;04/04/2023 08:10;04/04/2023 08:10;1.813s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Back Rincian Promosi"")";Tap tombol 'Back' pada Rincian Promosi;04/04/2023 08:10;04/04/2023 08:10;0.384s;PASSED
+delay(2;;04/04/2023 08:10;04/04/2023 08:10;2.005s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Dropdown Ringkasan Belanja"")";Tap tombol 'Dropdown' untuk hide Ringkasan Belanja ;04/04/2023 08:10;04/04/2023 08:10;0.930s;PASSED

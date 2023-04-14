@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case batal sorting produk</description>
+   <name>TC_Cancel_Sort</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1b0ec0a-141c-45fd-b765-5104fec25bd4</testCaseGuid>
+</TestCaseEntity>

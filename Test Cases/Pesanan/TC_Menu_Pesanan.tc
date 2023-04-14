@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case mengakses menu 'Pesanan'</description>
+   <name>TC_Menu_Pesanan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9be269e5-a28f-4988-9420-32eed62e40f0</testCaseGuid>
+</TestCaseEntity>

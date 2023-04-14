@@ -1,0 +1,36 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Opsi_Pengiriman;;"Test module keranjang cek tombol 'Pengiriman' jika di bawah dan di atas Rp. 10.000 dan 
+cek opsi Pengiriman ketika total harga produk di keranjang di bawah dan di atas Rp. 100.000";05/04/2023 09:19;05/04/2023 09:21;1m - 34.592s;PASSED
+;;;;;;
+Test Cases/Checkout/Keranjang/TC_Cek_Opsi_Pengiriman;;Test case tambah produk pada card section baru;05/04/2023 09:19;05/04/2023 09:21;1m - 33.453s;PASSED
+startApplication(APP;;;05/04/2023 09:19;05/04/2023 09:20;43.223s;PASSED
+"tap(findTestObject(""Kategori/Kesehatan dan Kecantikan"")";;Tap kategori 'Kesehatan & Kecantikan';05/04/2023 09:20;05/04/2023 09:20;1.395s;PASSED
+delay(2;;;05/04/2023 09:20;05/04/2023 09:20;2.062s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Tambah Produk Lifebuoy"")";;Tap '+ Keranjang' Produk Lifebuoy pada laman Kategori;05/04/2023 09:20;05/04/2023 09:20;1.247s;PASSED
+delay(1;;;05/04/2023 09:20;05/04/2023 09:20;1.006s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan"")";;Tap '+ Keranjang' Produk Lifebuoy;05/04/2023 09:20;05/04/2023 09:20;3.295s;PASSED
+delay(2;;;05/04/2023 09:20;05/04/2023 09:20;2.006s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Keranjang Kategori 1"")";;Tap icon 'Keranjang' pada laman Kategori;05/04/2023 09:20;05/04/2023 09:20;0.269s;PASSED
+delay(2;;;05/04/2023 09:20;05/04/2023 09:20;2.012s;PASSED
+"takeScreenshotAsCheckpoint(""Keranjang di bawah 10000.png""";;;05/04/2023 09:20;05/04/2023 09:20;1.851s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Detail Produk/Edit Produk Row 1 Jumlah 1"")";;Tap Edit jumlah Produk pada Lifebuoy yang berjumlah 1;05/04/2023 09:20;05/04/2023 09:20;0.772s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Lifebuoy"")";;;05/04/2023 09:20;05/04/2023 09:20;1.716s;PASSED
+"setText(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Lifebuoy"")";" ""3""";Input data '3' pada field Edit Jumlah Produk;05/04/2023 09:20;05/04/2023 09:20;0.466s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Simpan Edit Produk"")";;;05/04/2023 09:20;05/04/2023 09:20;1.334s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Perbaharui Keranjang"")";;tap 'Perbaharui';05/04/2023 09:20;05/04/2023 09:20;0.769s;PASSED
+delay(1;;;05/04/2023 09:20;05/04/2023 09:20;1.004s;PASSED
+"takeScreenshotAsCheckpoint(""Keranjang di atas 10000.png""";;;05/04/2023 09:20;05/04/2023 09:20;1.718s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman"")";;tap 'Pengiriman';05/04/2023 09:20;05/04/2023 09:20;1.066s;PASSED
+delay(5;;;05/04/2023 09:20;05/04/2023 09:20;5.015s;PASSED
+"takeScreenshotAsCheckpoint(""Pengiriman di bawah 100000.png""";;;05/04/2023 09:20;05/04/2023 09:20;1.586s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Back from Pengiriman"")";;tap icon 'Back' untuk kembali ke laman Keranjang;05/04/2023 09:20;05/04/2023 09:20;1.588s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Edit Jumlah Produk Row 1 Jumlah 3"")";;Tap Edit jumlah Produk pada Lifebuoy yang berjumlah 3;05/04/2023 09:20;05/04/2023 09:20;0.882s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 3 Lifebuoy"")";;;05/04/2023 09:20;05/04/2023 09:20;0.576s;PASSED
+"setText(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 3 Lifebuoy"")";" ""30""";Input data '30' pada field Edit Jumlah Produk;05/04/2023 09:20;05/04/2023 09:20;1.354s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Simpan Edit Produk"")";;;05/04/2023 09:20;05/04/2023 09:20;1.331s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Perbaharui Keranjang"")";;tap 'Perbaharui';05/04/2023 09:20;05/04/2023 09:20;0.786s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman"")";;tap 'Pengiriman';05/04/2023 09:20;05/04/2023 09:21;2.756s;PASSED
+delay(5;;;05/04/2023 09:21;05/04/2023 09:21;5.016s;PASSED
+swipe(0, 600, 0, 0);;0;05/04/2023 09:21;05/04/2023 09:21;1.078s;PASSED
+"takeScreenshotAsCheckpoint(""Pengiriman di atas 100000.png""";;;05/04/2023 09:21;05/04/2023 09:21;2.014s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Back from Pengiriman"")";;tap icon 'Back' untuk kembali ke laman Keranjang;05/04/2023 09:21;05/04/2023 09:21;0.393s;PASSED

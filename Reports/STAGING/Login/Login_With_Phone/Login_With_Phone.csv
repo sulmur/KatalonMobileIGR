@@ -1,0 +1,35 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Login_With_Phone;;Test module login dengan nomor hp;17/03/2023 11:22;17/03/2023 11:23;55.524s;PASSED
+;;;;;;
+Test Cases/Login/TC_Login_NullField;;Mengakses laman Login;17/03/2023 11:23;17/03/2023 11:23;27.834s;PASSED
+startApplication(APP, false);;Buka aplikasi Klik Indogrosir pada android;17/03/2023 11:23;17/03/2023 11:23;25.359s;PASSED
+"tap(findTestObject(""Object Repository/Login/NullField_Login/android.view.View"")";;Klik menu akun;17/03/2023 11:23;17/03/2023 11:23;1.318s;PASSED
+"tap(findTestObject(""Object Repository/Login/NullField_Login/android.widget.Button"")";;Klik Login tanpa input field Email/No. HP dan Password;17/03/2023 11:23;17/03/2023 11:23;0.777s;PASSED
+;;;;;;
+Test Cases/Login/TC_Login_InvalidPhone;;Login dengan no. telpon yang salah;17/03/2023 11:23;17/03/2023 11:23;15.376s;PASSED
+"tap(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.EditText - Email  no handphone"")";;Tap field Email/No. HP;17/03/2023 11:23;17/03/2023 11:23;1.791s;PASSED
+"setText(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.EditText - Email  no handphone (1)"")";" ""1234567891011""";input Nomor HP yang tidak terdaftar;17/03/2023 11:23;17/03/2023 11:23;0.471s;PASSED
+"tap(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.EditText - Password"")";;Tap field Password;17/03/2023 11:23;17/03/2023 11:23;1.396s;PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.EditText - Password (1)"")";" ""lsdNNXlVAZI=""";Input Password;17/03/2023 11:23;17/03/2023 11:23;0.462s;PASSED
+"tap(findTestObject(""Login/InvalidPhone/android.widget.Button (2)"")";;Tap icon mata tertutup;17/03/2023 11:23;17/03/2023 11:23;1.284s;PASSED
+"tap(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.Button"")";;Tap tombol Login;17/03/2023 11:23;17/03/2023 11:23;0.766s;PASSED
+delay(4;;Tap tombol 'Tutup' pada alert Email/No. Hp tidak terdaftar;17/03/2023 11:23;17/03/2023 11:23;4.090s;PASSED
+"tap(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.Button (1)"")";;;17/03/2023 11:23;17/03/2023 11:23;1.220s;PASSED
+"tap(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.EditText - 1234567891011";" Email  no handphone"")"; 0);17/03/2023 11:23;17/03/2023 11:23;1.009s;PASSED
+"clearText(findTestObject(""Object Repository/Login/InvalidPhone/android.widget.EditText - 1234567891011";" Email  no handphone (1)"")"; 0);17/03/2023 11:23;17/03/2023 11:23;0.371s;PASSED
+"tap(findTestObject(""Login/InvalidPhone/android.widget.EditText - ";" Password"")"; 0);17/03/2023 11:23;17/03/2023 11:23;1.756s;PASSED
+"clearText(findTestObject(""Login/InvalidPhone/android.widget.EditText - ";" Password (1)"")"; 0);17/03/2023 11:23;17/03/2023 11:23;0.349s;PASSED
+;;;;;;
+Test Cases/Login/TC_Login_ValidPhone;;Login sukses dengan no. telepon yang terdaftar;17/03/2023 11:23;17/03/2023 11:23;4.571s;PASSED
+"tap(findTestObject(""Login/ValidPhone/android.widget.EditText - Email  no handphone"")";;Tap field Email/No. HP;17/03/2023 11:23;17/03/2023 11:23;0.987s;PASSED
+"setText(findTestObject(""Login/ValidPhone/android.widget.EditText - Email  no handphone (1)"")";" ""081808195603""";Input No. HP yang valid;17/03/2023 11:23;17/03/2023 11:23;0.388s;PASSED
+"tap(findTestObject(""Login/ValidPhone/android.widget.EditText - Password"")";;Tap field Password;17/03/2023 11:23;17/03/2023 11:23;1.349s;PASSED
+"setEncryptedText(findTestObject(""Login/ValidPhone/android.widget.EditText - Password (1)"")";" ""lsdNNXlVAZI=""";Input Password yang valid;17/03/2023 11:23;17/03/2023 11:23;0.330s;PASSED
+"tap(findTestObject(""Login/ValidPhone/android.widget.Button"")";;Tap tombol Login;17/03/2023 11:23;17/03/2023 11:23;1.131s;PASSED
+;;;;;;
+Test Cases/Login/TC_Logout;;Berhasil Logout;17/03/2023 11:23;17/03/2023 11:23;7.453s;PASSED
+"tap(findTestObject(""Object Repository/Login/Logout/android.view.View"")";;Tap menu Akun;17/03/2023 11:23;17/03/2023 11:23;3.531s;PASSED
+swipe(0, 600, 0, 0);;Swipe laman akun sampai terlihat tombol Keluar;17/03/2023 11:23;17/03/2023 11:23;1.079s;PASSED
+"tap(findTestObject(""Object Repository/Login/Logout/android.widget.Button"")";;Tap tombol Keluar;17/03/2023 11:23;17/03/2023 11:23;0.849s;PASSED
+"tap(findTestObject(""Object Repository/Login/Logout/android.widget.Button (1)"")";;Tap tombol Ya pada pop-up Konfirmasi Keluar;17/03/2023 11:23;17/03/2023 11:23;0.882s;PASSED
+closeApplication();;;17/03/2023 11:23;17/03/2023 11:23;0.697s;PASSED

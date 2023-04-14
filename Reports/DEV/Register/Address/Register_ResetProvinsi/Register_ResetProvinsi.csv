@@ -1,0 +1,20 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Register_ResetProvinsi;Test module Register ubah opsi Provinsi dan mereset opsi Kota, Kecamatan, dan Kelurahan;31/03/2023 09:05;31/03/2023 09:06;48.309s;PASSED
+;;;;;
+Test Cases/Register/Redirect_to_RegisterPage;Test case register, redirect to register page;31/03/2023 09:05;31/03/2023 09:05;35.586s;PASSED
+startApplication(APP;;31/03/2023 09:05;31/03/2023 09:05;31.594s;PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun"")";Tap menu Akun;31/03/2023 09:05;31/03/2023 09:05;1.595s;PASSED
+"tap(findTestObject(""Login/Tombol Daftar"")";Tap tombol Register;31/03/2023 09:05;31/03/2023 09:05;1.007s;PASSED
+delay(1;;31/03/2023 09:05;31/03/2023 09:05;1.037s;PASSED
+;;;;;
+Test Cases/Register/Address/TC_Reset_Provinsi;Memastikan dengan mengubah Provinsi akan mereset opsi Kota, Kecamatan, dan Kelurahan yang dipilih;31/03/2023 09:05;31/03/2023 09:06;12.407s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Provinsi - Register"")";Tap field 'Provinsi';31/03/2023 09:05;31/03/2023 09:06;2.106s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetProvinsi/Opsi Provinsi -Banten-"")";Pilih salah satu 'Provinsi';31/03/2023 09:06;31/03/2023 09:06;1.601s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kota - Register"")";Tap field 'Kota';31/03/2023 09:06;31/03/2023 09:06;1.185s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetProvinsi/Opsi Kota -Kabupaten Tangerang-"")";Pilih salah satu 'Kota';31/03/2023 09:06;31/03/2023 09:06;1.005s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kecamatan - Register"")";Tap field 'Kecamatan';31/03/2023 09:06;31/03/2023 09:06;1.208s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetProvinsi/Opsi Kecamatan -Cisauk-"")";Pilih salah satu 'Kecamatan';31/03/2023 09:06;31/03/2023 09:06;0.980s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kelurahan - Register"")";Tap field 'Kelurahan';31/03/2023 09:06;31/03/2023 09:06;1.017s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetProvinsi/Opsi Kelurahan -Cisauk-"")";Pilih salah satu 'Kelurahan';31/03/2023 09:06;31/03/2023 09:06;0.990s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetProvinsi/Dropdown Provinsi -Banten-"")";Tap kembali field 'Provinsi' yang sudah dipilih;31/03/2023 09:06;31/03/2023 09:06;1.048s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetProvinsi/Opsi Provinsi -Bali-"")";Pilih 'Provinsi' yang berbeda dari sebelumnya;31/03/2023 09:06;31/03/2023 09:06;0.995s;PASSED

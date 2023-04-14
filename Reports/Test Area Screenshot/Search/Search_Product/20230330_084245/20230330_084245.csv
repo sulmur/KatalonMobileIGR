@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search_Product,,Test module search cek fitur search produk,,2023-03-30 08:42:56,2023-03-30 08:43:30,33.523s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_Enter,,Test case Filter untuk mencari produk yang diinginkan,,2023-03-30 08:42:57,2023-03-30 08:43:30,33.194s,PASSED
+"startApplication(APP, false)",,,,2023-03-30 08:42:57,2023-03-30 08:43:22,24.918s,PASSED
+"tap(findTestObject(""Search/Menu Search""), 0)",,Tap menu 'Search',,2023-03-30 08:43:22,2023-03-30 08:43:24,1.616s,PASSED
+driver = getDriver(),,,,2023-03-30 08:43:24,2023-03-30 08:43:24,0.001s,PASSED
+"takeAreaScreenshot(getReportFolder() + ""Field Search.png"", new org.openqa.selenium.Rectangle(0, 0, 1500, 1000), [findTestObject(""Search/Back Search"")], BLUE)",,,,2023-03-30 08:43:24,2023-03-30 08:43:26,2.582s,PASSED
+"tap(findTestObject(""Search/Field Search""), 10)",,Tap field 'Search',,2023-03-30 08:43:26,2023-03-30 08:43:27,0.709s,PASSED
+"setText(findTestObject(""Search/Field Search""), ""dancow"", 10)",,Input data produk yang ingin dicari pada field 'Search',,2023-03-30 08:43:27,2023-03-30 08:43:28,1.268s,PASSED
+driver.pressKeyCode(KEYCODE_ENTER),,Tap 'Enter' pada keyboard,,2023-03-30 08:43:28,2023-03-30 08:43:29,0.543s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-03-30 08:43:29,2023-03-30 08:43:30,1.070s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fungsi batal sorting produk pada menu search</description>
+   <name>TC_Cancel_Sort_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e08fcc3-fa65-4ddb-82ce-3fb3dec0422e</testCaseGuid>
+</TestCaseEntity>

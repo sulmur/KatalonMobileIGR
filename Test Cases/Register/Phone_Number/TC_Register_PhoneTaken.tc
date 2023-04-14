@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Register dengan Nomor Handphone yang sudah terdaftar</description>
+   <name>TC_Register_PhoneTaken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0e39817-49af-4092-807d-922b74b21145</testCaseGuid>
+</TestCaseEntity>

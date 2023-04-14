@@ -1,0 +1,16 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Rekening_Bank_Null;"Test module Profile tap tombol ""Simpan"" pada rekening bank tanpa mengisi semua field";24/03/2023 10:00;24/03/2023 10:01;33.239s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';24/03/2023 10:00;24/03/2023 10:01;25.778s;PASSED
+startApplication(APP, false);;24/03/2023 10:00;24/03/2023 10:01;23.208s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Profil_Button/android.view.View"")";Tap menu 'Akun';24/03/2023 10:01;24/03/2023 10:01;2.234s;PASSED
+;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Button;Test case Profil tap tombol 'Rekening Bank';24/03/2023 10:01;24/03/2023 10:01;3.837s;PASSED
+swipe(100, 400, 0, 0);;24/03/2023 10:01;24/03/2023 10:01;1.073s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/Rekening_Bank_Button/android.view.View"")";"Tap tombol ""Rekening Bank""";24/03/2023 10:01;24/03/2023 10:01;1.474s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;24/03/2023 10:01;24/03/2023 10:01;1.033s;PASSED
+;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Null;Test case Rekening Bank tanpa mengisi form Rekening Bank;24/03/2023 10:01;24/03/2023 10:01;3.364s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Rekening_Bank/Rekening_Bank_Null/android.widget.Button"")";;24/03/2023 10:01;24/03/2023 10:01;2.982s;PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Profil/Rekening_Bank/Rekening_Bank_Null/android.view.View"")";;24/03/2023 10:01;24/03/2023 10:01;0.193s;PASSED
+"verifyMatch(""Nama pemilik rekening harus diisi"", ""Nama pemilik rekening harus diisi"")";;24/03/2023 10:01;24/03/2023 10:01;0.008s;PASSED

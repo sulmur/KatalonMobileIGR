@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tap tombol 'Daftar' setelah mengisi form 'Register'</description>
+   <name>Register_Submit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0dcef0c6-7808-42da-8b3c-54ca564a1ab2</testCaseGuid>
+</TestCaseEntity>

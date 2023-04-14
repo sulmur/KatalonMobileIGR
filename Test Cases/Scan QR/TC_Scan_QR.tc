@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case scan QR kamera</description>
+   <name>TC_Scan_QR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3b931c5-129e-4ac3-8f0d-4037d34526b4</testCaseGuid>
+</TestCaseEntity>

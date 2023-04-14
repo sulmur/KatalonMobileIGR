@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case search produk baru</description>
+   <name>TC_Suggest_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc3db564-406e-41a8-8df3-c975a708be7e</testCaseGuid>
+</TestCaseEntity>

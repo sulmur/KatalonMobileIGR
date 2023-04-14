@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Profil tap tombol 'Rekening Bank'</description>
+   <name>TC_RekeningBank_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3141a14a-11da-4950-95bb-ff61509fb518</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek detail pesanan</description>
+   <name>TC_Detail_Pesanan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b41cfdc7-c857-4a00-8101-2abb691bf0a0</testCaseGuid>
+</TestCaseEntity>

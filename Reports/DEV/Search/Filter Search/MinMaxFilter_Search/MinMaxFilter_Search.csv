@@ -1,0 +1,26 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+MinMaxFilter_Search;;Test module search cek fungsi harga minimum-maksimum filter produk;29/03/2023 09:32;29/03/2023 09:33;44.617s;PASSED
+;;;;;;
+Test Cases/Search/TC_Search_Button;;Test case cek fungsi tombol/field search;29/03/2023 09:32;29/03/2023 09:32;30.742s;PASSED
+startApplication(APP;;Buka aplikasi Klik Indogrosir;29/03/2023 09:32;29/03/2023 09:32;23.404s;PASSED
+"tap(findTestObject(""Search/Pesan Ulang/Pesan Ulang 1"")";;Tap tombol 'Pesan Ulang';29/03/2023 09:32;29/03/2023 09:32;1.816s;PASSED
+delay(2;;;29/03/2023 09:32;29/03/2023 09:32;2.052s;PASSED
+"tap(findTestObject(""Search/Pesan Ulang/Tutup Pesan Ulang"")";;Tap tombol 'Tutup' pada pop-up berhasil pesan ulang;29/03/2023 09:32;29/03/2023 09:32;1.022s;PASSED
+delay(1;;;29/03/2023 09:32;29/03/2023 09:32;1.020s;PASSED
+"tap(findTestObject(""Search/Menu Search"")";;Tap menu 'Search';29/03/2023 09:32;29/03/2023 09:32;1.108s;PASSED
+;;;;;;
+Test Cases/Search/TC_New_Search;;Test case search produk baru;29/03/2023 09:32;29/03/2023 09:33;4.757s;PASSED
+"tap(findTestObject(""Search/Field Search"")";;Tap field 'search';29/03/2023 09:32;29/03/2023 09:32;1.395s;PASSED
+"setText(findTestObject(""Search/Field Search"")";" ""anlene""";input data pada field 'search';29/03/2023 09:32;29/03/2023 09:32;0.533s;PASSED
+delay(1;;;29/03/2023 09:32;29/03/2023 09:33;1.017s;PASSED
+"tap(findTestObject(""Search/Produk/anlene"")";;Tap salah satu suggestion produk yang muncul dari hasil search;29/03/2023 09:33;29/03/2023 09:33;1.453s;PASSED
+;;;;;;
+Test Cases/Search/Filter/TC_MinMaxFilter_Search;;Test case Search cek fungsi harga minimum-maksimum filter produk pada laman search;29/03/2023 09:33;29/03/2023 09:33;8.869s;PASSED
+"tap(findTestObject(""Search/Filter/Filter Button"")";;Tap tombol 'Filter';29/03/2023 09:33;29/03/2023 09:33;1.152s;PASSED
+"tap(findTestObject(""Search/Filter/Search - Field Harga Minimum"")";;Tap field 'Harga Minimum';29/03/2023 09:33;29/03/2023 09:33;0.411s;PASSED
+"setText(findTestObject(""Search/Filter/Search - Field Harga Minimum"")";" ""40000""";Input field 'Harga Minimum';29/03/2023 09:33;29/03/2023 09:33;1.091s;PASSED
+"tap(findTestObject(""Search/Filter/Search - Field Harga Maksimum"")";;Tap field 'Harga Maksimum';29/03/2023 09:33;29/03/2023 09:33;0.783s;PASSED
+"setText(findTestObject(""Search/Filter/Search - Field Harga Maksimum"")";" ""70000""";Input field 'Harga Maksimum';29/03/2023 09:33;29/03/2023 09:33;1.052s;PASSED
+pressBack();;;29/03/2023 09:33;29/03/2023 09:33;0.548s;PASSED
+"tap(findTestObject(""Search/Filter/Submit Button"")";;Tap tombol 'Terapkan';29/03/2023 09:33;29/03/2023 09:33;1.519s;PASSED
+delay(2;;;29/03/2023 09:33;29/03/2023 09:33;2.014s;PASSED

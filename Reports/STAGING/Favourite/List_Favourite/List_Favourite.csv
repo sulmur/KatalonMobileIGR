@@ -1,0 +1,11 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+List_Favourite;Test module Favorit untuk melihat menu Favorit;23/03/2023 11:12;23/03/2023 11:13;43.382s;PASSED
+;;;;;
+Test Cases/Favourite/TC_Check_FavouriteList;Test case melihat menu favorit;23/03/2023 11:12;23/03/2023 11:13;43.112s;PASSED
+startApplication(APP, false);;23/03/2023 11:12;23/03/2023 11:13;33.765s;PASSED
+swipe(100, 1000, 0, 0);;23/03/2023 11:13;23/03/2023 11:13;1.328s;PASSED
+"tap(findTestObject(""Object Repository/Favourite/List_Favourite/android.view.View"")";;23/03/2023 11:13;23/03/2023 11:13;1.869s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;23/03/2023 11:13;23/03/2023 11:13;1.071s;PASSED
+swipe(100, 500, 0, 0);;23/03/2023 11:13;23/03/2023 11:13;1.068s;PASSED
+delay(3, CONTINUE_ON_FAILURE);;23/03/2023 11:13;23/03/2023 11:13;3.009s;PASSED
+closeApplication();;23/03/2023 11:13;23/03/2023 11:13;0.627s;PASSED

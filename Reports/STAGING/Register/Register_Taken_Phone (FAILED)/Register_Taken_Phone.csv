@@ -1,0 +1,49 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Register_Taken_Phone;;Test module Register Input Nomor Handphone yang sudah terdaftar;21/03/2023 10:55;21/03/2023 10:56;1m - 19.683s;PASSED
+;;;;;;
+Test Cases/Register/Redirect_to_RegisterPage;;Test case register, redirect to register page;21/03/2023 10:55;21/03/2023 10:55;39.188s;PASSED
+startApplication(APP, false);;;21/03/2023 10:55;21/03/2023 10:55;35.381s;PASSED
+"tap(findTestObject(""Object Repository/Register/Redirect_To_RegisterPage/android.view.View"")";;Tap menu Akun;21/03/2023 10:55;21/03/2023 10:55;1.193s;PASSED
+"tap(findTestObject(""Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button"")";;Tap tombol Register;21/03/2023 10:55;21/03/2023 10:55;1.099s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;;21/03/2023 10:55;21/03/2023 10:55;1.043s;PASSED
+;;;;;;
+Test Cases/Register/Name/TC_Register_ValidName;;Test case register dengan format nama yang valid (minimal 3 karakter);21/03/2023 10:55;21/03/2023 10:55;2.558s;PASSED
+"tap(findTestObject(""Object Repository/Register/Name/Register_ValidName/android.widget.EditText - Nama"")";;Tap field 'Nama';21/03/2023 10:55;21/03/2023 10:55;0.753s;PASSED
+"setText(findTestObject(""Object Repository/Register/Name/Register_ValidName/android.widget.EditText - Nama (1)"")";" ""raihan""";Input Nama minimal 3 karakter;21/03/2023 10:55;21/03/2023 10:55;1.459s;PASSED
+;;;;;;
+Test Cases/Register/Email/TC_Register_ValidEmail;;Test case dengan email yang valid;21/03/2023 10:55;21/03/2023 10:55;2.188s;PASSED
+"tap(findTestObject(""Object Repository/Register/Email/Register_ValidEmail/android.widget.EditText - Alamat Email"")";;Tap field 'Email';21/03/2023 10:55;21/03/2023 10:55;1.516s;PASSED
+"setText(findTestObject(""Object Repository/Register/Email/Register_ValidEmail/android.widget.EditText - Alamat Email (1)"")";" ""sulthanraihan@ymail.com""";Input format Email yang valid;21/03/2023 10:55;21/03/2023 10:55;0.423s;PASSED
+;;;;;;
+Test Cases/Register/Password/TC_Register_ValidPassword;;Test case dengan format password yang valid;21/03/2023 10:55;21/03/2023 10:56;6.450s;PASSED
+"tap(findTestObject(""Object Repository/Register/Password/Register_ValidPassword/android.widget.EditText - Password"")";;Tap field 'Password';21/03/2023 10:55;21/03/2023 10:55;1.439s;PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register/Password/Register_ValidPassword/android.widget.EditText - Password (1)"")";" ""lsdNNXlVAZI=""";Input Password dengan format yang valid;21/03/2023 10:55;21/03/2023 10:55;0.452s;PASSED
+"tap(findTestObject(""Object Repository/Register/Password/Register_ValidPassword/android.widget.Button"")";;Tap icon 'Mata tertutup' pada field Password;21/03/2023 10:55;21/03/2023 10:55;0.810s;PASSED
+"tap(findTestObject(""Object Repository/Register/Password/Register_ValidPassword/android.widget.EditText - Ketik Ulang Password"")";;Tap 'Konfirmasi Password';21/03/2023 10:55;21/03/2023 10:55;1.013s;PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register/Password/Register_ValidPassword/android.widget.EditText - Ketik Ulang Password (1)"")";" ""lsdNNXlVAZI=""";Input Konfirmasi Password yang sesuai dengan Password yang telah diinput;21/03/2023 10:55;21/03/2023 10:56;1.699s;PASSED
+"tap(findTestObject(""Object Repository/Register/Password/Register_ValidPassword/android.widget.Button (1)"")";;Tap icon 'Mata tertutup' pada field Konfirmasi Password;21/03/2023 10:56;21/03/2023 10:56;0.779s;PASSED
+;;;;;;
+Test Cases/Register/Address/TC_Register_ValidAddress;;Test case register dengan Alamat yang valid (Minimal 10 karakter);21/03/2023 10:56;21/03/2023 10:56;12.043s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.widget.EditText - Alamat Pengiriman"")";;Tap field 'Alamat Pengiriman';21/03/2023 10:56;21/03/2023 10:56;0.531s;PASSED
+"setText(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.widget.EditText - Alamat Pengiriman (1)"")";" ""Jl. yang ada di Kedaung""";Input format Alamat yang valid (minimal 10 karakter);21/03/2023 10:56;21/03/2023 10:56;1.182s;PASSED
+hideKeyboard();;;21/03/2023 10:56;21/03/2023 10:56;1.485s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.view.View"")";;Tap dropdown 'Provinsi';21/03/2023 10:56;21/03/2023 10:56;1.137s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.view.View (1)"")";;Pilih salah satu 'Provinsi';21/03/2023 10:56;21/03/2023 10:56;0.994s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.view.View (2)"")";;Tap dropdown 'Kota';21/03/2023 10:56;21/03/2023 10:56;1.045s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.view.View (3)"")";;Pilih salah satu 'Kota';21/03/2023 10:56;21/03/2023 10:56;1.050s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.widget.Button"")";;Tap dropdown 'Kecamatan';21/03/2023 10:56;21/03/2023 10:56;1.178s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.view.View (4)"")";;Pilih salah satu 'Kecamatan';21/03/2023 10:56;21/03/2023 10:56;0.962s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.view.View (5)"")";;Tap dropdown 'Kelurahan';21/03/2023 10:56;21/03/2023 10:56;1.024s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ValidAddress/android.view.View (6)"")";;Pilih salah satu 'Kelurahan';21/03/2023 10:56;21/03/2023 10:56;1.015s;PASSED
+;;;;;;
+Test Cases/Register/Phone_Number/TC_Register_PhoneTaken;;Test case Register dengan Nomor Handphone yang sudah terdaftar;21/03/2023 10:56;21/03/2023 10:56;7.426s;PASSED
+swipe(100, 400, 0, 0);;;21/03/2023 10:56;21/03/2023 10:56;1.044s;PASSED
+"tap(findTestObject(""Object Repository/Register/Phone_Number/Taken_Phone_Number/android.widget.EditText - Nomor Handphone"")";;"Tap field ""Nomor Handphone""";21/03/2023 10:56;21/03/2023 10:56;0.397s;PASSED
+"setText(findTestObject(""Object Repository/Register/Phone_Number/Taken_Phone_Number/android.widget.EditText - Nomor Handphone (1)"")";" ""081808195603""";Input Nomor Handphone yang sudah terdaftar;21/03/2023 10:56;21/03/2023 10:56;1.316s;PASSED
+hideKeyboard();;;21/03/2023 10:56;21/03/2023 10:56;3.370s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;;21/03/2023 10:56;21/03/2023 10:56;1.005s;PASSED
+;;;;;;
+Test Cases/Register/Phone_Number/TC_FailedPhone_Submit;;Test case Register tap tombol 'Daftar' dengan input Nomor Handphone yang sudah terdaftar;21/03/2023 10:56;21/03/2023 10:56;9.405s;PASSED
+"tap(findTestObject(""Object Repository/Register/Phone_Number/FailedPhone_Submit/android.widget.Button"")";;Tap tombol 'Daftar';21/03/2023 10:56;21/03/2023 10:56;0.898s;PASSED
+delay(7, CONTINUE_ON_FAILURE);;;21/03/2023 10:56;21/03/2023 10:56;7.003s;PASSED
+"tap(findTestObject(""Object Repository/Register/Phone_Number/FailedPhone_Submit/android.widget.Button (1)"")";;"Tap tombol 'Tutup' pada alert ""Nomor Handphone sudah terhubung dengan akun lain""";21/03/2023 10:56;21/03/2023 10:56;1.029s;PASSED

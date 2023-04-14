@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Filter rentang harga minimum dan maksimum</description>
+   <name>TC_Filter_MinMax</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e317f2e7-be71-4efa-be55-577161bdaa7a</testCaseGuid>
+</TestCaseEntity>

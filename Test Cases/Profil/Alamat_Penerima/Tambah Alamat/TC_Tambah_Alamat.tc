@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Profil menambah alamat penerima</description>
+   <name>TC_Tambah_Alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a82e6c8-6ebf-422e-8dc1-23848f77da22</testCaseGuid>
+</TestCaseEntity>

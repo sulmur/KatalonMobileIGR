@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case pengiriman dengan opsi nextday motor</description>
+   <name>TC_Nextday_Motor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03d79508-84a5-4530-a83d-3c3c6a874440</testCaseGuid>
+</TestCaseEntity>

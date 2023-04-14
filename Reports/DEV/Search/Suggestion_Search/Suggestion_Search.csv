@@ -1,0 +1,17 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Suggestion_Search;;Test module search fitur suggestion produk;03/04/2023 09:10;03/04/2023 09:11;48.458s;PASSED
+;;;;;;
+Test Cases/Search/TC_Search_Button;;Test case cek fungsi tombol/field search;03/04/2023 09:10;03/04/2023 09:11;41.739s;PASSED
+startApplication(APP;;Buka aplikasi Klik Indogrosir;03/04/2023 09:10;03/04/2023 09:11;35.209s;PASSED
+"tap(findTestObject(""Search/Pesan Ulang/Pesan Ulang 1"")";;Tap tombol 'Pesan Ulang';03/04/2023 09:11;03/04/2023 09:11;0.887s;PASSED
+delay(2;;;03/04/2023 09:11;03/04/2023 09:11;2.047s;PASSED
+"tap(findTestObject(""Search/Pesan Ulang/Tutup Pesan Ulang"")";;Tap tombol 'Tutup' pada pop-up berhasil pesan ulang;03/04/2023 09:11;03/04/2023 09:11;1.017s;PASSED
+delay(1;;;03/04/2023 09:11;03/04/2023 09:11;1.011s;PASSED
+"tap(findTestObject(""Search/Menu Search"")";;Tap menu 'Search';03/04/2023 09:11;03/04/2023 09:11;1.096s;PASSED
+;;;;;;
+Test Cases/Search/TC_Suggest_Search;;Test case search produk baru;03/04/2023 09:11;03/04/2023 09:11;6.407s;PASSED
+"tap(findTestObject(""Search/Field Search"")";;Tap field 'search';03/04/2023 09:11;03/04/2023 09:11;1.395s;PASSED
+"setText(findTestObject(""Search/Field Search"")";" ""anlene""";input data pada field 'search';03/04/2023 09:11;03/04/2023 09:11;0.497s;PASSED
+delay(1;;;03/04/2023 09:11;03/04/2023 09:11;1.009s;PASSED
+"tap(findTestObject(""Search/Produk/anlene"")";;Tap salah satu suggestion produk yang muncul dari hasil search;03/04/2023 09:11;03/04/2023 09:11;2.039s;PASSED
+swipe(100, 900, 0, 0);;;03/04/2023 09:11;03/04/2023 09:11;1.085s;PASSED

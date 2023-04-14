@@ -1,0 +1,21 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Filter_MinMax;;Test module Filter mencari rentang harga minimum dan maksimum;21/03/2023 14:26;21/03/2023 14:27;51.418s;PASSED
+;;;;;;
+Test Cases/Kategori/TC_Kategori_IbuAnak;;Test case kategori jenis produk 'Ibu & Anak';21/03/2023 14:26;21/03/2023 14:27;38.504s;PASSED
+startApplication(APP, false);;;21/03/2023 14:26;21/03/2023 14:27;36.586s;PASSED
+"tap(findTestObject(""Object Repository/Kategori/Ibu_Anak/android.widget.ImageView"")";;;21/03/2023 14:27;21/03/2023 14:27;1.513s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Button;;Test case tap tombol 'Filter';21/03/2023 14:27;21/03/2023 14:27;2.440s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Filter_Button/android.view.View"")";;Tap tombol 'Filter';21/03/2023 14:27;21/03/2023 14:27;1.791s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_MinMax;;Test case Filter rentang harga minimum dan maksimum;21/03/2023 14:27;21/03/2023 14:27;5.846s;PASSED
+"tap(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 9999999"")";;Tap field 'Maksimum';21/03/2023 14:27;21/03/2023 14:27;1.551s;PASSED
+"setText(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 9999999 (1)"")";" ""30000""";Input field maksimum dengan data '30000';21/03/2023 14:27;21/03/2023 14:27;0.476s;PASSED
+"tap(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 0"")";;Tap field 'Minimum';21/03/2023 14:27;21/03/2023 14:27;0.777s;PASSED
+"setText(findTestObject(""Object Repository/Filter/MinMax/android.widget.EditText - 0 (1)"")";" ""15000""";Input field minimum dengan data '15000';21/03/2023 14:27;21/03/2023 14:27;1.173s;PASSED
+pressBack();;;21/03/2023 14:27;21/03/2023 14:27;0.552s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;;21/03/2023 14:27;21/03/2023 14:27;1.053s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Submit;;Test case Filter tap tombol 'Terapkan';21/03/2023 14:27;21/03/2023 14:27;4.285s;PASSED
+"tap(findTestObject(""Object Repository/Filter/Submit_Button/android.widget.Button"")";;Tap tombol 'Terapkan';21/03/2023 14:27;21/03/2023 14:27;0.992s;PASSED
+delay(3, CONTINUE_ON_FAILURE);;;21/03/2023 14:27;21/03/2023 14:27;3.015s;PASSED

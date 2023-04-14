@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tap menu 'Akun'</description>
+   <name>TC_Profil_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>350720b8-fa2f-461a-beac-bf54729ffb18</testCaseGuid>
+</TestCaseEntity>

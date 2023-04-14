@@ -1,0 +1,15 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Hapus_Produk;Test module keranjang, menghapus produk pada keranjang;27/03/2023 11:53;27/03/2023 11:54;39.297s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_Keranjang_Home;Test case tap tombol keranjang pada homepage;27/03/2023 11:53;27/03/2023 11:53;30.326s;PASSED
+startApplication(APP, false);;27/03/2023 11:53;27/03/2023 11:53;27.462s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Keranjang Home"")";Tap tombol 'Keranjang';27/03/2023 11:53;27/03/2023 11:53;2.433s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_BatalHapus_Produk;Test case batal hapus produk;27/03/2023 11:53;27/03/2023 11:53;2.668s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Hapus Produk"")";Tap tombol 'Hapus' pada salah satu produk;27/03/2023 11:53;27/03/2023 11:53;1.298s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Batal Hapus Produk"")";Tap 'Tidak' pada pop-up konfirmasi hapus produk;27/03/2023 11:53;27/03/2023 11:53;0.905s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_Hapus_Produk;Test case hapus 1 produk;27/03/2023 11:53;27/03/2023 11:54;5.894s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Hapus Produk"")";Tap tombol 'Hapus' pada salah satu produk;27/03/2023 11:53;27/03/2023 11:53;0.764s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Konfirmasi Hapus Produk"")";Tap 'Ya' pada pop-up konfirmasi hapus produk;27/03/2023 11:53;27/03/2023 11:53;0.895s;PASSED
+delay(4, CONTINUE_ON_FAILURE);;27/03/2023 11:53;27/03/2023 11:54;4.043s;PASSED

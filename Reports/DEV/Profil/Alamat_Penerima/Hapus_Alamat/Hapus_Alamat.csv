@@ -1,0 +1,17 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Hapus_Alamat;Test module Profile menghapus Alamat penerima;29/03/2023 08:57;29/03/2023 08:58;35.989s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';29/03/2023 08:57;29/03/2023 08:58;27.664s;PASSED
+startApplication(APP;;29/03/2023 08:57;29/03/2023 08:58;26.121s;PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun"")";Tap menu 'Akun';29/03/2023 08:58;29/03/2023 08:58;1.214s;PASSED
+;;;;;
+Test Cases/Profil/Alamat_Penerima/TC_Alamat_Button;Test case Profil tap tombol 'Alamat Penerima';29/03/2023 08:58;29/03/2023 08:58;3.682s;PASSED
+swipe(100, 400, 0, 0);;29/03/2023 08:58;29/03/2023 08:58;1.121s;PASSED
+delay(1;;29/03/2023 08:58;29/03/2023 08:58;1.049s;PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima"")";Tap tombol 'Alamat Penerima';29/03/2023 08:58;29/03/2023 08:58;1.136s;PASSED
+;;;;;
+Test Cases/Profil/Alamat_Penerima/TC_Hapus_Alamat;Test Case Profil menghapus alamat penerima;29/03/2023 08:58;29/03/2023 08:58;4.316s;PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Hapus Alamat 1"")";"Tap tombol ""Hapus"" Alamat";29/03/2023 08:58;29/03/2023 08:58;1.214s;PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Batal Hapus"")";Tap tombol 'Tidak' pada pop-up konfirmasi hapus alamat;29/03/2023 08:58;29/03/2023 08:58;0.914s;PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Hapus Alamat 3"")";"Tap tombol ""Hapus"" Alamat";29/03/2023 08:58;29/03/2023 08:58;0.966s;PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Setuju Hapus"")";Tap tombol 'Ya' pada pop-up konfirmasi hapus alamat;29/03/2023 08:58;29/03/2023 08:58;0.957s;PASSED

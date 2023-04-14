@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Rekening Bank, gagal simpan rekening bank</description>
+   <name>TC_Submit_Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42ad9c26-e45f-4fa5-8a26-518b5f0c71cd</testCaseGuid>
+</TestCaseEntity>

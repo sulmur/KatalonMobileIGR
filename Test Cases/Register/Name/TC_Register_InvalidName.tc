@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case register dengan requirement nama yang salah (di bawah 3 karakter)</description>
+   <name>TC_Register_InvalidName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb249ff8-18d4-42ec-9281-c8a49bbd5961</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Filter_Max;;Test module Filter mencari rentang harga maksimum;12/04/2023 06:43;12/04/2023 06:44;41.802s;PASSED
+;;;;;;
+Test Cases/Kategori/TC_Kategori_IbuAnak;;Test case kategori jenis produk 'Ibu & Anak';12/04/2023 06:43;12/04/2023 06:44;27.402s;PASSED
+startApplication(APP;;;12/04/2023 06:43;12/04/2023 06:44;22.485s;PASSED
+"tap(findTestObject(""Kategori/Ibu dan Anak"")";;Tap jenis kategori 'Ibu & Anak';12/04/2023 06:44;12/04/2023 06:44;2.584s;PASSED
+delay(2;;;12/04/2023 06:44;12/04/2023 06:44;2.040s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Button;;Test case tap tombol 'Filter';12/04/2023 06:44;12/04/2023 06:44;0.539s;PASSED
+"tap(findTestObject(""Filter/Tombol Filter"")";;Tap tombol 'Filter';12/04/2023 06:44;12/04/2023 06:44;0.285s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Max;;Test case Filter harga maksimum;12/04/2023 06:44;12/04/2023 06:44;4.210s;PASSED
+"tap(findTestObject(""Filter/Harga Maksimum"")";;Tap field 'Maksimum';12/04/2023 06:44;12/04/2023 06:44;1.928s;PASSED
+"setText(findTestObject(""Filter/Harga Maksimum"")";" ""40000""";Input data '40000' pada field Maksimum;12/04/2023 06:44;12/04/2023 06:44;0.445s;PASSED
+pressBack();;;12/04/2023 06:44;12/04/2023 06:44;0.559s;PASSED
+delay(1;;;12/04/2023 06:44;12/04/2023 06:44;1.005s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Submit;;Test case Filter tap tombol 'Terapkan';12/04/2023 06:44;12/04/2023 06:44;9.421s;PASSED
+"tap(findTestObject(""Filter/Tombol Terapkan"")";;Tap tombol 'Terapkan';12/04/2023 06:44;12/04/2023 06:44;1.562s;PASSED
+delay(2;;;12/04/2023 06:44;12/04/2023 06:44;2.007s;PASSED
+swipe(100, 600, 0, 0);;;12/04/2023 06:44;12/04/2023 06:44;1.043s;PASSED
+"takeScreenshotAsCheckpoint(""Filter.png""";;;12/04/2023 06:44;12/04/2023 06:44;1.544s;PASSED
+delay(3;;;12/04/2023 06:44;12/04/2023 06:44;3.018s;PASSED

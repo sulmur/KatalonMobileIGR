@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case dengan email yang valid</description>
+   <name>TC_Register_ValidEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7f8cb73-49c8-48a6-88b4-15196882fa56</testCaseGuid>
+</TestCaseEntity>

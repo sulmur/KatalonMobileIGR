@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case bayar dengan VA Mandiri</description>
+   <name>TC_Bayar_Mandiri</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdfa1a8b-e78d-4473-a4a1-7706f3e6c908</testCaseGuid>
+</TestCaseEntity>

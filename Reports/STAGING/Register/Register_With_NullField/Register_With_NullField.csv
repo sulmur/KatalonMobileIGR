@@ -1,0 +1,13 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Register_With_NullField;Test module register dengan semua field kosong;20/03/2023 10:47;20/03/2023 10:48;35.485s;PASSED
+;;;;;
+Test Cases/Register/Redirect_to_RegisterPage;Test case register, redirect to register page;20/03/2023 10:47;20/03/2023 10:48;29.896s;PASSED
+startApplication(APP, false);;20/03/2023 10:47;20/03/2023 10:48;25.199s;PASSED
+"tap(findTestObject(""Object Repository/Register/Redirect_To_RegisterPage/android.view.View"")";Tap menu Akun;20/03/2023 10:48;20/03/2023 10:48;1.227s;PASSED
+"tap(findTestObject(""Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button"")";Tap tombol Register;20/03/2023 10:48;20/03/2023 10:48;1.067s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;20/03/2023 10:48;20/03/2023 10:48;2.040s;PASSED
+;;;;;
+Test Cases/Register/Register_NullField;Register account with empty field;20/03/2023 10:48;20/03/2023 10:48;5.272s;PASSED
+swipe(100, 400, 0, 0);scroll ke tombol 'Daftar';20/03/2023 10:48;20/03/2023 10:48;1.056s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;20/03/2023 10:48;20/03/2023 10:48;1.018s;PASSED
+"tap(findTestObject(""Object Repository/Register/Register_NullField/android.widget.Button (1)"")";Tap tombol 'Daftar';20/03/2023 10:48;20/03/2023 10:48;2.973s;PASSED

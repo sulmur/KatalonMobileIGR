@@ -1,0 +1,32 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Hapus_Keranjang_Search;;Test module Search hapus produk pada keranjang melalui menu Search;28/03/2023 09:33;28/03/2023 09:34;52.947s;PASSED
+;;;;;;
+Test Cases/Search/TC_Search_Button;;Test case cek fungsi tombol/field search;28/03/2023 09:33;28/03/2023 09:34;32.560s;PASSED
+startApplication(APP;;Buka aplikasi Klik Indogrosir;28/03/2023 09:33;28/03/2023 09:34;25.004s;PASSED
+"tap(findTestObject(""Search/Pesan Ulang/Pesan Ulang 1"")";;Tap tombol 'Pesan Ulang';28/03/2023 09:34;28/03/2023 09:34;2.050s;PASSED
+delay(2;;;28/03/2023 09:34;28/03/2023 09:34;2.044s;PASSED
+"tap(findTestObject(""Search/Pesan Ulang/Tutup Pesan Ulang"")";;Tap tombol 'Tutup' pada pop-up berhasil pesan ulang;28/03/2023 09:34;28/03/2023 09:34;1.040s;PASSED
+delay(1;;;28/03/2023 09:34;28/03/2023 09:34;1.007s;PASSED
+"tap(findTestObject(""Search/Menu Search"")";;Tap menu 'Search';28/03/2023 09:34;28/03/2023 09:34;1.067s;PASSED
+;;;;;;
+Test Cases/Search/TC_Search_Keranjang;;Test case cek tombol icon keranjang pada laman search;28/03/2023 09:34;28/03/2023 09:34;16.020s;PASSED
+"tap(findTestObject(""Search/Tambah Keranjang"")";;Tap icon 'Keranjang' pada menu Search;28/03/2023 09:34;28/03/2023 09:34;1.214s;PASSED
+"tap(findTestObject(""Search/Keranjang/Kurangi Produk 1"")";;Tap icon '-';28/03/2023 09:34;28/03/2023 09:34;1.493s;PASSED
+"tap(findTestObject(""Search/Keranjang/Perbaharui"")";;Tap tombol 'Perbaharui';28/03/2023 09:34;28/03/2023 09:34;0.730s;PASSED
+delay(1;;;28/03/2023 09:34;28/03/2023 09:34;1.015s;PASSED
+"tap(findTestObject(""Search/Keranjang/Tambah Produk 1"")";;Tap icon '+';28/03/2023 09:34;28/03/2023 09:34;1.308s;PASSED
+"tap(findTestObject(""Search/Keranjang/Perbaharui"")";;Tap tombol 'Perbaharui';28/03/2023 09:34;28/03/2023 09:34;0.749s;PASSED
+delay(1;;;28/03/2023 09:34;28/03/2023 09:34;1.016s;PASSED
+"tap(findTestObject(""Search/Keranjang/Edit Produk 1"")";;Tap 'Jumlah produk' pada baris pertama;28/03/2023 09:34;28/03/2023 09:34;1.175s;PASSED
+"tap(findTestObject(""Search/Keranjang/Field Edit Produk"")";;Tap Field 'Edit Produk';28/03/2023 09:34;28/03/2023 09:34;1.470s;PASSED
+"setText(findTestObject(""Search/Keranjang/Field Edit Produk"")";" ""4""";Input data pada field 'Edit Produk';28/03/2023 09:34;28/03/2023 09:34;0.399s;PASSED
+"tap(findTestObject(""Search/Keranjang/Simpan Edit Produk"")";;Tap tombol 'Simpan' edit produk;28/03/2023 09:34;28/03/2023 09:34;1.327s;PASSED
+delay(1;;;28/03/2023 09:34;28/03/2023 09:34;1.004s;PASSED
+"tap(findTestObject(""Search/Keranjang/Perbaharui"")";;Tap tombol 'Perbaharui';28/03/2023 09:34;28/03/2023 09:34;0.752s;PASSED
+delay(2;;;28/03/2023 09:34;28/03/2023 09:34;2.012s;PASSED
+;;;;;;
+Test Cases/Search/TC_Hapus_Keranjang_Search;;Test case cek fungsi hapus keranjang pada menu search;28/03/2023 09:34;28/03/2023 09:34;3.905s;PASSED
+"tap(findTestObject(""Search/Keranjang/Hapus Produk/Hapus Produk 1"")";;Tap tombol 'Hapus' pada produk baris pertama;28/03/2023 09:34;28/03/2023 09:34;0.934s;PASSED
+"tap(findTestObject(""Search/Keranjang/Hapus Produk/Batal Hapus"")";;Tap tombol 'Tidak' pada konfirmasi hapus produk;28/03/2023 09:34;28/03/2023 09:34;0.907s;PASSED
+"tap(findTestObject(""Search/Keranjang/Hapus Produk/Hapus Produk 1"")";;Tap tombol 'Hapus' pada produk baris pertama;28/03/2023 09:34;28/03/2023 09:34;0.881s;PASSED
+"tap(findTestObject(""Search/Keranjang/Hapus Produk/Setuju Hapus"")";;Tap tombol 'Ya' pada konfirmasi hapus produk;28/03/2023 09:34;28/03/2023 09:34;0.958s;PASSED

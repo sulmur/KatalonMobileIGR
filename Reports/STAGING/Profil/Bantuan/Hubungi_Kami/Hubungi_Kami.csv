@@ -1,0 +1,12 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Hubungi_Kami;Test module Profil skenario melihat menu Hubungi Kami;24/03/2023 16:14;24/03/2023 16:15;31.643s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';24/03/2023 16:14;24/03/2023 16:15;26.691s;PASSED
+startApplication(APP;;24/03/2023 16:14;24/03/2023 16:15;23.919s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Profil_Button/android.view.View"")";Tap menu 'Akun';24/03/2023 16:15;24/03/2023 16:15;2.463s;PASSED
+;;;;;
+Test Cases/Profil/TC_Hubungi_Kami;Test module Profil skenario melihat menu Hubungi Kami;24/03/2023 16:15;24/03/2023 16:15;4.714s;PASSED
+swipe(100, 600, 0, 0);;24/03/2023 16:15;24/03/2023 16:15;1.081s;PASSED
+delay(1;;24/03/2023 16:15;24/03/2023 16:15;1.049s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Hubungi Kami"")";Tap menu 'Hubungi Kami';24/03/2023 16:15;24/03/2023 16:15;0.271s;PASSED
+delay(2;;24/03/2023 16:15;24/03/2023 16:15;2.015s;PASSED

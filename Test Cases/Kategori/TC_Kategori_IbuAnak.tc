@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case kategori jenis produk 'Ibu &amp; Anak'</description>
+   <name>TC_Kategori_IbuAnak</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69dc4acd-ac6f-4357-b9cd-f25c6f0cf2d1</testCaseGuid>
+</TestCaseEntity>

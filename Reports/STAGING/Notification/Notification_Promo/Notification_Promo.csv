@@ -1,0 +1,9 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Notification_Promo;Test module Notifikasi cek promo;27/03/2023 09:01;27/03/2023 09:01;30.193s;PASSED
+;;;;;
+Test Cases/Notification/TC_Notifikasi_Promo;Test case cek notifikasi promo;27/03/2023 09:01;27/03/2023 09:01;29.957s;PASSED
+startApplication(APP;;27/03/2023 09:01;27/03/2023 09:01;21.807s;PASSED
+delay(2;;27/03/2023 09:01;27/03/2023 09:01;2.069s;PASSED
+"tap(findTestObject(""Notification/Menu Notifikasi"")";tap menu 'Notifikasi';27/03/2023 09:01;27/03/2023 09:01;1.387s;PASSED
+"tap(findTestObject(""Notification/Promo Weekend Food"")";tap salah satu notifikasi 'promo weekend food';27/03/2023 09:01;27/03/2023 09:01;1.381s;PASSED
+delay(3;;27/03/2023 09:01;27/03/2023 09:01;3.005s;PASSED

@@ -1,0 +1,31 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+SMobil_BNI;Test module Checkout produk, Pengiriman Sameday Mobil, Pembayaran VA BNI;03/04/2023 07:02;03/04/2023 07:04;1m - 20.399s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang;Test case cek fungsi pesan ulang produk;03/04/2023 07:02;03/04/2023 07:03;44.243s;PASSED
+startApplication(APP;;03/04/2023 07:02;03/04/2023 07:03;36.687s;PASSED
+"tap(findTestObject(""Homepage/Pesan Ulang 1"")";"Tap tombol ""Pesan Ulang"" pada homepage";03/04/2023 07:03;03/04/2023 07:03;1.695s;PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang"")";"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang";03/04/2023 07:03;03/04/2023 07:03;1.069s;PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1"")";"Tap tombol icon ""Keranjang"" pada homepage";03/04/2023 07:03;03/04/2023 07:03;1.243s;PASSED
+delay(3;;03/04/2023 07:03;03/04/2023 07:03;3.044s;PASSED
+;;;;;
+Test Cases/Checkout/Pengiriman/TC_Sameday_Mobil;Test case pengiriman sameday mobil;03/04/2023 07:03;03/04/2023 07:03;17.964s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Panah Ke atas Ringkasan Belanja"")";Tap icon 'panah ke atas';03/04/2023 07:03;03/04/2023 07:03;0.406s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman"")";Tap tombol 'Pengiriman';03/04/2023 07:03;03/04/2023 07:03;1.506s;PASSED
+delay(5;;03/04/2023 07:03;03/04/2023 07:03;5.014s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Indopaket Mobil SAMEDAY"")";Tap opsi pengiriman 'Sameday Mobil';03/04/2023 07:03;03/04/2023 07:03;4.530s;PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran"")";Tap tombol 'Pembayaran';03/04/2023 07:03;03/04/2023 07:03;2.158s;PASSED
+delay(4;;03/04/2023 07:03;03/04/2023 07:03;4.014s;PASSED
+;;;;;
+Test Cases/Checkout/Pembayaran/TC_Bayar_BNI;test case pembayaran dengan VA BNI;03/04/2023 07:03;03/04/2023 07:03;2.554s;PASSED
+swipe(0, 475, 0, 0);;03/04/2023 07:03;03/04/2023 07:03;1.070s;PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA BNI"")";Pilih opsi 'Virtual Account BNI';03/04/2023 07:03;03/04/2023 07:03;1.185s;PASSED
+;;;;;
+Test Cases/Checkout/TC_Checkout;Test case tap tombol Checkout;03/04/2023 07:03;03/04/2023 07:04;15.255s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout"")";Tap tombol 'Checkout';03/04/2023 07:03;03/04/2023 07:03;1.076s;PASSED
+delay(7;;03/04/2023 07:03;03/04/2023 07:03;7.018s;PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png""";Ambil screenshot;03/04/2023 07:03;03/04/2023 07:04;0.799s;PASSED
+swipe(0, 600, 0, 0);;03/04/2023 07:04;03/04/2023 07:04;1.098s;PASSED
+delay(1;;03/04/2023 07:04;03/04/2023 07:04;1.019s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran"")";Tap tombol 'Lihat cara pembayaran';03/04/2023 07:04;03/04/2023 07:04;1.207s;PASSED
+delay(1;;03/04/2023 07:04;03/04/2023 07:04;1.016s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout"")";Tap icon 'Back' dari laman Lihat Cara Pembayaran;03/04/2023 07:04;03/04/2023 07:04;1.696s;PASSED

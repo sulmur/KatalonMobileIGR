@@ -1,0 +1,49 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+NextMobil_Mandiri;Test module checkout produk, pengiriman nextday mobil, pembayaran VA Mandiri;12/04/2023 07:56;12/04/2023 07:57;1m - 32.073s;PASSED
+;;;;;
+Test Cases/Checkout/Keranjang/TC_NEW_Tambah_Keranjang;Test case menambah produk ke keranjang;12/04/2023 07:56;12/04/2023 07:57;47.695s;PASSED
+startApplication(APP;;12/04/2023 07:56;12/04/2023 07:56;22.047s;PASSED
+"tap(findTestObject(""Kategori/Ibu dan Anak"")";Tap Jenis Kategori 'Ibu & Anak';12/04/2023 07:56;12/04/2023 07:56;2.038s;PASSED
+delay(2;;12/04/2023 07:56;12/04/2023 07:56;2.041s;PASSED
+"tap(findTestObject(""Sorting/Tombol Sort"")";Tap tombol 'Sort';12/04/2023 07:56;12/04/2023 07:56;1.050s;PASSED
+"tap(findTestObject(""Sorting/Harga Termahal"")";Tap opsi 'Harga Termahal';12/04/2023 07:56;12/04/2023 07:56;1.392s;PASSED
+delay(1;;12/04/2023 07:56;12/04/2023 07:56;1.014s;PASSED
+swipe(100, 400, 0, 0);;12/04/2023 07:56;12/04/2023 07:56;1.093s;PASSED
+delay(1;;12/04/2023 07:56;12/04/2023 07:56;1.008s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Tambah Keranjang Enfagrow Susu 800g"")";Tap tombol '+ Keranjang' pada salah satu produk kategori Ibu & Anak;12/04/2023 07:56;12/04/2023 07:56;2.099s;PASSED
+delay(1;;12/04/2023 07:56;12/04/2023 07:56;1.010s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Tambah Produk"")";Tap icon '+' untuk menambah jumlah produk;12/04/2023 07:56;12/04/2023 07:57;0.899s;PASSED
+delay(1;;12/04/2023 07:57;12/04/2023 07:57;1.014s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Tambah Keranjang"")";Tap tombol '+ Keranjang' untuk menambah produk ke menu Keranjang;12/04/2023 07:57;12/04/2023 07:57;3.203s;PASSED
+delay(3;;12/04/2023 07:57;12/04/2023 07:57;3.015s;PASSED
+"tap(findTestObject(""Kategori/Ibu_Anak/Keranjang Ibu dan Anak 1"")";Tap icon 'Keranjang' untuk masuk ke menu 'Keranjang';12/04/2023 07:57;12/04/2023 07:57;1.348s;PASSED
+delay(3;;12/04/2023 07:57;12/04/2023 07:57;3.005s;PASSED
+;;;;;
+Test Cases/Checkout/Pengiriman/TC_Nextday_Mobil;Test case pengiriman dengan opsi nextday mobil;12/04/2023 07:57;12/04/2023 07:57;22.418s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Panah Ke atas Ringkasan Belanja"")";Tap icon 'panah ke atas';12/04/2023 07:57;12/04/2023 07:57;0.903s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman"")";Tap tombol 'Pengiriman';12/04/2023 07:57;12/04/2023 07:57;1.030s;PASSED
+delay(8;;12/04/2023 07:57;12/04/2023 07:57;8.014s;PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran"")";Tap tombol 'Pembayaran';12/04/2023 07:57;12/04/2023 07:57;0.769s;PASSED
+"takeScreenshotAsCheckpoint(""Belum pilih pengiriman.png""";;12/04/2023 07:57;12/04/2023 07:57;1.811s;PASSED
+swipe(0, 600, 0, 0);Scroll ke bawah;12/04/2023 07:57;12/04/2023 07:57;1.040s;PASSED
+delay(3;;12/04/2023 07:57;12/04/2023 07:57;3.016s;PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Indopaket Mobil NEXTDAY"")";Tap opsi pengiriman 'Nextday Mobil';12/04/2023 07:57;12/04/2023 07:57;0.796s;PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran"")";Tap tombol 'Pembayaran';12/04/2023 07:57;12/04/2023 07:57;0.791s;PASSED
+delay(4;;12/04/2023 07:57;12/04/2023 07:57;4.006s;PASSED
+;;;;;
+Test Cases/Checkout/Pembayaran/TC_Bayar_Mandiri;Test case bayar dengan VA Mandiri;12/04/2023 07:57;12/04/2023 07:57;7.985s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout"")";;12/04/2023 07:57;12/04/2023 07:57;3.010s;PASSED
+"takeScreenshotAsCheckpoint(""Gagal Checkout.png""";;12/04/2023 07:57;12/04/2023 07:57;1.519s;PASSED
+swipe(0, 475, 0, 0);;12/04/2023 07:57;12/04/2023 07:57;1.058s;PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA Mandiri"")";Pilih opsi 'Virtual Account Mandiri';12/04/2023 07:57;12/04/2023 07:57;1.212s;PASSED
+"takeScreenshot(getReportFolder() + ""VA Mandiri.png""";;12/04/2023 07:57;12/04/2023 07:57;0.900s;PASSED
+;;;;;
+Test Cases/Checkout/TC_Checkout;Test case tap tombol Checkout;12/04/2023 07:57;12/04/2023 07:57;13.678s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout"")";Tap tombol 'Checkout';12/04/2023 07:57;12/04/2023 07:57;1.061s;PASSED
+delay(5;;12/04/2023 07:57;12/04/2023 07:57;5.008s;PASSED
+"takeScreenshotAsCheckpoint(""Checkout.png""";;12/04/2023 07:57;12/04/2023 07:57;1.478s;PASSED
+swipe(0, 600, 0, 0);;12/04/2023 07:57;12/04/2023 07:57;1.030s;PASSED
+delay(1;;12/04/2023 07:57;12/04/2023 07:57;1.010s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran"")";Tap tombol 'Lihat cara pembayaran';12/04/2023 07:57;12/04/2023 07:57;1.183s;PASSED
+delay(1;;12/04/2023 07:57;12/04/2023 07:57;1.013s;PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout"")";Tap icon 'Back' dari laman Lihat Cara Pembayaran;12/04/2023 07:57;12/04/2023 07:57;1.670s;PASSED

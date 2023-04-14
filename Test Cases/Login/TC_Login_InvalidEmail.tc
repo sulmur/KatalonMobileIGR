@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login gagal dengan email yang salah/tidak terdaftar</description>
+   <name>TC_Login_InvalidEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2ba94d5-3ed7-4801-bb5d-f795aca8e275</testCaseGuid>
+</TestCaseEntity>

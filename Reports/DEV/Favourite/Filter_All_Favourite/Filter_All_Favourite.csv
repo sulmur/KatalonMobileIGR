@@ -1,0 +1,21 @@
+Suite/Test/Step Name;Browser;Description;Tag;Start time;End time;Duration;Status
+Filter_All_Favourite;;Test module Favorit cek fungsi semua fitur pada filter;;28/03/2023 07:18;28/03/2023 07:19;49.547s;PASSED
+;;;;;;;
+Test Cases/Favourite/TC_Menu_Favourite;;Test case cek menu favorit;;28/03/2023 07:18;28/03/2023 07:19;35.514s;PASSED
+startApplication(APP;;;;28/03/2023 07:18;28/03/2023 07:19;33.572s;PASSED
+"tap(findTestObject(""Favourite/Menu Favorit"")";;Tap menu Favorit;;28/03/2023 07:19;28/03/2023 07:19;1.580s;PASSED
+;;;;;;;
+Test Cases/Favourite/Filter/TC_AllFilter_Favourite;;Test case cek fitur semua filter list Favorite;;28/03/2023 07:19;28/03/2023 07:19;13.727s;PASSED
+"tap(findTestObject(""Favourite/Filter/Filter Button"")";;Tap tombol 'Filter';;28/03/2023 07:19;28/03/2023 07:19;1.036s;PASSED
+"tap(findTestObject(""Favourite/Filter/Back to Favourite"")";;Tap tombol 'Back';;28/03/2023 07:19;28/03/2023 07:19;1.342s;PASSED
+"tap(findTestObject(""Favourite/Filter/Filter Button"")";;Tap tombol 'Filter';;28/03/2023 07:19;28/03/2023 07:19;1.018s;PASSED
+"tap(findTestObject(""Favourite/Filter/Filter ABC"")";;Pilih filter produk 'ABC';;28/03/2023 07:19;28/03/2023 07:19;0.712s;PASSED
+"tap(findTestObject(""Favourite/Filter/Filter Indomie"")";;Pilih filter produk 'Indomie';;28/03/2023 07:19;28/03/2023 07:19;0.684s;PASSED
+"tap(findTestObject(""Favourite/Filter/Harga Minimum"")";;Tap field 'Harga Minimum';;28/03/2023 07:19;28/03/2023 07:19;1.127s;PASSED
+"setText(findTestObject(""Favourite/Filter/Harga Minimum"")";" ""6000""";Input data pada field 'Harga Minimum';;28/03/2023 07:19;28/03/2023 07:19;0.467s;PASSED
+"tap(findTestObject(""Favourite/Filter/Harga Maksimum"")";;Tap field 'Harga Maksimum';;28/03/2023 07:19;28/03/2023 07:19;0.836s;PASSED
+"setText(findTestObject(""Favourite/Filter/Harga Maksimum"")";" ""15000""";Input data pada field 'Harga Maksimum';;28/03/2023 07:19;28/03/2023 07:19;1.043s;PASSED
+pressBack();;;;28/03/2023 07:19;28/03/2023 07:19;0.578s;PASSED
+"tap(findTestObject(""Favourite/Filter/Submit Button"")";;Tap tombol 'Terapkan';;28/03/2023 07:19;28/03/2023 07:19;1.466s;PASSED
+delay(2;;;;28/03/2023 07:19;28/03/2023 07:19;2.039s;PASSED
+swipe(100, 600, 0, 0);;;;28/03/2023 07:19;28/03/2023 07:19;1.056s;PASSED

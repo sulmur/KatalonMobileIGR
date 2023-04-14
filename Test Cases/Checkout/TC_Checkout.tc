@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tap tombol Checkout</description>
+   <name>TC_Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1178b09-2d9d-4751-993f-f3d45994107a</testCaseGuid>
+</TestCaseEntity>

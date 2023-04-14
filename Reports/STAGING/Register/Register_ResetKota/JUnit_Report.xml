@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register_ResetKota" time="48.702" tests="2" failures="0" errors="0">
+   <testsuite name="Register_ResetKota" tests="2" failures="0" errors="0" time="48.702" skipped="0" timestamp="2023-03-21 09:31:02" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Register/Address/Register_ResetKota">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_093052\\Register\\Address\\Register_ResetKota\\20230321_093052"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_093052\\Register\\Address\\Register_ResetKota\\20230321_093052\\appium.log, C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_093052\\Register\\Address\\Register_ResetKota\\20230321_093052\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Register/Redirect_to_RegisterPage" time="37.773" classname="Test Cases/Register/Redirect_to_RegisterPage" status="PASSED">
+         <system-out><![CDATA[2023-03-21 09:31:03 - [TEST_CASE][PASSED] - Test Cases/Register/Redirect_to_RegisterPage: Test Cases/Register/Redirect_to_RegisterPage
+
+2023-03-21 09:31:03 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-21 09:31:03 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-03-21 09:31:04 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-21 09:31:05 - [MESSAGE][INFO] - Appium server started on port 59,098
+
+2023-03-21 09:31:37 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-21 09:31:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Redirect_To_RegisterPage/android.view.View"), 0): Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.view.View'
+
+2023-03-21 09:31:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.view.View'
+
+2023-03-21 09:31:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button"), 0): Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button'
+
+2023-03-21 09:31:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button'
+
+2023-03-21 09:31:39 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-21 09:31:40 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Address/TC_Reset_Kota" time="10.645" classname="Test Cases/Register/Address/TC_Reset_Kota" status="PASSED">
+         <system-out><![CDATA[2023-03-21 09:31:40 - [TEST_CASE][PASSED] - Test Cases/Register/Address/TC_Reset_Kota: Test Cases/Register/Address/TC_Reset_Kota
+
+2023-03-21 09:31:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View'
+
+2023-03-21 09:31:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View'
+
+2023-03-21 09:31:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (1)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (1)'
+
+2023-03-21 09:31:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (1)'
+
+2023-03-21 09:31:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (2)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (2)'
+
+2023-03-21 09:31:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (2)'
+
+2023-03-21 09:31:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (3)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (3)'
+
+2023-03-21 09:31:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (3)'
+
+2023-03-21 09:31:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (4)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (4)'
+
+2023-03-21 09:31:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (4)'
+
+2023-03-21 09:31:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (5)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (5)'
+
+2023-03-21 09:31:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (5)'
+
+2023-03-21 09:31:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (6)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (6)'
+
+2023-03-21 09:31:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (6)'
+
+2023-03-21 09:31:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (7)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (7)'
+
+2023-03-21 09:31:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (7)'
+
+2023-03-21 09:31:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (8)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (8)'
+
+2023-03-21 09:31:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (8)'
+
+2023-03-21 09:31:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Address/Register_ResetKota/android.view.View (9)"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (9)'
+
+2023-03-21 09:31:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 09:31:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetKota/android.view.View (9)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-21 09:31:02 - [TEST_SUITE][PASSED] - Register_ResetKota: Test Cases/Register/Address/TC_Reset_Kota]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+No_Filter;Test module Filter tanpa memilih semua fungsi filter produk;12/04/2023 06:48;12/04/2023 06:49;38.079s;PASSED
+;;;;;
+Test Cases/Kategori/TC_Kategori_IbuAnak;Test case kategori jenis produk 'Ibu & Anak';12/04/2023 06:48;12/04/2023 06:49;27.192s;PASSED
+startApplication(APP;;12/04/2023 06:48;12/04/2023 06:49;22.909s;PASSED
+"tap(findTestObject(""Kategori/Ibu dan Anak"")";Tap jenis kategori 'Ibu & Anak';12/04/2023 06:49;12/04/2023 06:49;1.942s;PASSED
+delay(2;;12/04/2023 06:49;12/04/2023 06:49;2.041s;PASSED
+;;;;;
+Test Cases/Filter/TC_Filter_Button;Test case tap tombol 'Filter';12/04/2023 06:49;12/04/2023 06:49;1.245s;PASSED
+"tap(findTestObject(""Filter/Tombol Filter"")";Tap tombol 'Filter';12/04/2023 06:49;12/04/2023 06:49;1.009s;PASSED
+;;;;;
+Test Cases/Filter/TC_Filter_Submit;Test case Filter tap tombol 'Terapkan';12/04/2023 06:49;12/04/2023 06:49;9.411s;PASSED
+"tap(findTestObject(""Filter/Tombol Terapkan"")";Tap tombol 'Terapkan';12/04/2023 06:49;12/04/2023 06:49;1.545s;PASSED
+delay(2;;12/04/2023 06:49;12/04/2023 06:49;2.018s;PASSED
+swipe(100, 600, 0, 0);;12/04/2023 06:49;12/04/2023 06:49;1.073s;PASSED
+"takeScreenshotAsCheckpoint(""Filter.png""";;12/04/2023 06:49;12/04/2023 06:49;1.571s;PASSED
+delay(3;;12/04/2023 06:49;12/04/2023 06:49;3.015s;PASSED

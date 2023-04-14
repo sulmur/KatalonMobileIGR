@@ -1,0 +1,35 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Ambil_DiToko_BNI;Test module checkout, pengiriman ambil di grosir, pembayaran lewat VA BNI;20/03/2023 16:53;20/03/2023 16:54;1m - 15.583s;PASSED
+;;;;;
+Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk;;20/03/2023 16:53;20/03/2023 16:54;44.776s;PASSED
+startApplication(APP, false);;20/03/2023 16:53;20/03/2023 16:53;25.492s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.ImageView"")";Tap Jenis Kategori 'Lebaran 2023';20/03/2023 16:53;20/03/2023 16:53;2.543s;PASSED
+delay(2;;20/03/2023 16:53;20/03/2023 16:53;2.047s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button"")";Tap tombol '+ Keranjang' pada produk 'Monde Biskuit Butter Cookies KLG 454g';20/03/2023 16:53;20/03/2023 16:53;1.642s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"")";Tap icon '+' untuk menambah jumlah produk;20/03/2023 16:53;20/03/2023 16:53;0.929s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"")";Tap icon '+' untuk menambah jumlah produk;20/03/2023 16:53;20/03/2023 16:54;1.275s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.view.View"")";Tap tombol '+ Keranjang' untuk menambah produk ke menu Keranjang;20/03/2023 16:54;20/03/2023 16:54;3.449s;PASSED
+delay(3,  STOP_ON_FAILURE);;20/03/2023 16:54;20/03/2023 16:54;3.006s;PASSED
+"tap(findTestObject(""Checkout/Tambah_Keranjang/Icon_Keranjang/android.widget.Button"")";Tap icon 'Keranjang' untuk masuk ke menu 'Keranjang';20/03/2023 16:54;20/03/2023 16:54;1.060s;PASSED
+delay(3, STOP_ON_FAILURE);;20/03/2023 16:54;20/03/2023 16:54;3.004s;PASSED
+;;;;;
+Test Cases/Checkout/Pengiriman/TC_Ambil_DiGrosir;Test case Checkout dengan opsi pengiriman ambil di grosir;20/03/2023 16:54;20/03/2023 16:54;12.807s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Ambil_Di_Grosir/android.widget.Button (1)"")";Tap icon 'panah ke atas';20/03/2023 16:54;20/03/2023 16:54;0.914s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Ambil_Di_Grosir/android.widget.Button (2)"")";Tap tombol 'Pengiriman';20/03/2023 16:54;20/03/2023 16:54;1.069s;PASSED
+delay(4, STOP_ON_FAILURE);;20/03/2023 16:54;20/03/2023 16:54;4.004s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Ambil_Di_Grosir/android.widget.ImageView"")";Tap opsi pengiriman 'Ambil di Grosir';20/03/2023 16:54;20/03/2023 16:54;1.746s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pengiriman/Ambil_Di_Grosir/android.widget.Button (3)"")";Tap tombol 'Pembayaran';20/03/2023 16:54;20/03/2023 16:54;0.769s;PASSED
+delay(4, STOP_ON_FAILURE);;20/03/2023 16:54;20/03/2023 16:54;4.004s;PASSED
+;;;;;
+Test Cases/Checkout/Pembayaran/TC_Bayar_BNI;test case pembayaran dengan VA BNI;20/03/2023 16:54;20/03/2023 16:54;2.654s;PASSED
+swipe(0, 475, 0, 0);;20/03/2023 16:54;20/03/2023 16:54;1.108s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Pembayaran/BNI/android.widget.ImageView"")";Pilih opsi 'Virtual Account BNI';20/03/2023 16:54;20/03/2023 16:54;1.300s;PASSED
+;;;;;
+Test Cases/Checkout/TC_Checkout;Test case tap tombol Checkout;20/03/2023 16:54;20/03/2023 16:54;15.047s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button"")";Tap tombol 'Checkout';20/03/2023 16:54;20/03/2023 16:54;1.146s;PASSED
+delay(7, CONTINUE_ON_FAILURE);;20/03/2023 16:54;20/03/2023 16:54;7.006s;PASSED
+swipe(0, 600, 0, 0);;20/03/2023 16:54;20/03/2023 16:54;1.043s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;20/03/2023 16:54;20/03/2023 16:54;1.006s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.view.View"")";Tap tombol 'Lihat cara pembayaran';20/03/2023 16:54;20/03/2023 16:54;1.150s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;20/03/2023 16:54;20/03/2023 16:54;1.009s;PASSED
+"tap(findTestObject(""Object Repository/Checkout/Checkout/android.widget.Button (1)"")";Tap icon 'Back' dari laman Lihat Cara Pembayaran;20/03/2023 16:54;20/03/2023 16:54;2.427s;PASSED

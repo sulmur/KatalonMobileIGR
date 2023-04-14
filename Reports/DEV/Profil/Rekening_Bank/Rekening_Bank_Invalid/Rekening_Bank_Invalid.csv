@@ -1,0 +1,38 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Rekening_Bank_Invalid;;Test module Profil, berhasil submit rekening bank yang valid;30/03/2023 09:58;30/03/2023 09:59;1m - 14.067s;PASSED
+;;;;;;
+Test Cases/Profil/TC_Profil_Button;;Test case tap menu 'Akun';30/03/2023 09:58;30/03/2023 09:59;45.146s;PASSED
+startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE);;;30/03/2023 09:58;30/03/2023 09:59;39.448s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Profil_Button/android.view.View"")";;Tap menu 'Akun';30/03/2023 09:59;30/03/2023 09:59;5.339s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Button;;Test case Profil tap tombol 'Rekening Bank';30/03/2023 09:59;30/03/2023 09:59;3.282s;PASSED
+swipe(100, 400, 0, 0);;;30/03/2023 09:59;30/03/2023 09:59;1.178s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Menu Rekening Bank"")";;"Tap tombol ""Rekening Bank""";30/03/2023 09:59;30/03/2023 09:59;1.531s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_PilihBank;;Test case Profil memilih bank pada form Rekening Bank;30/03/2023 09:59;30/03/2023 09:59;6.799s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Dropdown Pilih Bank"")";;Tap dropdown 'Pilih Bank';30/03/2023 09:59;30/03/2023 09:59;1.420s;PASSED
+delay(1;;;30/03/2023 09:59;30/03/2023 09:59;1.025s;PASSED
+swipe(100, 1765, 0, 0);;;30/03/2023 09:59;30/03/2023 09:59;1.031s;PASSED
+delay(2;;;30/03/2023 09:59;30/03/2023 09:59;2.011s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/BCA"")";;Pilih bank 'BCA';30/03/2023 09:59;30/03/2023 09:59;0.947s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Cabang;;Test case Profil input field Cabang pada form Rekening Bank;30/03/2023 09:59;30/03/2023 09:59;1.921s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Field Cabang"")";;Tap field 'Cabang';30/03/2023 09:59;30/03/2023 09:59;1.342s;PASSED
+"setText(findTestObject(""Profil/Rekening_Bank/Field Cabang"")";" ""KPP Ciputat""";Input data pada field Cabang;30/03/2023 09:59;30/03/2023 09:59;0.407s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_Norek;;Test case Profil input field 'Nomor Rekening' pada form Rekening Bank;30/03/2023 09:59;30/03/2023 09:59;4.727s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Field Nomor Rekening"")";;Tap field 'Nomor Rekening';30/03/2023 09:59;30/03/2023 09:59;1.403s;PASSED
+"setText(findTestObject(""Profil/Rekening_Bank/Field Nomor Rekening"")";" ""0670372120""";Input data pada field 'Nomor Rekening';30/03/2023 09:59;30/03/2023 09:59;0.405s;PASSED
+hideKeyboard();;;30/03/2023 09:59;30/03/2023 09:59;2.703s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningInvalid;;Test case Profil input data tidak valid pada field 'Nama Rekening' pada form Rekening Bank;30/03/2023 09:59;30/03/2023 09:59;2.954s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Field Nama Rekening"")";;Tap field 'Nama Rekening';30/03/2023 09:59;30/03/2023 09:59;0.360s;PASSED
+"setText(findTestObject(""Profil/Rekening_Bank/Field Nama Rekening"")";" ""Sulmur""";Input data tidak valid pada 'Nama Rekening';30/03/2023 09:59;30/03/2023 09:59;1.185s;PASSED
+hideKeyboard();;;30/03/2023 09:59;30/03/2023 09:59;1.181s;PASSED
+;;;;;;
+Test Cases/Profil/Rekening_Bank/TC_Submit_Failed;;Test case Rekening Bank, gagal simpan rekening bank;30/03/2023 09:59;30/03/2023 09:59;8.923s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Submit/Tombol Simpan"")";;Tap tombol 'Simpan';30/03/2023 09:59;30/03/2023 09:59;0.748s;PASSED
+delay(3;;;30/03/2023 09:59;30/03/2023 09:59;3.010s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Submit/Setuju Simpan Rekening gagal"")";;Tap tombol 'Lanjutkan' pada pop-up konfirmasi rekening bank;30/03/2023 09:59;30/03/2023 09:59;0.892s;PASSED
+delay(3;;;30/03/2023 09:59;30/03/2023 09:59;3.018s;PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Submit/Submit Rekening Bank Gagal"")";;Tap tombol 'OK' pada konfirmasi gagal simpan nomor rekening;30/03/2023 09:59;30/03/2023 09:59;1.015s;PASSED

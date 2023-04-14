@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Profil memilih bank pada form Rekening Bank</description>
+   <name>TC_RekeningBank_PilihBank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f80cf9b1-8a5b-4845-a9d2-9e35149bbcf6</testCaseGuid>
+</TestCaseEntity>

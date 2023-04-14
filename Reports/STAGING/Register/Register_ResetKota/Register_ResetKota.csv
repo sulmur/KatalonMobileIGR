@@ -1,0 +1,20 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Register_ResetKota;;Test module Register ubah opsi Kota dan mereset opsi Kecamatan dan Kelurahan;21/03/2023 09:31;21/03/2023 09:31;48.702s;PASSED
+;;;;;;
+Test Cases/Register/Redirect_to_RegisterPage;;Test case register, redirect to register page;21/03/2023 09:31;21/03/2023 09:31;37.773s;PASSED
+startApplication(APP, false);;;21/03/2023 09:31;21/03/2023 09:31;34.080s;PASSED
+"tap(findTestObject(""Object Repository/Register/Redirect_To_RegisterPage/android.view.View"")";;Tap menu Akun;21/03/2023 09:31;21/03/2023 09:31;1.194s;PASSED
+"tap(findTestObject(""Object Repository/Register/Redirect_To_RegisterPage/android.widget.Button"")";;Tap tombol Register;21/03/2023 09:31;21/03/2023 09:31;1.092s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;;21/03/2023 09:31;21/03/2023 09:31;1.052s;PASSED
+;;;;;;
+Test Cases/Register/Address/TC_Reset_Kota;;Memastikan dengan mengubah Kota akan mereset opsi Kecamatan dan Kelurahan yang dipilih;21/03/2023 09:31;21/03/2023 09:31;10.645s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View"")";;Tap field 'Provinsi';21/03/2023 09:31;21/03/2023 09:31;1.080s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (1)"")";;Pilih salah satu 'Provinsi';21/03/2023 09:31;21/03/2023 09:31;1.068s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (2)"")";;Tap field 'Kota';21/03/2023 09:31;21/03/2023 09:31;1.057s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (3)"")";;Pilih salah satu 'Kota';21/03/2023 09:31;21/03/2023 09:31;0.999s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (4)"")";;Tap field 'Kecamatan';21/03/2023 09:31;21/03/2023 09:31;1.041s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (5)"")";;Pilih salah satu 'Kecamatan';21/03/2023 09:31;21/03/2023 09:31;0.997s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (6)"")";;Tap field 'Kelurahan';21/03/2023 09:31;21/03/2023 09:31;1.046s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (7)"")";;Pilih salah satu 'Kelurahan';21/03/2023 09:31;21/03/2023 09:31;0.995s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (8)"")";;Tap kembali field 'Kota' yang sudah dipilih;21/03/2023 09:31;21/03/2023 09:31;1.029s;PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetKota/android.view.View (9)"")";;Pilih 'Kota' yang berbeda dari sebelumnya;21/03/2023 09:31;21/03/2023 09:31;1.015s;PASSED

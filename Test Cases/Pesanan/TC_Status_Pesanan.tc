@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case mengecek tiap status pesanan</description>
+   <name>TC_Status_Pesanan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf9e2bd4-72c1-42f0-b88a-715fbfe5cd9a</testCaseGuid>
+</TestCaseEntity>

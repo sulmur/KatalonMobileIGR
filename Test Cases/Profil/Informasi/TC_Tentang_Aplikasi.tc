@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test module Profil skenario melihat menu Tentang Aplikasi</description>
+   <name>TC_Tentang_Aplikasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac222771-0f91-445e-bfbf-b6dbddd8aafc</testCaseGuid>
+</TestCaseEntity>

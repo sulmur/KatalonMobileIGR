@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Nmotor_BNI" time="84.535" tests="4" failures="0" errors="0">
+   <testsuite name="Nmotor_BNI" tests="4" failures="0" errors="0" time="84.535" skipped="0" timestamp="2023-03-21 08:48:06" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Checkout/Nextday_Motor/Nmotor_BNI">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_084755\\Checkout\\Nextday_Motor\\Nmotor_BNI\\20230321_084755"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_084755\\Checkout\\Nextday_Motor\\Nmotor_BNI\\20230321_084755\\appium.log, C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230321_084755\\Checkout\\Nextday_Motor\\Nmotor_BNI\\20230321_084755\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk" time="45.644" classname="Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk" status="PASSED">
+         <system-out><![CDATA[2023-03-21 08:48:07 - [TEST_CASE][PASSED] - Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk: Test Cases/Checkout/Tambah_Keranjang/TC_Tambah_Produk
+
+2023-03-21 08:48:07 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-21 08:48:08 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-03-21 08:48:08 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-21 08:48:09 - [MESSAGE][INFO] - Appium server started on port 64,393
+
+2023-03-21 08:48:34 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik SANDBOX v5.1.9(104).apk'
+
+2023-03-21 08:48:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.ImageView'
+
+2023-03-21 08:48:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.ImageView'
+
+2023-03-21 08:48:36 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-03-21 08:48:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-21 08:48:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button'
+
+2023-03-21 08:48:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button'
+
+2023-03-21 08:48:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)'
+
+2023-03-21 08:48:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)'
+
+2023-03-21 08:48:41 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)'
+
+2023-03-21 08:48:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.widget.Button (1)'
+
+2023-03-21 08:48:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.view.View"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.view.View'
+
+2023-03-21 08:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Tambah_Produk/android.view.View'
+
+2023-03-21 08:48:45 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-03-21 08:48:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-21 08:48:48 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Tambah_Keranjang/Icon_Keranjang/android.widget.Button"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Icon_Keranjang/android.widget.Button'
+
+2023-03-21 08:48:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Icon_Keranjang/android.widget.Button'
+
+2023-03-21 08:48:49 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-03-21 08:48:52 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/Pengiriman/TC_Nextday_Motor" time="20.051" classname="Test Cases/Checkout/Pengiriman/TC_Nextday_Motor" status="PASSED">
+         <system-out><![CDATA[2023-03-21 08:48:52 - [TEST_CASE][PASSED] - Test Cases/Checkout/Pengiriman/TC_Nextday_Motor: Test Cases/Checkout/Pengiriman/TC_Nextday_Motor
+
+2023-03-21 08:48:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button"), 0): Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button'
+
+2023-03-21 08:48:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button'
+
+2023-03-21 08:48:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button (1)'
+
+2023-03-21 08:48:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:48:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button (1)'
+
+2023-03-21 08:48:55 - [TEST_STEP][PASSED] - delay(9, OPTIONAL): Delayed 9 second(s)
+
+2023-03-21 08:49:04 - [MESSAGE][PASSED] - Delayed 9 second(s)
+
+2023-03-21 08:49:04 - [TEST_STEP][PASSED] - swipe(0, 600, 0, 0): Swiped from 0,600 to 0,0
+
+2023-03-21 08:49:05 - [MESSAGE][PASSED] - Swiped from 0,600 to 0,0
+
+2023-03-21 08:49:05 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2023-03-21 08:49:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-21 08:49:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.ImageView'
+
+2023-03-21 08:49:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:49:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.ImageView'
+
+2023-03-21 08:49:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button (2)"), 0): Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button (2)'
+
+2023-03-21 08:49:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:49:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pengiriman/Nextday_Motor/android.widget.Button (2)'
+
+2023-03-21 08:49:08 - [TEST_STEP][PASSED] - delay(4, OPTIONAL): Delayed 4 second(s)
+
+2023-03-21 08:49:12 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/Pembayaran/TC_Bayar_BNI" time="2.677" classname="Test Cases/Checkout/Pembayaran/TC_Bayar_BNI" status="PASSED">
+         <system-out><![CDATA[2023-03-21 08:49:12 - [TEST_CASE][PASSED] - Test Cases/Checkout/Pembayaran/TC_Bayar_BNI: Test Cases/Checkout/Pembayaran/TC_Bayar_BNI
+
+2023-03-21 08:49:13 - [TEST_STEP][PASSED] - swipe(0, 475, 0, 0): Swiped from 0,475 to 0,0
+
+2023-03-21 08:49:14 - [MESSAGE][PASSED] - Swiped from 0,475 to 0,0
+
+2023-03-21 08:49:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Pembayaran/BNI/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Checkout/Pembayaran/BNI/android.widget.ImageView'
+
+2023-03-21 08:49:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:49:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pembayaran/BNI/android.widget.ImageView']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC_Checkout" time="15.311" classname="Test Cases/Checkout/TC_Checkout" status="PASSED">
+         <system-out><![CDATA[2023-03-21 08:49:15 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC_Checkout: Test Cases/Checkout/TC_Checkout
+
+2023-03-21 08:49:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Checkout/android.widget.Button"), 0): Tapped on element 'Object Repository/Checkout/Checkout/android.widget.Button'
+
+2023-03-21 08:49:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:49:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Checkout/android.widget.Button'
+
+2023-03-21 08:49:16 - [TEST_STEP][PASSED] - delay(7, STOP_ON_FAILURE): Delayed 7 second(s)
+
+2023-03-21 08:49:23 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-03-21 08:49:23 - [TEST_STEP][PASSED] - swipe(0, 600, 0, 0): Swiped from 0,600 to 0,0
+
+2023-03-21 08:49:25 - [MESSAGE][PASSED] - Swiped from 0,600 to 0,0
+
+2023-03-21 08:49:25 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-21 08:49:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-21 08:49:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Checkout/android.view.View"), 0): Tapped on element 'Object Repository/Checkout/Checkout/android.view.View'
+
+2023-03-21 08:49:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:49:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Checkout/android.view.View'
+
+2023-03-21 08:49:28 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-03-21 08:49:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-21 08:49:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Checkout/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Checkout/Checkout/android.widget.Button (1)'
+
+2023-03-21 08:49:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-21 08:49:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Checkout/android.widget.Button (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-21 08:48:06 - [TEST_SUITE][PASSED] - Nmotor_BNI: Test Cases/Checkout/TC_Checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Sorting_From_A;Test module sorting diurutkan dari huruf A;23/03/2023 10:25;23/03/2023 10:25;41.313s;PASSED
+;;;;;
+Test Cases/Kategori/TC_Kategori_IbuAnak;Test case kategori jenis produk 'Ibu & Anak';23/03/2023 10:25;23/03/2023 10:25;30.851s;PASSED
+startApplication(APP, false);;23/03/2023 10:25;23/03/2023 10:25;26.368s;PASSED
+"tap(findTestObject(""Object Repository/Kategori/Ibu_Anak/android.widget.ImageView"")";Tap jenis kategori 'Ibu & Anak';23/03/2023 10:25;23/03/2023 10:25;1.728s;PASSED
+delay(2, CONTINUE_ON_FAILURE);;23/03/2023 10:25;23/03/2023 10:25;2.042s;PASSED
+;;;;;
+Test Cases/Sorting/TC_Sort_Button;Test case Sorting tap tombol 'Sort';23/03/2023 10:25;23/03/2023 10:25;2.501s;PASSED
+"tap(findTestObject(""Object Repository/Sorting/Sort_Button/android.view.View"")";Tap tombol 'Sort';23/03/2023 10:25;23/03/2023 10:25;1.070s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;23/03/2023 10:25;23/03/2023 10:25;1.015s;PASSED
+;;;;;
+Test Cases/Sorting/TC_Sort_A;Test case sorting diurutkan dari huruf A sampai Z;23/03/2023 10:25;23/03/2023 10:25;7.500s;PASSED
+"tap(findTestObject(""Object Repository/Sorting/Sort_A/android.view.View"")";Tap opsi 'Nama [A - Z]';23/03/2023 10:25;23/03/2023 10:25;0.998s;PASSED
+delay(3, CONTINUE_ON_FAILURE);;23/03/2023 10:25;23/03/2023 10:25;3.006s;PASSED
+swipe(100, 600, 0, 0);;23/03/2023 10:25;23/03/2023 10:25;1.157s;PASSED
+delay(2, CONTINUE_ON_FAILURE);;23/03/2023 10:25;23/03/2023 10:25;2.007s;PASSED

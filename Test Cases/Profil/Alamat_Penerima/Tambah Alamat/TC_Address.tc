@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Tambah Alamat input field Provinsi, Kota, Kecamatan, dan Kelurahan</description>
+   <name>TC_Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc6a3877-25ad-4ede-9ed8-145e338da86c</testCaseGuid>
+</TestCaseEntity>

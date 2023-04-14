@@ -1,0 +1,16 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Search_Product;;Test module search cek fitur search produk;03/04/2023 09:05;03/04/2023 09:05;45.439s;PASSED
+;;;;;;
+Test Cases/Search/TC_Search_Enter;;Test case Filter untuk mencari produk yang diinginkan;03/04/2023 09:05;03/04/2023 09:05;45.107s;PASSED
+startApplication(APP;;;03/04/2023 09:05;03/04/2023 09:05;32.035s;PASSED
+"tap(findTestObject(""Search/Menu Search"")";;Tap menu 'Search';03/04/2023 09:05;03/04/2023 09:05;0.750s;PASSED
+driver = getDriver();;;03/04/2023 09:05;03/04/2023 09:05;0.001s;PASSED
+"tap(findTestObject(""Search/Field Search"")";;Tap field 'Search';03/04/2023 09:05;03/04/2023 09:05;2.574s;PASSED
+"setText(findTestObject(""Search/Field Search"")";" ""dancow""";Input data produk yang ingin dicari pada field 'Search';03/04/2023 09:05;03/04/2023 09:05;0.446s;PASSED
+driver.pressKeyCode(KEYCODE_ENTER);;Tap 'Enter' pada keyboard;03/04/2023 09:05;03/04/2023 09:05;0.580s;PASSED
+delay(2;;;03/04/2023 09:05;03/04/2023 09:05;2.043s;PASSED
+"takeScreenshot(getReportFolder() + ""Search Success.png""";;;03/04/2023 09:05;03/04/2023 09:05;1.129s;PASSED
+"tap(findTestObject(""Search/Back Search"")";;;03/04/2023 09:05;03/04/2023 09:05;1.063s;PASSED
+delay(2;;;03/04/2023 09:05;03/04/2023 09:05;2.004s;PASSED
+"takeScreenshot(getReportFolder() + ""Back Search.png""";;;03/04/2023 09:05;03/04/2023 09:05;0.718s;PASSED
+"tap(findTestObject(""Search/Search Back to Home"")";;;03/04/2023 09:05;03/04/2023 09:05;1.183s;PASSED

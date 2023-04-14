@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Filter tap tombol 'Terapkan'</description>
+   <name>TC_Filter_Submit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b42ae364-d068-42f1-a596-ab534ed1e067</testCaseGuid>
+</TestCaseEntity>

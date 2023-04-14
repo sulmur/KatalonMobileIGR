@@ -1,0 +1,53 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Register_Invalid_Name;;Test module Register dengan format nama yang salah (dibawah 3 karakter);13/04/2023 07:23;13/04/2023 07:24;1m - 12.094s;PASSED
+;;;;;;
+Test Cases/Register/Redirect_to_RegisterPage;;Test case register, redirect to register page;13/04/2023 07:23;13/04/2023 07:23;37.679s;PASSED
+startApplication(APP;;;13/04/2023 07:23;13/04/2023 07:23;34.107s;PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun"")";;Tap menu Akun;13/04/2023 07:23;13/04/2023 07:23;1.050s;PASSED
+"tap(findTestObject(""Login/Tombol Daftar"")";;Tap tombol Register;13/04/2023 07:23;13/04/2023 07:23;1.102s;PASSED
+delay(1;;;13/04/2023 07:23;13/04/2023 07:23;1.034s;PASSED
+;;;;;;
+Test Cases/Register/Name/TC_Register_InvalidName;;Test case register dengan requirement nama yang salah (di bawah 3 karakter);13/04/2023 07:23;13/04/2023 07:23;2.483s;PASSED
+"tap(findTestObject(""Register/Field Nama - Register"")";;Tap field Nama;13/04/2023 07:23;13/04/2023 07:23;0.696s;PASSED
+"setText(findTestObject(""Register/Field Nama - Register"")";" ""si""";Input Nama di bawah 3 karakter;13/04/2023 07:23;13/04/2023 07:23;1.501s;PASSED
+;;;;;;
+Test Cases/Register/Email/TC_Register_ValidEmail;;Test case dengan email yang valid;13/04/2023 07:23;13/04/2023 07:23;2.167s;PASSED
+"tap(findTestObject(""Register/Field Email - Register"")";;Tap field 'Email';13/04/2023 07:23;13/04/2023 07:23;1.459s;PASSED
+"setText(findTestObject(""Register/Field Email - Register"")";" ""raihan@ymail.com""";Input format Email yang valid;13/04/2023 07:23;13/04/2023 07:23;0.436s;PASSED
+;;;;;;
+Test Cases/Register/Password/TC_Register_ValidPassword;;Test case dengan format password yang valid;13/04/2023 07:23;13/04/2023 07:24;5.543s;PASSED
+"tap(findTestObject(""Register/Password/Field Password - Register"")";;Tap field 'Password';13/04/2023 07:23;13/04/2023 07:24;1.390s;PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Password - Register"")";" ""lsdNNXlVAZI=""";Input Password dengan format yang valid;13/04/2023 07:24;13/04/2023 07:24;0.438s;PASSED
+"tap(findTestObject(""Register/Password/Icon Field Password"")";;Tap icon 'Mata tertutup' pada field Password;13/04/2023 07:24;13/04/2023 07:24;1.447s;PASSED
+"tap(findTestObject(""Register/Password/Field Konfirmasi Password - Register"")";;Tap 'Konfirmasi Password';13/04/2023 07:24;13/04/2023 07:24;0.220s;PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Konfirmasi Password - Register"")";" ""lsdNNXlVAZI=""";Input Konfirmasi Password yang sesuai dengan Password yang telah diinput;13/04/2023 07:24;13/04/2023 07:24;0.998s;PASSED
+"tap(findTestObject(""Register/Password/Icon Field Konfirmasi Password"")";;Tap icon 'Mata tertutup' pada field Konfirmasi Password;13/04/2023 07:24;13/04/2023 07:24;0.766s;PASSED
+;;;;;;
+Test Cases/Register/Address/TC_Register_ValidAddress;;Test case register dengan Alamat yang valid (Minimal 10 karakter);13/04/2023 07:24;13/04/2023 07:24;11.795s;PASSED
+"tap(findTestObject(""Register/Address/Field Alamat Pengiriman - Register"")";;Tap field 'Alamat Pengiriman';13/04/2023 07:24;13/04/2023 07:24;0.707s;PASSED
+"setText(findTestObject(""Register/Address/Field Alamat Pengiriman - Register"")";" ""Jl. yang ada di Kedaung""";Input format Alamat yang valid (minimal 10 karakter);13/04/2023 07:24;13/04/2023 07:24;0.998s;PASSED
+hideKeyboard();;;13/04/2023 07:24;13/04/2023 07:24;1.399s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Provinsi - Register"")";;Tap dropdown 'Provinsi';13/04/2023 07:24;13/04/2023 07:24;1.201s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-"")";;Pilih salah satu 'Provinsi';13/04/2023 07:24;13/04/2023 07:24;0.979s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kota - Register"")";;Tap dropdown 'Kota';13/04/2023 07:24;13/04/2023 07:24;1.129s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-"")";;Pilih salah satu 'Kota';13/04/2023 07:24;13/04/2023 07:24;0.963s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kecamatan - Register"")";;Tap dropdown 'Kecamatan';13/04/2023 07:24;13/04/2023 07:24;1.163s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-"")";;Pilih salah satu 'Kecamatan';13/04/2023 07:24;13/04/2023 07:24;0.980s;PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kelurahan - Register"")";;Tap dropdown 'Kelurahan';13/04/2023 07:24;13/04/2023 07:24;1.027s;PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-"")";;Pilih salah satu 'Kelurahan';13/04/2023 07:24;13/04/2023 07:24;0.979s;PASSED
+;;;;;;
+Test Cases/Register/Phone_Number/TC_Register_ValidPhone;;Test case register dengan nomor HP yang valid;13/04/2023 07:24;13/04/2023 07:24;6.548s;PASSED
+swipe(100, 400, 0, 0);;;13/04/2023 07:24;13/04/2023 07:24;1.035s;PASSED
+"tap(findTestObject(""Object Repository/Register/Phone_Number/Valid_Phone_Number/Field Nomor HP"")";;Tap field 'Nomor Handphone';13/04/2023 07:24;13/04/2023 07:24;0.369s;PASSED
+"setText(findTestObject(""Register/Phone_Number/Valid_Phone_Number/Field Nomor HP"")";" ""085817746351""";Input nomor HP yang valid;13/04/2023 07:24;13/04/2023 07:24;1.303s;PASSED
+hideKeyboard();;;13/04/2023 07:24;13/04/2023 07:24;2.491s;PASSED
+delay(1;;;13/04/2023 07:24;13/04/2023 07:24;1.008s;PASSED
+;;;;;;
+Test Cases/Register/Register_Submit;;Test case tap tombol 'Daftar' setelah mengisi form 'Register';13/04/2023 07:24;13/04/2023 07:24;2.350s;PASSED
+"tap(findTestObject(""Register/Tombol Daftar"")";;Tap tombol 'Daftar' setelah mengisi form Register;13/04/2023 07:24;13/04/2023 07:24;0.813s;PASSED
+"takeScreenshot(getReportFolder() + ""Register Result.png""";;;13/04/2023 07:24;13/04/2023 07:24;1.152s;PASSED
+;;;;;;
+Test Cases/Register/Name/TC_Verify_Invalid_Name;;"Memastikan muncul alert ""Nama dibawah 3 huruf!""";13/04/2023 07:24;13/04/2023 07:24;3.172s;PASSED
+swipe(400, 400, 400, 1000);;;13/04/2023 07:24;13/04/2023 07:24;1.048s;PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Name/Verify_Invalid_Name/Alert Nama Salah"")";;"Pastikan muncul alert ""Nama minimal 3 huruf""";13/04/2023 07:24;13/04/2023 07:24;0.167s;PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Name Result.png""";;;13/04/2023 07:24;13/04/2023 07:24;1.645s;PASSED

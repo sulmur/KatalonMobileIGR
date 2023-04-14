@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fungsi sorting produk diurut berdasarkan harga dari yang termurah pada menu search</description>
+   <name>TC_Lowest_Sort_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa4734e8-ca2c-4afb-9467-6b3d5c948875</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek tombol data PKP</description>
+   <name>TC_PKP_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b49772cb-ed56-40c0-a2db-3f9e88324670</testCaseGuid>
+</TestCaseEntity>

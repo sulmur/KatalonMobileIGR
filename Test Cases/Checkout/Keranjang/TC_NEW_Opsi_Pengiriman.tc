@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tambah produk pada card section baru</description>
+   <name>TC_NEW_Opsi_Pengiriman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1d92439-f4c2-49f4-971b-4751f76fea0e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Tambah Alamat cek tombol Tandai Lokasi</description>
+   <name>TC_Tandai_Lokasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2462069a-98f2-4d06-968e-effaa64ee260</testCaseGuid>
+</TestCaseEntity>

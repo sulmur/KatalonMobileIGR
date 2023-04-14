@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Checkout dengan opsi pengiriman ambil di grosir</description>
+   <name>TC_Ambil_DiGrosir</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5cf0cb8-2339-4df9-96a6-7541abbb94db</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Edit_Produk_StokHabis;;Test module keranjang, menambah dan mengurangi produk pada keranjang;27/03/2023 07:55;27/03/2023 07:56;46.028s;PASSED
+;;;;;;
+Test Cases/Checkout/Keranjang/TC_Keranjang_Home;;Test case tap tombol keranjang pada homepage;27/03/2023 07:55;27/03/2023 07:56;37.884s;PASSED
+startApplication(APP;;;27/03/2023 07:55;27/03/2023 07:56;35.670s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Keranjang Home"")";;Tap tombol 'Keranjang';27/03/2023 07:56;27/03/2023 07:56;1.866s;PASSED
+;;;;;;
+Test Cases/Checkout/Keranjang/TC_Edit_Produk;;Test case edit jumlah produk;27/03/2023 07:56;27/03/2023 07:56;4.673s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Jumlah Produk"")";;Tap jumlah produk;27/03/2023 07:56;27/03/2023 07:56;0.828s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Ketik Edit Produk"")";;Tap field 'Jumlah produk';27/03/2023 07:56;27/03/2023 07:56;1.479s;PASSED
+"setText(findTestObject(""Checkout/Keranjang/Ketik Edit Produk"")";" ""9999""";Input data angka jumlah produk;27/03/2023 07:56;27/03/2023 07:56;0.530s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Simpan Edit Produk"")";;Tap tombol 'Simpan' pada pop-up Edit Produk;27/03/2023 07:56;27/03/2023 07:56;1.319s;PASSED
+;;;;;;
+Test Cases/Checkout/Keranjang/TC_Button_Perbaharui;;"Test case tap tombol ""Perbaharui""";27/03/2023 07:56;27/03/2023 07:56;3.119s;PASSED
+"tap(findTestObject(""Checkout/Keranjang/Perbaharui Keranjang"")";;;27/03/2023 07:56;27/03/2023 07:56;0.748s;PASSED
+delay(2;;;27/03/2023 07:56;27/03/2023 07:56;2.044s;PASSED

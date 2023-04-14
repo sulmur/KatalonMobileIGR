@@ -1,0 +1,25 @@
+Suite/Test/Step Name;Data;Description;Start time;End time;Duration;Status
+Filter_MinMax;;Test module Filter mencari rentang harga minimum dan maksimum;12/04/2023 06:41;12/04/2023 06:42;44.554s;PASSED
+;;;;;;
+Test Cases/Kategori/TC_Kategori_IbuAnak;;Test case kategori jenis produk 'Ibu & Anak';12/04/2023 06:41;12/04/2023 06:42;27.380s;PASSED
+startApplication(APP;;;12/04/2023 06:41;12/04/2023 06:42;22.024s;PASSED
+"tap(findTestObject(""Kategori/Ibu dan Anak"")";;Tap jenis kategori 'Ibu & Anak';12/04/2023 06:42;12/04/2023 06:42;3.036s;PASSED
+delay(2;;;12/04/2023 06:42;12/04/2023 06:42;2.035s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Button;;Test case tap tombol 'Filter';12/04/2023 06:42;12/04/2023 06:42;1.331s;PASSED
+"tap(findTestObject(""Filter/Tombol Filter"")";;Tap tombol 'Filter';12/04/2023 06:42;12/04/2023 06:42;1.039s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_MinMax;;Test case Filter rentang harga minimum dan maksimum;12/04/2023 06:42;12/04/2023 06:42;5.894s;PASSED
+"tap(findTestObject(""Filter/Harga Maksimum"")";;Tap field 'Maksimum';12/04/2023 06:42;12/04/2023 06:42;1.553s;PASSED
+"setText(findTestObject(""Filter/Harga Maksimum"")";" ""30000""";Input field maksimum dengan data '30000';12/04/2023 06:42;12/04/2023 06:42;0.476s;PASSED
+"tap(findTestObject(""Filter/Harga Minimum"")";;Tap field 'Minimum';12/04/2023 06:42;12/04/2023 06:42;0.858s;PASSED
+"setText(findTestObject(""Filter/Harga Minimum"")";" ""15000""";Input field minimum dengan data '15000';12/04/2023 06:42;12/04/2023 06:42;1.159s;PASSED
+pressBack();;;12/04/2023 06:42;12/04/2023 06:42;0.576s;PASSED
+delay(1;;;12/04/2023 06:42;12/04/2023 06:42;1.017s;PASSED
+;;;;;;
+Test Cases/Filter/TC_Filter_Submit;;Test case Filter tap tombol 'Terapkan';12/04/2023 06:42;12/04/2023 06:42;9.710s;PASSED
+"tap(findTestObject(""Filter/Tombol Terapkan"")";;Tap tombol 'Terapkan';12/04/2023 06:42;12/04/2023 06:42;1.670s;PASSED
+delay(2;;;12/04/2023 06:42;12/04/2023 06:42;2.004s;PASSED
+swipe(100, 600, 0, 0);;;12/04/2023 06:42;12/04/2023 06:42;1.090s;PASSED
+"takeScreenshotAsCheckpoint(""Filter.png""";;;12/04/2023 06:42;12/04/2023 06:42;1.687s;PASSED
+delay(3;;;12/04/2023 06:42;12/04/2023 06:42;3.009s;PASSED

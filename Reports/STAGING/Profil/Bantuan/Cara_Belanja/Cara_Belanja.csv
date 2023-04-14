@@ -1,0 +1,13 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Cara_Belanja;Test module Profil skenario melihat menu Cara Belanja;24/03/2023 16:13;24/03/2023 16:13;35.498s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';24/03/2023 16:13;24/03/2023 16:13;26.968s;PASSED
+startApplication(APP;;24/03/2023 16:13;24/03/2023 16:13;25.280s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Profil_Button/android.view.View"")";Tap menu 'Akun';24/03/2023 16:13;24/03/2023 16:13;1.353s;PASSED
+;;;;;
+Test Cases/Profil/TC_Cara_Belanja;Test module Profil skenario melihat menu Cara Belanja;24/03/2023 16:13;24/03/2023 16:13;8.275s;PASSED
+swipe(100, 600, 0, 0);;24/03/2023 16:13;24/03/2023 16:13;1.152s;PASSED
+delay(1;;24/03/2023 16:13;24/03/2023 16:13;1.084s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Cara Belanja"")";Tap menu 'Cara Belanja';24/03/2023 16:13;24/03/2023 16:13;1.464s;PASSED
+delay(2;;24/03/2023 16:13;24/03/2023 16:13;2.009s;PASSED
+"tap(findTestObject(""Profil/Bantuan/Back"")";Tap icon 'Back' untuk kembali ke laman Profil;24/03/2023 16:13;24/03/2023 16:13;2.080s;PASSED

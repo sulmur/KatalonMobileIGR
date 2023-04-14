@@ -1,0 +1,19 @@
+Suite/Test/Step Name;Browser;Description;Start time;End time;Duration;Status
+Filter_MinMax_Favourite;;Test module Favorit cek fungsi fitur filter harga minimum - maksimum;28/03/2023 07:20;28/03/2023 07:20;51.511s;PASSED
+;;;;;;
+Test Cases/Favourite/TC_Menu_Favourite;;Test case cek menu favorit;28/03/2023 07:20;28/03/2023 07:20;38.065s;PASSED
+startApplication(APP;;;28/03/2023 07:20;28/03/2023 07:20;36.452s;PASSED
+"tap(findTestObject(""Favourite/Menu Favorit"")";;Tap menu Favorit;28/03/2023 07:20;28/03/2023 07:20;1.242s;PASSED
+;;;;;;
+Test Cases/Favourite/Filter/TC_MinMax_Favourite;;Test case cek fitur filter harga minimum - maksimum pada list Favorite;28/03/2023 07:20;28/03/2023 07:20;13.143s;PASSED
+"tap(findTestObject(""Favourite/Filter/Filter Button"")";;Tap tombol 'Filter';28/03/2023 07:20;28/03/2023 07:20;1.078s;PASSED
+"tap(findTestObject(""Favourite/Filter/Back to Favourite"")";;Tap tombol 'Back';28/03/2023 07:20;28/03/2023 07:20;1.390s;PASSED
+"tap(findTestObject(""Favourite/Filter/Filter Button"")";;Tap tombol 'Filter';28/03/2023 07:20;28/03/2023 07:20;1.034s;PASSED
+"tap(findTestObject(""Favourite/Filter/Harga Minimum"")";;Tap field 'Harga Minimum';28/03/2023 07:20;28/03/2023 07:20;1.328s;PASSED
+"setText(findTestObject(""Favourite/Filter/Harga Minimum"")";" ""6000""";Input data pada field 'Harga Minimum';28/03/2023 07:20;28/03/2023 07:20;0.460s;PASSED
+"tap(findTestObject(""Favourite/Filter/Harga Maksimum"")";;Tap field 'Harga Maksimum';28/03/2023 07:20;28/03/2023 07:20;1.626s;PASSED
+"setText(findTestObject(""Favourite/Filter/Harga Maksimum"")";" ""15000""";Input data pada field 'Harga Maksimum';28/03/2023 07:20;28/03/2023 07:20;0.461s;PASSED
+pressBack();;;28/03/2023 07:20;28/03/2023 07:20;0.585s;PASSED
+"tap(findTestObject(""Favourite/Filter/Submit Button"")";;Tap tombol 'Terapkan';28/03/2023 07:20;28/03/2023 07:20;1.670s;PASSED
+delay(2;;;28/03/2023 07:20;28/03/2023 07:20;2.053s;PASSED
+swipe(100, 600, 0, 0);;;28/03/2023 07:20;28/03/2023 07:20;1.080s;PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Sorting_Lowest;Test module sorting diurutkan dari harga terendah;23/03/2023 10:32;23/03/2023 10:32;48.206s;PASSED
+;;;;;
+Test Cases/Kategori/TC_Kategori_IbuAnak;Test case kategori jenis produk 'Ibu & Anak';23/03/2023 10:32;23/03/2023 10:32;37.790s;PASSED
+startApplication(APP, false);;23/03/2023 10:32;23/03/2023 10:32;33.166s;PASSED
+"tap(findTestObject(""Object Repository/Kategori/Ibu_Anak/android.widget.ImageView"")";Tap jenis kategori 'Ibu & Anak';23/03/2023 10:32;23/03/2023 10:32;2.133s;PASSED
+delay(2, CONTINUE_ON_FAILURE);;23/03/2023 10:32;23/03/2023 10:32;2.063s;PASSED
+;;;;;
+Test Cases/Sorting/TC_Sort_Button;Test case Sorting tap tombol 'Sort';23/03/2023 10:32;23/03/2023 10:32;2.754s;PASSED
+"tap(findTestObject(""Object Repository/Sorting/Sort_Button/android.view.View"")";Tap tombol 'Sort';23/03/2023 10:32;23/03/2023 10:32;1.113s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;23/03/2023 10:32;23/03/2023 10:32;1.007s;PASSED
+;;;;;
+Test Cases/Sorting/TC_Sort_Lowest;Test case sorting diurutkan dari harga terendah;23/03/2023 10:32;23/03/2023 10:32;7.330s;PASSED
+"tap(findTestObject(""Object Repository/Sorting/Sort_Lowest/android.view.View"")";Pilih opsi 'Harga termurah';23/03/2023 10:32;23/03/2023 10:32;0.270s;PASSED
+delay(3, CONTINUE_ON_FAILURE);;23/03/2023 10:32;23/03/2023 10:32;3.012s;PASSED
+swipe(100, 600, 0, 0);;23/03/2023 10:32;23/03/2023 10:32;1.118s;PASSED
+delay(2, CONTINUE_ON_FAILURE);;23/03/2023 10:32;23/03/2023 10:32;2.018s;PASSED
+closeApplication();;23/03/2023 10:32;23/03/2023 10:32;0.629s;PASSED

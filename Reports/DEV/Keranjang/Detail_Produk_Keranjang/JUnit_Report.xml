@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Detail_Produk_Keranjang" time="50.952" tests="2" failures="0" errors="0">
+   <testsuite name="Detail_Produk_Keranjang" tests="2" failures="0" errors="0" time="50.952" skipped="0" timestamp="2023-04-04 08:23:16" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Keranjang/Detail_Produk_Keranjang">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230404_082306\\Keranjang\\Detail_Produk_Keranjang\\20230404_082306"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230404_082306\\Keranjang\\Detail_Produk_Keranjang\\20230404_082306\\appium.log, C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230404_082306\\Keranjang\\Detail_Produk_Keranjang\\20230404_082306\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="192.168.1.6:5555"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2" time="46.14" classname="Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2" status="PASSED">
+         <system-out><![CDATA[2023-04-04 08:23:17 - [TEST_CASE][PASSED] - Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2: Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2
+
+2023-04-04 08:23:17 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.4.apk'
+
+2023-04-04 08:23:18 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-04-04 08:23:18 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-04 08:23:19 - [MESSAGE][INFO] - Appium server started on port 53,035
+
+2023-04-04 08:23:47 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.4.apk'
+
+2023-04-04 08:23:47 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Pesan Ulang 1"), 0): Tapped on element 'Object Repository/Homepage/Pesan Ulang 1'
+
+2023-04-04 08:23:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:23:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Pesan Ulang 1'
+
+2023-04-04 08:23:48 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-04 08:23:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-04 08:23:49 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Tutup Pop-up Pesan Ulang"), 0): Tapped on element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang'
+
+2023-04-04 08:23:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:23:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang'
+
+2023-04-04 08:23:50 - [TEST_STEP][PASSED] - swipe(0, 500, 0, 0): Swiped from 0,500 to 0,0
+
+2023-04-04 08:23:51 - [MESSAGE][PASSED] - Swiped from 0,500 to 0,0
+
+2023-04-04 08:23:51 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-04 08:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-04 08:23:52 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1'
+
+2023-04-04 08:23:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:23:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1'
+
+2023-04-04 08:23:53 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-04 08:23:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-04 08:23:55 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan'
+
+2023-04-04 08:23:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:23:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan'
+
+2023-04-04 08:23:59 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Keranjang Home 2"), 0): Tapped on element 'Object Repository/Homepage/Keranjang Home 2'
+
+2023-04-04 08:23:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:24:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Keranjang Home 2'
+
+2023-04-04 08:24:00 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-04-04 08:24:03 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/Keranjang/TC_Detail_Produk" time="4.462" classname="Test Cases/Checkout/Keranjang/TC_Detail_Produk" status="PASSED">
+         <system-out><![CDATA[2023-04-04 08:24:03 - [TEST_CASE][PASSED] - Test Cases/Checkout/Keranjang/TC_Detail_Produk: Test Cases/Checkout/Keranjang/TC_Detail_Produk
+
+2023-04-04 08:24:03 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Detail Produk/Detail Gambar Produk 1"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Detail Produk/Detail Gambar Produk 1'
+
+2023-04-04 08:24:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:24:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Detail Produk/Detail Gambar Produk 1'
+
+2023-04-04 08:24:04 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Detail Produk/Deskripsi Produk Khong Guan 650g"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Detail Produk/Deskripsi Produk Khong Guan 650g'
+
+2023-04-04 08:24:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:24:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Detail Produk/Deskripsi Produk Khong Guan 650g'
+
+2023-04-04 08:24:06 - [TEST_STEP][PASSED] - swipe(0, 500, 0, 0): Swiped from 0,500 to 0,0
+
+2023-04-04 08:24:07 - [MESSAGE][PASSED] - Swiped from 0,500 to 0,0]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-04 08:23:16 - [TEST_SUITE][PASSED] - Detail_Produk_Keranjang: Test Cases/Checkout/Keranjang/TC_Detail_Produk]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

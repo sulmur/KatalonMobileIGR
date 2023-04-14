@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek fungsi hapus keranjang pada menu search</description>
+   <name>TC_Hapus_Keranjang_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4eb905fd-608a-4393-955d-ffb9f04cd8fa</testCaseGuid>
+</TestCaseEntity>

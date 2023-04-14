@@ -1,0 +1,15 @@
+Suite/Test/Step Name;Description;Start time;End time;Duration;Status
+Pilih_Alamat;Test module Profile memilih Alamat penerima;23/03/2023 13:31;23/03/2023 13:32;45.516s;PASSED
+;;;;;
+Test Cases/Profil/TC_Profil_Button;Test case tap menu 'Akun';23/03/2023 13:31;23/03/2023 13:32;38.210s;PASSED
+startApplication(APP, false);;23/03/2023 13:31;23/03/2023 13:32;35.604s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Profil_Button/android.view.View"")";Tap menu 'Akun';23/03/2023 13:32;23/03/2023 13:32;2.075s;PASSED
+;;;;;
+Test Cases/Profil/Alamat_Penerima/TC_Alamat_Button;Test case Profil tap tombol 'Alamat Penerima';23/03/2023 13:32;23/03/2023 13:32;3.736s;PASSED
+swipe(100, 400, 0, 0);;23/03/2023 13:32;23/03/2023 13:32;1.074s;PASSED
+delay(1, CONTINUE_ON_FAILURE);;23/03/2023 13:32;23/03/2023 13:32;1.051s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Alamat_Penerima/Alamat_Button/android.view.View"")";Tap tombol 'Alamat Penerima';23/03/2023 13:32;23/03/2023 13:32;1.020s;PASSED
+;;;;;
+Test Cases/Profil/Alamat_Penerima/TC_Pilih_Alamat;Test case memilih alamat penerima;23/03/2023 13:32;23/03/2023 13:32;3.219s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Alamat_Penerima/Ganti_Alamat/android.widget.Button"")";Tap 'Pilih Alamat Penerima' baris kedua;23/03/2023 13:32;23/03/2023 13:32;1.652s;PASSED
+"tap(findTestObject(""Object Repository/Profil/Alamat_Penerima/Ganti_Alamat/android.widget.Button (1)"")";Tap kembali 'Pilih Alamat Penerima' baris pertama;23/03/2023 13:32;23/03/2023 13:32;1.276s;PASSED

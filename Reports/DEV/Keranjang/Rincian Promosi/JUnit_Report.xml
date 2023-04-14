@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Rincian Promosi" time="57.779" tests="2" failures="0" errors="0">
+   <testsuite name="Rincian Promosi" tests="2" failures="0" errors="0" time="57.779" skipped="0" timestamp="2023-04-04 08:09:36" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Keranjang/Rincian Promosi">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230404_080927\\Keranjang\\Rincian Promosi\\20230404_080927"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230404_080927\\Keranjang\\Rincian Promosi\\20230404_080927\\appium.log, C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230404_080927\\Keranjang\\Rincian Promosi\\20230404_080927\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Detail Hadiah.png, keyes\keyes-RIncian Promosi.png"/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="192.168.1.6:5555"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2" time="44.0" classname="Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2" status="PASSED">
+         <system-out><![CDATA[2023-04-04 08:09:36 - [TEST_CASE][PASSED] - Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2: Test Cases/Checkout/Keranjang/TC_Pesan_Ulang_2
+
+2023-04-04 08:09:36 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.4.apk'
+
+2023-04-04 08:09:37 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-04-04 08:09:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-04 08:09:38 - [MESSAGE][INFO] - Appium server started on port 49,720
+
+2023-04-04 08:10:03 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.4.apk'
+
+2023-04-04 08:10:03 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Pesan Ulang 1"), 0): Tapped on element 'Object Repository/Homepage/Pesan Ulang 1'
+
+2023-04-04 08:10:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Pesan Ulang 1'
+
+2023-04-04 08:10:05 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-04 08:10:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-04 08:10:06 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Tutup Pop-up Pesan Ulang"), 0): Tapped on element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang'
+
+2023-04-04 08:10:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang'
+
+2023-04-04 08:10:07 - [TEST_STEP][PASSED] - swipe(0, 500, 0, 0): Swiped from 0,500 to 0,0
+
+2023-04-04 08:10:08 - [MESSAGE][PASSED] - Swiped from 0,500 to 0,0
+
+2023-04-04 08:10:08 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-04 08:10:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-04 08:10:09 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1'
+
+2023-04-04 08:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1'
+
+2023-04-04 08:10:10 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-04 08:10:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-04 08:10:12 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan"), 0): Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan'
+
+2023-04-04 08:10:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan'
+
+2023-04-04 08:10:16 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Keranjang Home 2"), 0): Tapped on element 'Object Repository/Homepage/Keranjang Home 2'
+
+2023-04-04 08:10:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Keranjang Home 2'
+
+2023-04-04 08:10:17 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-04-04 08:10:20 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/Keranjang/TC_Rincian_Promosi" time="13.544" classname="Test Cases/Checkout/Keranjang/TC_Rincian_Promosi" status="PASSED">
+         <system-out><![CDATA[2023-04-04 08:10:20 - [TEST_CASE][PASSED] - Test Cases/Checkout/Keranjang/TC_Rincian_Promosi: Test Cases/Checkout/Keranjang/TC_Rincian_Promosi
+
+2023-04-04 08:10:20 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Panah Ke atas Ringkasan Belanja"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Panah Ke atas Ringkasan Belanja'
+
+2023-04-04 08:10:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Panah Ke atas Ringkasan Belanja'
+
+2023-04-04 08:10:21 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-04 08:10:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-04 08:10:22 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Rincian Promosi/Detail Hadiah"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Detail Hadiah'
+
+2023-04-04 08:10:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Detail Hadiah'
+
+2023-04-04 08:10:23 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Detail Hadiah.png", []): Screenshot is taken
+
+2023-04-04 08:10:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-04 08:10:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Detail Hadiah.png]]
+
+2023-04-04 08:10:25 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-04-04 08:10:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-04 08:10:26 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Rincian Promosi/Cancel Detail Hadiah"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Cancel Detail Hadiah'
+
+2023-04-04 08:10:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Cancel Detail Hadiah'
+
+2023-04-04 08:10:27 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Rincian Promosi/Rincian Promosi"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Rincian Promosi'
+
+2023-04-04 08:10:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Rincian Promosi'
+
+2023-04-04 08:10:28 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("RIncian Promosi.png", []): Screenshot is taken
+
+2023-04-04 08:10:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-04 08:10:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-RIncian Promosi.png]]
+
+2023-04-04 08:10:30 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Rincian Promosi/Back Rincian Promosi"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Back Rincian Promosi'
+
+2023-04-04 08:10:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Back Rincian Promosi'
+
+2023-04-04 08:10:31 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-04-04 08:10:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-04 08:10:33 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Rincian Promosi/Dropdown Ringkasan Belanja"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Dropdown Ringkasan Belanja'
+
+2023-04-04 08:10:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-04 08:10:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Rincian Promosi/Dropdown Ringkasan Belanja']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-04 08:09:36 - [TEST_SUITE][PASSED] - Rincian Promosi: Test Cases/Checkout/Keranjang/TC_Rincian_Promosi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

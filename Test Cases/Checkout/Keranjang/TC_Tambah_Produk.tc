@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case keranjang mengurangi produk</description>
+   <name>TC_Tambah_Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b3208b0-6e03-4685-a847-0a02a7a97e48</testCaseGuid>
+</TestCaseEntity>
