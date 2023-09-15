@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ambil_DiToko_BCA" time="70.139" tests="4" failures="0" errors="0">
+   <testsuite name="Ambil_DiToko_BCA" tests="4" failures="0" errors="0" time="70.139" skipped="0" timestamp="2023-06-09 13:21:43" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Checkout/Ambil_DiToko/Ambil_DiToko_BCA">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230609_132133\\Checkout\\Ambil_DiToko\\Ambil_DiToko_BCA\\20230609_132133"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230609_132133\\Checkout\\Ambil_DiToko\\Ambil_DiToko_BCA\\20230609_132133\\appium.log, C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230609_132133\\Checkout\\Ambil_DiToko\\Ambil_DiToko_BCA\\20230609_132133\\execution0.log"/>
+         <property name="attachments" value="C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Belum pilih pengiriman.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Ambil di Grosir.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Gagal Checkout.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133VA BCA.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Checkout.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Lihat Cara Pembayaran.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Lihat Cara Pembayaran Bawah.png"/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/Keranjang/TC_Pesan_Ulang" time="23.855" classname="Test Cases/Checkout/Keranjang/TC_Pesan_Ulang" status="PASSED">
+         <system-out><![CDATA[2023-06-09 13:21:43 - [TEST_CASE][PASSED] - Test Cases/Checkout/Keranjang/TC_Pesan_Ulang: Test Cases/Checkout/Keranjang/TC_Pesan_Ulang
+
+2023-06-09 13:21:44 - [TEST_STEP][PASSED] - startApplication(APP, false): Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.31.apk'
+
+2023-06-09 13:21:44 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.indogrosir.sd1.klikdev']
+
+2023-06-09 13:21:44 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.example.klik_indogrosir_playground.MainActivity']
+
+2023-06-09 13:21:44 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-06-09 13:21:44 - [MESSAGE][INFO] - User set preference: ['fullReset', 'false']
+
+2023-06-09 13:21:44 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-06-09 13:21:44 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-06-09 13:21:45 - [MESSAGE][INFO] - Appium server started on port 56,677
+
+2023-06-09 13:21:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\AndroidApp\Klik Dev v6.0.31.apk'
+
+2023-06-09 13:21:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Kategori/Ibu dan Anak"), 0): Element 'Object Repository/Kategori/Ibu dan Anak' is present
+
+2023-06-09 13:21:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:01 - [MESSAGE][PASSED] - Element 'Object Repository/Kategori/Ibu dan Anak' is present
+
+2023-06-09 13:22:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Homepage/Pesan Ulang"), 0) == true): null
+
+2023-06-09 13:22:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:02 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/Pesan Ulang' is present
+
+2023-06-09 13:22:02 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Pesan Ulang"), 0, OPTIONAL): Tapped on element 'Object Repository/Homepage/Pesan Ulang'
+
+2023-06-09 13:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Pesan Ulang'
+
+2023-06-09 13:22:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/Tutup Pop-up Pesan Ulang"), 0): Element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang' is present
+
+2023-06-09 13:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:03 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang' is present
+
+2023-06-09 13:22:03 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Tutup Pop-up Pesan Ulang"), 0): Tapped on element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang'
+
+2023-06-09 13:22:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Tutup Pop-up Pesan Ulang'
+
+2023-06-09 13:22:04 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Keranjang Home 1"), 0): Tapped on element 'Object Repository/Homepage/Keranjang Home 1'
+
+2023-06-09 13:22:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Keranjang Home 1'
+
+2023-06-09 13:22:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Checkout/Keranjang/NEW Tombol Pengiriman"), 0): Element 'Object Repository/Checkout/Keranjang/NEW Tombol Pengiriman' is present
+
+2023-06-09 13:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:06 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Keranjang/NEW Tombol Pengiriman' is present
+
+2023-06-09 13:22:06 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok"), 1, OPTIONAL)): Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok' not found
+
+2023-06-09 13:22:07 - [MESSAGE][WARNING] - Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok' not found
+
+2023-06-09 13:22:07 - [TEST_STEP][PASSED] - else: Element 'Object Repository/Checkout/Keranjang/NEW Tombol Pengiriman' is exist
+
+2023-06-09 13:22:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Checkout/Keranjang/NEW Tombol Pengiriman"), 0): Element 'Object Repository/Checkout/Keranjang/NEW Tombol Pengiriman' is exist
+
+2023-06-09 13:22:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:07 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Keranjang/NEW Tombol Pengiriman' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/Pengiriman/TC_Ambil_Di_Grosir" time="20.18" classname="Test Cases/Checkout/Pengiriman/TC_Ambil_Di_Grosir" status="PASSED">
+         <system-out><![CDATA[2023-06-09 13:22:07 - [TEST_CASE][PASSED] - Test Cases/Checkout/Pengiriman/TC_Ambil_Di_Grosir: Test Cases/Checkout/Pengiriman/TC_Ambil_Di_Grosir
+
+2023-06-09 13:22:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Checkout/Pengiriman/TC_Tambah_Kurang_Produk"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Checkout/Pengiriman/TC_Tambah_Kurang_Produk' successfully
+
+2023-06-09 13:22:08 - [TEST_CASE][PASSED] - Test Cases/Checkout/Pengiriman/TC_Tambah_Kurang_Produk: Test Cases/Checkout/Pengiriman/TC_Tambah_Kurang_Produk
+
+2023-06-09 13:22:08 - [TEST_STEP][PASSED] - TigaProduk = verifyElementExist(findTestObject("Checkout/Keranjang/Case Potongan Pengiriman/3 buah Khong Guan"), 1, OPTIONAL): Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/3 buah Khong Guan' is exist
+
+2023-06-09 13:22:08 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/3 buah Khong Guan' is exist
+
+2023-06-09 13:22:08 - [TEST_STEP][PASSED] - EmpatProduk = verifyElementExist(findTestObject("Checkout/Keranjang/Case Potongan Pengiriman/4 buah Khong Guan"), 1, OPTIONAL): Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/4 buah Khong Guan' not found
+
+2023-06-09 13:22:10 - [MESSAGE][WARNING] - Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/4 buah Khong Guan' not found
+
+2023-06-09 13:22:10 - [TEST_STEP][PASSED] - EnamProduk = verifyElementExist(findTestObject("Checkout/Keranjang/Case Potongan Pengiriman/6 buah Khong Guan"), 1, OPTIONAL): Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/6 buah Khong Guan' not found
+
+2023-06-09 13:22:11 - [MESSAGE][WARNING] - Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/6 buah Khong Guan' not found
+
+2023-06-09 13:22:11 - [TEST_STEP][PASSED] - TujuhProduk = verifyElementExist(findTestObject("Checkout/Keranjang/Case Potongan Pengiriman/7 buah Khong Guan"), 1, OPTIONAL): Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/7 buah Khong Guan' not found
+
+2023-06-09 13:22:12 - [MESSAGE][WARNING] - Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/7 buah Khong Guan' not found
+
+2023-06-09 13:22:12 - [TEST_STEP][PASSED] - Rokok = verifyElementExist(findTestObject("Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok"), 1, OPTIONAL): Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok' not found
+
+2023-06-09 13:22:13 - [MESSAGE][WARNING] - Element 'Object Repository/Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok' not found
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - if (TigaProduk && Rokok): null
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - else if (EnamProduk && Rokok): null
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - else: null
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - if (EnamProduk || TujuhProduk): null
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - else: null
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - TigaProduk: null
+
+2023-06-09 13:22:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Checkout/Pengiriman/TC_Tambah_Kurang_Produk' successfully
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Checkout/Keranjang/NEW Tombol Pengiriman"), 0): Element 'Object Repository/Checkout/Keranjang/NEW Tombol Pengiriman' is present
+
+2023-06-09 13:22:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:13 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Keranjang/NEW Tombol Pengiriman' is present
+
+2023-06-09 13:22:13 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Keranjang/Panah Ke atas Ringkasan Belanja"), 0): Tapped on element 'Object Repository/Checkout/Keranjang/Panah Ke atas Ringkasan Belanja'
+
+2023-06-09 13:22:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Keranjang/Panah Ke atas Ringkasan Belanja'
+
+2023-06-09 13:22:14 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Pengiriman/Tombol Pengiriman"), 0): Tapped on element 'Object Repository/Checkout/Pengiriman/Tombol Pengiriman'
+
+2023-06-09 13:22:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pengiriman/Tombol Pengiriman'
+
+2023-06-09 13:22:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Checkout/Pembayaran/Tombol Pembayaran"), 0): Element 'Object Repository/Checkout/Pembayaran/Tombol Pembayaran' is present
+
+2023-06-09 13:22:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:18 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Pembayaran/Tombol Pembayaran' is present
+
+2023-06-09 13:22:18 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Pembayaran/Tombol Pembayaran"), 0): Tapped on element 'Object Repository/Checkout/Pembayaran/Tombol Pembayaran'
+
+2023-06-09 13:22:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pembayaran/Tombol Pembayaran'
+
+2023-06-09 13:22:19 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Belum pilih pengiriman.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-06-09 13:22:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Belum pilih pengiriman.png]]
+
+2023-06-09 13:22:20 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Pengiriman/Ambil di Toko Indogrosir"), 0): Tapped on element 'Object Repository/Checkout/Pengiriman/Ambil di Toko Indogrosir'
+
+2023-06-09 13:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pengiriman/Ambil di Toko Indogrosir'
+
+2023-06-09 13:22:23 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Ambil di Grosir.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-06-09 13:22:24 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Ambil di Grosir.png]]
+
+2023-06-09 13:22:24 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Pembayaran/Tombol Pembayaran"), 0): Tapped on element 'Object Repository/Checkout/Pembayaran/Tombol Pembayaran'
+
+2023-06-09 13:22:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pembayaran/Tombol Pembayaran'
+
+2023-06-09 13:22:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Checkout/Checkout/Tombol Checkout"), 0): Element 'Object Repository/Checkout/Checkout/Tombol Checkout' is present
+
+2023-06-09 13:22:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:27 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Checkout/Tombol Checkout' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/Pembayaran/TC_Bayar_BCA" time="7.227" classname="Test Cases/Checkout/Pembayaran/TC_Bayar_BCA" status="PASSED">
+         <system-out><![CDATA[2023-06-09 13:22:27 - [TEST_CASE][PASSED] - Test Cases/Checkout/Pembayaran/TC_Bayar_BCA: Test Cases/Checkout/Pembayaran/TC_Bayar_BCA
+
+2023-06-09 13:22:28 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Checkout/Tombol Checkout"), 0): Tapped on element 'Object Repository/Checkout/Checkout/Tombol Checkout'
+
+2023-06-09 13:22:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Checkout/Tombol Checkout'
+
+2023-06-09 13:22:31 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Gagal Checkout.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-06-09 13:22:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Gagal Checkout.png]]
+
+2023-06-09 13:22:32 - [TEST_STEP][PASSED] - swipe(0, 200, 0, 0): Swiped from 0,200 to 0,0
+
+2023-06-09 13:22:33 - [MESSAGE][PASSED] - Swiped from 0,200 to 0,0
+
+2023-06-09 13:22:33 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Pembayaran/VA BCA"), 0): Tapped on element 'Object Repository/Checkout/Pembayaran/VA BCA'
+
+2023-06-09 13:22:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Pembayaran/VA BCA'
+
+2023-06-09 13:22:34 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "VA BCA.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-06-09 13:22:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133VA BCA.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC_Checkout" time="18.619" classname="Test Cases/Checkout/TC_Checkout" status="PASSED">
+         <system-out><![CDATA[2023-06-09 13:22:35 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC_Checkout: Test Cases/Checkout/TC_Checkout
+
+2023-06-09 13:22:35 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Checkout/Tombol Checkout"), 0): Tapped on element 'Object Repository/Checkout/Checkout/Tombol Checkout'
+
+2023-06-09 13:22:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Checkout/Tombol Checkout'
+
+2023-06-09 13:22:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Checkout/Checkout/Label Terima Kasih telah Belanja"), 0): Element 'Object Repository/Checkout/Checkout/Label Terima Kasih telah Belanja' is present
+
+2023-06-09 13:22:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:37 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Checkout/Label Terima Kasih telah Belanja' is present
+
+2023-06-09 13:22:37 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Checkout.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-06-09 13:22:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Checkout.png]]
+
+2023-06-09 13:22:38 - [TEST_STEP][PASSED] - swipe(0, 600, 0, 0): Swiped from 0,600 to 0,0
+
+2023-06-09 13:22:39 - [MESSAGE][PASSED] - Swiped from 0,600 to 0,0
+
+2023-06-09 13:22:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Checkout/Checkout/Lihat Cara Pembayaran"), 0): Element 'Object Repository/Checkout/Checkout/Lihat Cara Pembayaran' is present
+
+2023-06-09 13:22:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:40 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/Checkout/Lihat Cara Pembayaran' is present
+
+2023-06-09 13:22:40 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Checkout/Lihat Cara Pembayaran"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Checkout/Checkout/Lihat Cara Pembayaran'
+
+2023-06-09 13:22:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Checkout/Lihat Cara Pembayaran'
+
+2023-06-09 13:22:41 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-09 13:22:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-09 13:22:44 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Lihat Cara Pembayaran.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-06-09 13:22:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Lihat Cara Pembayaran.png]]
+
+2023-06-09 13:22:45 - [TEST_STEP][PASSED] - swipe(100, 600, 0, 0): Swiped from 100,600 to 0,0
+
+2023-06-09 13:22:47 - [MESSAGE][PASSED] - Swiped from 100,600 to 0,0
+
+2023-06-09 13:22:47 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-09 13:22:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-09 13:22:50 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Lihat Cara Pembayaran Bawah.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-06-09 13:22:52 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230609_132133\Checkout\Ambil_DiToko\Ambil_DiToko_BCA\20230609_132133Lihat Cara Pembayaran Bawah.png]]
+
+2023-06-09 13:22:52 - [TEST_STEP][PASSED] - tap(findTestObject("Checkout/Checkout/Back Checkout"), 0): Tapped on element 'Object Repository/Checkout/Checkout/Back Checkout'
+
+2023-06-09 13:22:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-06-09 13:22:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Checkout/Back Checkout']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-09 13:21:43 - [TEST_SUITE][PASSED] - Ambil_DiToko_BCA: Test Cases/Checkout/TC_Checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

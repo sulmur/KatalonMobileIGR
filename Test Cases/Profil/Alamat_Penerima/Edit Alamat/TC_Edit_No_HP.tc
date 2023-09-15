@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case edit field nomor HP</description>
+   <name>TC_Edit_No_HP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b676a110-32fd-4f88-8473-48780dd80fac</testCaseGuid>
+</TestCaseEntity>

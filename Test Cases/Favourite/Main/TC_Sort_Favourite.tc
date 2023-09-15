@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case favorit cek fitur sorting</description>
+   <name>TC_Sort_Favourite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abcacc78-6268-4be6-84d2-6448c14ba237</testCaseGuid>
+</TestCaseEntity>

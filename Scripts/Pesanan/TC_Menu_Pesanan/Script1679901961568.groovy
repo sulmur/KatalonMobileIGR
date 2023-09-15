@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.APP, false)
 
+Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)
+
 'Tap menu \'Pesanan\''
 Mobile.tap(findTestObject('Pesanan/Menu Pesanan'), 0)
 

@@ -16,12 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap salah satu banner Promo'
-Mobile.tap(findTestObject('Object Repository/Promotion/Detail_Promo/Banner Promo 1'), 0)
+Mobile.tap(findTestObject('Promotion/Detail_Promo/Banner Promo 1'), 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Promotion/Detail_Promo/Syarat dan Ketentuan 1'), 20)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Produk Promo.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap tombol \'Syarat & Ketentuan\''
 Mobile.tap(findTestObject('Promotion/Detail_Promo/Syarat dan Ketentuan 1'), 0)
+
+Mobile.closeApplication()
 

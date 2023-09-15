@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Filter cek semua fitur</description>
+   <name>TC_Filter_All</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7233c4ed-f42a-4856-94da-fe3071922970</testCaseGuid>
+</TestCaseEntity>

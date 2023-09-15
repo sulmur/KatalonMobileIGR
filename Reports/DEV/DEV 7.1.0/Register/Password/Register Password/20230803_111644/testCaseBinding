@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Register/Password/Main/TC_Register_Character_Password","testCaseId":"Test Cases/Register/Password/Main/TC_Register_Character_Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Register/Password/Main/TC_Register_Invalid_Confirm_Password","testCaseId":"Test Cases/Register/Password/Main/TC_Register_Invalid_Confirm_Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Alphabet","testCaseId":"Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Alphabet","iterationVariableName":""}
+{"testCaseName":"Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number","testCaseId":"Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number","iterationVariableName":""}

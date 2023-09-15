@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test case Filter dua produk</description>
-   <name>TC_Filter_TwoProduct</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5d936d8c-73ee-49ed-9191-de3f793df7af</testCaseGuid>
-</TestCaseEntity>

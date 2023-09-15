@@ -1,8 +1,0 @@
-{"testCaseName":"Test Cases/Register/Redirect_to_RegisterPage","testCaseId":"Test Cases/Register/Redirect_to_RegisterPage","iterationVariableName":""}
-{"testCaseName":"Test Cases/Register/Name/TC_Register_ValidName","testCaseId":"Test Cases/Register/Name/TC_Register_ValidName","iterationVariableName":""}
-{"testCaseName":"Test Cases/Register/Email/TC_Register_InvalidEmail","testCaseId":"Test Cases/Register/Email/TC_Register_InvalidEmail","iterationVariableName":""}
-{"testCaseName":"Test Cases/Register/Password/TC_Register_ValidPassword","testCaseId":"Test Cases/Register/Password/TC_Register_ValidPassword","iterationVariableName":""}
-{"testCaseName":"Test Cases/Register/Address/TC_Register_ValidAddress","testCaseId":"Test Cases/Register/Address/TC_Register_ValidAddress","iterationVariableName":""}
-{"testCaseName":"Test Cases/Register/Phone_Number/TC_Register_ValidPhone","testCaseId":"Test Cases/Register/Phone_Number/TC_Register_ValidPhone","iterationVariableName":""}
-{"testCaseName":"Test Cases/Register/Register_Submit","testCaseId":"Test Cases/Register/Register_Submit","iterationVariableName":""}
-{"testCaseName":"Test Cases/Register/Email/TC_Verify_Invalid_Email","testCaseId":"Test Cases/Register/Email/TC_Verify_Invalid_Email","iterationVariableName":""}

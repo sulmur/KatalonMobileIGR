@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test case Search produk dengan label 'Mau Lebih Untung?'</description>
-   <name>TC_Search_Lebih_Untung</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a9b75b23-4ee7-4b7b-a447-cfe04ec81a57</testCaseGuid>
-</TestCaseEntity>

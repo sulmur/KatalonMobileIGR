@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 Mobile.swipe(100, 600, 0, 0)
 
@@ -25,6 +26,8 @@ Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 Mobile.tap(findTestObject('Profil/Bantuan/Cara Belanja'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cara Belanja.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.swipe(100, 1000, 0, 0)
 

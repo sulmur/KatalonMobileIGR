@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case login cek tiap case email</description>
+   <name>TC_Login_Case_Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>626be66e-7cdf-4f3b-80ac-9f909a1c4fe7</testCaseGuid>
+</TestCaseEntity>

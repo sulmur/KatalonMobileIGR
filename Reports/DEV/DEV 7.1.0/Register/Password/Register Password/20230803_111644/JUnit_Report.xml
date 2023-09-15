@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register Password" time="235.474" tests="4" failures="0" errors="0">
+   <testsuite name="Register Password" tests="4" failures="0" errors="0" time="235.474" skipped="0" timestamp="2023-08-03 11:16:54" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Register/Password/Register Password">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230803_111644\\Register\\Password\\Register Password\\20230803_111644"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230803_111644\\Register\\Password\\Register Password\\20230803_111644\\appium.log, C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230803_111644\\Register\\Password\\Register Password\\20230803_111644\\execution0.log"/>
+         <property name="attachments" value="C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Invalid Character Password.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Cek Alert Confirm Password.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Invalid Password Only Alphabet.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Invalid Password Only Number.png"/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="172.20.111.103"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Register/Password/Main/TC_Register_Character_Password" time="60.253" classname="Test Cases/Register/Password/Main/TC_Register_Character_Password" status="PASSED">
+         <system-out><![CDATA[2023-08-03 11:16:54 - [TEST_CASE][PASSED] - Test Cases/Register/Password/Main/TC_Register_Character_Password: Test Cases/Register/Password/Main/TC_Register_Character_Password
+
+2023-08-03 11:16:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Redirect_to_RegisterPage"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:16:55 - [TEST_CASE][PASSED] - Test Cases/Register/Redirect_to_RegisterPage: Test Cases/Register/Redirect_to_RegisterPage
+
+2023-08-03 11:16:55 - [TEST_STEP][PASSED] - startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:16:55 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.indogrosir.sd1.klikdev']
+
+2023-08-03 11:16:55 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.example.klik_indogrosir_playground.MainActivity']
+
+2023-08-03 11:16:55 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-08-03 11:16:55 - [MESSAGE][INFO] - User set preference: ['fullReset', 'false']
+
+2023-08-03 11:16:55 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-08-03 11:16:56 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-03 11:16:57 - [MESSAGE][INFO] - Appium server started on port 55,594
+
+2023-08-03 11:17:06 - [MESSAGE][PASSED] - Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:17:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Kategori/Minuman"), 60): Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:17:09 - [MESSAGE][PASSED] - Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:17:09 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Profil_Button/Menu Akun"), 0): Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:17:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:17:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login/Tombol Daftar"), 0): Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:17:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:17:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Name/Field Nama - Register"), 0): Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:17:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:12 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:17:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:17:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Name/TC_Register_ValidName"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:17:12 - [TEST_CASE][PASSED] - Test Cases/Register/Name/TC_Register_ValidName: Test Cases/Register/Name/TC_Register_ValidName
+
+2023-08-03 11:17:12 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Name/Field Nama - Register"), 0): Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:17:13 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Name/Field Nama - Register"), "raihan", 0): Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:14 - [MESSAGE][PASSED] - Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:17:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:17:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Email/TC_Register_ValidEmail"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:17:14 - [TEST_CASE][PASSED] - Test Cases/Register/Email/TC_Register_ValidEmail: Test Cases/Register/Email/TC_Register_ValidEmail
+
+2023-08-03 11:17:14 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Email/Field Email - Register"), 0): Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Email/Field Email - Register"), "raihan@ymail.com", 0): Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:16 - [MESSAGE][PASSED] - Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:17:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:17:16 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:17:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Password - Register"), "yVvBGCXjhlM=", 0): Encrypted text 'yVvBGCXjhlM=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:17:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:18 - [MESSAGE][PASSED] - Encrypted text 'yVvBGCXjhlM=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:17:18 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Icon Field Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:17:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:17:19 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Konfirmasi Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:17:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Konfirmasi Password - Register"), "yVvBGCXjhlM=", 0): Encrypted text 'yVvBGCXjhlM=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:21 - [MESSAGE][PASSED] - Encrypted text 'yVvBGCXjhlM=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:17:21 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Icon Field Konfirmasi Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:17:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:17:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Address/TC_Register_ValidAddress"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:17:22 - [TEST_CASE][PASSED] - Test Cases/Register/Address/TC_Register_ValidAddress: Test Cases/Register/Address/TC_Register_ValidAddress
+
+2023-08-03 11:17:22 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), 0): Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:17:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:17:23 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), "Jl. yang ada di Kedaung", 0): Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:17:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:24 - [MESSAGE][PASSED] - Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:17:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:17:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:17:25 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Provinsi - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:17:26 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:17:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:17:27 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kota - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:17:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:17:29 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:17:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:17:30 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kecamatan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:17:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:17:31 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:17:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:17:32 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kelurahan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:17:33 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:17:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:17:34 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-08-03 11:17:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-03 11:17:38 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:17:39 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:17:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:17:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:39 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:17:39 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:17:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:17:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Konfirmasi"), 100): Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:17:40 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:17:40 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:17:41 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:17:41 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-08-03 11:17:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-03 11:17:44 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Konfirmasi"), 0): Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:17:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:17:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:17:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Phone_Number/TC_Register_ValidPhone"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:17:46 - [TEST_CASE][PASSED] - Test Cases/Register/Phone_Number/TC_Register_ValidPhone: Test Cases/Register/Phone_Number/TC_Register_ValidPhone
+
+2023-08-03 11:17:46 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:17:47 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:17:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Phone_Number/Field Nomor HP - Register"), 0): Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:17:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:17:48 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Phone_Number/Field Nomor HP - Register"), "085817746351", 0): Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:17:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:48 - [MESSAGE][PASSED] - Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:17:48 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:17:51 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:17:51 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-03 11:17:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-03 11:17:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:17:52 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Tombol Daftar"), 0): Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:17:52 - [TEST_STEP][PASSED] - swipe(400, 400, 400, 1000): Swiped from 400,400 to 400,1,000
+
+2023-08-03 11:17:53 - [MESSAGE][PASSED] - Swiped from 400,400 to 400,1,000
+
+2023-08-03 11:17:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi"), 0): Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is present
+
+2023-08-03 11:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:54 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is present
+
+2023-08-03 11:17:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi"), 0): Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is visible
+
+2023-08-03 11:17:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:17:54 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is visible
+
+2023-08-03 11:17:54 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Invalid Character Password.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-08-03 11:17:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Invalid Character Password.png]]
+
+2023-08-03 11:17:54 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-03 11:17:55 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Password/Main/TC_Register_Invalid_Confirm_Password" time="57.395" classname="Test Cases/Register/Password/Main/TC_Register_Invalid_Confirm_Password" status="PASSED">
+         <system-out><![CDATA[2023-08-03 11:17:55 - [TEST_CASE][PASSED] - Test Cases/Register/Password/Main/TC_Register_Invalid_Confirm_Password: Test Cases/Register/Password/Main/TC_Register_Invalid_Confirm_Password
+
+2023-08-03 11:17:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Redirect_to_RegisterPage"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:17:55 - [TEST_CASE][PASSED] - Test Cases/Register/Redirect_to_RegisterPage: Test Cases/Register/Redirect_to_RegisterPage
+
+2023-08-03 11:17:55 - [TEST_STEP][PASSED] - startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:17:55 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.indogrosir.sd1.klikdev']
+
+2023-08-03 11:17:55 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.example.klik_indogrosir_playground.MainActivity']
+
+2023-08-03 11:17:55 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-08-03 11:17:55 - [MESSAGE][INFO] - User set preference: ['fullReset', 'false']
+
+2023-08-03 11:17:55 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-08-03 11:17:55 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-03 11:17:56 - [MESSAGE][INFO] - Appium server started on port 55,752
+
+2023-08-03 11:18:03 - [MESSAGE][PASSED] - Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:18:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Kategori/Minuman"), 60): Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:18:08 - [MESSAGE][PASSED] - Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:18:08 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Profil_Button/Menu Akun"), 0): Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:18:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:18:08 - [TEST_STEP][PASSED] - tap(findTestObject("Login/Tombol Daftar"), 0): Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:18:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:18:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Name/Field Nama - Register"), 0): Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:18:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:10 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:18:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:18:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Name/TC_Register_ValidName"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:18:11 - [TEST_CASE][PASSED] - Test Cases/Register/Name/TC_Register_ValidName: Test Cases/Register/Name/TC_Register_ValidName
+
+2023-08-03 11:18:11 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Name/Field Nama - Register"), 0): Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:18:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Name/Field Nama - Register"), "raihan", 0): Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:18:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:12 - [MESSAGE][PASSED] - Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:18:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:18:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Email/TC_Register_ValidEmail"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:18:12 - [TEST_CASE][PASSED] - Test Cases/Register/Email/TC_Register_ValidEmail: Test Cases/Register/Email/TC_Register_ValidEmail
+
+2023-08-03 11:18:12 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Email/Field Email - Register"), 0): Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:18:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:18:14 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Email/Field Email - Register"), "raihan@ymail.com", 0): Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:14 - [MESSAGE][PASSED] - Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:18:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:18:14 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:18:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Password - Register"), "lsdNNXlVAZI=", 0): Encrypted text 'lsdNNXlVAZI=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:16 - [MESSAGE][PASSED] - Encrypted text 'lsdNNXlVAZI=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:18:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Password/Icon Field Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:18:18 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Konfirmasi Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:18:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Konfirmasi Password - Register"), "cVIwjfOa1J4=", 0): Encrypted text 'cVIwjfOa1J4=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:19 - [MESSAGE][PASSED] - Encrypted text 'cVIwjfOa1J4=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:18:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Password/Icon Field Konfirmasi Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:18:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Address/TC_Register_ValidAddress"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:18:20 - [TEST_CASE][PASSED] - Test Cases/Register/Address/TC_Register_ValidAddress: Test Cases/Register/Address/TC_Register_ValidAddress
+
+2023-08-03 11:18:20 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), 0): Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:18:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), "Jl. yang ada di Kedaung", 0): Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:18:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:22 - [MESSAGE][PASSED] - Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:18:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:18:23 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:18:23 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Provinsi - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:18:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:18:24 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:18:25 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kota - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:18:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:18:27 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:18:28 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kecamatan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:18:29 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:18:31 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kelurahan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:18:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:18:32 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:18:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:18:32 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-08-03 11:18:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-03 11:18:36 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:18:37 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:18:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:38 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:18:38 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:18:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Konfirmasi"), 100): Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:18:39 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:18:39 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:18:40 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:18:40 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-08-03 11:18:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-03 11:18:43 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Konfirmasi"), 0): Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:18:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:18:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:18:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Phone_Number/TC_Register_ValidPhone"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:18:44 - [TEST_CASE][PASSED] - Test Cases/Register/Phone_Number/TC_Register_ValidPhone: Test Cases/Register/Phone_Number/TC_Register_ValidPhone
+
+2023-08-03 11:18:44 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:18:45 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:18:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Phone_Number/Field Nomor HP - Register"), 0): Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:18:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:18:45 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Phone_Number/Field Nomor HP - Register"), "085817746351", 0): Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:18:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:46 - [MESSAGE][PASSED] - Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:18:46 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:18:49 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:18:49 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-03 11:18:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-03 11:18:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:18:50 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Tombol Daftar"), 0): Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:18:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok"), 0): Element 'Object Repository/Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok' is present
+
+2023-08-03 11:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:51 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok' is present
+
+2023-08-03 11:18:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok"), 0): Element 'Object Repository/Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok' is visible
+
+2023-08-03 11:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:18:51 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok' is visible
+
+2023-08-03 11:18:51 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Cek Alert Confirm Password.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-08-03 11:18:52 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Cek Alert Confirm Password.png]]
+
+2023-08-03 11:18:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-03 11:18:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Alphabet" time="58.591" classname="Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Alphabet" status="PASSED">
+         <system-out><![CDATA[2023-08-03 11:18:52 - [TEST_CASE][PASSED] - Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Alphabet: Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Alphabet
+
+2023-08-03 11:18:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Redirect_to_RegisterPage"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:18:52 - [TEST_CASE][PASSED] - Test Cases/Register/Redirect_to_RegisterPage: Test Cases/Register/Redirect_to_RegisterPage
+
+2023-08-03 11:18:52 - [TEST_STEP][PASSED] - startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:18:52 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.indogrosir.sd1.klikdev']
+
+2023-08-03 11:18:52 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.example.klik_indogrosir_playground.MainActivity']
+
+2023-08-03 11:18:52 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-08-03 11:18:52 - [MESSAGE][INFO] - User set preference: ['fullReset', 'false']
+
+2023-08-03 11:18:52 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-08-03 11:18:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-03 11:18:54 - [MESSAGE][INFO] - Appium server started on port 55,901
+
+2023-08-03 11:19:02 - [MESSAGE][PASSED] - Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:19:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Kategori/Minuman"), 60): Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:19:06 - [MESSAGE][PASSED] - Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:19:06 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Profil_Button/Menu Akun"), 0): Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:19:07 - [TEST_STEP][PASSED] - tap(findTestObject("Login/Tombol Daftar"), 0): Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:19:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Name/Field Nama - Register"), 0): Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:09 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:19:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:19:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Name/TC_Register_ValidName"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:19:09 - [TEST_CASE][PASSED] - Test Cases/Register/Name/TC_Register_ValidName: Test Cases/Register/Name/TC_Register_ValidName
+
+2023-08-03 11:19:09 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Name/Field Nama - Register"), 0): Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:19:10 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Name/Field Nama - Register"), "raihan", 0): Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:11 - [MESSAGE][PASSED] - Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:19:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:19:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Email/TC_Register_ValidEmail"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:19:11 - [TEST_CASE][PASSED] - Test Cases/Register/Email/TC_Register_ValidEmail: Test Cases/Register/Email/TC_Register_ValidEmail
+
+2023-08-03 11:19:11 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Email/Field Email - Register"), 0): Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:19:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Email/Field Email - Register"), "raihan@ymail.com", 0): Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:13 - [MESSAGE][PASSED] - Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:19:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:19:13 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:19:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Password - Register"), "2Ch3tCa/S0s=", 0): Encrypted text '2Ch3tCa/S0s=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:15 - [MESSAGE][PASSED] - Encrypted text '2Ch3tCa/S0s=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:19:15 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Icon Field Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:19:15 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Konfirmasi Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:19:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Konfirmasi Password - Register"), "2Ch3tCa/S0s=", 0): Encrypted text '2Ch3tCa/S0s=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:19:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:17 - [MESSAGE][PASSED] - Encrypted text '2Ch3tCa/S0s=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:19:17 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Icon Field Konfirmasi Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:19:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:19:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Address/TC_Register_ValidAddress"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:19:19 - [TEST_CASE][PASSED] - Test Cases/Register/Address/TC_Register_ValidAddress: Test Cases/Register/Address/TC_Register_ValidAddress
+
+2023-08-03 11:19:19 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), 0): Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), "Jl. yang ada di Kedaung", 0): Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:20 - [MESSAGE][PASSED] - Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:19:20 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:19:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:19:21 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Provinsi - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:19:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:19:22 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:19:23 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kota - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:19:25 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:19:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:19:26 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kecamatan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:19:27 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:19:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:19:28 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kelurahan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:19:29 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:19:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:19:30 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-08-03 11:19:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-03 11:19:34 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:19:35 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:19:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:35 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:19:35 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:19:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Konfirmasi"), 100): Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:19:37 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:19:37 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:19:38 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:19:38 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-08-03 11:19:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-03 11:19:41 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Konfirmasi"), 0): Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:19:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:19:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:19:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Phone_Number/TC_Register_ValidPhone"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:19:42 - [TEST_CASE][PASSED] - Test Cases/Register/Phone_Number/TC_Register_ValidPhone: Test Cases/Register/Phone_Number/TC_Register_ValidPhone
+
+2023-08-03 11:19:42 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:19:43 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:19:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Phone_Number/Field Nomor HP - Register"), 0): Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Phone_Number/Field Nomor HP - Register"), "085817746351", 0): Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:44 - [MESSAGE][PASSED] - Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:19:44 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:19:47 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:19:47 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-03 11:19:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-03 11:19:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:19:48 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Tombol Daftar"), 0): Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:19:49 - [TEST_STEP][PASSED] - swipe(400, 400, 400, 1000): Swiped from 400,400 to 400,1,000
+
+2023-08-03 11:19:50 - [MESSAGE][PASSED] - Swiped from 400,400 to 400,1,000
+
+2023-08-03 11:19:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi"), 0): Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is present
+
+2023-08-03 11:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:50 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is present
+
+2023-08-03 11:19:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi"), 0): Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is visible
+
+2023-08-03 11:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:19:50 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is visible
+
+2023-08-03 11:19:50 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Invalid Password Only Alphabet.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-08-03 11:19:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Invalid Password Only Alphabet.png]]
+
+2023-08-03 11:19:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-03 11:19:51 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number" time="59.021" classname="Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number" status="PASSED">
+         <system-out><![CDATA[2023-08-03 11:19:51 - [TEST_CASE][PASSED] - Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number: Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number
+
+2023-08-03 11:19:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Redirect_to_RegisterPage"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:19:51 - [TEST_CASE][PASSED] - Test Cases/Register/Redirect_to_RegisterPage: Test Cases/Register/Redirect_to_RegisterPage
+
+2023-08-03 11:19:51 - [TEST_STEP][PASSED] - startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:19:51 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.indogrosir.sd1.klikdev']
+
+2023-08-03 11:19:51 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.example.klik_indogrosir_playground.MainActivity']
+
+2023-08-03 11:19:51 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-08-03 11:19:51 - [MESSAGE][INFO] - User set preference: ['fullReset', 'false']
+
+2023-08-03 11:19:51 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-08-03 11:19:51 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-03 11:19:52 - [MESSAGE][INFO] - Appium server started on port 56,062
+
+2023-08-03 11:19:59 - [MESSAGE][PASSED] - Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:19:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Kategori/Minuman"), 60): Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:20:04 - [MESSAGE][PASSED] - Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:20:04 - [TEST_STEP][PASSED] - tap(findTestObject("Profil/Profil_Button/Menu Akun"), 0): Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profil/Profil_Button/Menu Akun'
+
+2023-08-03 11:20:05 - [TEST_STEP][PASSED] - tap(findTestObject("Login/Tombol Daftar"), 0): Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Tombol Daftar'
+
+2023-08-03 11:20:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Name/Field Nama - Register"), 0): Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:07 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Name/Field Nama - Register' is present
+
+2023-08-03 11:20:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Redirect_to_RegisterPage' successfully
+
+2023-08-03 11:20:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Name/TC_Register_ValidName"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:20:07 - [TEST_CASE][PASSED] - Test Cases/Register/Name/TC_Register_ValidName: Test Cases/Register/Name/TC_Register_ValidName
+
+2023-08-03 11:20:07 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Name/Field Nama - Register"), 0): Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:20:08 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Name/Field Nama - Register"), "raihan", 0): Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:08 - [MESSAGE][PASSED] - Text 'raihan' has been set to element 'Object Repository/Register/Name/Field Nama - Register'
+
+2023-08-03 11:20:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Name/TC_Register_ValidName' successfully
+
+2023-08-03 11:20:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Email/TC_Register_ValidEmail"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:20:08 - [TEST_CASE][PASSED] - Test Cases/Register/Email/TC_Register_ValidEmail: Test Cases/Register/Email/TC_Register_ValidEmail
+
+2023-08-03 11:20:08 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Email/Field Email - Register"), 0): Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:20:10 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Email/Field Email - Register"), "raihan@ymail.com", 0): Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:10 - [MESSAGE][PASSED] - Text 'raihan@ymail.com' has been set to element 'Object Repository/Register/Email/Field Email - Register'
+
+2023-08-03 11:20:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Email/TC_Register_ValidEmail' successfully
+
+2023-08-03 11:20:10 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:20:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Password - Register"), "aeHFOx8jV/A=", 0): Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:12 - [MESSAGE][PASSED] - Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Register/Password/Field Password - Register'
+
+2023-08-03 11:20:12 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Icon Field Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Password'
+
+2023-08-03 11:20:14 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Field Konfirmasi Password - Register"), 0): Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:20:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Register/Password/Field Konfirmasi Password - Register"), "aeHFOx8jV/A=", 0): Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:15 - [MESSAGE][PASSED] - Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Register/Password/Field Konfirmasi Password - Register'
+
+2023-08-03 11:20:15 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Password/Icon Field Konfirmasi Password"), 0): Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Password/Icon Field Konfirmasi Password'
+
+2023-08-03 11:20:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Address/TC_Register_ValidAddress"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:20:17 - [TEST_CASE][PASSED] - Test Cases/Register/Address/TC_Register_ValidAddress: Test Cases/Register/Address/TC_Register_ValidAddress
+
+2023-08-03 11:20:17 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), 0): Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:20:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Address/Field Alamat Pengiriman - Register"), "Jl. yang ada di Kedaung", 0): Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:20:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:18 - [MESSAGE][PASSED] - Text 'Jl. yang ada di Kedaung' has been set to element 'Object Repository/Register/Address/Field Alamat Pengiriman - Register'
+
+2023-08-03 11:20:18 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:20:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:20:19 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Provinsi - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Provinsi - Register'
+
+2023-08-03 11:20:21 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-'
+
+2023-08-03 11:20:21 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kota - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kota - Register'
+
+2023-08-03 11:20:23 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-'
+
+2023-08-03 11:20:24 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kecamatan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kecamatan - Register'
+
+2023-08-03 11:20:25 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:20:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-'
+
+2023-08-03 11:20:26 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Dropdown Kelurahan - Register"), 0): Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:20:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Dropdown Kelurahan - Register'
+
+2023-08-03 11:20:27 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-"), 0): Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:20:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'
+
+2023-08-03 11:20:28 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-08-03 11:20:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-03 11:20:32 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:20:33 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:20:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:20:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:33 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Tandai Lokasi di Peta' is present
+
+2023-08-03 11:20:33 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Tandai Lokasi di Peta"), 0): Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Tandai Lokasi di Peta'
+
+2023-08-03 11:20:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Address/Konfirmasi"), 100): Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:20:35 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Address/Konfirmasi' is present
+
+2023-08-03 11:20:35 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:20:36 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:20:36 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-08-03 11:20:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-03 11:20:39 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Address/Konfirmasi"), 0): Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:20:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Address/Konfirmasi'
+
+2023-08-03 11:20:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Address/TC_Register_ValidAddress' successfully
+
+2023-08-03 11:20:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Register/Phone_Number/TC_Register_ValidPhone"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:20:40 - [TEST_CASE][PASSED] - Test Cases/Register/Phone_Number/TC_Register_ValidPhone: Test Cases/Register/Phone_Number/TC_Register_ValidPhone
+
+2023-08-03 11:20:40 - [TEST_STEP][PASSED] - swipe(100, 400, 0, 0): Swiped from 100,400 to 0,0
+
+2023-08-03 11:20:41 - [MESSAGE][PASSED] - Swiped from 100,400 to 0,0
+
+2023-08-03 11:20:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/Phone_Number/Field Nomor HP - Register"), 0): Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:20:41 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Phone_Number/Field Nomor HP - Register"), "085817746351", 0): Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:42 - [MESSAGE][PASSED] - Text '085817746351' has been set to element 'Object Repository/Register/Phone_Number/Field Nomor HP - Register'
+
+2023-08-03 11:20:42 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-03 11:20:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-03 11:20:45 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-03 11:20:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-03 11:20:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Register/Phone_Number/TC_Register_ValidPhone' successfully
+
+2023-08-03 11:20:46 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Tombol Daftar"), 0): Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:20:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Tombol Daftar'
+
+2023-08-03 11:20:47 - [TEST_STEP][PASSED] - swipe(400, 400, 400, 1000): Swiped from 400,400 to 400,1,000
+
+2023-08-03 11:20:48 - [MESSAGE][PASSED] - Swiped from 400,400 to 400,1,000
+
+2023-08-03 11:20:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi"), 0): Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is present
+
+2023-08-03 11:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:49 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is present
+
+2023-08-03 11:20:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi"), 0): Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is visible
+
+2023-08-03 11:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:20:49 - [MESSAGE][PASSED] - Element 'Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi' is visible
+
+2023-08-03 11:20:49 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Invalid Password Only Number.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-08-03 11:20:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_111644\Register\Password\Register Password\20230803_111644Invalid Password Only Number.png]]
+
+2023-08-03 11:20:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-03 11:20:50 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-03 11:16:54 - [TEST_SUITE][PASSED] - Register Password: Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

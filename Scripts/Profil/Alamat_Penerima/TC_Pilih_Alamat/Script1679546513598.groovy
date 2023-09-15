@@ -16,10 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap \'Pilih Alamat Penerima\' baris kedua'
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Ganti_Alamat/Pilih Alamat 2'), 0)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Ganti Alamat.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 'Tap kembali \'Pilih Alamat Penerima\' baris pertama'
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Ganti_Alamat/Pilih Alamat 1'), 0)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Reset Pilihan Alamat.png', FailureHandling.CONTINUE_ON_FAILURE)

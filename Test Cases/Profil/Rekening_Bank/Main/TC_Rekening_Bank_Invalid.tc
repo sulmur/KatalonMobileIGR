@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Rekening Bank dengan data salah</description>
+   <name>TC_Rekening_Bank_Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3ae2213-2126-430a-81cd-722f7c7619b2</testCaseGuid>
+</TestCaseEntity>

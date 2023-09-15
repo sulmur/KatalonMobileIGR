@@ -6,12 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Dev Mobile IGR</description>
-      <initValue>'C:\\Users\\raiha\\Katalon Studio\\Mobile Klik IGR\\AndroidApp\\Klik Dev v6.0.9.apk'</initValue>
+      <initValue>'C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\AndroidApp\\Klik Dev v7.1.0.apk'</initValue>
       <name>APP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'com.indogrosir.sd1.klikdev'</initValue>
       <name>APP_EXIST</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'user123'</initValue>
+      <name>PASSWORD</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

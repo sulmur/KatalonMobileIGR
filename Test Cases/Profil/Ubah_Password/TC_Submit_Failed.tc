@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test case profil tap tombol 'Simpan Perubahan' dan gagal mengubah password</description>
-   <name>TC_Submit_Failed</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>00482f87-1236-40da-ab85-a07b9369d9ef</testCaseGuid>
-</TestCaseEntity>

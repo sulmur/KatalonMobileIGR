@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Menu__Informasi,,Test module Profil skenario melihat menu Tentang Kami,,2023-06-09 10:02:52,2023-06-09 10:03:27,35.918s,PASSED
+,,,,,,,
+Test Cases/Profil/TC_Profil_Button,,Test case tap menu 'Akun',,2023-06-09 10:02:52,2023-06-09 10:03:08,16.153s,PASSED
+"startApplication(APP, false)",,,,2023-06-09 10:02:52,2023-06-09 10:03:05,12.486s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-09 10:03:05,2023-06-09 10:03:07,2.193s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Tap menu 'Akun',,2023-06-09 10:03:07,2023-06-09 10:03:08,1.202s,PASSED
+,,,,,,,
+Test Cases/Profil/Informasi/TC_Tentang_Kami,,Test module Profil skenario melihat menu Tentang Kami,,2023-06-09 10:03:08,2023-06-09 10:03:19,11.223s,PASSED
+"swipe(100, 700, 0, 0)",,,,2023-06-09 10:03:08,2023-06-09 10:03:09,1.096s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 10:03:09,2023-06-09 10:03:10,1.036s,PASSED
+"tap(findTestObject(""Profil/Informasi/Tentang Kami""), 0)",,Tap menu 'Tentang Kami',,2023-06-09 10:03:10,2023-06-09 10:03:12,1.217s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 10:03:12,2023-06-09 10:03:14,2.006s,PASSED
+"takeScreenshot(getReportFolder() + ""Tentang Kami.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 10:03:14,2023-06-09 10:03:15,1.394s,PASSED
+"swipe(100, 1000, 0, 0)",,,,2023-06-09 10:03:15,2023-06-09 10:03:17,1.795s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Back""), 0)",,Tap icon 'Back' untuk kembali ke laman Profil,,2023-06-09 10:03:17,2023-06-09 10:03:19,2.403s,PASSED
+,,,,,,,
+Test Cases/Profil/Informasi/TC_Tentang_Aplikasi,,Test module Profil skenario melihat menu Tentang Aplikasi,,2023-06-09 10:03:19,2023-06-09 10:03:27,8.310s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 10:03:19,2023-06-09 10:03:21,1.007s,PASSED
+"tap(findTestObject(""Profil/Informasi/Tentang Aplikasi""), 0)",,Tap menu 'Tentang Aplikasi',,2023-06-09 10:03:21,2023-06-09 10:03:21,0.833s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 10:03:21,2023-06-09 10:03:22,1.010s,PASSED
+"takeScreenshot(getReportFolder() + ""Tentang Aplikasi.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 10:03:22,2023-06-09 10:03:24,1.455s,PASSED
+"tap(findTestObject(""Profil/Informasi/Bintang 5""), 0)",,Tap icon 'Bintang 5',,2023-06-09 10:03:24,2023-06-09 10:03:24,0.422s,PASSED
+"tap(findTestObject(""Profil/Informasi/Beri Rating""), 0)",,Tap tombol 'Beri Rating',,2023-06-09 10:03:24,2023-06-09 10:03:24,0.240s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-09 10:03:24,2023-06-09 10:03:27,3.017s,PASSED

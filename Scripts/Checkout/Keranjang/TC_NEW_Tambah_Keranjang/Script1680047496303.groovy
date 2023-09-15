@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 Mobile.startApplication(GlobalVariable.APP, false)
 
@@ -55,4 +56,6 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Kategori/Ibu_Anak/Keranjang Ibu dan Anak 1'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Keranjang.png')
 

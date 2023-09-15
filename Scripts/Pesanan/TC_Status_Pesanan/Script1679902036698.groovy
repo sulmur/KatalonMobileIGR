@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap dropdown \'Daftar Transaksi\''
 Mobile.tap(findTestObject('Pesanan/Dropdown Transaksi'), 0)
@@ -25,6 +26,8 @@ Mobile.tap(findTestObject('Pesanan/Status Pesanan/Pengembalian'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Status Pengembalian.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 'Tap dropdown \'Daftar Transaksi\''
 Mobile.tap(findTestObject('Pesanan/Dropdown/Dropdown Pengembalian'), 0)
 
@@ -33,21 +36,17 @@ Mobile.tap(findTestObject('Pesanan/Status Pesanan/Dibatalkan'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Status Dibatalkan.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 'Tap dropdown \'Daftar Transaksi\''
 Mobile.tap(findTestObject('Pesanan/Dropdown/Dropdown Dibatalkan'), 0)
-
-'Pilih status \'Selesai\''
-Mobile.tap(findTestObject('Pesanan/Status Pesanan/Selesai'), 0)
-
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-
-'Tap dropdown \'Daftar Transaksi\''
-Mobile.tap(findTestObject('Pesanan/Dropdown/Dropdown Selesai'), 0)
 
 'Pilih status \'Diproses\''
 Mobile.tap(findTestObject('Pesanan/Status Pesanan/Diproses'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Status Diproses.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap dropdown \'Daftar Transaksi\''
 Mobile.tap(findTestObject('Pesanan/Dropdown/Dropdown Diproses'), 0)
@@ -57,15 +56,15 @@ Mobile.tap(findTestObject('Pesanan/Status Pesanan/Belum Bayar'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Status Belum Bayar.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 'Tap dropdown \'Daftar Transaksi\''
 Mobile.tap(findTestObject('Pesanan/Dropdown/Dropdown Belum Bayar'), 0)
 
-'Pilih status \'Semua Transaksi\''
-Mobile.tap(findTestObject('Pesanan/Status Pesanan/Semua Transaksi'), 0)
+'Pilih status \'Selesai\''
+Mobile.tap(findTestObject('Pesanan/Status Pesanan/Selesai'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.swipe(100, 700, 0, 0)
-
-Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Status Selesai.png', FailureHandling.CONTINUE_ON_FAILURE)
 

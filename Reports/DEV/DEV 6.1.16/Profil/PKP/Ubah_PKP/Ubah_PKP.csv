@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ubah__PKP,,Test module Profil cek edit data PKP,,2023-07-28 15:23:50,2023-07-28 15:24:23,32.716s,PASSED
+,,,,,,,
+Test Cases/Profil/TC_Profil_Button,,Test case tap menu 'Akun',,2023-07-28 15:23:50,2023-07-28 15:24:05,14.212s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-07-28 15:23:51,2023-07-28 15:24:02,11.704s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-28 15:24:02,2023-07-28 15:24:04,1.384s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Tap menu 'Akun',,2023-07-28 15:24:04,2023-07-28 15:24:05,0.830s,PASSED
+,,,,,,,
+Test Cases/Profil/PKP/TC_PKP_Button,,Test case cek tombol data PKP,,2023-07-28 15:24:05,2023-07-28 15:24:08,2.931s,PASSED
+"swipe(100, 400, 0, 0)",,,,2023-07-28 15:24:05,2023-07-28 15:24:06,1.146s,PASSED
+"tap(findTestObject(""Profil/Data PKP/Menu Data PKP""), 0)",,tap 'Data PKP',,2023-07-28 15:24:06,2023-07-28 15:24:08,1.477s,PASSED
+,,,,,,,
+Test Cases/Profil/PKP/TC_Edit_PKP,,Test case cek tombol data PKP,,2023-07-28 15:24:08,2023-07-28 15:24:23,15.360s,PASSED
+"tap(findTestObject(""Profil/Data PKP/Nama PKP Filled - Sulthan Muhammad Raihan""), 0)",,tap field 'Nama PKP',,2023-07-28 15:24:08,2023-07-28 15:24:10,1.935s,PASSED
+"clearText(findTestObject(""Profil/Data PKP/Nama PKP Filled - Sulthan Muhammad Raihan""), 0)",,Hapus text pada field 'Nama PKP',,2023-07-28 15:24:10,2023-07-28 15:24:10,0.273s,PASSED
+"setText(findTestObject(""Profil/Data PKP/Field Nama PKP""), ""Sulthan Muhammad Raihan"", 0)",,input data pada field 'Nama PKP',,2023-07-28 15:24:10,2023-07-28 15:24:11,0.750s,PASSED
+"tap(findTestObject(""Profil/Data PKP/Nomor PKP Filled - 42.494.842.7-676.785""), 0)",,tap field 'Nomor PKP',,2023-07-28 15:24:11,2023-07-28 15:24:13,1.680s,PASSED
+"clearText(findTestObject(""Profil/Data PKP/Nomor PKP Filled - 42.494.842.7-676.785""), 0)",,Hapus text pada field 'Nomor PKP',,2023-07-28 15:24:13,2023-07-28 15:24:13,0.210s,PASSED
+"setText(findTestObject(""Profil/Data PKP/Field Nomor PKP""), ""42.494.842.7-676.785"", 0)",,input data pada field 'Nomor PKP',,2023-07-28 15:24:13,2023-07-28 15:24:13,0.653s,PASSED
+"tap(findTestObject(""Profil/Data PKP/Alamat Lengkap Filled""), 0)",,tap field 'Alamat Lengkap',,2023-07-28 15:24:13,2023-07-28 15:24:14,0.816s,PASSED
+"clearText(findTestObject(""Profil/Data PKP/Alamat Lengkap Filled""), 0)",,Hapus text pada field 'Alamat Lengkap',,2023-07-28 15:24:14,2023-07-28 15:24:15,1.132s,PASSED
+"setText(findTestObject(""Profil/Data PKP/Field Alamat Lengkap""), ""Jalan Haji Nawi"", 0)",,input data pada field 'Alamat Lengkap',,2023-07-28 15:24:15,2023-07-28 15:24:16,0.698s,PASSED
+"tap(findTestObject(""Profil/Data PKP/Tombol Simpan PKP""), 0)",,tap tombol 'Simpan' data PKP,,2023-07-28 15:24:16,2023-07-28 15:24:17,1.426s,PASSED
+"tap(findTestObject(""Profil/Data PKP/Setuju Simpan PKP""), 0)",,tap tombol 'Setuju' pada pop-up Konfirmasi Simpan Data PKP,,2023-07-28 15:24:17,2023-07-28 15:24:18,0.891s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Berhasil simpan data PKP.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 15:24:18,2023-07-28 15:24:19,0.979s,PASSED
+"tap(findTestObject(""Profil/Data PKP/OK Berhasil Simpan""), 0)",,tap tombol 'OK' pada pop-up berhasil Simpan Data PKP,,2023-07-28 15:24:19,2023-07-28 15:24:20,1.067s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 15:24:20,2023-07-28 15:24:22,2.039s,PASSED
+closeApplication(),,,,2023-07-28 15:24:22,2023-07-28 15:24:23,0.552s,PASSED

@@ -17,18 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APP, false)
+Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
 
-'Tampilkan jenis device'
-os = Mobile.getDeviceOS()
+Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)
 
-'Tampilkan versi device'
-version = Mobile.getDeviceOSVersion()
+if (Mobile.waitForElementPresent(findTestObject('Homepage/Pesan Ulang'), 0) == true) {
+    'Tap tombol \'Pesan Ulang\''
+    Mobile.tap(findTestObject('Homepage/Pesan Ulang'), 0, FailureHandling.OPTIONAL)
+} else {
+    Mobile.swipe(0, 300, 0, 0, FailureHandling.OPTIONAL)
 
-'Tap tombol "Pesan Ulang" pada homepage'
-Mobile.tap(findTestObject('Homepage/Pesan Ulang 1'), 0)
+    Mobile.delay(2, FailureHandling.OPTIONAL)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+    'Tap tombol "Pesan Ulang" pada homepage'
+    Mobile.tap(findTestObject('Homepage/Pesan Ulang Down'), 0, FailureHandling.OPTIONAL)
+}
+
+Mobile.waitForElementPresent(findTestObject('Homepage/Tutup Pop-up Pesan Ulang'), 0)
 
 'Tap tombol "Tutup" pada pop-up berhasil pesan ulang'
 Mobile.tap(findTestObject('Homepage/Tutup Pop-up Pesan Ulang'), 0)
@@ -36,5 +41,25 @@ Mobile.tap(findTestObject('Homepage/Tutup Pop-up Pesan Ulang'), 0)
 'Tap tombol icon "Keranjang" pada homepage'
 Mobile.tap(findTestObject('Homepage/Keranjang Home 1'), 0)
 
-Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Checkout/Pengiriman/NEW Tombol Pengiriman'), 0)
+
+if (Mobile.verifyElementExist(findTestObject('Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok'), 1, 
+    FailureHandling.OPTIONAL)) {
+    'tap tombol \'Hapus\''
+    Mobile.tap(findTestObject('Checkout/Keranjang/Hapus Produk 2'), 0)
+
+    'tap \'Ya\' pada pop-up konfirmasi hapus produk'
+    Mobile.tap(findTestObject('Checkout/Keranjang/Setuju Hapus Produk'), 0)
+
+    'Tap icon \'-\''
+    Mobile.tap(findTestObject('Checkout/Keranjang/Kurangi Produk'), 0)
+
+    'Tap icon \'-\''
+    Mobile.tap(findTestObject('Checkout/Keranjang/Kurangi Produk'), 0)
+
+    'Tap \'Perbaharui\''
+    Mobile.tap(findTestObject('Checkout/Keranjang/NEW Perbaharui Keranjang'), 0)
+} else {
+    Mobile.verifyElementExist(findTestObject('Checkout/Pengiriman/NEW Tombol Pengiriman'), 0)
+}
 

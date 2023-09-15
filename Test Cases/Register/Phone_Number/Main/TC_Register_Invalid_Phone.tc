@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Register dengan nomor HP yang salah</description>
+   <name>TC_Register_Invalid_Phone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9098a3b-ea44-415c-b111-bb055d796121</testCaseGuid>
+</TestCaseEntity>

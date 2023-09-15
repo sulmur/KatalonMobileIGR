@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+Mobile.waitForElementPresent(findTestObject('Search/Filter/Filter Button'), 0)
 
 'Tap tombol \'Filter\''
 Mobile.tap(findTestObject('Search/Filter/Filter Button'), 0)
@@ -32,4 +35,6 @@ Mobile.pressBack()
 Mobile.tap(findTestObject('Search/Filter/Submit Button'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Filter Min.png', FailureHandling.CONTINUE_ON_FAILURE)
 

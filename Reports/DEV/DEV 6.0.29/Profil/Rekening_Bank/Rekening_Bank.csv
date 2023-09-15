@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Rekening_Bank,,"Test module Profil, berhasil submit rekening bank yang valid",,2023-06-09 10:09:18,2023-06-09 10:11:49,2m - 30.896s,PASSED
+,,,,,,,
+Test Cases/Profil/Rekening_Bank/Main/TC_Rekening_Bank_Null,,Test case Rekening Bank dengan data kosong,,2023-06-09 10:09:18,2023-06-09 10:09:50,31.896s,PASSED
+"callTestCase(findTestCase(""Profil/TC_Profil_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:09:18,2023-06-09 10:09:34,15.741s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:09:34,2023-06-09 10:09:37,2.841s,PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Submit/Tombol Simpan""), 0)",,,,2023-06-09 10:09:37,2023-06-09 10:09:40,2.974s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Profil/Rekening_Bank/Rekening_Bank_Null/android.view.View""), 0)",,,,2023-06-09 10:09:40,2023-06-09 10:09:40,0.210s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Profil/Rekening_Bank/Rekening_Bank_Null/android.view.View""), 0)",,,,2023-06-09 10:09:40,2023-06-09 10:09:40,0.262s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-06-09 10:09:40,2023-06-09 10:09:42,2.019s,PASSED
+closeApplication(),,,,2023-06-09 10:09:42,2023-06-09 10:09:43,0.520s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-09 10:09:43,2023-06-09 10:09:50,7.004s,PASSED
+,,,,,,,
+Test Cases/Profil/Rekening_Bank/Main/TC_Rekening_Bank_Invalid,,Test case Rekening Bank dengan data salah,,2023-06-09 10:09:50,2023-06-09 10:10:51,1m - 1.434s,PASSED
+"callTestCase(findTestCase(""Profil/TC_Profil_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:09:50,2023-06-09 10:10:05,14.529s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:10:05,2023-06-09 10:10:07,2.601s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_PilihBank""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:10:07,2023-06-09 10:10:16,9.320s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_Cabang""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:10:16,2023-06-09 10:10:19,2.346s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_Norek""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:10:19,2023-06-09 10:10:24,5.607s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningInvalid""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:10:24,2023-06-09 10:10:28,3.686s,PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Submit/Tombol Simpan""), 0)",,Tap tombol 'Simpan',,2023-06-09 10:10:28,2023-06-09 10:10:29,0.774s,PASSED
+"if (waitForElementPresent(findTestObject(""Profil/Rekening_Bank/Submit/Setuju Simpan Rekening""), 0))",,,,2023-06-09 10:10:29,2023-06-09 10:10:39,10.143s,PASSED
+else,,,,2023-06-09 10:10:39,2023-06-09 10:10:42,2.639s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 10:10:42,2023-06-09 10:10:44,2.013s,PASSED
+closeApplication(),,,,2023-06-09 10:10:44,2023-06-09 10:10:44,0.445s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-09 10:10:44,2023-06-09 10:10:51,7.010s,PASSED
+,,,,,,,
+Test Cases/Profil/Rekening_Bank/Main/TC_Rekening_Bank_Valid,,Test case Rekening Bank dengan data valid,,2023-06-09 10:10:51,2023-06-09 10:11:49,57.338s,PASSED
+"callTestCase(findTestCase(""Profil/TC_Profil_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:10:51,2023-06-09 10:11:05,13.954s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:11:05,2023-06-09 10:11:08,2.593s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_PilihBank""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:11:08,2023-06-09 10:11:15,6.501s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_Cabang""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:11:15,2023-06-09 10:11:17,2.017s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_Norek""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:11:17,2023-06-09 10:11:22,5.215s,PASSED
+"callTestCase(findTestCase(""Profil/Rekening_Bank/TC_RekeningBank_NamaRekeningValid""), [:], STOP_ON_FAILURE)",,,,2023-06-09 10:11:22,2023-06-09 10:11:25,3.686s,PASSED
+"tap(findTestObject(""Profil/Rekening_Bank/Submit/Tombol Simpan""), 0)",,Tap tombol 'Simpan',,2023-06-09 10:11:25,2023-06-09 10:11:26,0.831s,PASSED
+"if (waitForElementPresent(findTestObject(""Profil/Rekening_Bank/Submit/Setuju Simpan Rekening""), 0))",,,,2023-06-09 10:11:26,2023-06-09 10:11:36,10.130s,PASSED
+else,,,,2023-06-09 10:11:36,2023-06-09 10:11:39,2.649s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 10:11:39,2023-06-09 10:11:41,2.005s,PASSED
+closeApplication(),,,,2023-06-09 10:11:41,2023-06-09 10:11:41,0.421s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-09 10:11:41,2023-06-09 10:11:49,7.019s,PASSED

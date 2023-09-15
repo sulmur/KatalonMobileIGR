@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap tombol \'Back\' dari hasil pencarian produk'
 Mobile.tap(findTestObject('Search/Produk/Back Search Anlene'), 0)
@@ -29,3 +30,4 @@ Mobile.tap(findTestObject('Search/Menu Search'), 0)
 'Tap tombol \'Hapus Pencarian\' pada salah satu riwayat pencarian produk'
 Mobile.tap(findTestObject('Search/Hapus Pencarian 1'), 0)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Hapus Search 1 Produk.png', FailureHandling.CONTINUE_ON_FAILURE)

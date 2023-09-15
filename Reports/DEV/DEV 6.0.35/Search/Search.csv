@@ -1,0 +1,121 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,,Test module setiap case Search,,2023-06-13 15:43:01,2023-06-13 15:49:57,6m - 55.967s,PASSED
+,,,,,,,
+Test Cases/Search/Main/TC_Sorting_Search,,Test case search produk cek fitur sorting,,2023-06-13 15:43:01,2023-06-13 15:44:23,1m - 21.681s,PASSED
+"callTestCase(findTestCase(""Search/TC_Search_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:43:02,2023-06-13 15:43:19,17.150s,PASSED
+"tap(findTestObject(""Search/Field Search""), 0)",,Tap field 'search',,2023-06-13 15:43:19,2023-06-13 15:43:21,2.269s,PASSED
+"setText(findTestObject(""Search/Field Search""), ""anlene"", 0)",,input data pada field 'search',,2023-06-13 15:43:21,2023-06-13 15:43:22,0.527s,PASSED
+"waitForElementPresent(findTestObject(""Search/Produk/anlene""), 0)",,,,2023-06-13 15:43:22,2023-06-13 15:43:32,10.165s,PASSED
+"takeScreenshot(""Reports/Suggestion Product.png"")",,,,2023-06-13 15:43:32,2023-06-13 15:43:33,1.057s,PASSED
+"tap(findTestObject(""Search/Produk/anlene""), 0)",,Tap salah satu suggestion produk yang muncul dari hasil search,,2023-06-13 15:43:33,2023-06-13 15:43:39,5.842s,PASSED
+"swipe(100, 900, 0, 0)",,,,2023-06-13 15:43:39,2023-06-13 15:43:40,1.142s,PASSED
+"callTestCase(findTestCase(""Search/Sorting/TC_A-Z_Sort_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:43:40,2023-06-13 15:43:49,9.380s,PASSED
+"callTestCase(findTestCase(""Search/Sorting/TC_Z-A_Sort_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:43:49,2023-06-13 15:43:56,6.418s,PASSED
+"callTestCase(findTestCase(""Search/Sorting/TC_Lowest_Sort_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:43:56,2023-06-13 15:44:02,6.455s,PASSED
+"callTestCase(findTestCase(""Search/Sorting/TC_Highest_Sort_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:44:02,2023-06-13 15:44:09,6.458s,PASSED
+"callTestCase(findTestCase(""Search/Sorting/TC_Cancel_Sort_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:44:09,2023-06-13 15:44:15,6.699s,PASSED
+closeApplication(),,,,2023-06-13 15:44:15,2023-06-13 15:44:16,0.514s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-13 15:44:16,2023-06-13 15:44:23,7.018s,PASSED
+,,,,,,,
+Test Cases/Search/Main/TC_Filter,,Test case Search cek fitur filter,,2023-06-13 15:44:23,2023-06-13 15:45:54,1m - 30.971s,PASSED
+"callTestCase(findTestCase(""Search/TC_Search_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:44:23,2023-06-13 15:44:40,17.020s,PASSED
+"callTestCase(findTestCase(""Search/TC_Suggest_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:44:40,2023-06-13 15:44:52,11.473s,PASSED
+"callTestCase(findTestCase(""Search/Filter/TC_ResetFilter_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:44:52,2023-06-13 15:45:05,12.866s,PASSED
+"callTestCase(findTestCase(""Search/Filter/TC_MinFilter_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:45:05,2023-06-13 15:45:15,10.262s,PASSED
+"callTestCase(findTestCase(""Search/Filter/TC_MaxFilter_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:45:15,2023-06-13 15:45:24,8.817s,PASSED
+"callTestCase(findTestCase(""Search/Filter/TC_MinMaxFilter_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:45:24,2023-06-13 15:45:34,10.663s,PASSED
+"callTestCase(findTestCase(""Search/Filter/TC_AllFilter_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:45:34,2023-06-13 15:45:46,12.139s,PASSED
+closeApplication(),,,,2023-06-13 15:45:46,2023-06-13 15:45:47,0.352s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-13 15:45:47,2023-06-13 15:45:54,7.013s,PASSED
+,,,,,,,
+Test Cases/Search/Main/TC_Reset_Search,,Test case cek fungsi reset search,,2023-06-13 15:45:54,2023-06-13 15:46:29,34.776s,PASSED
+"startApplication(APP, false)",,,,2023-06-13 15:45:54,2023-06-13 15:46:06,11.758s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-13 15:46:06,2023-06-13 15:46:10,3.677s,PASSED
+"tap(findTestObject(""Search/Menu Search""), 0)",,Tap menu search,,2023-06-13 15:46:10,2023-06-13 15:46:10,0.250s,PASSED
+"tap(findTestObject(""Search/Field Search""), 0)",,Tap field search,,2023-06-13 15:46:10,2023-06-13 15:46:13,2.904s,PASSED
+"tap(findTestObject(""Search/android.widget.EditText - Cari Produk""), 0)",,Tap field cari produk,,2023-06-13 15:46:13,2023-06-13 15:46:13,0.351s,PASSED
+"setText(findTestObject(""Search/android.widget.EditText - Cari Produk (1)""), ""bendera"", 0)",,Input data produk,,2023-06-13 15:46:13,2023-06-13 15:46:13,0.266s,PASSED
+"tap(findTestObject(""Search/Reset Search (Active)""), 0)",,Reset data field search produk,,2023-06-13 15:46:13,2023-06-13 15:46:15,1.646s,PASSED
+"waitForElementPresent(findTestObject(""Search/Keranjang Search""), 0)",,,,2023-06-13 15:46:15,2023-06-13 15:46:15,0.420s,PASSED
+"tap(findTestObject(""Search/Keranjang Search""), 0)",,Tap tombol icon 'Back',,2023-06-13 15:46:15,2023-06-13 15:46:17,1.268s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-06-13 15:46:17,2023-06-13 15:46:20,3.019s,PASSED
+"takeScreenshot(getReportFolder() + ""Reset Search.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 15:46:20,2023-06-13 15:46:21,1.478s,PASSED
+closeApplication(),,,,2023-06-13 15:46:21,2023-06-13 15:46:22,0.393s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-13 15:46:22,2023-06-13 15:46:29,7.012s,PASSED
+,,,,,,,
+Test Cases/Search/Main/TC_Search_Product,,Test case Filter untuk mencari produk yang diinginkan,,2023-06-13 15:46:29,2023-06-13 15:47:08,39.255s,PASSED
+"startApplication(APP, false)",,,,2023-06-13 15:46:29,2023-06-13 15:46:41,11.798s,PASSED
+"waitForElementPresent(findTestObject(""Search/Menu Search""), 0)",,,,2023-06-13 15:46:41,2023-06-13 15:46:43,2.220s,PASSED
+"tap(findTestObject(""Search/Menu Search""), 0)",,Tap menu 'Search',,2023-06-13 15:46:43,2023-06-13 15:46:44,1.085s,PASSED
+"waitForElementPresent(findTestObject(""Search/Field Search""), 15)",,,,2023-06-13 15:46:44,2023-06-13 15:46:45,0.586s,PASSED
+driver = getDriver(),,,,2023-06-13 15:46:45,2023-06-13 15:46:45,0.002s,PASSED
+"tap(findTestObject(""Search/Field Search""), 10)",,Tap field 'Search',,2023-06-13 15:46:45,2023-06-13 15:46:45,0.351s,PASSED
+"setText(findTestObject(""Search/Field Search""), ""dancow"", 10)",,Input data produk yang ingin dicari pada field 'Search',,2023-06-13 15:46:45,2023-06-13 15:46:46,1.247s,PASSED
+driver.pressKeyCode(KEYCODE_ENTER),,Tap 'Enter' pada keyboard,,2023-06-13 15:46:46,2023-06-13 15:46:47,0.563s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:46:47,2023-06-13 15:46:49,2.005s,PASSED
+"takeScreenshotAsCheckpoint(""Search Success.png"")",,,,2023-06-13 15:46:49,2023-06-13 15:46:51,2.317s,PASSED
+"tap(findTestObject(""Search/Back Search""), 0)",,,,2023-06-13 15:46:51,2023-06-13 15:46:52,1.298s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:46:52,2023-06-13 15:46:55,3.008s,PASSED
+"takeScreenshotAsCheckpoint(""Back Search.png"")",,,,2023-06-13 15:46:55,2023-06-13 15:46:57,1.670s,PASSED
+"tap(findTestObject(""Search/Search Back to Home""), 0)",,,,2023-06-13 15:46:57,2023-06-13 15:46:58,1.274s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:46:58,2023-06-13 15:47:00,2.014s,PASSED
+closeApplication(),,,,2023-06-13 15:47:00,2023-06-13 15:47:01,0.400s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-13 15:47:01,2023-06-13 15:47:08,7.011s,PASSED
+,,,,,,,
+Test Cases/Search/Main/TC_Search_Hapus_Riwayat,,Test case Search hapus riwayat pencarian,,2023-06-13 15:47:08,2023-06-13 15:47:52,43.679s,PASSED
+"callTestCase(findTestCase(""Search/TC_Search_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:47:08,2023-06-13 15:47:24,16.088s,PASSED
+"callTestCase(findTestCase(""Search/TC_Suggest_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:47:24,2023-06-13 15:47:36,11.479s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-06-13 15:47:36,2023-06-13 15:47:39,3.005s,PASSED
+"tap(findTestObject(""Search/Produk/Back Search Anlene""), 0)",,Tap tombol 'Back' dari hasil pencarian produk,,2023-06-13 15:47:39,2023-06-13 15:47:40,1.079s,PASSED
+"tap(findTestObject(""Search/Keranjang Search""), 0)",,Tap tombol 'Back' dari menu search,,2023-06-13 15:47:40,2023-06-13 15:47:41,1.349s,PASSED
+"tap(findTestObject(""Search/Menu Search""), 0)",,Tap menu 'Search',,2023-06-13 15:47:41,2023-06-13 15:47:42,1.137s,PASSED
+"tap(findTestObject(""Search/Hapus Pencarian 1""), 0)",,Tap tombol 'Hapus Pencarian' pada salah satu riwayat pencarian produk,,2023-06-13 15:47:42,2023-06-13 15:47:43,0.978s,PASSED
+"takeScreenshot(getReportFolder() + ""Hapus Search 1 Produk.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 15:47:43,2023-06-13 15:47:44,0.893s,PASSED
+closeApplication(),,,,2023-06-13 15:47:44,2023-06-13 15:47:45,0.368s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-13 15:47:45,2023-06-13 15:47:52,7.003s,PASSED
+,,,,,,,
+Test Cases/Search/Main/TC_Search_Edit_Keranjang,,Test case Search cek edit keranjang,,2023-06-13 15:47:52,2023-06-13 15:48:46,54.327s,PASSED
+"callTestCase(findTestCase(""Search/TC_Search_Pesan_Ulang""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:47:52,2023-06-13 15:48:12,20.373s,PASSED
+"tap(findTestObject(""Search/Tambah Keranjang""), 0)",,Tap icon 'Keranjang' pada menu Search,,2023-06-13 15:48:12,2023-06-13 15:48:14,1.757s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Kurangi Produk""), 0)",,Tap icon '-',,2023-06-13 15:48:14,2023-06-13 15:48:15,0.842s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/NEW Perbaharui Keranjang""), 0)",,Tap tombol 'Perbaharui',,2023-06-13 15:48:15,2023-06-13 15:48:16,0.762s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:48:16,2023-06-13 15:48:17,1.016s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Tambah Produk""), 0)",,Tap icon '+',,2023-06-13 15:48:17,2023-06-13 15:48:18,1.298s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/NEW Perbaharui Keranjang""), 0)",,Tap tombol 'Perbaharui',,2023-06-13 15:48:18,2023-06-13 15:48:19,0.755s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:48:19,2023-06-13 15:48:21,2.009s,PASSED
+"tap(findTestObject(""Search/Keranjang/Edit Produk/Edit Produk 1""), 0)",,Tap 'Jumlah produk' pada baris pertama,,2023-06-13 15:48:21,2023-06-13 15:48:21,0.835s,PASSED
+"tap(findTestObject(""Search/Keranjang/Edit Produk/Field Edit Produk""), 0)",,Tap Field 'Edit Produk',,2023-06-13 15:48:21,2023-06-13 15:48:22,0.448s,PASSED
+"setText(findTestObject(""Search/Keranjang/Edit Produk/Field Edit Produk""), ""4"", 0)",,Input data pada field 'Edit Produk',,2023-06-13 15:48:22,2023-06-13 15:48:23,1.274s,PASSED
+"tap(findTestObject(""Search/Keranjang/Edit Produk/Simpan Edit Produk""), 0)",,Tap tombol 'Simpan' edit produk,,2023-06-13 15:48:23,2023-06-13 15:48:25,1.371s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:48:25,2023-06-13 15:48:26,1.005s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/NEW Perbaharui Keranjang""), 0)",,Tap tombol 'Perbaharui',,2023-06-13 15:48:26,2023-06-13 15:48:26,0.737s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:48:26,2023-06-13 15:48:28,2.016s,PASSED
+"callTestCase(findTestCase(""Search/TC_Hapus_Keranjang_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:48:28,2023-06-13 15:48:38,10.179s,PASSED
+closeApplication(),,,,2023-06-13 15:48:38,2023-06-13 15:48:39,0.369s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-13 15:48:39,2023-06-13 15:48:46,7.001s,PASSED
+,,,,,,,
+Test Cases/Search/Main/TC_Search_Lebih_Untung,,Test case Search produk dengan label 'Mau Lebih Untung?',,2023-06-13 15:48:46,2023-06-13 15:49:57,1m - 10.869s,PASSED
+"callTestCase(findTestCase(""Search/TC_Search_Button""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:48:46,2023-06-13 15:49:03,16.616s,PASSED
+driver = getDriver(),,,,2023-06-13 15:49:03,2023-06-13 15:49:03,0.000s,PASSED
+"tap(findTestObject(""Search/Field Search""), 10)",,Tap field 'Search',,2023-06-13 15:49:03,2023-06-13 15:49:05,2.156s,PASSED
+"setText(findTestObject(""Search/Field Search""), ""cap badak"", 10)",,Input data produk yang ingin dicari pada field 'Search',,2023-06-13 15:49:05,2023-06-13 15:49:05,0.451s,PASSED
+driver.pressKeyCode(KEYCODE_ENTER),,Tap 'Enter' pada keyboard,,2023-06-13 15:49:05,2023-06-13 15:49:06,0.063s,PASSED
+"waitForElementPresent(findTestObject(""Search/Sorting/Sort Button""), 0)",,,,2023-06-13 15:49:06,2023-06-13 15:49:09,3.824s,PASSED
+"tap(findTestObject(""Search/Sorting/Sort Button""), 0)",,Tap tombol 'Sort',,2023-06-13 15:49:09,2023-06-13 15:49:10,0.994s,PASSED
+"tap(findTestObject(""Search/Sorting/Harga Termurah""), 0)",,Tap opsi 'Harga Termurah',,2023-06-13 15:49:10,2023-06-13 15:49:11,1.005s,PASSED
+"waitForElementPresent(findTestObject(""Search/Produk/Gambar Cap Badak""), 0)",,,,2023-06-13 15:49:11,2023-06-13 15:49:22,10.156s,PASSED
+"tap(findTestObject(""Promo Lebih Untung/Tambah Keranjang Asahi""), 0)",,Tap 'Tambah Keranjang' pada produk Asahi Sardines,,2023-06-13 15:49:22,2023-06-13 15:49:22,0.907s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Tambah_Keranjang/Icon_Keranjang/Pop-up Harga Termurah""), 0)",,,,2023-06-13 15:49:22,2023-06-13 15:49:27,4.969s,PASSED
+"takeScreenshot(getReportFolder() + ""Pop-up Keranjang Lebih Untung.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 15:49:27,2023-06-13 15:49:29,1.780s,PASSED
+"tap(findTestObject(""Promo Lebih Untung/Pop-up Tambah Keranjang Asahi""), 0)",,Tap 'Tambah Keranjang' pada detail produk Asahi Sardines,,2023-06-13 15:49:29,2023-06-13 15:49:32,3.198s,PASSED
+"waitForElementPresent(findTestObject(""Search/Keranjang Search""), 0)",,,,2023-06-13 15:49:32,2023-06-13 15:49:33,0.441s,PASSED
+"tap(findTestObject(""Search/Keranjang Search""), 0)",,Tap icon 'Keranjang' pada laman Search,,2023-06-13 15:49:33,2023-06-13 15:49:35,1.802s,PASSED
+"waitForElementPresent(findTestObject(""Promo Lebih Untung/Tombol Mau Lebih Untung""), 0)",,,,2023-06-13 15:49:35,2023-06-13 15:49:35,0.174s,PASSED
+"takeScreenshot(getReportFolder() + ""Keranjang Lebih Untung.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 15:49:35,2023-06-13 15:49:36,0.940s,PASSED
+"tap(findTestObject(""Promo Lebih Untung/Tombol Mau Lebih Untung""), 0)",,Tap tombol 'Mau Lebih Untung',,2023-06-13 15:49:36,2023-06-13 15:49:37,0.990s,PASSED
+"takeScreenshot(getReportFolder() + ""Detail Lebih Untung.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 15:49:37,2023-06-13 15:49:38,1.454s,PASSED
+"tap(findTestObject(""Promo Lebih Untung/Tutup Mau Lebih Untung""), 0)",,Tap tombol 'Tutup' pada detail Mau Lebih Untung,,2023-06-13 15:49:38,2023-06-13 15:49:39,1.101s,PASSED
+"waitForElementPresent(findTestObject(""Search/Keranjang/Hapus Produk/Hapus Produk 1""), 0)",,,,2023-06-13 15:49:39,2023-06-13 15:49:39,0.184s,PASSED
+"callTestCase(findTestCase(""Search/TC_Hapus_Keranjang_Search""), [:], STOP_ON_FAILURE)",,,,2023-06-13 15:49:39,2023-06-13 15:49:49,9.903s,PASSED
+closeApplication(),,,,2023-06-13 15:49:49,2023-06-13 15:49:50,0.373s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,,2023-06-13 15:49:50,2023-06-13 15:49:57,7.011s,PASSED

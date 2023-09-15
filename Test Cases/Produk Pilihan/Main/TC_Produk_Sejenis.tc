@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek produk pilihan</description>
+   <name>TC_Produk_Sejenis</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1bbd63ae-38fe-4f1c-bfb3-bb74a261357e</testCaseGuid>
+</TestCaseEntity>

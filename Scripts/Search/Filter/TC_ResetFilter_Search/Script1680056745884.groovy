@@ -16,9 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+Mobile.waitForElementPresent(findTestObject('Search/Filter/Filter Button'), 0)
 
 'Tap tombol \'Filter\''
 Mobile.tap(findTestObject('Search/Filter/Filter Button'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Search/Filter/Filter Produk 1'), 0)
 
 'Checklist opsi produk \'Anlene Actifit\''
 Mobile.tap(findTestObject('Search/Filter/Filter Produk 1'), 0)
@@ -44,4 +49,6 @@ Mobile.tap(findTestObject('Search/Filter/Reset Button'), 0)
 Mobile.tap(findTestObject('Search/Filter/Submit Button'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Reset Filter.png', FailureHandling.CONTINUE_ON_FAILURE)
 

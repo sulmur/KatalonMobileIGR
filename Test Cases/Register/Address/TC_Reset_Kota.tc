@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Memastikan dengan mengubah Kota akan mereset opsi Kecamatan dan Kelurahan yang dipilih</description>
-   <name>TC_Reset_Kota</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>19d1b0fb-cbec-46f7-85ac-8923728bf788</testCaseGuid>
-</TestCaseEntity>

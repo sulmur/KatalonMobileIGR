@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Memastikan muncul alert &quot;Nama dibawah 3 huruf!&quot;</description>
-   <name>TC_Verify_Invalid_Name</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8fbc0322-e8d6-4832-a703-06b43d2ee8c1</testCaseGuid>
-</TestCaseEntity>

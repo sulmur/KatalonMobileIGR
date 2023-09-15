@@ -37,9 +37,9 @@ Mobile.clearText(findTestObject('Profil/Alamat_Penerima/Edit Alamat/Field Label 
 Mobile.setText(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Label'), 'Puja', 0)
 
 'Tap field \'Alamat Lengkap\''
-Mobile.tap(findTestObject('Profil/Alamat_Penerima/Edit Alamat/Field Alamat Lengkap Filled'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.clearText(findTestObject('Profil/Alamat_Penerima/Edit Alamat/Field Alamat Lengkap Filled'), 0)
+Mobile.clearText(findTestObject('null'), 0)
 
 'Input data pada field \'Alamat Lengkap\''
 Mobile.setText(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Alamat Lengkap'), 'Jl. Ke Cikupa Jauh', 0)

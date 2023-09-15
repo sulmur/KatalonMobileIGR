@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sameday__Motor_BCA,,"Test module Checkout produk, Pengiriman Sameday Motor, Pembayaran VA BCA",,2023-07-28 13:00:14,2023-07-28 13:01:22,1m - 8.103s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang,,Test case cek fungsi pesan ulang produk,,2023-07-28 13:00:14,2023-07-28 13:00:34,19.720s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:00:14,2023-07-28 13:00:26,11.763s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-28 13:00:26,2023-07-28 13:00:27,1.282s,PASSED
+"if (waitForElementPresent(findTestObject(""Homepage/Pesan Ulang""), 0) == true)",,,,2023-07-28 13:00:27,2023-07-28 13:00:29,1.587s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,,,2023-07-28 13:00:29,2023-07-28 13:00:29,0.232s,PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang",,2023-07-28 13:00:29,2023-07-28 13:00:30,0.948s,PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1""), 0)",,"Tap tombol icon ""Keranjang"" pada homepage",,2023-07-28 13:00:30,2023-07-28 13:00:31,1.371s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,,,2023-07-28 13:00:31,2023-07-28 13:00:32,0.927s,PASSED
+"if (verifyElementExist(findTestObject(""Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok""), 1, OPTIONAL))",,,,2023-07-28 13:00:32,2023-07-28 13:00:33,1.116s,PASSED
+else,,,,2023-07-28 13:00:33,2023-07-28 13:00:34,0.195s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pengiriman/TC_Sameday_Motor,,Test case pengiriman sameday motor,,2023-07-28 13:00:34,2023-07-28 13:00:55,21.734s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Tambah_Kurang_Produk""), [:], CONTINUE_ON_FAILURE)",,,,2023-07-28 13:00:34,2023-07-28 13:00:39,5.026s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,,,2023-07-28 13:00:39,2023-07-28 13:00:39,0.158s,PASSED
+"takeScreenshot(getReportFolder() + ""Isi Keranjang.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:00:39,2023-07-28 13:00:40,0.896s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Panah Ke atas Rincian Promosi""), 0)",,Tap icon 'panah ke atas',,2023-07-28 13:00:40,2023-07-28 13:00:41,0.801s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,Tap tombol 'Pengiriman',,2023-07-28 13:00:41,2023-07-28 13:00:42,1.086s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,,,2023-07-28 13:00:42,2023-07-28 13:00:46,3.747s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-07-28 13:00:46,2023-07-28 13:00:46,0.691s,PASSED
+"takeScreenshot(getReportFolder() + ""Belum pilih pengiriman.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:00:46,2023-07-28 13:00:47,0.947s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:00:47,2023-07-28 13:00:49,2.020s,PASSED
+"swipe(0, 600, 0, 0)",,Scroll ke bawah,,2023-07-28 13:00:49,2023-07-28 13:00:50,1.108s,PASSED
+"if (waitForElementPresent(findTestObject(""Checkout/Pengiriman/Indopaket Motor SAMEDAY""), 0))",,,,2023-07-28 13:00:50,2023-07-28 13:00:52,1.686s,PASSED
+"takeScreenshot(getReportFolder() + ""Potongan Sameday Motor.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:00:52,2023-07-28 13:00:53,0.806s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-07-28 13:00:53,2023-07-28 13:00:54,0.705s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-07-28 13:00:54,2023-07-28 13:00:55,1.723s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pembayaran/TC_Bayar_BCA,,Test case pembayaran dengan VA BCA,,2023-07-28 13:00:55,2023-07-28 13:01:02,7.190s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-07-28 13:00:56,2023-07-28 13:00:59,2.963s,PASSED
+"takeScreenshot(getReportFolder() + ""Gagal Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:00:59,2023-07-28 13:01:00,0.875s,PASSED
+"swipe(0, 400, 0, 0)",,,,2023-07-28 13:01:00,2023-07-28 13:01:01,1.109s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA BCA""), 0)",,Pilih opsi 'Virtual Account BCA',,2023-07-28 13:01:01,2023-07-28 13:01:02,1.135s,PASSED
+"takeScreenshot(getReportFolder() + ""VA BCA.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:01:02,2023-07-28 13:01:02,0.733s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout,,Test case tap tombol Checkout,,2023-07-28 13:01:02,2023-07-28 13:01:22,19.218s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,Tap tombol 'Checkout',,2023-07-28 13:01:03,2023-07-28 13:01:04,1.039s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Label Terima Kasih telah Belanja""), 0)",,,,2023-07-28 13:01:04,2023-07-28 13:01:06,1.672s,PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:01:06,2023-07-28 13:01:06,0.915s,PASSED
+"swipe(0, 600, 0, 0)",,,,2023-07-28 13:01:06,2023-07-28 13:01:08,1.101s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0)",,,,2023-07-28 13:01:08,2023-07-28 13:01:08,0.124s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0, STOP_ON_FAILURE)",,Tap tombol 'Lihat cara pembayaran',,2023-07-28 13:01:08,2023-07-28 13:01:09,1.112s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:01:09,2023-07-28 13:01:12,3.011s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:01:12,2023-07-28 13:01:13,1.545s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-07-28 13:01:13,2023-07-28 13:01:15,1.817s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:01:15,2023-07-28 13:01:18,3.016s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran Bawah.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:01:18,2023-07-28 13:01:20,1.545s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,Tap icon 'Back' dari laman Lihat Cara Pembayaran,,2023-07-28 13:01:20,2023-07-28 13:01:22,2.013s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case cek produk pilihan dengan tag 'mau lebih untung'</description>
+   <name>TC_Produk_Pilihan_Lebih_Untung</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be22b1f0-9dc0-46d5-b84d-4ab1ffefd6d9</testCaseGuid>
+</TestCaseEntity>

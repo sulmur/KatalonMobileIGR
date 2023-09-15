@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Tap tombol \'Hapus\' pada salah satu produk'
-Mobile.tap(findTestObject('Checkout/Keranjang/Hapus Produk'), 0)
+Mobile.tap(findTestObject('Search/Keranjang/Hapus Produk/Hapus Produk 1'), 0)
 
 'Tap \'Tidak\' pada pop-up konfirmasi hapus produk'
 Mobile.tap(findTestObject('Checkout/Keranjang/Batal Hapus Produk'), 0)

@@ -21,15 +21,17 @@ Mobile.tap(findTestObject('Checkout/Keranjang/Edit Produk/Edit Jumlah Produk 2')
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Gulaku'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Larisst'), 0)
 
-Mobile.setText(findTestObject('Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Gulaku'), '9999', 0)
+Mobile.setText(findTestObject('Checkout/Keranjang/Edit Produk/Field Edit Produk 1 Larisst'), '9999', 0)
 
 Mobile.tap(findTestObject('Checkout/Keranjang/Edit Produk/Simpan Edit Produk'), 0)
 
-Mobile.tap(findTestObject('Checkout/Keranjang/Perbaharui Keranjang'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/NEW Perbaharui Keranjang'), 10)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.takeScreenshot('Stok Habis.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshotAsCheckpoint('Stok Habis.png', [])
+
+Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 

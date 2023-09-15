@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,Test module login,,2023-06-08 13:43:42,2023-06-08 13:46:34,2m - 51.797s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Email,,Test case login cek tiap case email,,2023-06-08 13:43:43,2023-06-08 13:44:49,1m - 6.678s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_NullField""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:43:43,2023-06-08 13:44:11,27.975s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_InvalidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:44:11,2023-06-08 13:44:31,20.291s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Email_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:44:31,2023-06-08 13:44:41,9.379s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:44:41,2023-06-08 13:44:49,8.250s,PASSED
+closeApplication(),,,,2023-06-08 13:44:49,2023-06-08 13:44:49,0.497s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Phone,,Test case login cek tiap case No. HP,,2023-06-08 13:44:49,2023-06-08 13:45:46,56.494s,PASSED
+"startApplication(APP, false)",,,,2023-06-08 13:44:50,2023-06-08 13:45:00,9.895s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Klik menu akun,,2023-06-08 13:45:00,2023-06-08 13:45:02,2.275s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_InvalidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:45:02,2023-06-08 13:45:22,20.138s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Phone_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:45:22,2023-06-08 13:45:38,15.682s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:45:38,2023-06-08 13:45:45,7.757s,PASSED
+closeApplication(),,,,2023-06-08 13:45:45,2023-06-08 13:45:46,0.412s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Password,,Test case login cek tiap case password,,2023-06-08 13:45:46,2023-06-08 13:46:34,48.381s,PASSED
+"startApplication(APP, false)",,,,2023-06-08 13:45:46,2023-06-08 13:45:56,10.334s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Klik menu akun,,2023-06-08 13:45:56,2023-06-08 13:45:59,2.164s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_InvalidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:45:59,2023-06-08 13:46:16,17.612s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Email_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:46:16,2023-06-08 13:46:26,9.787s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 13:46:26,2023-06-08 13:46:34,7.819s,PASSED
+closeApplication(),,,,2023-06-08 13:46:34,2023-06-08 13:46:34,0.404s,PASSED

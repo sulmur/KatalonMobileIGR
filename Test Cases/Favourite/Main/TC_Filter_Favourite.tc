@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Favourite cek fitur filter</description>
+   <name>TC_Filter_Favourite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3030963f-941f-495b-99dc-4d52d92d3217</testCaseGuid>
+</TestCaseEntity>

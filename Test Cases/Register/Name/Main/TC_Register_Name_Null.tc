@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case register dengan field nama kosong</description>
+   <name>TC_Register_Name_Null</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ae554b2-b812-4a06-b02c-d67645075602</testCaseGuid>
+</TestCaseEntity>

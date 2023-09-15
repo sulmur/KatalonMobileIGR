@@ -16,20 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication(GlobalVariable.APP, false)
+Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)
 
 'Tap tombol icon \'Scan QR\''
 Mobile.tap(findTestObject('Scan QR/Menu Scan QR'), 0)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Scan QR/Flash Kamera'), 0)
 
 'Tap icon \'Flash\''
 Mobile.tap(findTestObject('Scan QR/Flash Kamera'), 0)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Flash Kamera.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 'Tap icon \'Flip Kamera\''
 Mobile.tap(findTestObject('Scan QR/Flip Kamera'), 0)
 
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Flip Kamera.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 'Tap tombol \'Cancel\''
 Mobile.tap(findTestObject('Scan QR/Cancel Kamera'), 0)
+
+Mobile.closeApplication()
 

@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sort__Product,,Test module sorting diurutkan dari huruf A,,2023-06-13 15:11:12,2023-06-13 15:12:23,1m - 10.788s,PASSED
+,,,,,,,
+Test Cases/Kategori/TC_Kategori_IbuAnak,,Test case kategori jenis produk 'Ibu & Anak',,2023-06-13 15:11:12,2023-06-13 15:11:33,21.324s,PASSED
+"startApplication(APP, false)",,,,2023-06-13 15:11:13,2023-06-13 15:11:28,15.286s,PASSED
+"tap(findTestObject(""Kategori/Ibu dan Anak""), 0)",,Tap jenis kategori 'Ibu & Anak',,2023-06-13 15:11:28,2023-06-13 15:11:31,3.445s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:11:31,2023-06-13 15:11:33,2.051s,PASSED
+,,,,,,,
+Test Cases/Sorting/TC_Sort_A,,Test case sorting diurutkan dari huruf A sampai Z,,2023-06-13 15:11:33,2023-06-13 15:11:43,9.904s,PASSED
+"tap(findTestObject(""Sorting/Tombol Sort""), 0)",,Tap tombol 'Sort',,2023-06-13 15:11:34,2023-06-13 15:11:35,1.106s,PASSED
+"tap(findTestObject(""Sorting/A - Z""), 0)",,Tap opsi 'Nama [A - Z]',,2023-06-13 15:11:35,2023-06-13 15:11:36,1.028s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:11:36,2023-06-13 15:11:39,3.010s,PASSED
+"takeScreenshot(getReportFolder() + ""Sorting A.png"")",,,,2023-06-13 15:11:39,2023-06-13 15:11:40,1.316s,PASSED
+"swipe(100, 900, 0, 0)",,,,2023-06-13 15:11:40,2023-06-13 15:11:41,1.120s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:11:41,2023-06-13 15:11:43,2.018s,PASSED
+,,,,,,,
+Test Cases/Sorting/TC_Sort_Z,,Test case sorting diurutkan dari huruf Z sampai A,,2023-06-13 15:11:43,2023-06-13 15:11:54,10.383s,PASSED
+"tap(findTestObject(""Sorting/Tombol Sort""), 0)",,Tap tombol 'Sort',,2023-06-13 15:11:44,2023-06-13 15:11:44,0.285s,PASSED
+"tap(findTestObject(""Sorting/Z - A""), 0)",,Tap opsi 'Nama [Z - A]',,2023-06-13 15:11:44,2023-06-13 15:11:46,2.394s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:11:46,2023-06-13 15:11:49,3.002s,PASSED
+"takeScreenshot(getReportFolder() + ""Sorting Z.png"")",,,,2023-06-13 15:11:49,2023-06-13 15:11:51,1.192s,PASSED
+"swipe(100, 900, 0, 0)",,,,2023-06-13 15:11:51,2023-06-13 15:11:52,1.102s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:11:52,2023-06-13 15:11:54,2.005s,PASSED
+,,,,,,,
+Test Cases/Sorting/TC_Sort_Lowest,,Test case sorting diurutkan dari harga terendah,,2023-06-13 15:11:54,2023-06-13 15:12:03,9.589s,PASSED
+"tap(findTestObject(""Sorting/Tombol Sort""), 0)",,Tap tombol 'Sort',,2023-06-13 15:11:54,2023-06-13 15:11:55,1.086s,PASSED
+"tap(findTestObject(""Sorting/Harga Termurah""), 0)",,Pilih opsi 'Harga termurah',,2023-06-13 15:11:55,2023-06-13 15:11:56,1.041s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:11:56,2023-06-13 15:11:59,3.005s,PASSED
+"takeScreenshot(getReportFolder() + ""Sorting Lowest.png"")",,,,2023-06-13 15:11:59,2023-06-13 15:12:00,1.040s,PASSED
+"swipe(100, 900, 0, 0)",,,,2023-06-13 15:12:00,2023-06-13 15:12:01,1.100s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:12:01,2023-06-13 15:12:03,2.016s,PASSED
+,,,,,,,
+Test Cases/Sorting/TC_Sort_Highest,,Test case sorting diurutkan dari harga tertinggi,,2023-06-13 15:12:03,2023-06-13 15:12:13,9.700s,PASSED
+"tap(findTestObject(""Sorting/Tombol Sort""), 0)",,Tap tombol 'Sort',,2023-06-13 15:12:04,2023-06-13 15:12:05,1.135s,PASSED
+"tap(findTestObject(""Sorting/Harga Termahal""), 0)",,Tap opsi 'Harga termahal',,2023-06-13 15:12:05,2023-06-13 15:12:06,1.042s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:12:06,2023-06-13 15:12:09,3.006s,PASSED
+"takeScreenshot(getReportFolder() + ""Sorting Highest.png"")",,,,2023-06-13 15:12:09,2023-06-13 15:12:10,1.021s,PASSED
+"swipe(100, 900, 0, 0)",,,,2023-06-13 15:12:10,2023-06-13 15:12:11,1.086s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:12:11,2023-06-13 15:12:13,2.004s,PASSED
+,,,,,,,
+Test Cases/Sorting/TC_Cancel_Sort,,Test case batal sorting produk,,2023-06-13 15:12:13,2023-06-13 15:12:23,9.499s,PASSED
+"tap(findTestObject(""Sorting/Tombol Sort""), 0)",,Tap tombol 'Sort',,2023-06-13 15:12:13,2023-06-13 15:12:15,1.066s,PASSED
+"tap(findTestObject(""Sorting/Cancel Sorting""), 0)",,Tap icon 'X' untuk batal sorting produk,,2023-06-13 15:12:15,2023-06-13 15:12:16,1.912s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:12:16,2023-06-13 15:12:19,3.014s,PASSED
+"swipe(100, 900, 0, 0)",,,,2023-06-13 15:12:19,2023-06-13 15:12:21,1.132s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-13 15:12:21,2023-06-13 15:12:23,2.017s,PASSED

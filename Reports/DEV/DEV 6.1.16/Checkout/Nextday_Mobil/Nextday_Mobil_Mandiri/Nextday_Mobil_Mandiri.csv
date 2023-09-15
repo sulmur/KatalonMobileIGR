@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nextday_Mobil__Mandiri,,"Test module checkout produk, pengiriman nextday mobil, pembayaran VA Mandiri",,2023-07-28 16:23:00,2023-07-28 16:24:17,1m - 16.988s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang,,Test case cek fungsi pesan ulang produk,,2023-07-28 16:23:00,2023-07-28 16:23:24,23.795s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:23:00,2023-07-28 16:23:12,11.992s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-28 16:23:12,2023-07-28 16:23:14,1.284s,PASSED
+"if (waitForElementPresent(findTestObject(""Homepage/Pesan Ulang""), 0) == true)",,,,2023-07-28 16:23:14,2023-07-28 16:23:16,1.962s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,,,2023-07-28 16:23:16,2023-07-28 16:23:16,0.247s,PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang",,2023-07-28 16:23:16,2023-07-28 16:23:17,0.954s,PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1""), 0)",,"Tap tombol icon ""Keranjang"" pada homepage",,2023-07-28 16:23:17,2023-07-28 16:23:18,1.513s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,,,2023-07-28 16:23:18,2023-07-28 16:23:22,4.160s,PASSED
+"if (verifyElementExist(findTestObject(""Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok""), 1, OPTIONAL))",,,,2023-07-28 16:23:22,2023-07-28 16:23:24,1.169s,PASSED
+else,,,,2023-07-28 16:23:24,2023-07-28 16:23:24,0.209s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pengiriman/TC_Nextday_Mobil,,Test case pengiriman dengan opsi nextday mobil,,2023-07-28 16:23:24,2023-07-28 16:23:47,23.265s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Tambah_Kurang_Produk""), [:], CONTINUE_ON_FAILURE)",,,,2023-07-28 16:23:24,2023-07-28 16:23:30,6.064s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Panah Ke atas Rincian Promosi""), 0)",,Tap icon 'panah ke atas',,2023-07-28 16:23:30,2023-07-28 16:23:31,0.827s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,Tap tombol 'Pengiriman',,2023-07-28 16:23:31,2023-07-28 16:23:32,1.080s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,,,2023-07-28 16:23:32,2023-07-28 16:23:36,4.073s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-07-28 16:23:36,2023-07-28 16:23:37,0.909s,PASSED
+"takeScreenshot(getReportFolder() + ""Belum pilih pengiriman.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:23:37,2023-07-28 16:23:38,0.940s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:23:38,2023-07-28 16:23:41,3.019s,PASSED
+"swipe(0, 600, 0, 0)",,Scroll ke bawah,,2023-07-28 16:23:41,2023-07-28 16:23:42,1.088s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/Indopaket Mobil NEXTDAY""), 0)",,,,2023-07-28 16:23:42,2023-07-28 16:23:43,0.200s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Indopaket Mobil NEXTDAY""), 0)",,Tap opsi pengiriman 'Nextday Mobil',,2023-07-28 16:23:43,2023-07-28 16:23:43,0.774s,PASSED
+"takeScreenshot(getReportFolder() + ""Nextday Mobil.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:23:43,2023-07-28 16:23:44,0.874s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-07-28 16:23:44,2023-07-28 16:23:45,0.722s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-07-28 16:23:45,2023-07-28 16:23:47,2.112s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pembayaran/TC_Bayar_Mandiri,,Test case bayar dengan VA Mandiri,,2023-07-28 16:23:47,2023-07-28 16:23:55,7.921s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-07-28 16:23:48,2023-07-28 16:23:51,2.977s,PASSED
+"takeScreenshot(getReportFolder() + ""Gagal Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:23:51,2023-07-28 16:23:52,1.022s,PASSED
+"swipe(0, 475, 0, 0)",,,,2023-07-28 16:23:52,2023-07-28 16:23:53,1.100s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA Mandiri""), 0)",,Pilih opsi 'Virtual Account Mandiri',,2023-07-28 16:23:53,2023-07-28 16:23:54,1.251s,PASSED
+"takeScreenshot(getReportFolder() + ""VA Mandiri.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:23:54,2023-07-28 16:23:55,1.085s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout,,Test case tap tombol Checkout,,2023-07-28 16:23:55,2023-07-28 16:24:17,21.757s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,Tap tombol 'Checkout',,2023-07-28 16:23:55,2023-07-28 16:23:57,1.086s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Label Terima Kasih telah Belanja""), 0)",,,,2023-07-28 16:23:57,2023-07-28 16:24:00,3.673s,PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:24:00,2023-07-28 16:24:02,1.312s,PASSED
+"swipe(0, 600, 0, 0)",,,,2023-07-28 16:24:02,2023-07-28 16:24:03,1.124s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0)",,,,2023-07-28 16:24:03,2023-07-28 16:24:03,0.185s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0, STOP_ON_FAILURE)",,Tap tombol 'Lihat cara pembayaran',,2023-07-28 16:24:03,2023-07-28 16:24:04,1.158s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:24:04,2023-07-28 16:24:07,3.016s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:24:07,2023-07-28 16:24:09,1.625s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-07-28 16:24:09,2023-07-28 16:24:10,1.826s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:24:10,2023-07-28 16:24:13,3.012s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran Bawah.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:24:13,2023-07-28 16:24:15,1.498s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,Tap icon 'Back' dari laman Lihat Cara Pembayaran,,2023-07-28 16:24:15,2023-07-28 16:24:17,1.753s,PASSED

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,Test module login,,2023-06-13 14:26:45,2023-06-13 14:29:21,2m - 35.379s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Email,,Test case login cek tiap case email,,2023-06-13 14:26:45,2023-06-13 14:27:41,55.191s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_NullField""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:26:46,2023-06-13 14:27:08,22.279s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_InvalidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:27:08,2023-06-13 14:27:22,14.197s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Email_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:27:22,2023-06-13 14:27:32,9.560s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:27:32,2023-06-13 14:27:40,8.131s,PASSED
+closeApplication(),,,,2023-06-13 14:27:40,2023-06-13 14:27:41,0.541s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Phone,,Test case login cek tiap case No. HP,,2023-06-13 14:27:41,2023-06-13 14:28:32,51.506s,PASSED
+"startApplication(APP, false)",,,,2023-06-13 14:27:41,2023-06-13 14:27:51,10.064s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-13 14:27:51,2023-06-13 14:27:55,3.534s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Klik menu akun,,2023-06-13 14:27:55,2023-06-13 14:27:55,0.764s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_InvalidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:27:55,2023-06-13 14:28:10,14.466s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Phone_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:28:10,2023-06-13 14:28:24,14.407s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:28:24,2023-06-13 14:28:32,7.540s,PASSED
+closeApplication(),,,,2023-06-13 14:28:32,2023-06-13 14:28:32,0.355s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Password,,Test case login cek tiap case password,,2023-06-13 14:28:32,2023-06-13 14:29:21,48.383s,PASSED
+"startApplication(APP, false)",,,,2023-06-13 14:28:32,2023-06-13 14:28:43,10.153s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-13 14:28:43,2023-06-13 14:28:46,3.454s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Klik menu akun,,2023-06-13 14:28:46,2023-06-13 14:28:47,0.775s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_InvalidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:28:47,2023-06-13 14:29:02,14.754s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Email_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:29:02,2023-06-13 14:29:12,10.372s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:29:12,2023-06-13 14:29:20,8.176s,PASSED
+closeApplication(),,,,2023-06-13 14:29:20,2023-06-13 14:29:21,0.465s,PASSED

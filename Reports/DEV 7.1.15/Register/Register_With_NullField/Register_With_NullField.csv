@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register_With_NullField,,Test module register dengan semua field kosong,,2023-09-13 15:56:29,2023-09-13 15:56:52,23.634s,PASSED
+,,,,,,,
+Test Cases/Register/Redirect_to_RegisterPage,,"Test case register, redirect to register page",,2023-09-13 15:56:29,2023-09-13 15:56:45,16.538s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-09-13 15:56:29,2023-09-13 15:56:42,12.388s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 60)",,,,2023-09-13 15:56:42,2023-09-13 15:56:42,0.592s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Tap menu Akun,,2023-09-13 15:56:42,2023-09-13 15:56:43,1.126s,PASSED
+"tap(findTestObject(""Login/Tombol Daftar""), 0)",,Tap tombol Register,,2023-09-13 15:56:43,2023-09-13 15:56:45,1.510s,PASSED
+"waitForElementPresent(findTestObject(""Register/Name/Field Nama - Register""), 0)",,,,2023-09-13 15:56:45,2023-09-13 15:56:45,0.635s,PASSED
+,,,,,,,
+Test Cases/Register/Register_NullField,,Register account with empty field,,2023-09-13 15:56:45,2023-09-13 15:56:52,6.872s,PASSED
+"swipe(100, 400, 0, 0)",,scroll ke tombol 'Daftar',,2023-09-13 15:56:46,2023-09-13 15:56:47,1.153s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-09-13 15:56:47,2023-09-13 15:56:48,1.054s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar',,2023-09-13 15:56:48,2023-09-13 15:56:51,3.036s,PASSED
+"takeScreenshot(getReportFolder() + ""Register Null.png"", CONTINUE_ON_FAILURE)",,,,2023-09-13 15:56:51,2023-09-13 15:56:52,1.116s,PASSED

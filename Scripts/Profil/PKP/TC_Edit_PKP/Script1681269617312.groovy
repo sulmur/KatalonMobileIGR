@@ -37,13 +37,13 @@ Mobile.clearText(findTestObject('Profil/Data PKP/Nomor PKP Filled - 42.494.842.7
 Mobile.setText(findTestObject('Profil/Data PKP/Field Nomor PKP'), '42.494.842.7-676.785', 0)
 
 'tap field \'Alamat Lengkap\''
-Mobile.tap(findTestObject('Profil/Data PKP/Alamat Lengkap Filled - Flora Fauna'), 0)
+Mobile.tap(findTestObject('Profil/Data PKP/Alamat Lengkap Filled'), 0)
 
 'Hapus text pada field \'Alamat Lengkap\''
-Mobile.clearText(findTestObject('Profil/Data PKP/Alamat Lengkap Filled - Flora Fauna'), 0)
+Mobile.clearText(findTestObject('Profil/Data PKP/Alamat Lengkap Filled'), 0)
 
 'input data pada field \'Alamat Lengkap\''
-Mobile.setText(findTestObject('Profil/Data PKP/Field Alamat Lengkap'), 'Flora Fauna', 0)
+Mobile.setText(findTestObject('Profil/Data PKP/Field Alamat Lengkap'), 'Jalan Haji Nawi', 0)
 
 'tap tombol \'Simpan\' data PKP'
 Mobile.tap(findTestObject('Profil/Data PKP/Tombol Simpan PKP'), 0)
@@ -55,4 +55,8 @@ Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Berhasil simpan 
 
 'tap tombol \'OK\' pada pop-up berhasil Simpan Data PKP'
 Mobile.tap(findTestObject('Profil/Data PKP/OK Berhasil Simpan'), 0)
+
+Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.closeApplication()
 

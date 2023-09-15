@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Favourite cek menu search</description>
+   <name>TC_Favourite_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>783b5a25-f41e-4373-a6e8-e4a94d401cb8</testCaseGuid>
+</TestCaseEntity>

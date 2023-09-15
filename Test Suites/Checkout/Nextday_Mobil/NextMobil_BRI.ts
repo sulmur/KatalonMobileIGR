@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Test module checkout pengiriman Nextday Mobil, pembayaran VA BRI</description>
    <name>NextMobil_BRI</name>
    <tag></tag>
    <isRerun>false</isRerun>

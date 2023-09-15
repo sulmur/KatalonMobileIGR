@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.swipe(100, 400, 0, 0)
+Mobile.swipe(100, 425, 0, 0)
 
 'Tap tombol "Rekening Bank"'
 Mobile.tap(findTestObject('Profil/Rekening_Bank/Menu Rekening Bank'), 0)

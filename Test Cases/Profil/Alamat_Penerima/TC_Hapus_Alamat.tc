@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Case Profil menghapus alamat penerima</description>
-   <name>TC_Hapus_Alamat</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c6cc535d-8d58-4f43-97bb-3b2cef02ab5c</testCaseGuid>
-</TestCaseEntity>

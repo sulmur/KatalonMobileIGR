@@ -20,12 +20,14 @@ import org.openqa.selenium.Keys as Keys
 'Tap tombol \'Simpan\''
 Mobile.tap(findTestObject('Profil/Rekening_Bank/Submit/Tombol Simpan'), 0)
 
-Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Profil/Rekening_Bank/Submit/Setuju Simpan Rekening gagal'), 0)
 
 'Tap tombol \'Lanjutkan\' pada pop-up konfirmasi rekening bank'
 Mobile.tap(findTestObject('Profil/Rekening_Bank/Submit/Setuju Simpan Rekening gagal'), 0)
 
-Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Profil/Rekening_Bank/Submit/Submit Rekening Bank Gagal'), 0)
+
+Mobile.takeScreenshot('Reports/Gagal Simpan Rekening.png')
 
 'Tap tombol \'OK\' pada konfirmasi gagal simpan nomor rekening'
 Mobile.tap(findTestObject('Profil/Rekening_Bank/Submit/Submit Rekening Bank Gagal'), 0)

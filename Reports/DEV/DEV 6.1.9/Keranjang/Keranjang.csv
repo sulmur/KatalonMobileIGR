@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keranjang,,Test module Produk Keranjang,,2023-07-25 11:15:59,2023-07-25 11:20:09,4m - 9.800s,FAILED
+,,,,,,,
+Test Cases/Checkout/Keranjang/Main/TC_Rincian_Promosi,,Test case cek rincian promosi pada laman keranjang,,2023-07-25 11:16:00,2023-07-25 11:17:06,1m - 6.710s,PASSED
+"callTestCase(findTestCase(""Checkout/Keranjang/TC_Pesan_Ulang_2""), [:], STOP_ON_FAILURE)",,,,2023-07-25 11:16:00,2023-07-25 11:16:30,29.572s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Panah Ke atas Rincian Promosi""), 0)",,Tap panah ke atas untuk membuka ringkasan belanja,,2023-07-25 11:16:30,2023-07-25 11:16:31,1.021s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:16:31,2023-07-25 11:16:32,1.026s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Rincian Potongan""), 0)",,Tap tombol 'Rincian Promosi',,2023-07-25 11:16:32,2023-07-25 11:16:33,1.164s,PASSED
+"takeScreenshot(getReportFolder() + ""Rincian Promosi.png"")",,,,2023-07-25 11:16:33,2023-07-25 11:16:34,1.060s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Back Rincian Promosi""), 0)",,Tap tombol 'Back' pada Rincian Promosi,,2023-07-25 11:16:34,2023-07-25 11:16:35,1.282s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:16:35,2023-07-25 11:16:37,2.008s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Dropdown Ringkasan Promosi""), 0)",,Tap tombol 'Dropdown' untuk hide Ringkasan Belanja ,,2023-07-25 11:16:37,2023-07-25 11:16:38,0.950s,PASSED
+"callTestCase(findTestCase(""Checkout/Keranjang/TC_Hapus_Checklist_Produk""), [:], STOP_ON_FAILURE)",,,,2023-07-25 11:16:38,2023-07-25 11:17:01,22.536s,PASSED
+closeApplication(),,,,2023-07-25 11:17:01,2023-07-25 11:17:01,0.485s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-25 11:17:01,2023-07-25 11:17:06,5.003s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/Main/TC_Stok_Habis,,Test case ketika stok produk habis,,2023-07-25 11:17:06,2023-07-25 11:18:16,1m - 9.424s,PASSED
+"callTestCase(findTestCase(""Checkout/Keranjang/TC_Pesan_Ulang_Favourite""), [:], CONTINUE_ON_FAILURE)",,,,2023-07-25 11:17:07,2023-07-25 11:17:51,43.721s,PASSED
+"tap(findTestObject(""Favourite/Stock Habis/Edit Jumlah Produk Row 1 Jumlah 1""), 0)",,,,2023-07-25 11:17:51,2023-07-25 11:17:51,0.785s,PASSED
+"waitForElementPresent(findTestObject(""Favourite/Stock Habis/Field Edit Produk 1 Mixagrip""), 0)",,,,2023-07-25 11:17:51,2023-07-25 11:17:52,0.343s,PASSED
+"tap(findTestObject(""Favourite/Stock Habis/Field Edit Produk 1 Mixagrip""), 0)",,,,2023-07-25 11:17:52,2023-07-25 11:17:53,1.508s,PASSED
+"setText(findTestObject(""Favourite/Stock Habis/Field Edit Produk 1 Mixagrip""), ""9999"", 0)",,,,2023-07-25 11:17:53,2023-07-25 11:17:54,0.368s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Simpan Edit Produk""), 0)",,,,2023-07-25 11:17:54,2023-07-25 11:17:55,1.337s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/NEW Perbaharui Keranjang""), 0)",,,,2023-07-25 11:17:55,2023-07-25 11:17:56,0.743s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:17:56,2023-07-25 11:17:58,2.004s,PASSED
+"takeScreenshot(getReportFolder() + ""Stok Habis.png"", CONTINUE_ON_FAILURE)",,,,2023-07-25 11:17:58,2023-07-25 11:17:59,1.056s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:17:59,2023-07-25 11:18:00,1.009s,PASSED
+"callTestCase(findTestCase(""Checkout/Keranjang/TC_Hapus_Checklist_Produk""), [:], STOP_ON_FAILURE)",,,,2023-07-25 11:18:00,2023-07-25 11:18:10,10.638s,PASSED
+closeApplication(),,,,2023-07-25 11:18:10,2023-07-25 11:18:11,0.425s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-25 11:18:11,2023-07-25 11:18:16,5.003s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/Main/TC_Edit_Produk,,Test case edit jumlah produk,,2023-07-25 11:18:16,2023-07-25 11:19:01,45.688s,PASSED
+"callTestCase(findTestCase(""Checkout/Keranjang/TC_Pesan_Ulang""), [:], STOP_ON_FAILURE)",,,,2023-07-25 11:18:16,2023-07-25 11:18:37,20.442s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Edit Jumlah Produk Row 1 Jumlah 3""), 0)",,Tap jumlah produk,,2023-07-25 11:18:37,2023-07-25 11:18:38,1.010s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 3 Khong Guan""), 0)",,Tap field 'Jumlah produk',,2023-07-25 11:18:38,2023-07-25 11:18:39,1.438s,PASSED
+"setText(findTestObject(""Checkout/Keranjang/Edit Produk/Field Edit Produk 3 Khong Guan""), ""10"", 0)",,Input data angka jumlah produk,,2023-07-25 11:18:39,2023-07-25 11:18:40,0.374s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Edit Produk/Simpan Edit Produk""), 0)",,Tap tombol 'Simpan' pada pop-up Edit Produk,,2023-07-25 11:18:40,2023-07-25 11:18:41,1.331s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/NEW Perbaharui Keranjang""), 0)",,,,2023-07-25 11:18:41,2023-07-25 11:18:42,0.737s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/Kurangi Produk""), 0)",,Tap icon '-',,2023-07-25 11:18:42,2023-07-25 11:18:43,1.294s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Kurangi Produk""), 0)",,Tap icon '-',,2023-07-25 11:18:43,2023-07-25 11:18:44,0.763s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/NEW Perbaharui Keranjang""), 0)",,,,2023-07-25 11:18:44,2023-07-25 11:18:44,0.767s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/Tambah Produk""), 0)",,Tap icon '+',,2023-07-25 11:18:44,2023-07-25 11:18:46,1.313s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Tambah Produk""), 0)",,Tap icon '+',,2023-07-25 11:18:46,2023-07-25 11:18:47,0.827s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Tambah Produk""), 0)",,Tap icon '+',,2023-07-25 11:18:47,2023-07-25 11:18:48,0.918s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/NEW Perbaharui Keranjang""), 0)",,,,2023-07-25 11:18:48,2023-07-25 11:18:48,0.760s,PASSED
+"callTestCase(findTestCase(""Checkout/Keranjang/TC_Hapus_Produk""), [:], STOP_ON_FAILURE)",,,,2023-07-25 11:18:48,2023-07-25 11:18:56,7.698s,PASSED
+closeApplication(),,,,2023-07-25 11:18:56,2023-07-25 11:18:56,0.466s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-07-25 11:18:56,2023-07-25 11:19:01,5.013s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/Main/TC_Detail_Produk,,Test case cek detail produk pada keranjang,,2023-07-25 11:19:01,2023-07-25 11:20:09,1m - 7.647s,FAILED
+"callTestCase(findTestCase(""Checkout/Keranjang/TC_Pesan_Ulang_2""), [:], STOP_ON_FAILURE)",,,,2023-07-25 11:19:02,2023-07-25 11:20:09,1m - 7.383s,FAILED

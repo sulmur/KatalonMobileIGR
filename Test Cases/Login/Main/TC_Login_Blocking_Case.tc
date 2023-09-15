@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case login cek tiap case password</description>
+   <name>TC_Login_Blocking_Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3e97abf-d0ce-466a-95c4-95fea3d486ae</testCaseGuid>
+</TestCaseEntity>

@@ -18,14 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Tap detail pesanan pada baris pertama'
-Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Detail Pesanan TRX-299704'), 0)
+Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Detail Pesanan 1'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap dropdown \'Daftar Produk\''
 Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Daftar Produk Pesanan'), 0)
 
-Mobile.takeScreenshot('Detail Pesanan.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('Reports/Detail Pesanan.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap tombol \'Tambah Keranjang\''
 Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Tambah Keranjang Pesanan'), 0)
@@ -35,7 +35,7 @@ Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 'swipe ke bawah'
 Mobile.swipe(100, 600, 0, 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Pesanan/Detail Pesanan/Pesan Ulang Pesanan'), 0)
 
 'Tap tombol \'Pesan Ulang\''
 Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Pesan Ulang Pesanan'), 0)
@@ -46,10 +46,12 @@ Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Batal Pesan Ulang'), 0)
 'Tap tombol \'Pesan Ulang\''
 Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Pesan Ulang Pesanan'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Pesanan/Detail Pesanan/Setuju Pesan Ulang'), 0)
+
 'Tap tombol \'Ya\' pada pop-up konfirmasi pesan ulang'
 Mobile.tap(findTestObject('Pesanan/Detail Pesanan/Setuju Pesan Ulang'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.takeScreenshot('Berhasil Pesan Ulang Pesanan.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('Reports/Berhasil Pesan Ulang Pesanan.png', FailureHandling.CONTINUE_ON_FAILURE)
 

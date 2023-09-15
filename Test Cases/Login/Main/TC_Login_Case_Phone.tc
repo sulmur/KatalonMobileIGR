@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case login cek tiap case No. HP</description>
+   <name>TC_Login_Case_Phone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edd82646-ada8-43af-b94d-5db455ac9ed1</testCaseGuid>
+</TestCaseEntity>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Checkout/Keranjang/Perbaharui Keranjang'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/NEW Perbaharui Keranjang'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 

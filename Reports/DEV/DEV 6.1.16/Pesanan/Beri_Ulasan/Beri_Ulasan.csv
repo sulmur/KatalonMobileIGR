@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Beri_Ulasan,,"Test module Pesanan, mengecek tiap status pesanan",,2023-07-28 13:50:28,2023-07-28 13:51:24,55.734s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Menu_Pesanan,,Test case mengakses menu 'Pesanan',,2023-07-28 13:50:29,2023-07-28 13:50:47,18.102s,PASSED
+"startApplication(APP, false)",,,,2023-07-28 13:50:29,2023-07-28 13:50:45,15.656s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-28 13:50:45,2023-07-28 13:50:46,1.787s,PASSED
+"tap(findTestObject(""Pesanan/Menu Pesanan""), 0)",,Tap menu 'Pesanan',,2023-07-28 13:50:46,2023-07-28 13:50:47,0.326s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Status_Pesanan,,Test case mengecek tiap status pesanan,,2023-07-28 13:50:47,2023-07-28 13:51:08,20.998s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown Transaksi""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-28 13:50:47,2023-07-28 13:50:48,1.080s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Pengembalian""), 0)",,Pilih status 'Pengembalian',,2023-07-28 13:50:48,2023-07-28 13:50:49,1.057s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:50:49,2023-07-28 13:50:50,1.031s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Pengembalian.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:50:50,2023-07-28 13:50:51,0.840s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Pengembalian""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-28 13:50:51,2023-07-28 13:50:52,0.989s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Dibatalkan""), 0)",,Pilih status 'Dibatalkan',,2023-07-28 13:50:52,2023-07-28 13:50:53,1.055s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:50:53,2023-07-28 13:50:54,1.019s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Dibatalkan.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:50:54,2023-07-28 13:50:55,0.888s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Dibatalkan""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-28 13:50:55,2023-07-28 13:50:56,1.055s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Diproses""), 0)",,Pilih status 'Diproses',,2023-07-28 13:50:56,2023-07-28 13:50:57,1.065s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:50:57,2023-07-28 13:50:58,1.014s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Diproses.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:50:58,2023-07-28 13:50:59,1.041s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Diproses""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-28 13:50:59,2023-07-28 13:51:01,1.331s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Belum Bayar""), 0)",,Pilih status 'Belum Bayar',,2023-07-28 13:51:01,2023-07-28 13:51:02,1.118s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:51:02,2023-07-28 13:51:03,1.005s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Belum Bayar.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:51:03,2023-07-28 13:51:04,1.092s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Belum Bayar""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-28 13:51:04,2023-07-28 13:51:05,1.005s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Selesai""), 0)",,Pilih status 'Selesai',,2023-07-28 13:51:05,2023-07-28 13:51:06,1.084s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:51:06,2023-07-28 13:51:07,1.016s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Selesai.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:51:07,2023-07-28 13:51:08,0.781s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Beri_Ulasan,,Test case memberi ulasan produk,,2023-07-28 13:51:08,2023-07-28 13:51:24,16.366s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Detail Pesanan Selesai""), 0)",,,,2023-07-28 13:51:08,2023-07-28 13:51:09,0.512s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan Selesai""), 0)",,"Tap ""Detail Pesanan"" yang sudah selesai",,2023-07-28 13:51:09,2023-07-28 13:51:10,1.541s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Ulasan/Beri Ulasan""), 0)",,,,2023-07-28 13:51:10,2023-07-28 13:51:11,0.199s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Biasa""), 0)",,"Tap ""Biasa""",,2023-07-28 13:51:11,2023-07-28 13:51:11,0.262s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Puas""), 0)",,"Tap ""Puas""",,2023-07-28 13:51:11,2023-07-28 13:51:11,0.281s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Kecewa""), 0)",,"Tap ""Kecewa""",,2023-07-28 13:51:11,2023-07-28 13:51:11,0.265s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Harga Barang""), 0)",,"Tap opsi ""Harga Barang""",,2023-07-28 13:51:11,2023-07-28 13:51:13,1.146s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Kualitas Barang""), 0)",,"Tap opsi ""Kualitas Barang""",,2023-07-28 13:51:13,2023-07-28 13:51:14,1.198s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Pengiriman""), 0)",,"Tap opsi ""Pengiriman""",,2023-07-28 13:51:14,2023-07-28 13:51:15,0.795s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Field Alasan""), 0)",,"Tap field ""Alasan""",,2023-07-28 13:51:15,2023-07-28 13:51:16,1.409s,PASSED
+"setText(findTestObject(""Pesanan/Ulasan/Field Alasan""), ""Barang tidak sesuai"", 0)",,"Input field ""Alasan""",,2023-07-28 13:51:16,2023-07-28 13:51:16,0.291s,PASSED
+hideKeyboard(),,,,2023-07-28 13:51:16,2023-07-28 13:51:18,1.890s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Kirim Ulasan""), 0)",,"Tap ""Kirim""",,2023-07-28 13:51:18,2023-07-28 13:51:20,1.527s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Ulasan/Tutup Pop-up Ulasan""), 0)",,,,2023-07-28 13:51:20,2023-07-28 13:51:20,0.198s,PASSED
+"takeScreenshot(getReportFolder() + ""Berhasil Beri Ulasan.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 13:51:20,2023-07-28 13:51:21,0.873s,PASSED
+"tap(findTestObject(""Pesanan/Ulasan/Tutup Pop-up Ulasan""), 0)",,"Tap ""Tutup""",,2023-07-28 13:51:21,2023-07-28 13:51:22,0.970s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 13:51:22,2023-07-28 13:51:24,2.003s,PASSED
+closeApplication(),,,,2023-07-28 13:51:24,2023-07-28 13:51:24,0.470s,PASSED

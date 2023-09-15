@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap tombol \'Hapus\' pada produk baris pertama'
 Mobile.tap(findTestObject('Search/Keranjang/Hapus Produk/Hapus Produk 1'), 0)
@@ -23,9 +24,15 @@ Mobile.tap(findTestObject('Search/Keranjang/Hapus Produk/Hapus Produk 1'), 0)
 'Tap tombol \'Tidak\' pada konfirmasi hapus produk'
 Mobile.tap(findTestObject('Search/Keranjang/Hapus Produk/Batal Hapus'), 0)
 
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Keranjang.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 'Tap tombol \'Hapus\' pada produk baris pertama'
 Mobile.tap(findTestObject('Search/Keranjang/Hapus Produk/Hapus Produk 1'), 0)
 
 'Tap tombol \'Ya\' pada konfirmasi hapus produk'
 Mobile.tap(findTestObject('Search/Keranjang/Hapus Produk/Setuju Hapus'), 0)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Berhasil Hapus Produk.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 

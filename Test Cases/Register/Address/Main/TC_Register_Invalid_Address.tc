@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case register dengan field Alamat yang salah</description>
+   <name>TC_Register_Invalid_Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>965ec36a-6ea3-4995-bb9d-5b044f6b0d64</testCaseGuid>
+</TestCaseEntity>

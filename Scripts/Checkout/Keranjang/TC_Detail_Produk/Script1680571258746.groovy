@@ -16,12 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap Gambar produk di baris pertama pada laman keranjang'
 Mobile.tap(findTestObject('Checkout/Keranjang/Detail Produk/Detail Gambar Produk 1'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Checkout/Keranjang/Detail Produk/Deskripsi Produk Khong Guan 650g'), 0)
+
 'Tap tab \'Deskripsi\' produk Khong Guan'
 Mobile.tap(findTestObject('Checkout/Keranjang/Detail Produk/Deskripsi Produk Khong Guan 650g'), 0)
 
-Mobile.swipe(0, 500, 0, 0)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Deskripsi Produk.png')
+
+Mobile.swipe(0, 400, 0, 0)
 

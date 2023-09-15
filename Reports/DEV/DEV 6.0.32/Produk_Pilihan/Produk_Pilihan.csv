@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Produk_Pilihan,,Test module Produk Pilihan,,2023-06-12 13:50:24,2023-06-12 13:54:51,4m - 26.308s,FAILED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Produk_Sejenis,,Test case cek produk pilihan,,2023-06-12 13:50:25,2023-06-12 13:51:22,57.983s,PASSED
+"callTestCase(findTestCase(""Produk Pilihan/TC_Cek_Produk_Pilihan""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:50:25,2023-06-12 13:50:55,29.729s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-06-12 13:50:55,2023-06-12 13:50:56,1.113s,PASSED
+"waitForElementPresent(findTestObject(""Produk Pilihan/Produk Sejenis/Produk Sejenis Wafer Selamat""), 20)",,,,2023-06-12 13:50:56,2023-06-12 13:50:56,0.125s,PASSED
+"tap(findTestObject(""Produk Pilihan/Produk Sejenis/Produk Sejenis Wafer Selamat""), 0)",,"Tap gambar ""Produk Sejenis"" pada kolom 1",,2023-06-12 13:50:56,2023-06-12 13:50:57,0.990s,PASSED
+"waitForElementPresent(findTestObject(""Produk Pilihan/Produk Sejenis/Tab Promosi""), 20)",,,,2023-06-12 13:50:57,2023-06-12 13:51:09,12.261s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Produk Sejenis.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:51:09,2023-06-12 13:51:11,1.476s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-06-12 13:51:11,2023-06-12 13:51:12,1.071s,PASSED
+"callTestCase(findTestCase(""Produk Pilihan/TC_Tambah_Produk_Sejenis""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:51:12,2023-06-12 13:51:15,3.363s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-06-12 13:51:15,2023-06-12 13:51:17,2.009s,PASSED
+closeApplication(),,,,2023-06-12 13:51:17,2023-06-12 13:51:17,0.495s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-06-12 13:51:17,2023-06-12 13:51:22,5.009s,PASSED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Produk_Pilihan_Lebih_Untung,,Test case cek produk pilihan dengan tag 'mau lebih untung',,2023-06-12 13:51:23,2023-06-12 13:52:43,1m - 20.057s,PASSED
+"startApplication(APP, false)",,,,2023-06-12 13:51:23,2023-06-12 13:51:33,10.095s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-12 13:51:33,2023-06-12 13:51:36,3.569s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,"Tap menu ""Akun""",,2023-06-12 13:51:36,2023-06-12 13:51:37,0.799s,PASSED
+"waitForElementPresent(findTestObject(""Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima""), 0)",,,,2023-06-12 13:51:37,2023-06-12 13:51:37,0.233s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima""), 0)",,Tap menu 'Kelola Alamat Penerima',,2023-06-12 13:51:37,2023-06-12 13:51:39,1.101s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Ganti_Alamat/Pilih Alamat 2""), 0)",,Tap tombol 'Pilih Alamat' pada baris kedua,,2023-06-12 13:51:39,2023-06-12 13:51:43,4.416s,PASSED
+pressBack(),,Tap tombol back,,2023-06-12 13:51:43,2023-06-12 13:51:43,0.287s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:51:43,2023-06-12 13:51:45,2.007s,PASSED
+"waitForElementPresent(findTestObject(""Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima""), 0)",,,,2023-06-12 13:51:45,2023-06-12 13:51:45,0.172s,PASSED
+"tap(findTestObject(""Homepage/Menu Home""), 0)",,Tap menu 'Home',,2023-06-12 13:51:45,2023-06-12 13:51:46,0.796s,PASSED
+"swipe(0, 400, 0, 0)",,,,2023-06-12 13:51:46,2023-06-12 13:51:47,1.088s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:51:47,2023-06-12 13:51:49,2.013s,PASSED
+"swipe(760, 1000, 0, 1000)",,,,2023-06-12 13:51:49,2023-06-12 13:51:50,1.076s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:51:50,2023-06-12 13:51:52,2.009s,PASSED
+"tap(findTestObject(""Produk Pilihan/Produk Lebih Untung/Tambah Keranjang Lebih Untung""), 0)",,Tap 'Tambah Keranjang' pada produk pilihan dengan tag 'lebih untung',,2023-06-12 13:51:52,2023-06-12 13:51:54,1.377s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Tambah_Keranjang/Icon_Keranjang/Pop-up Harga Termurah""), 20)",,,,2023-06-12 13:51:54,2023-06-12 13:52:07,12.816s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Tambah Keranjang Lebih Untung.png"")",,,,2023-06-12 13:52:07,2023-06-12 13:52:08,1.039s,PASSED
+"tap(findTestObject(""Produk Pilihan/Produk Lebih Untung/Cancel Keranjang Lebih Untung""), 0)",,Tap tombol 'Cancel',,2023-06-12 13:52:08,2023-06-12 13:52:09,1.132s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:52:09,2023-06-12 13:52:11,2.015s,PASSED
+"tap(findTestObject(""Produk Pilihan/Produk Lebih Untung/Mie Sedaap Lebih Untung""), 0)",,Tap gambar produk pilihan dengan tag lebih untung,,2023-06-12 13:52:11,2023-06-12 13:52:12,1.057s,PASSED
+"waitForElementPresent(findTestObject(""Produk Pilihan/Produk Sejenis/Tab Promosi""), 20)",,,,2023-06-12 13:52:12,2023-06-12 13:52:24,11.885s,PASSED
+"swipe(100, 425, 0, 0)",,,,2023-06-12 13:52:24,2023-06-12 13:52:25,1.108s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:52:25,2023-06-12 13:52:26,1.013s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Lebih Untung.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:52:26,2023-06-12 13:52:27,1.468s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/TC_Reset_Pilih_Alamat""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:52:27,2023-06-12 13:52:35,7.767s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-06-12 13:52:35,2023-06-12 13:52:37,2.008s,PASSED
+closeApplication(),,,,2023-06-12 13:52:37,2023-06-12 13:52:38,0.407s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-06-12 13:52:38,2023-06-12 13:52:43,5.018s,PASSED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Tambah_Produk_Pilihan,,Test case produk pilihan tambah keranjang produk pilihan,,2023-06-12 13:52:43,2023-06-12 13:54:02,1m - 19.916s,PASSED
+"callTestCase(findTestCase(""Produk Pilihan/TC_Cek_Produk_Pilihan""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:52:43,2023-06-12 13:53:12,28.695s,PASSED
+"tap(findTestObject(""Produk Pilihan/Edit Jumlah Produk 1""), 0)",,Tap jumlah produk,,2023-06-12 13:53:12,2023-06-12 13:53:12,0.730s,PASSED
+"waitForElementPresent(findTestObject(""Produk Pilihan/Field Edit Jumlah Produk 1""), 0)",,,,2023-06-12 13:53:12,2023-06-12 13:53:13,0.995s,PASSED
+"tap(findTestObject(""Produk Pilihan/Field Edit Jumlah Produk 1""), 0)",,"Tap field ""Jumlah Produk""",,2023-06-12 13:53:13,2023-06-12 13:53:15,1.537s,PASSED
+"setText(findTestObject(""Produk Pilihan/Field Edit Jumlah Produk 1""), ""10"", 0)",,Input jumlah produk,,2023-06-12 13:53:15,2023-06-12 13:53:15,0.386s,PASSED
+"tap(findTestObject(""Produk Pilihan/Simpan Edit Produk""), 0)",,"Tap tombol ""Simpan"" jumlah produk",,2023-06-12 13:53:15,2023-06-12 13:53:17,1.331s,PASSED
+"tap(findTestObject(""Produk Pilihan/Tambah Jumlah Produk""), 0)",,"Tap icon ""Tambah"" pada produk pilihan",,2023-06-12 13:53:17,2023-06-12 13:53:17,0.696s,PASSED
+"tap(findTestObject(""Produk Pilihan/Kurangi Jumlah Produk""), 0)",,"Tap icon ""Kurang"" pada produk pilihan",,2023-06-12 13:53:17,2023-06-12 13:53:18,0.730s,PASSED
+"tap(findTestObject(""Produk Pilihan/Tambah Keranjang Pilihan""), 0)",,"Tap tombol ""Tambah Keranjang"" pada produk pilihan",,2023-06-12 13:53:18,2023-06-12 13:53:21,3.232s,PASSED
+"waitForElementPresent(findTestObject(""Produk Pilihan/Keranjang Pilihan 1""), 0)",,,,2023-06-12 13:53:21,2023-06-12 13:53:22,0.406s,PASSED
+"tap(findTestObject(""Produk Pilihan/Keranjang Pilihan 1""), 0)",,"Tap tombol ""Keranjang"" pada laman Produk Pilihan",,2023-06-12 13:53:22,2023-06-12 13:53:23,1.563s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/NEW Tombol Pengiriman""), 0)",,,,2023-06-12 13:53:23,2023-06-12 13:53:23,0.151s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Keranjang Produk Pilihan.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:53:23,2023-06-12 13:53:24,1.085s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Ambil_Di_Grosir""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:53:24,2023-06-12 13:53:45,20.526s,PASSED
+"callTestCase(findTestCase(""Checkout/Pembayaran/TC_Bayar_Tunai""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:53:45,2023-06-12 13:53:51,6.339s,PASSED
+"callTestCase(findTestCase(""Checkout/TC_Checkout_Tunai""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:53:51,2023-06-12 13:53:57,5.884s,PASSED
+closeApplication(),,,,2023-06-12 13:53:57,2023-06-12 13:53:57,0.346s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-06-12 13:53:57,2023-06-12 13:54:02,5.004s,PASSED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Share_Produk_Pilihan,,Test case Produk Pilihan cek produk sejenis,,2023-06-12 13:54:02,2023-06-12 13:54:51,48.076s,FAILED
+"callTestCase(findTestCase(""Produk Pilihan/TC_Cek_Produk_Pilihan""), [:], STOP_ON_FAILURE)",,,,2023-06-12 13:54:03,2023-06-12 13:54:31,28.094s,PASSED
+"tap(findTestObject(""Produk Pilihan/Icon Wishlist""), 0)",,"Tap icon ""Wishlist""",,2023-06-12 13:54:31,2023-06-12 13:54:34,3.563s,PASSED
+"tap(findTestObject(""Produk Pilihan/Icon Wishlist""), 0)",,"Tap kembali icon ""Wishlist""",,2023-06-12 13:54:34,2023-06-12 13:54:38,3.337s,PASSED
+"tap(findTestObject(""Produk Pilihan/Icon Share Produk""), 0)",,"Tap icon ""Share""",,2023-06-12 13:54:38,2023-06-12 13:54:39,1.619s,PASSED
+"waitForElementPresent(findTestObject(""Produk Pilihan/Share Produk/Share 3""), 0)",,,,2023-06-12 13:54:39,2023-06-12 13:54:41,1.439s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Share Produk Pilihan.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:54:41,2023-06-12 13:54:42,1.107s,PASSED
+"tap(findTestObject(""Produk Pilihan/Share Produk/Share 3""), 0)",,"Tap icon ""Share Whatsapp""",,2023-06-12 13:54:42,2023-06-12 13:54:43,0.980s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:54:43,2023-06-12 13:54:45,2.012s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Share Whatsapp.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:54:45,2023-06-12 13:54:45,0.337s,FAILED
+closeApplication(),,,,2023-06-12 13:54:45,2023-06-12 13:54:46,0.331s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-06-12 13:54:46,2023-06-12 13:54:51,5.003s,PASSED

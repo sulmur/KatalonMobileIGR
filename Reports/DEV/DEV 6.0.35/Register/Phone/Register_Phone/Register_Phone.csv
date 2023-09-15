@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register__Phone,,Test module Register Input Nomor Handphone yang sudah terdaftar,,2023-06-13 14:50:46,2023-06-13 14:53:18,2m - 31.956s,PASSED
+,,,,,,,
+Test Cases/Register/Phone_Number/Main/TC_Register_Null_Phone,,Test case Register dengan field nomor HP kosong,,2023-06-13 14:50:47,2023-06-13 14:51:33,46.902s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:50:47,2023-06-13 14:51:06,18.572s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:06,2023-06-13 14:51:08,2.135s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:08,2023-06-13 14:51:10,2.214s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:10,2023-06-13 14:51:17,6.885s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:17,2023-06-13 14:51:30,12.960s,PASSED
+"swipe(100, 400, 0, 0)",,,,2023-06-13 14:51:30,2023-06-13 14:51:31,1.107s,PASSED
+"waitForElementPresent(findTestObject(""Register/Tombol Daftar""), 0)",,,,2023-06-13 14:51:31,2023-06-13 14:51:31,0.123s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-13 14:51:31,2023-06-13 14:51:32,0.721s,PASSED
+"waitForElementPresent(findTestObject(""Register/Phone_Number/Alert Nomor HP tidak valid""), 0)",,,,2023-06-13 14:51:32,2023-06-13 14:51:32,0.151s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Phone_Number/Alert Nomor HP tidak valid""), 0)",,"Pastikan muncul alert ""Nomor telpon yang anda masukkan tidak valid""",,2023-06-13 14:51:32,2023-06-13 14:51:32,0.175s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Phone Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 14:51:32,2023-06-13 14:51:33,1.036s,PASSED
+closeApplication(),,,,2023-06-13 14:51:33,2023-06-13 14:51:33,0.435s,PASSED
+,,,,,,,
+Test Cases/Register/Phone_Number/Main/TC_Register_Invalid_Phone,,Test case Register dengan nomor HP yang salah,,2023-06-13 14:51:33,2023-06-13 14:52:26,52.431s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:34,2023-06-13 14:51:51,17.497s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:51,2023-06-13 14:51:53,1.846s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:53,2023-06-13 14:51:55,2.130s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:51:55,2023-06-13 14:52:02,7.253s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:52:02,2023-06-13 14:52:16,13.151s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_InvalidPhone""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:52:16,2023-06-13 14:52:23,7.134s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-13 14:52:23,2023-06-13 14:52:24,0.780s,PASSED
+"waitForElementPresent(findTestObject(""Register/Phone_Number/Alert Nomor HP tidak valid""), 0)",,,,2023-06-13 14:52:24,2023-06-13 14:52:24,0.801s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Phone_Number/Alert Nomor HP tidak valid""), 0)",,"Pastikan muncul alert ""Nomor telpon yang anda masukkan tidak valid""",,2023-06-13 14:52:24,2023-06-13 14:52:25,0.281s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Phone Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 14:52:25,2023-06-13 14:52:26,0.889s,PASSED
+closeApplication(),,,,2023-06-13 14:52:26,2023-06-13 14:52:26,0.389s,PASSED
+,,,,,,,
+Test Cases/Register/Phone_Number/Main/TC_Register_Phone_Taken,,Test case Register dengan nomor HP yang sudah terdaftar,,2023-06-13 14:52:26,2023-06-13 14:53:18,52.344s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:52:26,2023-06-13 14:52:43,16.492s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:52:43,2023-06-13 14:52:45,1.750s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:52:45,2023-06-13 14:52:47,2.236s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:52:47,2023-06-13 14:52:53,6.145s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:52:53,2023-06-13 14:53:07,14.322s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_PhoneTaken""), [:], STOP_ON_FAILURE)",,,,2023-06-13 14:53:07,2023-06-13 14:53:15,7.444s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-13 14:53:15,2023-06-13 14:53:16,0.969s,PASSED
+"waitForElementPresent(findTestObject(""Register/Phone_Number/Tutup Alert Nomor HP sudah terdaftar""), 10)",,,,2023-06-13 14:53:16,2023-06-13 14:53:16,0.301s,PASSED
+"takeScreenshot(getReportFolder() + ""Failed Register Taken Phone.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 14:53:16,2023-06-13 14:53:17,0.881s,PASSED
+"tap(findTestObject(""Object Repository/Register/Phone_Number/Tutup Alert Nomor HP sudah terdaftar""), 0)",,"Tap tombol 'Tutup' pada alert ""Nomor Handphone sudah terhubung dengan akun lain""",,2023-06-13 14:53:17,2023-06-13 14:53:18,1.013s,PASSED
+closeApplication(),,,,2023-06-13 14:53:18,2023-06-13 14:53:18,0.379s,PASSED

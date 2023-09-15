@@ -22,7 +22,7 @@
       <guid>7a6e0d2c-3ac0-4200-9d4b-98ff445626f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Checkout/Pengiriman/TC_Ambil_DiGrosir</testCaseId>
+      <testCaseId>Test Cases/Checkout/Pengiriman/TC_Ambil_Di_Grosir</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register__Address,,Test module register dengan format alamat pengiriman yang salah,,2023-06-13 14:34:42,2023-06-13 14:37:39,2m - 56.524s,PASSED
+,,,,,,,
+Test Cases/Register/Address/Main/TC_Reset_Provinsi,,"Test case Register cek ubah Provinsi akan mereset opsi Kota, Kecamatan, dan Kelurahan yang dipilih",,2023-06-13 14:34:42,2023-06-13 14:35:13,30.238s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:34:43,2023-06-13 14:35:00,17.267s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Provinsi - Register""), 0)",,Tap field 'Provinsi',,2023-06-13 14:35:00,2023-06-13 14:35:01,1.048s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-""), 0)",,Pilih salah satu 'Provinsi',,2023-06-13 14:35:01,2023-06-13 14:35:02,1.430s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kota - Register""), 0)",,Tap field 'Kota',,2023-06-13 14:35:02,2023-06-13 14:35:04,1.691s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-""), 0)",,Pilih salah satu 'Kota',,2023-06-13 14:35:04,2023-06-13 14:35:05,1.033s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kecamatan - Register""), 0)",,Tap field 'Kecamatan',,2023-06-13 14:35:05,2023-06-13 14:35:07,1.344s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-""), 0)",,Pilih salah satu 'Kecamatan',,2023-06-13 14:35:07,2023-06-13 14:35:08,1.029s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kelurahan - Register""), 0)",,Tap field 'Kelurahan',,2023-06-13 14:35:08,2023-06-13 14:35:09,1.093s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-""), 0)",,Pilih salah satu 'Kelurahan',,2023-06-13 14:35:09,2023-06-13 14:35:10,1.030s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Dropdown Provinsi -Banten-""), 0)",,Tap kembali field 'Provinsi' yang sudah dipilih,,2023-06-13 14:35:10,2023-06-13 14:35:11,1.341s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Opsi Provinsi -Bali-""), 0)",,Pilih 'Provinsi' yang berbeda dari sebelumnya,,2023-06-13 14:35:11,2023-06-13 14:35:12,1.003s,PASSED
+closeApplication(),,,,2023-06-13 14:35:12,2023-06-13 14:35:13,0.557s,PASSED
+,,,,,,,
+Test Cases/Register/Address/Main/TC_Reset_Kota,,Test case register ubah Kota akan mereset opsi Kecamatan dan Kelurahan yang dipilih,,2023-06-13 14:35:13,2023-06-13 14:35:41,28.660s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:35:13,2023-06-13 14:35:30,16.674s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Provinsi - Register""), 0)",,Tap field 'Provinsi',,2023-06-13 14:35:30,2023-06-13 14:35:31,1.179s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-""), 0)",,Pilih salah satu 'Provinsi',,2023-06-13 14:35:31,2023-06-13 14:35:32,1.065s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kota - Register""), 0)",,Tap field 'Kota',,2023-06-13 14:35:32,2023-06-13 14:35:33,1.307s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-""), 0)",,Pilih salah satu 'Kota',,2023-06-13 14:35:33,2023-06-13 14:35:34,1.053s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kecamatan - Register""), 0)",,Tap field 'Kecamatan',,2023-06-13 14:35:34,2023-06-13 14:35:36,1.322s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-""), 0)",,Pilih salah satu 'Kecamatan',,2023-06-13 14:35:36,2023-06-13 14:35:37,1.061s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kelurahan - Register""), 0)",,Tap field 'Kelurahan',,2023-06-13 14:35:37,2023-06-13 14:35:38,1.110s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-""), 0)",,Pilih salah satu 'Kelurahan',,2023-06-13 14:35:38,2023-06-13 14:35:39,1.016s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Dropdown Kota -Kabupaten Tangerang-""), 0)",,Tap kembali field 'Kota' yang sudah dipilih,,2023-06-13 14:35:39,2023-06-13 14:35:40,1.114s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Pandeglang-""), 0)",,Pilih 'Kota' yang berbeda dari sebelumnya,,2023-06-13 14:35:40,2023-06-13 14:35:41,1.032s,PASSED
+closeApplication(),,,,2023-06-13 14:35:41,2023-06-13 14:35:41,0.387s,PASSED
+,,,,,,,
+Test Cases/Register/Address/Main/TC_Reset_Kecamatan,,Test case Register cek ubah Kecamatan akan mereset opsi Kelurahan yang dipilih,,2023-06-13 14:35:41,2023-06-13 14:36:11,29.718s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:35:42,2023-06-13 14:35:59,17.445s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Provinsi - Register""), 0)",,Tap field 'Provinsi',,2023-06-13 14:35:59,2023-06-13 14:36:01,1.226s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Provinsi -Banten-""), 0)",,Pilih salah satu 'Provinsi',,2023-06-13 14:36:01,2023-06-13 14:36:02,1.023s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kota - Register""), 0)",,Tap field 'Kota',,2023-06-13 14:36:02,2023-06-13 14:36:03,1.317s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kota -Kabupaten Tangerang-""), 0)",,Pilih salah satu 'Kota',,2023-06-13 14:36:03,2023-06-13 14:36:04,1.003s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kecamatan - Register""), 0)",,Tap field 'Kecamatan',,2023-06-13 14:36:04,2023-06-13 14:36:05,1.332s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kecamatan -Cisauk-""), 0)",,Pilih salah satu 'Kecamatan',,2023-06-13 14:36:05,2023-06-13 14:36:06,1.052s,PASSED
+"tap(findTestObject(""Register/Address/Dropdown Kelurahan - Register""), 0)",,Tap field 'Kelurahan',,2023-06-13 14:36:06,2023-06-13 14:36:07,1.129s,PASSED
+"tap(findTestObject(""Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-""), 0)",,Pilih salah satu 'Kelurahan',,2023-06-13 14:36:07,2023-06-13 14:36:08,1.019s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Dropdown Kecamatan -Cisauk-""), 0)",,Tap kembali field 'Kecamatan' yang sudah dipilih,,2023-06-13 14:36:08,2023-06-13 14:36:09,0.570s,PASSED
+"tap(findTestObject(""Object Repository/Register/Address/Register_ResetAddress/Opsi Kecamatan -Balaraja-""), 0)",,Pilih 'Kecamatan' yang berbeda dari sebelumnya,,2023-06-13 14:36:09,2023-06-13 14:36:11,1.651s,PASSED
+closeApplication(),,,,2023-06-13 14:36:11,2023-06-13 14:36:11,0.386s,PASSED
+,,,,,,,
+Test Cases/Register/Address/Main/TC_Register_Null_Address,,Test case register dengan field Alamat yang kosong,,2023-06-13 14:36:11,2023-06-13 14:36:54,43.225s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:36:11,2023-06-13 14:36:29,17.084s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:36:29,2023-06-13 14:36:31,2.221s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:36:31,2023-06-13 14:36:33,2.367s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:36:33,2023-06-13 14:36:41,7.539s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:36:41,2023-06-13 14:36:49,8.599s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-13 14:36:49,2023-06-13 14:36:52,3.054s,PASSED
+"waitForElementPresent(findTestObject(""Register/Address/Verify_Invalid_Address/Alert Minimal Karakter Alamat""), 0)",,,,2023-06-13 14:36:52,2023-06-13 14:36:53,0.269s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Address/Verify_Invalid_Address/Alert Minimal Karakter Alamat""), 0)",,"Pastikan muncul alert ""Alamat pengiriman minimal 10 karakter""",,2023-06-13 14:36:53,2023-06-13 14:36:53,0.324s,PASSED
+"takeScreenshot(getReportFolder() + ""Null Address Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 14:36:53,2023-06-13 14:36:54,0.919s,PASSED
+closeApplication(),,,,2023-06-13 14:36:54,2023-06-13 14:36:54,0.400s,PASSED
+,,,,,,,
+Test Cases/Register/Address/Main/TC_Register_Invalid_Address,,Test case register dengan field Alamat yang salah,,2023-06-13 14:36:54,2023-06-13 14:37:39,44.353s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:36:55,2023-06-13 14:37:13,18.661s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:37:13,2023-06-13 14:37:15,2.010s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:37:15,2023-06-13 14:37:18,2.254s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:37:18,2023-06-13 14:37:24,6.353s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_InvalidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:37:24,2023-06-13 14:37:26,2.264s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-13 14:37:26,2023-06-13 14:37:34,7.449s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-13 14:37:34,2023-06-13 14:37:37,3.023s,PASSED
+"waitForElementPresent(findTestObject(""Register/Address/Verify_Invalid_Address/Alert Minimal Karakter Alamat""), 0)",,,,2023-06-13 14:37:37,2023-06-13 14:37:37,0.280s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Address/Verify_Invalid_Address/Alert Minimal Karakter Alamat""), 0)",,"Pastikan muncul alert ""Alamat pengiriman minimal 10 karakter""",,2023-06-13 14:37:37,2023-06-13 14:37:37,0.281s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Address Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-13 14:37:37,2023-06-13 14:37:38,0.917s,PASSED
+closeApplication(),,,,2023-06-13 14:37:38,2023-06-13 14:37:39,0.357s,PASSED

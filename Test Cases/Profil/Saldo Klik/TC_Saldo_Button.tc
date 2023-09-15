@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tap tombol Saldo Klik Indogrosir</description>
+   <name>TC_Saldo_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7aaaf52-0908-4ce3-80ab-7783e1ae2542</testCaseGuid>
+</TestCaseEntity>

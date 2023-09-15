@@ -16,14 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap tombol \'Hapus\' pada salah satu produk'
-Mobile.tap(findTestObject('Checkout/Keranjang/Hapus Produk'), 0)
+Mobile.tap(findTestObject('Search/Keranjang/Hapus Produk/Hapus Produk 1'), 0)
 
 'Tap \'Ya\' pada pop-up konfirmasi hapus produk'
-Mobile.tap(findTestObject('Checkout/Keranjang/Setuju Hapus Produk'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/Setuju Hapus Produk'), 10)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.takeScreenshot('Hapus 1 produk.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Hapus 1 produk.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 

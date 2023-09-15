@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Search cek edit keranjang</description>
+   <name>TC_Search_Edit_Keranjang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12fb51f8-901c-427e-b892-3e267881f667</testCaseGuid>
+</TestCaseEntity>

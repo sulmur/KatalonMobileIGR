@@ -17,30 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APP, false)
+Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 20)
 
 'Tap tombol "Pesan Ulang" pada homepage'
-Mobile.tap(findTestObject('Homepage/Pesan Ulang 1'), 7)
+Mobile.tap(findTestObject('Homepage/Pesan Ulang'), 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Homepage/Tutup Pop-up Pesan Ulang'), 20)
 
 'Tap tombol "Tutup" pada pop-up berhasil pesan ulang'
-Mobile.tap(findTestObject('Homepage/Tutup Pop-up Pesan Ulang'), 7)
+Mobile.tap(findTestObject('Homepage/Tutup Pop-up Pesan Ulang'), 0)
 
-Mobile.swipe(0, 500, 0, 0)
+Mobile.swipe(0, 450, 0, 0)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1'), 0)
 
 'Tap \'+ Keranjang\' pada produk pilihan paling kiri'
-Mobile.tap(findTestObject('Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1'), 7)
+Mobile.tap(findTestObject('Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Produk Pilihan 1'), 0)
 
-Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Checkout/Tambah_Keranjang/Icon_Keranjang/Pop-up Harga Termurah'), 20)
 
 'Tap \'+ Keranjang\' pada detail produk yang telah dipilih'
-Mobile.tap(findTestObject('Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan'), 7)
+Mobile.tap(findTestObject('Checkout/Tambah_Keranjang/Produk Pilihan/Tambah Keranjang Produk Pilihan'), 0)
 
 'Tap tombol icon "Keranjang" pada homepage'
-Mobile.tap(findTestObject('Homepage/Keranjang Home 2'), 7)
+Mobile.tap(findTestObject('Homepage/Keranjang Home 2'), 0)
 
-Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Checkout/Pengiriman/NEW Tombol Pengiriman'), 0)
 

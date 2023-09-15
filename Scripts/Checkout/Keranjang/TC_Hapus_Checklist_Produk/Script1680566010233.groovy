@@ -16,31 +16,44 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap tombol \'Hapus\' pada salah satu produk'
-Mobile.tap(findTestObject('Checkout/Keranjang/Icon Hapus Produk'), 10)
+Mobile.tap(findTestObject('Checkout/Keranjang/Icon Hapus Produk'), 0)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
-
-'checklist hapus produk baris 1'
-Mobile.tap(findTestObject('Checkout/Keranjang/Checklist Hapus Produk 1'), 10)
-
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-
-'checklist hapus produk baris 2'
-Mobile.tap(findTestObject('Checkout/Keranjang/Checklist Hapus Produk 2'), 10)
+if (Mobile.verifyElementExist(findTestObject('Checkout/Keranjang/Stok Habis/Jumlah Produk Habis'), 0, FailureHandling.OPTIONAL)) {
+	Mobile.waitForElementPresent(findTestObject('Checkout/Keranjang/Stok Habis/Jumlah Produk Habis'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	'checklist hapus produk baris 1'
+	Mobile.tap(findTestObject('Checkout/Keranjang/Stok Habis/Checklist Produk Habis 1'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	'checklist hapus produk baris 2'
+	Mobile.tap(findTestObject('Checkout/Keranjang/Stok Habis/Checklist Produk Habis 2'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+} else {
+	Mobile.waitForElementPresent(findTestObject('Checkout/Keranjang/Checklist Hapus Produk 1'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	'checklist hapus produk baris 1'
+	Mobile.tap(findTestObject('Checkout/Keranjang/Checklist Hapus Produk 1'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	'checklist hapus produk baris 2'
+	Mobile.tap(findTestObject('Checkout/Keranjang/Checklist Hapus Produk 2'), 0, FailureHandling.CONTINUE_ON_FAILURE)	
+}
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap \'Hapus\' pada bagian navbar'
-Mobile.tap(findTestObject('Checkout/Keranjang/Setuju Hapus Checklist Produk'), 10)
+Mobile.tap(findTestObject('Checkout/Keranjang/Setuju Hapus Checklist Produk'), 0)
 
 'Tap \'Ya\' pada pop-up konfirmasi hapus produk'
-Mobile.tap(findTestObject('Checkout/Keranjang/Setuju Hapus Produk'), 10)
+Mobile.tap(findTestObject('Checkout/Keranjang/Setuju Hapus Produk'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.takeScreenshot('Hapus semua produk.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Hapus semua produk.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 

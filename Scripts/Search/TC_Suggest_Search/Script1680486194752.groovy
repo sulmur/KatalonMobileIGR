@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap field \'search\''
 Mobile.tap(findTestObject('Search/Field Search'), 0)
@@ -23,12 +24,14 @@ Mobile.tap(findTestObject('Search/Field Search'), 0)
 'input data pada field \'search\''
 Mobile.setText(findTestObject('Search/Field Search'), 'anlene', 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Search/Produk/anlene'), 0)
 
-Mobile.takeScreenshot('Suggestion Product.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('Reports/Suggestion Product.png')
 
 'Tap salah satu suggestion produk yang muncul dari hasil search'
 Mobile.tap(findTestObject('Search/Produk/anlene'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Search/Sorting/Sort Button'), 0)
 
 Mobile.swipe(100, 900, 0, 0)
 

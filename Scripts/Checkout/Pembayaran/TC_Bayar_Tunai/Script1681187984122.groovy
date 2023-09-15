@@ -22,7 +22,7 @@ Mobile.tap(findTestObject('Checkout/Checkout/Tombol Checkout'), 0)
 
 Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Gagal Checkout.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-'Pilih opsi \'Virtual Account BCA\''
+'Pilih opsi \'Tunai\''
 Mobile.tap(findTestObject('Checkout/Pembayaran/Bayar Tunai'), 0)
 
 Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Bayar Tunai.png', FailureHandling.CONTINUE_ON_FAILURE)

@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Produk_Pilihan,,Test module Produk Pilihan,,2023-07-28 15:56:50,2023-07-28 16:00:44,3m - 53.933s,FAILED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Produk_Sejenis,,Test case cek produk pilihan,,2023-07-28 15:56:50,2023-07-28 15:57:36,46.374s,FAILED
+"callTestCase(findTestCase(""Produk Pilihan/TC_Cek_Produk_Pilihan""), [:], STOP_ON_FAILURE)",,,,2023-07-28 15:56:50,2023-07-28 15:57:36,45.979s,FAILED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Produk_Pilihan_Lebih_Untung,,Test case cek produk pilihan dengan tag 'mau lebih untung',,2023-07-28 15:57:36,2023-07-28 15:59:19,1m - 42.919s,FAILED
+"startApplication(APP, false)",,,,2023-07-28 15:57:37,2023-07-28 15:57:45,8.254s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-28 15:57:45,2023-07-28 15:57:49,3.738s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,"Tap menu ""Akun""",,2023-07-28 15:57:49,2023-07-28 15:57:50,0.747s,PASSED
+"waitForElementPresent(findTestObject(""Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima""), 0)",,,,2023-07-28 15:57:50,2023-07-28 15:57:50,0.201s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima""), 0)",,Tap menu 'Kelola Alamat Penerima',,2023-07-28 15:57:50,2023-07-28 15:57:51,1.030s,PASSED
+"waitForElementPresent(findTestObject(""Profil/Alamat_Penerima/Ganti_Alamat/Pilih Alamat 2""), 0)",,,,2023-07-28 15:57:51,2023-07-28 15:57:52,0.852s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Ganti_Alamat/Pilih Alamat 2""), 0)",,Tap tombol 'Pilih Alamat' pada baris kedua,,2023-07-28 15:57:52,2023-07-28 15:57:53,0.930s,PASSED
+pressBack(),,Tap tombol back,,2023-07-28 15:57:53,2023-07-28 15:57:55,2.796s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 15:57:55,2023-07-28 15:57:57,2.021s,PASSED
+"waitForElementPresent(findTestObject(""Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima""), 0)",,,,2023-07-28 15:57:57,2023-07-28 15:57:58,0.221s,PASSED
+"tap(findTestObject(""Homepage/Menu Home""), 0)",,Tap menu 'Home',,2023-07-28 15:57:58,2023-07-28 15:57:58,0.761s,PASSED
+"swipe(0, 400, 0, 0)",,,,2023-07-28 15:57:58,2023-07-28 15:57:59,1.078s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 15:57:59,2023-07-28 15:58:01,2.001s,PASSED
+"swipe(760, 1000, 0, 1000)",,,,2023-07-28 15:58:01,2023-07-28 15:58:03,1.092s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 15:58:03,2023-07-28 15:58:05,2.013s,PASSED
+"tap(findTestObject(""Produk Pilihan/Produk Lebih Untung/Tambah Keranjang Lebih Untung""), 0)",,Tap 'Tambah Keranjang' pada produk pilihan dengan tag 'lebih untung',,2023-07-28 15:58:05,2023-07-28 15:58:06,1.405s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Tambah_Keranjang/Icon_Keranjang/Pop-up Harga Termurah""), 20)",,,,2023-07-28 15:58:06,2023-07-28 15:58:09,2.918s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Tambah Keranjang Lebih Untung.png"")",,,,2023-07-28 15:58:09,2023-07-28 15:58:10,1.379s,PASSED
+"tap(findTestObject(""Produk Pilihan/Produk Lebih Untung/Cancel Keranjang Lebih Untung""), 0)",,Tap tombol 'Cancel',,2023-07-28 15:58:10,2023-07-28 15:58:11,1.088s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 15:58:11,2023-07-28 15:58:13,2.019s,PASSED
+"tap(findTestObject(""Produk Pilihan/Produk Lebih Untung/Mie Sedaap Lebih Untung""), 0)",,Tap gambar produk pilihan dengan tag lebih untung,,2023-07-28 15:58:13,2023-07-28 15:58:23,10.089s,FAILED
+"waitForElementPresent(findTestObject(""Produk Pilihan/Produk Sejenis/Tab Promosi""), 20)",,,,2023-07-28 15:58:23,2023-07-28 15:58:44,20.153s,PASSED
+"swipe(100, 425, 0, 0)",,,,2023-07-28 15:58:44,2023-07-28 15:58:45,1.116s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-28 15:58:45,2023-07-28 15:58:46,1.006s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Lebih Untung.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 15:58:46,2023-07-28 15:58:47,0.995s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/TC_Reset_Pilih_Alamat""), [:], STOP_ON_FAILURE)",,,,2023-07-28 15:58:47,2023-07-28 15:59:19,32.420s,FAILED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Tambah_Produk_Pilihan,,Test case produk pilihan tambah keranjang produk pilihan,,2023-07-28 15:59:19,2023-07-28 16:00:02,42.389s,FAILED
+"callTestCase(findTestCase(""Produk Pilihan/TC_Cek_Produk_Pilihan""), [:], STOP_ON_FAILURE)",,,,2023-07-28 15:59:20,2023-07-28 16:00:02,41.890s,FAILED
+,,,,,,,
+Test Cases/Produk Pilihan/Main/TC_Share_Produk_Pilihan,,Test case Produk Pilihan cek produk sejenis,,2023-07-28 16:00:02,2023-07-28 16:00:44,41.992s,FAILED
+"callTestCase(findTestCase(""Produk Pilihan/TC_Cek_Produk_Pilihan""), [:], STOP_ON_FAILURE)",,,,2023-07-28 16:00:02,2023-07-28 16:00:44,41.722s,FAILED

@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register_Name,,Test module Register dengan format nama yang salah (dibawah 3 karakter),,2023-06-08 14:15:15,2023-06-08 14:17:01,1m - 46.297s,PASSED
+,,,,,,,
+Test Cases/Register/Name/Main/TC_Register_Name_Null,,Test case register dengan field nama kosong,,2023-06-08 14:15:15,2023-06-08 14:16:09,53.769s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:15:15,2023-06-08 14:15:35,19.375s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:15:35,2023-06-08 14:15:37,2.013s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:15:37,2023-06-08 14:15:44,6.698s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:15:44,2023-06-08 14:15:57,13.967s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:15:57,2023-06-08 14:16:05,7.761s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-08 14:16:05,2023-06-08 14:16:06,0.934s,PASSED
+"swipe(400, 400, 400, 1000)",,,,2023-06-08 14:16:06,2023-06-08 14:16:07,1.183s,PASSED
+"waitForElementPresent(findTestObject(""Register/Name/Verify_Invalid_Name/Alert Nama Salah""), 0)",,,,2023-06-08 14:16:07,2023-06-08 14:16:07,0.111s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Name/Verify_Invalid_Name/Alert Nama Salah""), 0)",,"Pastikan muncul alert ""Nama minimal 3 huruf""",,2023-06-08 14:16:07,2023-06-08 14:16:08,0.128s,PASSED
+"takeScreenshot(getReportFolder() + ""Null Name Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-08 14:16:08,2023-06-08 14:16:08,0.788s,PASSED
+closeApplication(),,,,2023-06-08 14:16:08,2023-06-08 14:16:09,0.518s,PASSED
+,,,,,,,
+Test Cases/Register/Name/Main/TC_Register_InvalidName,,Test case register dengan requirement nama yang salah (di bawah 3 karakter),,2023-06-08 14:16:09,2023-06-08 14:17:01,52.322s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:16:09,2023-06-08 14:16:27,17.512s,PASSED
+"tap(findTestObject(""Register/Name/Field Nama - Register""), 0)",,Tap field Nama,,2023-06-08 14:16:27,2023-06-08 14:16:28,1.481s,PASSED
+"setText(findTestObject(""Register/Name/Field Nama - Register""), ""si"", 0)",,Input Nama di bawah 3 karakter,,2023-06-08 14:16:28,2023-06-08 14:16:29,0.440s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:16:29,2023-06-08 14:16:31,2.158s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:16:31,2023-06-08 14:16:37,5.930s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:16:37,2023-06-08 14:16:50,13.408s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 14:16:50,2023-06-08 14:16:57,6.831s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-08 14:16:57,2023-06-08 14:16:58,0.803s,PASSED
+"swipe(400, 400, 400, 1000)",,,,2023-06-08 14:16:58,2023-06-08 14:16:59,1.207s,PASSED
+"waitForElementPresent(findTestObject(""Register/Name/Verify_Invalid_Name/Alert Nama Salah""), 0)",,,,2023-06-08 14:16:59,2023-06-08 14:16:59,0.118s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Name/Verify_Invalid_Name/Alert Nama Salah""), 0)",,"Pastikan muncul alert ""Nama minimal 3 huruf""",,2023-06-08 14:16:59,2023-06-08 14:16:59,0.131s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Name Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-08 14:16:59,2023-06-08 14:17:01,1.700s,PASSED
+closeApplication(),,,,2023-06-08 14:17:01,2023-06-08 14:17:01,0.323s,PASSED

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test case Filter untuk mencari produk yang diinginkan</description>
-   <name>TC_Search_Enter</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>59166ea7-f750-4532-a929-2bc420dddf7b</testCaseGuid>
-</TestCaseEntity>

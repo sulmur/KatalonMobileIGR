@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scan__QR,,Test module cek Kamera Scan QR,,2023-06-09 13:36:27,2023-06-09 13:37:02,34.541s,PASSED
+,,,,,,,
+Test Cases/Scan QR/TC_Scan_QR,,Test case scan QR kamera,,2023-06-09 13:36:27,2023-06-09 13:37:02,34.296s,PASSED
+"startApplication(APP, false)",,,,2023-06-09 13:36:28,2023-06-09 13:36:42,13.831s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-09 13:36:42,2023-06-09 13:36:44,2.131s,PASSED
+"tap(findTestObject(""Scan QR/Menu Scan QR""), 0)",,Tap tombol icon 'Scan QR',,2023-06-09 13:36:44,2023-06-09 13:36:44,0.269s,PASSED
+"waitForElementPresent(findTestObject(""Scan QR/Flash Kamera""), 0)",,,,2023-06-09 13:36:44,2023-06-09 13:36:46,1.721s,PASSED
+"tap(findTestObject(""Scan QR/Flash Kamera""), 0)",,Tap icon 'Flash',,2023-06-09 13:36:46,2023-06-09 13:36:46,0.336s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Flash Kamera.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:36:46,2023-06-09 13:36:48,2.275s,PASSED
+"tap(findTestObject(""Scan QR/Flip Kamera""), 0)",,Tap icon 'Flip Kamera',,2023-06-09 13:36:48,2023-06-09 13:36:59,10.812s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Flip Kamera.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:36:59,2023-06-09 13:37:01,1.435s,PASSED
+"tap(findTestObject(""Scan QR/Cancel Kamera""), 0)",,Tap tombol 'Cancel',,2023-06-09 13:37:01,2023-06-09 13:37:01,0.590s,PASSED
+closeApplication(),,,,2023-06-09 13:37:01,2023-06-09 13:37:02,0.462s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Register cek ubah Provinsi akan mereset opsi Kota, Kecamatan, dan Kelurahan yang dipilih</description>
+   <name>TC_Reset_Provinsi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e29f4f70-bb55-40a8-8950-d625a390729c</testCaseGuid>
+</TestCaseEntity>

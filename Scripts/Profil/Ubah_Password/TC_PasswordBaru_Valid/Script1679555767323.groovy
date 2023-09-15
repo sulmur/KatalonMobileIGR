@@ -36,5 +36,5 @@ Mobile.setEncryptedText(findTestObject('Profil/Ubah_Password/Field Konfirmasi Pa
 'Tap icon \'Mata tertutup\''
 Mobile.tap(findTestObject('Profil/Ubah_Password/Icon Konfirmasi Password Baru'), 0)
 
-Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Password.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Password.png')
 

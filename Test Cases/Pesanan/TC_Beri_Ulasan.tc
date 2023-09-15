@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case memberi ulasan produk</description>
+   <name>TC_Beri_Ulasan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb16cb34-3526-4c80-b8fa-84b922aa10b0</testCaseGuid>
+</TestCaseEntity>

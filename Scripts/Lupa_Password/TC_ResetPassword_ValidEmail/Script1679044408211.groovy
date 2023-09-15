@@ -18,7 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-Mobile.startApplication(GlobalVariable.APP, false)
+Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)
 
 'Tap menu Akun'
 Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
@@ -37,12 +39,12 @@ Mobile.setText(findTestObject('Lupa_Password/Field Email'), 'raihansulthan4@gmai
 'Input email yang terdaftar'
 Mobile.setText(findTestObject('Lupa_Password/Field Email Aktif'), 'raihansulthan4@gmail.com', 0)
 
-Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Email.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Email benar.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap tombol \'Kirim Link Reset\''
 Mobile.tap(findTestObject('Lupa_Password/Tombol Kirim Link Reset'), 0)
 
-Mobile.delay(2, FailureHandling.OPTIONAL)
+Mobile.waitForElementPresent(findTestObject('Lupa_Password/OK'), 0)
 
 Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Berhasil Kirim Lupa Password.png', FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -50,4 +52,6 @@ Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Berhasil Kirim L
 Mobile.tap(findTestObject('Lupa_Password/OK'), 0)
 
 Mobile.delay(2, FailureHandling.OPTIONAL)
+
+Mobile.closeApplication()
 

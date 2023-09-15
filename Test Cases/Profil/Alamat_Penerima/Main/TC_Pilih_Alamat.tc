@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Profil menu Alamat cek pilih alamat</description>
+   <name>TC_Pilih_Alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01818877-f430-42b0-87ce-0f9726e2ac39</testCaseGuid>
+</TestCaseEntity>

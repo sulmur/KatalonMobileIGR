@@ -3,7 +3,7 @@
    <description></description>
    <name>Detail Pesanan 1</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>0945db6e-6d73-4a63-9129-f93d061df88b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.View</value>
-      <webElementGuid>9ce0c8da-dfc5-439f-beba-61a56be517e4</webElementGuid>
+      <webElementGuid>c3cae64a-ba7c-482a-971e-fe3ff5548ac2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>59d4ffec-afb6-4d5d-b6d9-aa9625cf3ed6</webElementGuid>
+      <webElementGuid>d0733a42-f847-4e81-a8a8-fababa6197c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,20 +28,20 @@
       <name>package</name>
       <type>Main</type>
       <value>com.indogrosir.sd1.klikindogrosir</value>
-      <webElementGuid>cf5050a6-48af-4226-98e5-d293e030e360</webElementGuid>
+      <webElementGuid>afe662ab-65f7-484d-a655-77188f1804c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>TRX-461416
+      <value>TRX-585268
 Dibatalkan
 Tanggal Transaksi
-21 Mar 2023 08:53:46
+12 Jul 2023 01:31:16
 Total Pembayaran
-Rp 243.500</value>
-      <webElementGuid>d85b1532-bd0c-4ea4-9b6b-c417e1317392</webElementGuid>
+Rp 269.000</value>
+      <webElementGuid>b4e1949e-7833-420a-84cf-898cc359bbbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@ Rp 243.500</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f681a960-2588-475e-a516-34f67d267a41</webElementGuid>
+      <webElementGuid>d4d2cbba-9f0f-4522-a694-94619a59b17e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@ Rp 243.500</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ac43a0c2-0481-447e-88e4-b2efeed18643</webElementGuid>
+      <webElementGuid>de88c0b0-22f2-44b8-9274-43e3de4fcf4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@ Rp 243.500</value>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a3c5801d-b077-4019-90ca-e8eaaf313937</webElementGuid>
+      <webElementGuid>2f30d524-5d5f-45a3-b7ae-79efe2d4205e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@ Rp 243.500</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>16891092-ad5d-4501-a9d8-4716bddf7ddc</webElementGuid>
+      <webElementGuid>e1d14301-92f3-4ac9-961a-c81e099f4e61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@ Rp 243.500</value>
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e184eea7-6247-4ca8-adb3-b0a2e1ce041b</webElementGuid>
+      <webElementGuid>8c596d5f-31e6-4ae6-86ba-20001f1963ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@ Rp 243.500</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a1d7bf2a-ec5c-497c-a9fc-6ad05b17f8db</webElementGuid>
+      <webElementGuid>0015aa2e-de2d-49f7-be99-6c68322db533</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@ Rp 243.500</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3e01467a-ac96-43be-9df8-0757a88ec073</webElementGuid>
+      <webElementGuid>f170e6cf-96df-4cc2-bc86-4dec1f35592f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@ Rp 243.500</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f23664ec-a393-4326-ae23-bce1132be1a5</webElementGuid>
+      <webElementGuid>0a0b8c8f-967c-4a66-b11f-42b65777caa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -113,7 +113,7 @@ Rp 243.500</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>25351ec6-68e5-4e08-9893-357f13846ed1</webElementGuid>
+      <webElementGuid>e94e595a-9387-4a69-8dc0-1a437c1b8411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -121,7 +121,7 @@ Rp 243.500</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>78fbe00c-5061-4eac-a149-e3c1f1014728</webElementGuid>
+      <webElementGuid>28f96a6d-ed92-43f7-9537-37ebcad14277</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -129,7 +129,7 @@ Rp 243.500</value>
       <name>x</name>
       <type>Main</type>
       <value>22</value>
-      <webElementGuid>f339ba61-0484-4936-a6c0-917c8ed522b8</webElementGuid>
+      <webElementGuid>d67218ba-c099-4845-ae8f-f26eeed2ea9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -137,7 +137,7 @@ Rp 243.500</value>
       <name>y</name>
       <type>Main</type>
       <value>486</value>
-      <webElementGuid>cfc8aa73-e58b-42b4-9920-c50a0726aaad</webElementGuid>
+      <webElementGuid>9d59264f-647c-4494-89a2-eaa2ea732175</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -145,7 +145,7 @@ Rp 243.500</value>
       <name>width</name>
       <type>Main</type>
       <value>1036</value>
-      <webElementGuid>0465a7a0-45e4-4abc-af58-78289123d8fb</webElementGuid>
+      <webElementGuid>ff255f8d-69fd-4753-b6ec-3020c1d88ca0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -153,7 +153,7 @@ Rp 243.500</value>
       <name>height</name>
       <type>Main</type>
       <value>325</value>
-      <webElementGuid>686bc10f-c3fe-476a-87fc-49e2b143df78</webElementGuid>
+      <webElementGuid>9f50a104-f8b1-4171-822d-3e12f8713ca8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -161,7 +161,7 @@ Rp 243.500</value>
       <name>bounds</name>
       <type>Main</type>
       <value>[22,486][1058,811]</value>
-      <webElementGuid>af17e580-f724-4c45-8678-17c3f26a0e41</webElementGuid>
+      <webElementGuid>4d44f6c2-97d1-4297-8d3d-f757eb6af373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -169,7 +169,7 @@ Rp 243.500</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fcfc5cb0-3731-46ae-b2d7-10b5b5d18e50</webElementGuid>
+      <webElementGuid>87d60a4f-dd18-44c8-aa63-3925e205df21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -177,7 +177,7 @@ Rp 243.500</value>
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>4acd4806-a094-4755-bb24-64209a2ddeea</webElementGuid>
+      <webElementGuid>fdced3bf-bf76-4ab4-a410-4ca6b97c27cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -185,21 +185,16 @@ Rp 243.500</value>
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>a7d81660-593c-401b-983c-a3e65c67a244</webElementGuid>
+      <webElementGuid>585f7cda-6ed4-4796-a57c-c32289f9fcd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[5]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
-      <webElementGuid>1a54dc2f-be4d-450d-a7eb-d5e5d3e428df</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[6]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
+      <webElementGuid>b7e763d4-8622-4ad0-be35-e28f33125e66</webElementGuid>
    </webElementProperties>
-   <locator>TRX-461416
-Dibatalkan
-Tanggal Transaksi
-21 Mar 2023 08:53:46
-Total Pembayaran
-Rp 243.500</locator>
-   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+   <locator>//*[contains(@content-desc, &quot;TRX-300590&quot;)]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

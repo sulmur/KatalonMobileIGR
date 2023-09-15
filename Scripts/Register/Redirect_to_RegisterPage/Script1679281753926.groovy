@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APP, false)
+Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 60)
 
 'Tap menu Akun'
 Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
@@ -25,5 +27,5 @@ Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
 'Tap tombol Register'
 Mobile.tap(findTestObject('Login/Tombol Daftar'), 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Register/Name/Field Nama - Register'), 0)
 

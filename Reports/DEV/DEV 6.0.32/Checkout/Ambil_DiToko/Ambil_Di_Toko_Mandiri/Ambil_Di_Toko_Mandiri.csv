@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ambil_Di_Toko_Mandiri,,"Test module checkout, pengiriman ambil di grosir, pembayaran dengan VA Mandiri",,2023-06-12 13:38:24,2023-06-12 13:39:36,1m - 12.001s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang,,Test case cek fungsi pesan ulang produk,,2023-06-12 13:38:24,2023-06-12 13:38:46,21.913s,PASSED
+"startApplication(APP, false)",,,,2023-06-12 13:38:25,2023-06-12 13:38:38,13.057s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-12 13:38:38,2023-06-12 13:38:40,1.491s,PASSED
+"if (waitForElementPresent(findTestObject(""Homepage/Pesan Ulang""), 0) == true)",,,,2023-06-12 13:38:40,2023-06-12 13:38:41,1.196s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,,,2023-06-12 13:38:41,2023-06-12 13:38:42,1.034s,PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang",,2023-06-12 13:38:42,2023-06-12 13:38:43,1.081s,PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1""), 0)",,"Tap tombol icon ""Keranjang"" pada homepage",,2023-06-12 13:38:43,2023-06-12 13:38:45,1.695s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/NEW Tombol Pengiriman""), 0)",,,,2023-06-12 13:38:45,2023-06-12 13:38:45,0.292s,PASSED
+"if (verifyElementExist(findTestObject(""Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok""), 1, OPTIONAL))",,,,2023-06-12 13:38:45,2023-06-12 13:38:46,1.305s,PASSED
+else,,,,2023-06-12 13:38:46,2023-06-12 13:38:46,0.237s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pengiriman/TC_Ambil_Di_Grosir,,Test case Checkout dengan opsi pengiriman ambil di grosir,,2023-06-12 13:38:46,2023-06-12 13:39:06,19.800s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Tambah_Kurang_Produk""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 13:38:47,2023-06-12 13:38:52,5.497s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/NEW Tombol Pengiriman""), 0)",,,,2023-06-12 13:38:52,2023-06-12 13:38:52,0.180s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Panah Ke atas Ringkasan Belanja""), 0)",,Tap icon 'panah ke atas',,2023-06-12 13:38:52,2023-06-12 13:38:53,0.993s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman""), 0)",,Tap tombol 'Pengiriman',,2023-06-12 13:38:53,2023-06-12 13:38:54,0.278s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,,,2023-06-12 13:38:54,2023-06-12 13:38:57,3.371s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-06-12 13:38:57,2023-06-12 13:39:01,3.577s,PASSED
+"takeScreenshot(getReportFolder() + ""Belum pilih pengiriman.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:01,2023-06-12 13:39:02,1.365s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Ambil di Toko""), 0)",,Tap opsi pengiriman 'Ambil di Grosir',,2023-06-12 13:39:02,2023-06-12 13:39:03,0.765s,PASSED
+"takeScreenshot(getReportFolder() + ""Ambil di Grosir.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:03,2023-06-12 13:39:04,0.975s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-06-12 13:39:04,2023-06-12 13:39:05,0.741s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-06-12 13:39:05,2023-06-12 13:39:06,1.672s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pembayaran/TC_Bayar_Mandiri,,Test case bayar dengan VA Mandiri,,2023-06-12 13:39:06,2023-06-12 13:39:14,7.363s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-06-12 13:39:07,2023-06-12 13:39:10,2.988s,PASSED
+"takeScreenshot(getReportFolder() + ""Gagal Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:10,2023-06-12 13:39:11,1.215s,PASSED
+"swipe(0, 475, 0, 0)",,,,2023-06-12 13:39:11,2023-06-12 13:39:12,1.139s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA Mandiri""), 0)",,Pilih opsi 'Virtual Account Mandiri',,2023-06-12 13:39:12,2023-06-12 13:39:13,0.695s,PASSED
+"takeScreenshot(getReportFolder() + ""VA Mandiri.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:13,2023-06-12 13:39:14,0.869s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout,,Test case tap tombol Checkout,,2023-06-12 13:39:14,2023-06-12 13:39:36,22.654s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,Tap tombol 'Checkout',,2023-06-12 13:39:14,2023-06-12 13:39:15,1.055s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Label Terima Kasih telah Belanja""), 0)",,,,2023-06-12 13:39:15,2023-06-12 13:39:20,4.770s,PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:20,2023-06-12 13:39:21,1.115s,PASSED
+"swipe(0, 600, 0, 0)",,,,2023-06-12 13:39:21,2023-06-12 13:39:22,1.090s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0)",,,,2023-06-12 13:39:22,2023-06-12 13:39:22,0.141s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0, STOP_ON_FAILURE)",,Tap tombol 'Lihat cara pembayaran',,2023-06-12 13:39:22,2023-06-12 13:39:23,1.123s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:23,2023-06-12 13:39:26,3.033s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:26,2023-06-12 13:39:28,1.685s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-06-12 13:39:28,2023-06-12 13:39:30,1.884s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:30,2023-06-12 13:39:33,3.002s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran Bawah.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 13:39:33,2023-06-12 13:39:35,1.665s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,Tap icon 'Back' dari laman Lihat Cara Pembayaran,,2023-06-12 13:39:35,2023-06-12 13:39:36,1.703s,PASSED

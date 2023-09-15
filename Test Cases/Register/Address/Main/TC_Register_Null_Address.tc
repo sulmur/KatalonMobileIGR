@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case register dengan field Alamat yang kosong</description>
+   <name>TC_Register_Null_Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3791649-6402-4832-85ec-7a59730c3b27</testCaseGuid>
+</TestCaseEntity>

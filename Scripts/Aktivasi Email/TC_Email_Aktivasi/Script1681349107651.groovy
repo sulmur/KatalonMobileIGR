@@ -19,26 +19,28 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Buka Aplikasi Klik IGR'
-Mobile.startApplication(GlobalVariable.APP, false)
+Mobile.startExistingApplication(GlobalVariable.APP_EXIST)
+
+Mobile.waitForElementPresent(findTestObject('Kategori/Ibu dan Anak'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'Tap menu Akun'
-Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Menu Akun'), 0)
+Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Menu Akun'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'Tap tombol "Kirim Ulang Email Aktivasi"'
-Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Kirim Ulang Email Aktivasi'), 0)
+Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Kirim Ulang Email Aktivasi'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'Tap field \'Email\''
-Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Field Email Aktivasi'), 0)
+Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Field Email Aktivasi'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'Input email yang valid'
-Mobile.setText(findTestObject('Aktivasi Email/Field Email Aktivasi'), 'sulthanraihan@ymail.com', 0)
+Mobile.setText(findTestObject('Aktivasi Email/Field Email Aktivasi'), 'sulthanraihan@ymail.com', 0, FailureHandling.STOP_ON_FAILURE)
 
 'Tap tombol "Kirim Email Aktivasi"'
-Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Kirim Email Aktivasi'), 0)
+Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Kirim Email Aktivasi'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Email Aktivasi.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Email Aktivasi.png', FailureHandling.STOP_ON_FAILURE)
 
 'Tap tombol "Back"'
 Mobile.tap(findTestObject('Object Repository/Aktivasi Email/Back Aktivasi Email'), 0)

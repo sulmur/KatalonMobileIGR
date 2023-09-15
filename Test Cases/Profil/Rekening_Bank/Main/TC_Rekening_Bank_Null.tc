@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Rekening Bank dengan data kosong</description>
+   <name>TC_Rekening_Bank_Null</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae80f9f5-2e72-4e6a-81d0-8ae36cc2976a</testCaseGuid>
+</TestCaseEntity>

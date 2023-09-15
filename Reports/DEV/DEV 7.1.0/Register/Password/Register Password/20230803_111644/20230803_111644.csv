@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register Password,,Test modul register case tiap password,,2023-08-03 11:16:54,2023-08-03 11:20:50,3m - 55.474s,PASSED
+,,,,,,,
+Test Cases/Register/Password/Main/TC_Register_Character_Password,,Test case register cek format karakter password,,2023-08-03 11:16:54,2023-08-03 11:17:55,1m - 0.253s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:16:55,2023-08-03 11:17:12,17.206s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:17:12,2023-08-03 11:17:14,1.899s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:17:14,2023-08-03 11:17:16,1.958s,PASSED
+"tap(findTestObject(""Register/Password/Field Password - Register""), 0)",,Tap field 'Password',,2023-08-03 11:17:16,2023-08-03 11:17:17,1.667s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Password - Register""), ""yVvBGCXjhlM="", 0)",,Input Password dibawah 6 karakter,,2023-08-03 11:17:17,2023-08-03 11:17:18,0.335s,PASSED
+"tap(findTestObject(""Register/Password/Icon Field Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:17:18,2023-08-03 11:17:19,1.406s,PASSED
+"tap(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), 0)",,Tap field 'Konfirmasi Password',,2023-08-03 11:17:19,2023-08-03 11:17:19,0.244s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), ""yVvBGCXjhlM="", 0)",,Input Konfirmasi Password sama dengan field Password,,2023-08-03 11:17:19,2023-08-03 11:17:21,1.100s,PASSED
+"tap(findTestObject(""Register/Password/Icon Field Konfirmasi Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:17:21,2023-08-03 11:17:22,1.393s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:17:22,2023-08-03 11:17:45,23.532s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:17:45,2023-08-03 11:17:52,6.247s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-08-03 11:17:52,2023-08-03 11:17:52,0.738s,PASSED
+"swipe(400, 400, 400, 1000)",,,,2023-08-03 11:17:52,2023-08-03 11:17:53,1.017s,PASSED
+"waitForElementPresent(findTestObject(""Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi""), 0)",,,,2023-08-03 11:17:53,2023-08-03 11:17:54,0.108s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi""), 0)",,"Pastikan muncul alert ""Kata sandi minimal 6 karakter mengandung 1 angka dan 1 huruf!""",,2023-08-03 11:17:54,2023-08-03 11:17:54,0.120s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Character Password.png"", CONTINUE_ON_FAILURE)",,,,2023-08-03 11:17:54,2023-08-03 11:17:54,0.530s,PASSED
+closeApplication(),,,,2023-08-03 11:17:54,2023-08-03 11:17:55,0.451s,PASSED
+,,,,,,,
+Test Cases/Register/Password/Main/TC_Register_Invalid_Confirm_Password,,Test case register cek konfirmasi password yang salah,,2023-08-03 11:17:55,2023-08-03 11:18:52,57.395s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:17:55,2023-08-03 11:18:10,15.494s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:18:10,2023-08-03 11:18:12,1.630s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:18:12,2023-08-03 11:18:14,2.062s,PASSED
+"tap(findTestObject(""Register/Password/Field Password - Register""), 0)",,Tap field 'Password',,2023-08-03 11:18:14,2023-08-03 11:18:16,1.633s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Password - Register""), ""lsdNNXlVAZI="", 0)",,Input Password dengan format yang valid,,2023-08-03 11:18:16,2023-08-03 11:18:16,0.322s,PASSED
+"tap(findTestObject(""Object Repository/Register/Password/Icon Field Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:18:16,2023-08-03 11:18:18,1.402s,PASSED
+"tap(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), 0)",,Tap field 'Konfirmasi Password',,2023-08-03 11:18:18,2023-08-03 11:18:18,0.264s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), ""cVIwjfOa1J4="", 0)",,Input Konfirmasi Password yang berbeda dengan field Password,,2023-08-03 11:18:18,2023-08-03 11:18:19,1.116s,PASSED
+"tap(findTestObject(""Object Repository/Register/Password/Icon Field Konfirmasi Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:18:19,2023-08-03 11:18:20,1.394s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:18:20,2023-08-03 11:18:44,23.580s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:18:44,2023-08-03 11:18:50,6.043s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-08-03 11:18:50,2023-08-03 11:18:51,0.747s,PASSED
+"waitForElementPresent(findTestObject(""Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok""), 0)",,,,2023-08-03 11:18:51,2023-08-03 11:18:51,0.156s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Password/Verify_Confirm_Password/Alert Password Tidak Cocok""), 0)",,"Pastikan muncul alert ""Password konfirmasi tidak cocok""",,2023-08-03 11:18:51,2023-08-03 11:18:51,0.189s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Alert Confirm Password.png"", CONTINUE_ON_FAILURE)",,,,2023-08-03 11:18:51,2023-08-03 11:18:52,0.629s,PASSED
+closeApplication(),,,,2023-08-03 11:18:52,2023-08-03 11:18:52,0.417s,PASSED
+,,,,,,,
+Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Alphabet,,Test case register cek password dengan input huruf saja,,2023-08-03 11:18:52,2023-08-03 11:19:51,58.591s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:18:52,2023-08-03 11:19:09,16.779s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:19:09,2023-08-03 11:19:11,1.580s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:19:11,2023-08-03 11:19:13,1.977s,PASSED
+"tap(findTestObject(""Register/Password/Field Password - Register""), 0)",,Tap field 'Password',,2023-08-03 11:19:13,2023-08-03 11:19:14,1.624s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Password - Register""), ""2Ch3tCa/S0s="", 0)",,Input Password dengan format yang salah (hanya huruf saja),,2023-08-03 11:19:14,2023-08-03 11:19:15,0.305s,PASSED
+"tap(findTestObject(""Register/Password/Icon Field Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:19:15,2023-08-03 11:19:15,0.692s,PASSED
+"tap(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), 0)",,Tap field 'Konfirmasi Password',,2023-08-03 11:19:15,2023-08-03 11:19:16,0.901s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), ""2Ch3tCa/S0s="", 0)",,Input Konfirmasi Password sama dengan field Password,,2023-08-03 11:19:16,2023-08-03 11:19:17,1.075s,PASSED
+"tap(findTestObject(""Register/Password/Icon Field Konfirmasi Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:19:17,2023-08-03 11:19:19,1.377s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:19:19,2023-08-03 11:19:42,23.149s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:19:42,2023-08-03 11:19:48,6.027s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-08-03 11:19:48,2023-08-03 11:19:49,0.746s,PASSED
+"swipe(400, 400, 400, 1000)",,,,2023-08-03 11:19:49,2023-08-03 11:19:50,1.007s,PASSED
+"waitForElementPresent(findTestObject(""Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi""), 0)",,,,2023-08-03 11:19:50,2023-08-03 11:19:50,0.107s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi""), 0)",,"Pastikan muncul alert ""Kata sandi minimal 6 karakter mengandung 1 angka dan 1 huruf!""",,2023-08-03 11:19:50,2023-08-03 11:19:50,0.134s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Password Only Alphabet.png"", CONTINUE_ON_FAILURE)",,,,2023-08-03 11:19:50,2023-08-03 11:19:50,0.486s,PASSED
+closeApplication(),,,,2023-08-03 11:19:50,2023-08-03 11:19:51,0.351s,PASSED
+,,,,,,,
+Test Cases/Register/Password/Main/TC_Register_Invalid_Password_Number,,Test case register cek password dengan input angka saja,,2023-08-03 11:19:51,2023-08-03 11:20:50,59.021s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:19:51,2023-08-03 11:20:07,15.682s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:20:07,2023-08-03 11:20:08,1.658s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_ValidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:20:08,2023-08-03 11:20:10,1.944s,PASSED
+"tap(findTestObject(""Register/Password/Field Password - Register""), 0)",,Tap field 'Password',,2023-08-03 11:20:10,2023-08-03 11:20:12,1.645s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Password - Register""), ""aeHFOx8jV/A="", 0)",,Input Password dengan angka saja,,2023-08-03 11:20:12,2023-08-03 11:20:12,0.331s,PASSED
+"tap(findTestObject(""Register/Password/Icon Field Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:20:12,2023-08-03 11:20:14,1.393s,PASSED
+"tap(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), 0)",,Tap field 'Konfirmasi Password',,2023-08-03 11:20:14,2023-08-03 11:20:14,0.298s,PASSED
+"setEncryptedText(findTestObject(""Register/Password/Field Konfirmasi Password - Register""), ""aeHFOx8jV/A="", 0)",,Input Konfirmasi Password sama dengan field Password,,2023-08-03 11:20:14,2023-08-03 11:20:15,1.100s,PASSED
+"tap(findTestObject(""Register/Password/Icon Field Konfirmasi Password""), 0)",,Tap icon 'Mata tertutup',,2023-08-03 11:20:15,2023-08-03 11:20:16,1.426s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:20:16,2023-08-03 11:20:40,23.349s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-08-03 11:20:40,2023-08-03 11:20:46,6.079s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-08-03 11:20:46,2023-08-03 11:20:47,0.757s,PASSED
+"swipe(400, 400, 400, 1000)",,,,2023-08-03 11:20:47,2023-08-03 11:20:48,1.044s,PASSED
+"waitForElementPresent(findTestObject(""Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi""), 0)",,,,2023-08-03 11:20:48,2023-08-03 11:20:49,0.888s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Password/Verify_Invalid_Password/Alert Syarat Password tak terpenuhi""), 0)",,"Pastikan muncul alert ""Kata sandi minimal 6 karakter mengandung 1 angka dan 1 huruf!""",,2023-08-03 11:20:49,2023-08-03 11:20:49,0.179s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Password Only Number.png"", CONTINUE_ON_FAILURE)",,,,2023-08-03 11:20:49,2023-08-03 11:20:49,0.533s,PASSED
+closeApplication(),,,,2023-08-03 11:20:49,2023-08-03 11:20:50,0.350s,PASSED

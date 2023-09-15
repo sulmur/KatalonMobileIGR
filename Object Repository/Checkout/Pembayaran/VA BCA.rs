@@ -3,7 +3,7 @@
    <description></description>
    <name>VA BCA</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>96541d94-4f0c-494d-963e-f55fb19bc15b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.ImageView</value>
-      <webElementGuid>017388eb-8180-4206-92f4-42ec1c60336e</webElementGuid>
+      <webElementGuid>389c79d5-b4e9-4561-ba66-36138fcd1fd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>ec2d9fc6-61ee-4138-9f2e-65699c4ef07d</webElementGuid>
+      <webElementGuid>4a7fa592-bd01-4cae-8f35-9d915359a06f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.indogrosir.sd1.klikdev</value>
-      <webElementGuid>014a7da9-bf82-433d-8d76-1de19b62abe8</webElementGuid>
+      <webElementGuid>3a0557b2-9705-40eb-8e17-2b61539df0e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,8 +36,9 @@
       <name>content-desc</name>
       <type>Main</type>
       <value>Virtual Account BCA
-Dicek Otomatis</value>
-      <webElementGuid>0af8488f-088a-49de-bded-907c1defeaac</webElementGuid>
+Dicek Otomatis
+(Minimal bayar : Rp 100.000)</value>
+      <webElementGuid>73a225ba-5b03-4b0a-8a1e-9f0dab1d209a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +46,7 @@ Dicek Otomatis</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a03c3615-e5c8-46f7-a068-2b4b84814ebe</webElementGuid>
+      <webElementGuid>c3560a9e-0433-4c0d-be18-ff65e8c6c997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +54,7 @@ Dicek Otomatis</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4f72f2b5-4c74-4ee8-b381-6017841a870e</webElementGuid>
+      <webElementGuid>182c1a9b-4ee2-4a27-93bf-edc57dda1c38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +62,7 @@ Dicek Otomatis</value>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bd2cf84c-cb29-451b-8282-f5abe33e81f6</webElementGuid>
+      <webElementGuid>ec82068b-6239-4872-9fb9-b209636405df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +70,7 @@ Dicek Otomatis</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fe193f18-476d-45f0-95e9-8ce9654a203b</webElementGuid>
+      <webElementGuid>8235b65d-8c03-4028-bfe8-2316b536b724</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +78,7 @@ Dicek Otomatis</value>
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5293b702-b87e-4b8f-8334-87864c5fa89d</webElementGuid>
+      <webElementGuid>02103c7b-20d4-4d83-a29d-d1821dde5661</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +86,7 @@ Dicek Otomatis</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c8b9c94c-6606-4d80-bca1-9a31327aa7cf</webElementGuid>
+      <webElementGuid>df8ca592-c61f-44ed-b477-ee3f198cd37a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +94,7 @@ Dicek Otomatis</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>20cf7e29-415f-47c8-8c82-077b944d1a57</webElementGuid>
+      <webElementGuid>b287f59b-0d95-4869-b66f-c9a114cf792c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -101,7 +102,7 @@ Dicek Otomatis</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>83762f10-e479-4b90-8f8f-42af9989f4c3</webElementGuid>
+      <webElementGuid>c464b074-4271-48cc-ac20-4a6c5e6b41c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +110,7 @@ Dicek Otomatis</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0a5fb745-da2f-400c-88ce-007b51c6e899</webElementGuid>
+      <webElementGuid>fed756ef-4df2-4afa-9862-bf2d4c44f92f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,7 +118,7 @@ Dicek Otomatis</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4dd2899f-04ac-4377-aa86-5ba788381cd2</webElementGuid>
+      <webElementGuid>4cd5f16a-1c06-44ea-a3b0-9572d900f73f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -125,15 +126,15 @@ Dicek Otomatis</value>
       <name>x</name>
       <type>Main</type>
       <value>61</value>
-      <webElementGuid>abe55612-4b1f-4f4b-bc36-c976f2a14297</webElementGuid>
+      <webElementGuid>439ebe7a-63ad-45e1-85ed-6392f160b497</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>341</value>
-      <webElementGuid>b1af642f-f7bd-430d-8943-fa8f0d75f1ce</webElementGuid>
+      <value>1754</value>
+      <webElementGuid>c16ae073-bf46-4684-9722-e516c37ae048</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -141,23 +142,23 @@ Dicek Otomatis</value>
       <name>width</name>
       <type>Main</type>
       <value>959</value>
-      <webElementGuid>27f6ac72-e2ef-4b5c-a47e-4c54c94b284a</webElementGuid>
+      <webElementGuid>309273a1-845f-4833-91ba-bb3006a9d581</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>344</value>
-      <webElementGuid>11253c3c-0c2c-403e-93cf-60c7d66b777b</webElementGuid>
+      <value>234</value>
+      <webElementGuid>90fd8250-5f38-44c2-843e-bf9075a94d8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[61,341][1020,685]</value>
-      <webElementGuid>e8901093-cb36-476d-9781-3434f226e576</webElementGuid>
+      <value>[61,1754][1020,1988]</value>
+      <webElementGuid>a44b94dd-135c-4d0e-9a32-6289e8ec6794</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -165,7 +166,7 @@ Dicek Otomatis</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f2de95f4-03cb-4254-bbee-d0b64856dcb8</webElementGuid>
+      <webElementGuid>817d4e3e-2ab2-4588-b316-09b9de7dcb29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -173,7 +174,7 @@ Dicek Otomatis</value>
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>b6c5f76f-5a0b-4860-8d51-f30b8e533da4</webElementGuid>
+      <webElementGuid>ffb47702-d12f-45ad-9209-aee9c327e3f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -181,17 +182,16 @@ Dicek Otomatis</value>
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>fa56629f-f0a3-4b6a-9eb5-385b913b74fa</webElementGuid>
+      <webElementGuid>ff2c842f-a6bb-4a32-adb0-02734c6429a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.ImageView[1]/android.view.View[2]/android.widget.ImageView[1]</value>
-      <webElementGuid>7f25203c-ad4a-4df3-a9be-f5cc5c5f2603</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.ImageView[2]/android.view.View[2]/android.widget.ImageView[1]</value>
+      <webElementGuid>b76db794-d03f-4601-bfa0-7cb099509792</webElementGuid>
    </webElementProperties>
-   <locator>Virtual Account BCA
-Dicek Otomatis</locator>
-   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+   <locator>//*[contains(@content-desc, &quot;Virtual Account BCA&quot;)]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

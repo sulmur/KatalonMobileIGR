@@ -43,5 +43,5 @@ Mobile.tap(findTestObject('Checkout/Keranjang/Rincian Promosi/Back Rincian Promo
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap tombol \'Dropdown\' untuk hide Ringkasan Belanja '
-Mobile.tap(findTestObject('Checkout/Keranjang/Rincian Promosi/Dropdown Ringkasan Belanja'), 0)
+Mobile.tap(findTestObject('null'), 0)
 

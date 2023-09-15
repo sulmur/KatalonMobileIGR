@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case register dengan email kosong</description>
+   <name>TC_Register_Email_Null</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4af85d1-7fd9-4ee8-bc1b-80b6f17d0df3</testCaseGuid>
+</TestCaseEntity>

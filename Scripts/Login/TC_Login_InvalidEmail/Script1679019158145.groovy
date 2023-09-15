@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap field Email/No. HP'
 Mobile.tap(findTestObject('Login/Field Email or Nomor HP'), 0)
@@ -27,7 +28,7 @@ Mobile.setText(findTestObject('Login/Field Email or Nomor HP'), 'usersalah@gmail
 Mobile.tap(findTestObject('Login/Field Password'), 0)
 
 'Input field Password'
-Mobile.setEncryptedText(findTestObject('Login/Field Password'), 'lsdNNXlVAZI=', 0)
+Mobile.setText(findTestObject('Login/Field Password'), GlobalVariable.PASSWORD, 0)
 
 'Tap icon \'mata tertutup\' untuk melihat password'
 Mobile.tap(findTestObject('Login/Icon Password'), 0)
@@ -35,17 +36,17 @@ Mobile.tap(findTestObject('Login/Icon Password'), 0)
 'Tap tombol Login'
 Mobile.tap(findTestObject('Login/Tombol Login'), 0)
 
-Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Login/Alert Email atau Nomor HP Salah'), 0)
 
 'Pastikan muncul alert "Email atau Nomor HP salah"'
 Mobile.verifyElementVisible(findTestObject('Login/Alert Email atau Nomor HP Salah'), 0)
 
-Mobile.takeScreenshotAsCheckpoint('Invalid Email Login', [])
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Invalid Email Login.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap tombol \'Tutup\' pada alert Email/No. Hp tidak terdaftar'
 Mobile.tap(findTestObject('Login/Close Gagal Login'), 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Login/Data Field Email Salah'), 0)
 
 'Tap field Email/No. HP'
 Mobile.tap(findTestObject('Login/Data Field Email Salah'), 0)

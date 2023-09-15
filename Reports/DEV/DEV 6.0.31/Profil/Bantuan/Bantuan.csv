@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bantuan,,Test module Profil skenario melihat menu Bantuan,,2023-06-09 14:00:44,2023-06-09 14:01:46,1m - 2.650s,PASSED
+,,,,,,,
+Test Cases/Profil/TC_Profil_Button,,Test case tap menu 'Akun',,2023-06-09 14:00:44,2023-06-09 14:00:59,15.161s,PASSED
+"startApplication(APP, false)",,,,2023-06-09 14:00:44,2023-06-09 14:00:57,12.572s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-09 14:00:57,2023-06-09 14:00:59,2.039s,PASSED
+"tap(findTestObject(""Profil/Profil_Button/Menu Akun""), 0)",,Tap menu 'Akun',,2023-06-09 14:00:59,2023-06-09 14:00:59,0.267s,PASSED
+,,,,,,,
+Test Cases/Profil/Bantuan/TC_Cara_Belanja,,Test module Profil skenario melihat menu Cara Belanja,,2023-06-09 14:00:59,2023-06-09 14:01:12,12.406s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-06-09 14:01:00,2023-06-09 14:01:01,1.081s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:01,2023-06-09 14:01:02,1.042s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Cara Belanja""), 0)",,Tap menu 'Cara Belanja',,2023-06-09 14:01:02,2023-06-09 14:01:04,1.880s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:04,2023-06-09 14:01:06,2.007s,PASSED
+"takeScreenshot(getReportFolder() + ""Cara Belanja.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:06,2023-06-09 14:01:07,1.757s,PASSED
+"swipe(100, 1000, 0, 0)",,,,2023-06-09 14:01:07,2023-06-09 14:01:09,1.774s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Back""), 0)",,Tap icon 'Back' untuk kembali ke laman Profil,,2023-06-09 14:01:09,2023-06-09 14:01:12,2.468s,PASSED
+,,,,,,,
+Test Cases/Profil/Bantuan/TC_FAQ,,Test module Profil skenario melihat menu Cara Belanja,,2023-06-09 14:01:12,2023-06-09 14:01:21,9.726s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:12,2023-06-09 14:01:13,1.008s,PASSED
+"tap(findTestObject(""Profil/Bantuan/FAQ""), 0)",,Tap menu 'FAQ',,2023-06-09 14:01:13,2023-06-09 14:01:14,1.233s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:14,2023-06-09 14:01:16,2.007s,PASSED
+"takeScreenshot(getReportFolder() + ""FAQ.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:16,2023-06-09 14:01:17,1.115s,PASSED
+"swipe(100, 1000, 0, 0)",,,,2023-06-09 14:01:17,2023-06-09 14:01:19,1.802s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Back""), 0)",,Tap icon 'Back' untuk kembali ke laman Profil,,2023-06-09 14:01:19,2023-06-09 14:01:21,2.188s,PASSED
+,,,,,,,
+Test Cases/Profil/Bantuan/TC_Kebijakan,,Test module Profil skenario melihat menu Kebijakan,,2023-06-09 14:01:21,2023-06-09 14:01:32,10.190s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:22,2023-06-09 14:01:23,1.005s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Kebijakan""), 0)",,Tap menu 'Kebijakan',,2023-06-09 14:01:23,2023-06-09 14:01:24,1.208s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:24,2023-06-09 14:01:26,2.007s,PASSED
+"takeScreenshot(getReportFolder() + ""Kebijakan.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:26,2023-06-09 14:01:27,1.641s,PASSED
+"swipe(100, 1000, 0, 0)",,,,2023-06-09 14:01:27,2023-06-09 14:01:29,1.893s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Back""), 0)",,Tap icon 'Back' untuk kembali ke laman Profil,,2023-06-09 14:01:29,2023-06-09 14:01:32,2.209s,PASSED
+,,,,,,,
+Test Cases/Profil/Bantuan/TC_Syarat_Ketentuan,,Test module Profil skenario melihat menu Syarat & Ketentuan,,2023-06-09 14:01:32,2023-06-09 14:01:42,10.193s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:32,2023-06-09 14:01:33,1.010s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Syarat dan Ketentuan""), 0)",,Tap menu 'Syarat dan Ketentuan',,2023-06-09 14:01:33,2023-06-09 14:01:34,1.163s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:34,2023-06-09 14:01:36,2.017s,PASSED
+"takeScreenshot(getReportFolder() + ""Syarat Ketentuan.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:36,2023-06-09 14:01:37,1.459s,PASSED
+"swipe(100, 1500, 0, 0)",,,,2023-06-09 14:01:37,2023-06-09 14:01:39,1.800s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Back""), 0)",,Tap icon 'Back' untuk kembali ke laman Profil,,2023-06-09 14:01:39,2023-06-09 14:01:42,2.453s,PASSED
+,,,,,,,
+Test Cases/Profil/Bantuan/TC_Hubungi_Kami,,Test module Profil skenario melihat menu Hubungi Kami,,2023-06-09 14:01:42,2023-06-09 14:01:46,4.680s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:42,2023-06-09 14:01:43,1.011s,PASSED
+"tap(findTestObject(""Profil/Bantuan/Hubungi Kami""), 0)",,Tap menu 'Hubungi Kami',,2023-06-09 14:01:43,2023-06-09 14:01:43,0.283s,PASSED
+"takeScreenshot(getReportFolder() + ""Hubungi Kami.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:43,2023-06-09 14:01:44,0.956s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-09 14:01:44,2023-06-09 14:01:46,2.007s,PASSED

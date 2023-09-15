@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+Mobile.callTestCase(findTestCase('Favourite/TC_Menu_Favourite'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Tap tombol \'Filter\''
 Mobile.tap(findTestObject('Favourite/Filter/Filter Button'), 0)
@@ -48,6 +51,8 @@ Mobile.pressBack()
 
 'Tap tombol \'Reset\''
 Mobile.tap(findTestObject('Favourite/Filter/Reset Button'), 0)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Reset Filter Favourite.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap tombol \'Terapkan\''
 Mobile.tap(findTestObject('Favourite/Filter/Submit Button'), 0)

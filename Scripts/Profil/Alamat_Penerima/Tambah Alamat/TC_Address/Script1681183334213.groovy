@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 'Tap field \'Provinsi\''
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Provinsi'), 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Provinsi Banten'), 0)
 
 'Tap opsi provinsi \'Banten\''
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Provinsi Banten'), 0)

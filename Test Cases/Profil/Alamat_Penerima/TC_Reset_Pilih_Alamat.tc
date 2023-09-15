@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case memilih alamat penerima baris pertama</description>
+   <name>TC_Reset_Pilih_Alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fe69b76-4c35-4840-8b72-7d2c9339d2f2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register__Email,,Test module Register tiap case Email,,2023-06-12 10:51:34,2023-06-12 10:54:14,2m - 39.800s,PASSED
+,,,,,,,
+Test Cases/Register/Email/Main/TC_Register_Email_Null,,Test case register dengan email kosong,,2023-06-12 10:51:34,2023-06-12 10:52:29,54.693s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:51:34,2023-06-12 10:51:54,19.576s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:51:54,2023-06-12 10:51:56,2.430s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:51:56,2023-06-12 10:52:04,7.315s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:04,2023-06-12 10:52:18,13.838s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:18,2023-06-12 10:52:25,7.440s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar' setelah mengisi form Register,,2023-06-12 10:52:25,2023-06-12 10:52:26,1.021s,PASSED
+"swipe(400, 400, 400, 1000)",,,,2023-06-12 10:52:26,2023-06-12 10:52:27,1.110s,PASSED
+"waitForElementPresent(findTestObject(""Register/Email/Alert Email tidak valid""), 0)",,,,2023-06-12 10:52:27,2023-06-12 10:52:27,0.155s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Email/Alert Email tidak valid""), 0)",,"Pastikan muncul alert ""Email tidak valid!""",,2023-06-12 10:52:27,2023-06-12 10:52:27,0.170s,PASSED
+"takeScreenshot(getReportFolder() + ""Null Email Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:27,2023-06-12 10:52:28,0.759s,PASSED
+closeApplication(),,,,2023-06-12 10:52:28,2023-06-12 10:52:29,0.565s,PASSED
+,,,,,,,
+Test Cases/Register/Email/Main/TC_Register_Email_Taken,,Test case register dengan email yang sudah terdaftar,,2023-06-12 10:52:29,2023-06-12 10:53:22,53.060s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:29,2023-06-12 10:52:47,17.857s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:47,2023-06-12 10:52:49,1.830s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_EmailTaken""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:49,2023-06-12 10:52:51,2.097s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:51,2023-06-12 10:52:58,6.778s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:52:58,2023-06-12 10:53:11,12.951s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:53:11,2023-06-12 10:53:18,7.187s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar',,2023-06-12 10:53:18,2023-06-12 10:53:19,1.019s,PASSED
+"waitForElementPresent(findTestObject(""Register/Email/Tutup Alert Email sudah digunakan""), 0)",,,,2023-06-12 10:53:19,2023-06-12 10:53:19,0.274s,PASSED
+"verifyElementVisible(findTestObject(""Register/Email/Tutup Alert Email sudah digunakan""), 0)",,Pastikan muncul alert 'Email sudah digunakan',,2023-06-12 10:53:19,2023-06-12 10:53:20,0.247s,PASSED
+"takeScreenshot(getReportFolder() + ""Taken Email Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 10:53:20,2023-06-12 10:53:20,0.951s,PASSED
+"tap(findTestObject(""Object Repository/Register/Email/Tutup Alert Email sudah digunakan""), 0)",,Tap tombol 'Tutup' pada alert 'Email sudah digunakan',,2023-06-12 10:53:20,2023-06-12 10:53:21,1.011s,PASSED
+closeApplication(),,,,2023-06-12 10:53:21,2023-06-12 10:53:22,0.381s,PASSED
+,,,,,,,
+Test Cases/Register/Email/Main/TC_Register_Invalid_Email,,Test case register dengan email yang salah,,2023-06-12 10:53:22,2023-06-12 10:54:14,51.790s,PASSED
+"callTestCase(findTestCase(""Register/Redirect_to_RegisterPage""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:53:22,2023-06-12 10:53:40,17.283s,PASSED
+"callTestCase(findTestCase(""Register/Name/TC_Register_ValidName""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:53:40,2023-06-12 10:53:42,2.120s,PASSED
+"callTestCase(findTestCase(""Register/Email/TC_Register_InvalidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:53:42,2023-06-12 10:53:44,2.232s,PASSED
+"callTestCase(findTestCase(""Register/Password/TC_Register_ValidPassword""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:53:44,2023-06-12 10:53:50,6.479s,PASSED
+"callTestCase(findTestCase(""Register/Address/TC_Register_ValidAddress""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:53:50,2023-06-12 10:54:03,13.122s,PASSED
+"callTestCase(findTestCase(""Register/Phone_Number/TC_Register_ValidPhone""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-12 10:54:03,2023-06-12 10:54:10,6.829s,PASSED
+"tap(findTestObject(""Register/Tombol Daftar""), 0)",,Tap tombol 'Daftar',,2023-06-12 10:54:10,2023-06-12 10:54:11,0.763s,PASSED
+"swipe(400, 400, 400, 1000)",,,,2023-06-12 10:54:11,2023-06-12 10:54:12,1.043s,PASSED
+"waitForElementPresent(findTestObject(""Register/Email/Alert Email tidak valid""), 0)",,,,2023-06-12 10:54:12,2023-06-12 10:54:12,0.166s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/Email/Alert Email tidak valid""), 0)",,"Pastikan muncul alert ""Email tidak valid!""",,2023-06-12 10:54:12,2023-06-12 10:54:12,0.184s,PASSED
+"takeScreenshot(getReportFolder() + ""Invalid Email Result.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 10:54:12,2023-06-12 10:54:13,0.778s,PASSED
+closeApplication(),,,,2023-06-12 10:54:13,2023-06-12 10:54:14,0.411s,PASSED

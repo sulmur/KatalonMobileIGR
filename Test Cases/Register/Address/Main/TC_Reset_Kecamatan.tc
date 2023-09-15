@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Register cek ubah Kecamatan akan mereset opsi Kelurahan yang dipilih</description>
+   <name>TC_Reset_Kecamatan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20961ca4-c254-4280-a93d-3683f4f49b15</testCaseGuid>
+</TestCaseEntity>

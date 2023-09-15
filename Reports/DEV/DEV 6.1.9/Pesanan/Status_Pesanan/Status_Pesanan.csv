@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pesanan__Status,,"Test module Pesanan, mengecek tiap status pesanan",,2023-07-25 11:25:14,2023-07-25 11:25:58,43.239s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Menu_Pesanan,,Test case mengakses menu 'Pesanan',,2023-07-25 11:25:15,2023-07-25 11:25:32,17.130s,PASSED
+"startApplication(APP, false)",,,,2023-07-25 11:25:16,2023-07-25 11:25:29,13.024s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-25 11:25:29,2023-07-25 11:25:31,2.451s,PASSED
+"tap(findTestObject(""Pesanan/Menu Pesanan""), 0)",,Tap menu 'Pesanan',,2023-07-25 11:25:31,2023-07-25 11:25:32,0.831s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Status_Pesanan,,Test case mengecek tiap status pesanan,,2023-07-25 11:25:32,2023-07-25 11:25:58,25.684s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown Transaksi""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-25 11:25:32,2023-07-25 11:25:33,1.036s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Pengembalian""), 0)",,Pilih status 'Pengembalian',,2023-07-25 11:25:33,2023-07-25 11:25:34,1.054s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:34,2023-07-25 11:25:35,1.042s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Pengembalian.png"", CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:35,2023-07-25 11:25:36,0.942s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Pengembalian""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-25 11:25:36,2023-07-25 11:25:37,1.027s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Dibatalkan""), 0)",,Pilih status 'Dibatalkan',,2023-07-25 11:25:37,2023-07-25 11:25:38,1.043s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:38,2023-07-25 11:25:39,1.007s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Dibatalkan.png"", CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:39,2023-07-25 11:25:40,0.817s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Dibatalkan""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-25 11:25:40,2023-07-25 11:25:41,1.021s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Selesai""), 0)",,Pilih status 'Selesai',,2023-07-25 11:25:41,2023-07-25 11:25:42,1.035s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:42,2023-07-25 11:25:43,1.006s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Selesai.png"", CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:43,2023-07-25 11:25:44,0.832s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Selesai""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-25 11:25:44,2023-07-25 11:25:45,1.049s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Diproses""), 0)",,Pilih status 'Diproses',,2023-07-25 11:25:45,2023-07-25 11:25:46,1.026s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:46,2023-07-25 11:25:47,1.006s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Diproses.png"", CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:47,2023-07-25 11:25:48,0.847s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Diproses""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-25 11:25:48,2023-07-25 11:25:49,1.018s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Belum Bayar""), 0)",,Pilih status 'Belum Bayar',,2023-07-25 11:25:49,2023-07-25 11:25:50,1.185s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:50,2023-07-25 11:25:51,1.013s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Belum Bayar.png"", CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:51,2023-07-25 11:25:52,0.758s,PASSED
+"tap(findTestObject(""Pesanan/Dropdown/Dropdown Belum Bayar""), 0)",,Tap dropdown 'Daftar Transaksi',,2023-07-25 11:25:52,2023-07-25 11:25:53,0.996s,PASSED
+"tap(findTestObject(""Pesanan/Status Pesanan/Semua Transaksi""), 0)",,Pilih status 'Semua Transaksi',,2023-07-25 11:25:53,2023-07-25 11:25:54,1.031s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:54,2023-07-25 11:25:55,1.016s,PASSED
+"takeScreenshot(getReportFolder() + ""Status Semua Transaksi.png"", CONTINUE_ON_FAILURE)",,,,2023-07-25 11:25:55,2023-07-25 11:25:56,0.929s,PASSED
+"swipe(100, 700, 0, 0)",,,,2023-07-25 11:25:56,2023-07-25 11:25:57,1.130s,PASSED
+closeApplication(),,,,2023-07-25 11:25:57,2023-07-25 11:25:58,0.526s,PASSED

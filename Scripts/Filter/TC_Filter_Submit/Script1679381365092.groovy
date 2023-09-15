@@ -24,7 +24,5 @@ Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.swipe(100, 600, 0, 0)
 
-Mobile.takeScreenshotAsCheckpoint('Filter.png', [])
-
 Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 

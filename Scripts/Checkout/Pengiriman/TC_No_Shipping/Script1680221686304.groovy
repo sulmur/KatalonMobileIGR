@@ -22,7 +22,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 Mobile.tap(findTestObject('Checkout/Keranjang/Panah Ke atas Ringkasan Belanja'), 0)
 
 'Tap tombol \'Pengiriman\''
-Mobile.tap(findTestObject('Checkout/Pengiriman/Tombol Pengiriman'), 0)
+Mobile.tap(findTestObject('Checkout/Pengiriman/NEW Tombol Pengiriman'), 0)
 
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 

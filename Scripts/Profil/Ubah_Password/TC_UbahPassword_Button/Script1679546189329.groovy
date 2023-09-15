@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.swipe(100, 400, 0, 0)
+Mobile.waitForElementPresent(findTestObject('Profil/Ubah_Password/Ubah_Password_Button/Menu Ubah Password'), 0)
 
 'Tap tombol "Ubah Password"'
 Mobile.tap(findTestObject('Profil/Ubah_Password/Ubah_Password_Button/Menu Ubah Password'), 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Profil/Ubah_Password/Simpan Ubah Password'), 0)
 

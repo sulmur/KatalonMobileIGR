@@ -21,20 +21,20 @@ import org.openqa.selenium.Keys as Keys
 Mobile.tap(findTestObject('Search/Tambah Keranjang'), 0)
 
 'Tap icon \'-\''
-Mobile.tap(findTestObject('Search/Keranjang/Edit Produk/Kurangi Produk 1'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/Kurangi Produk'), 0)
 
 'Tap tombol \'Perbaharui\''
-Mobile.tap(findTestObject('Search/Keranjang/Edit Produk/Perbaharui'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/NEW Perbaharui Keranjang'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap icon \'+\''
-Mobile.tap(findTestObject('Search/Keranjang/Edit Produk/Tambah Produk 1'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/Tambah Produk'), 0)
 
 'Tap tombol \'Perbaharui\''
-Mobile.tap(findTestObject('Search/Keranjang/Edit Produk/Perbaharui'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/NEW Perbaharui Keranjang'), 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap \'Jumlah produk\' pada baris pertama'
 Mobile.tap(findTestObject('Search/Keranjang/Edit Produk/Edit Produk 1'), 0)
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Search/Keranjang/Edit Produk/Simpan Edit Produk'), 0)
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap tombol \'Perbaharui\''
-Mobile.tap(findTestObject('Search/Keranjang/Edit Produk/Perbaharui'), 0)
+Mobile.tap(findTestObject('Checkout/Keranjang/NEW Perbaharui Keranjang'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -21,14 +21,15 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 'Tap tombol "Simpan Perubahan"'
 Mobile.tap(findTestObject('Profil/Ubah_Password/Simpan Ubah Password'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Profil/Ubah_Password/Ubah_Password_Submit/android.view.View'), 0)
+
 Mobile.verifyElementVisible(findTestObject('Profil/Ubah_Password/Ubah_Password_Submit/android.view.View'), 0)
 
-'Pastikan muncul pop-up "Kata sandi berhasil diperbaharui"'
-Mobile.verifyMatch('Kata sandi berhasil diperbaharui', 'Kata sandi berhasil diperbaharui', false)
+'Tap tombol "Tutup" pada pop-up \'Password berhasil diperbaharui\''
+Mobile.waitForElementPresent(findTestObject('Object Repository/Profil/Ubah_Password/Ubah_Password_Submit/android.widget.Button (1)'), 
+    0)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Simpan Password Berhasil.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Simpan Password Berhasil.png')
 
 'Tap tombol "Tutup" pada pop-up \'Password berhasil diperbaharui\''
 Mobile.tap(findTestObject('Object Repository/Profil/Ubah_Password/Ubah_Password_Submit/android.widget.Button (1)'), 0)

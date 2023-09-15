@@ -26,7 +26,7 @@ Mobile.tap(findTestObject('Sorting/Z - A'), 0)
 
 Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Sorting Z.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Sorting Z.png')
 
 Mobile.swipe(100, 900, 0, 0)
 

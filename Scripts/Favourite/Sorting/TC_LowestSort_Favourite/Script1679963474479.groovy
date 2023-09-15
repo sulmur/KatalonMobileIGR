@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap tombol \'Sort\''
 Mobile.tap(findTestObject('Favourite/Sort/Sort Button'), 0)
@@ -25,7 +26,7 @@ Mobile.tap(findTestObject('Favourite/Sort/Harga Termurah'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.takeScreenshotAsCheckpoint('Sort_Lowest.png', [])
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Sort Lowest.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.swipe(100, 800, 0, 0)
 

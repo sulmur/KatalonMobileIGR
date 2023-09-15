@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case edit field alamat lengkap</description>
+   <name>TC_Edit_Alamat_Lengkap</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca954f07-d3e3-44c5-9042-cb9fe583bef0</testCaseGuid>
+</TestCaseEntity>

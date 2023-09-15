@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Alamat__Penerima,,Test module Profil cek menu alamat,,2023-07-21 12:56:59,2023-07-21 12:59:58,2m - 58.475s,PASSED
+,,,,,,,
+Test Cases/Profil/Alamat_Penerima/Main/TC_Pilih_Alamat,,Test case Profil menu Alamat cek pilih alamat,,2023-07-21 12:57:00,2023-07-21 12:57:35,35.735s,PASSED
+"callTestCase(findTestCase(""Profil/TC_Profil_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:57:00,2023-07-21 12:57:14,13.639s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/TC_Alamat_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:57:14,2023-07-21 12:57:17,3.442s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Ganti_Alamat/Pilih Alamat 2""), 0)",,Tap 'Pilih Alamat Penerima' baris kedua,,2023-07-21 12:57:17,2023-07-21 12:57:20,3.381s,PASSED
+"takeScreenshot(getReportFolder() + ""Ganti Alamat.png"", CONTINUE_ON_FAILURE)",,,,2023-07-21 12:57:20,2023-07-21 12:57:22,1.119s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Ganti_Alamat/Pilih Alamat 1""), 0)",,Tap kembali 'Pilih Alamat Penerima' baris pertama,,2023-07-21 12:57:22,2023-07-21 12:57:25,3.332s,PASSED
+"takeScreenshot(getReportFolder() + ""Reset Pilihan Alamat.png"", CONTINUE_ON_FAILURE)",,,,2023-07-21 12:57:25,2023-07-21 12:57:26,0.861s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-21 12:57:26,2023-07-21 12:57:28,2.025s,PASSED
+closeApplication(),,,,2023-07-21 12:57:28,2023-07-21 12:57:28,0.596s,PASSED
+"delay(7, CONTINUE_ON_FAILURE)",,,,2023-07-21 12:57:28,2023-07-21 12:57:35,7.008s,PASSED
+,,,,,,,
+Test Cases/Profil/Alamat_Penerima/Main/TC_Tambah_Alamat_Invalid,,Test case Profil menu Alamat cek tambah alamat invalid,,2023-07-21 12:57:35,2023-07-21 12:58:34,58.484s,PASSED
+"callTestCase(findTestCase(""Profil/TC_Profil_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:57:36,2023-07-21 12:57:48,12.664s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/TC_Alamat_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:57:48,2023-07-21 12:57:51,2.693s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Label_Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:57:51,2023-07-21 12:57:55,3.370s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Alamat_Lengkap_Invalid""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:57:55,2023-07-21 12:57:57,2.186s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Address""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:57:57,2023-07-21 12:58:13,16.375s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Field_Nomor_HP""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:58:13,2023-07-21 12:58:17,3.726s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Tandai_Lokasi""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:58:17,2023-07-21 12:58:24,7.639s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Tambah Alamat/Tombol Simpan Alamat""), 0)",,Tap tombol 'Simpan',,2023-07-21 12:58:24,2023-07-21 12:58:25,0.821s,PASSED
+"waitForElementPresent(findTestObject(""Profil/Alamat_Penerima/Tambah Alamat/Alert minimal alamat lengkap""), 0)",,,,2023-07-21 12:58:25,2023-07-21 12:58:25,0.200s,PASSED
+"verifyElementExist(findTestObject(""Profil/Alamat_Penerima/Tambah Alamat/Alert minimal alamat lengkap""), 0)",,Pastikan muncul alert 'Alamat Pengiriman minimal 10 karakter' pada field Alamat Lengkap,,2023-07-21 12:58:25,2023-07-21 12:58:26,0.231s,PASSED
+"takeScreenshot(getReportFolder() + ""Alert Alamat Lengkap.png"", CONTINUE_ON_FAILURE)",,,,2023-07-21 12:58:26,2023-07-21 12:58:26,0.775s,PASSED
+closeApplication(),,,,2023-07-21 12:58:26,2023-07-21 12:58:27,0.388s,PASSED
+"delay(7, CONTINUE_ON_FAILURE)",,,,2023-07-21 12:58:27,2023-07-21 12:58:34,7.008s,PASSED
+,,,,,,,
+Test Cases/Profil/Alamat_Penerima/Main/TC_Tambah_Alamat,,Test case Profil menu Alamat cek tambah alamat valid,,2023-07-21 12:58:34,2023-07-21 12:59:35,1m - 1.162s,PASSED
+"callTestCase(findTestCase(""Profil/TC_Profil_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:58:34,2023-07-21 12:58:47,12.858s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/TC_Alamat_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:58:47,2023-07-21 12:58:50,2.723s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Label_Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:58:50,2023-07-21 12:58:53,3.065s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Alamat_Lengkap_Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:58:53,2023-07-21 12:58:55,2.044s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Address""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:58:55,2023-07-21 12:59:11,16.074s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Field_Nomor_HP""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:59:11,2023-07-21 12:59:14,3.350s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/Tambah Alamat/TC_Tandai_Lokasi""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:59:14,2023-07-21 12:59:22,7.701s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Tambah Alamat/Tombol Simpan Alamat""), 0)",,Tap tombol 'Simpan',,2023-07-21 12:59:22,2023-07-21 12:59:23,1.130s,PASSED
+"waitForElementPresent(findTestObject(""Profil/Alamat_Penerima/Tambah Alamat/Tutup Berhasil Tambah Alamat""), 0)",,,,2023-07-21 12:59:23,2023-07-21 12:59:24,0.271s,PASSED
+"takeScreenshot(getReportFolder() + ""Berhasil Tambah Alamat.png"", CONTINUE_ON_FAILURE)",,,,2023-07-21 12:59:24,2023-07-21 12:59:25,0.974s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Tambah Alamat/Tutup Berhasil Tambah Alamat""), 0)",,Tap tombol 'Tutup' pada pop-up berhasil tambah alamat,,2023-07-21 12:59:25,2023-07-21 12:59:26,1.153s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-21 12:59:26,2023-07-21 12:59:28,2.006s,PASSED
+closeApplication(),,,,2023-07-21 12:59:28,2023-07-21 12:59:28,0.334s,PASSED
+"delay(7, CONTINUE_ON_FAILURE)",,,,2023-07-21 12:59:28,2023-07-21 12:59:35,7.009s,PASSED
+,,,,,,,
+Test Cases/Profil/Alamat_Penerima/Main/TC_Hapus_Alamat,,Test case Profil menu Alamat cek hapus alamat,,2023-07-21 12:59:35,2023-07-21 12:59:58,22.854s,PASSED
+"callTestCase(findTestCase(""Profil/TC_Profil_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:59:35,2023-07-21 12:59:48,12.823s,PASSED
+"callTestCase(findTestCase(""Profil/Alamat_Penerima/TC_Alamat_Button""), [:], STOP_ON_FAILURE)",,,,2023-07-21 12:59:48,2023-07-21 12:59:51,2.740s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Hapus Alamat 1""), 0)",,"Tap tombol ""Hapus"" Alamat",,2023-07-21 12:59:51,2023-07-21 12:59:52,1.026s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Batal Hapus""), 0)",,Tap tombol 'Tidak' pada pop-up konfirmasi hapus alamat,,2023-07-21 12:59:52,2023-07-21 12:59:53,0.981s,PASSED
+"takeScreenshot(getReportFolder() + ""Sebelum Hapus Alamat.png"", CONTINUE_ON_FAILURE)",,,,2023-07-21 12:59:53,2023-07-21 12:59:54,0.692s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Hapus Alamat 3""), 0)",,"Tap tombol ""Hapus"" Alamat",,2023-07-21 12:59:54,2023-07-21 12:59:55,0.836s,PASSED
+"tap(findTestObject(""Profil/Alamat_Penerima/Hapus Alamat/Setuju Hapus""), 0)",,Tap tombol 'Ya' pada pop-up konfirmasi hapus alamat,,2023-07-21 12:59:55,2023-07-21 12:59:55,0.260s,PASSED
+"takeScreenshot(getReportFolder() + ""Berhasil Hapus Alamat.png"", CONTINUE_ON_FAILURE)",,,,2023-07-21 12:59:55,2023-07-21 12:59:56,0.713s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-21 12:59:56,2023-07-21 12:59:58,2.004s,PASSED
+closeApplication(),,,,2023-07-21 12:59:58,2023-07-21 12:59:58,0.345s,PASSED

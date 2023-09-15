@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tracking Pesanan</description>
+   <name>TC_Tracking_Pesanan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>974f401b-f94f-4e20-98ce-014a90d96294</testCaseGuid>
+</TestCaseEntity>

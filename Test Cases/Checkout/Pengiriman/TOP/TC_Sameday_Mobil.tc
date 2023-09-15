@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case pengiriman sameday mobil</description>
+   <name>TC_Sameday_Mobil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae247003-5008-4e0a-8637-9092d85fc081</testCaseGuid>
+</TestCaseEntity>

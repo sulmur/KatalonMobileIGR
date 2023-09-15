@@ -19,8 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Profil/Rekening_Bank/Submit/Tombol Simpan'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Profil/Rekening_Bank/Rekening_Bank_Null/android.view.View'), 
+Mobile.waitForElementPresent(findTestObject('Object Repository/Profil/Rekening_Bank/Rekening_Bank_Null/android.view.View'), 
     0)
 
-Mobile.verifyMatch('Nama pemilik rekening harus diisi', 'Nama pemilik rekening harus diisi', false)
+Mobile.verifyElementVisible(findTestObject('Object Repository/Profil/Rekening_Bank/Rekening_Bank_Null/android.view.View'), 
+    0)
 

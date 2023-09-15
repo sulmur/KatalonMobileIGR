@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aktivasi Email,,Test module cek fitur Aktivasi ulang email,,2023-08-03 10:23:48,2023-08-03 10:24:16,27.838s,PASSED
+,,,,,,,
+Test Cases/Aktivasi Email/TC_Email_Aktivasi,,,,2023-08-03 10:23:49,2023-08-03 10:24:16,27.635s,PASSED
+startExistingApplication(APP_EXIST),,Buka Aplikasi Klik IGR,,2023-08-03 10:23:49,2023-08-03 10:24:02,13.083s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0, STOP_ON_FAILURE)",,,,2023-08-03 10:24:02,2023-08-03 10:24:07,5.159s,PASSED
+"tap(findTestObject(""Object Repository/Aktivasi Email/Menu Akun""), 0, STOP_ON_FAILURE)",,Tap menu Akun,,2023-08-03 10:24:07,2023-08-03 10:24:07,0.262s,PASSED
+"tap(findTestObject(""Object Repository/Aktivasi Email/Kirim Ulang Email Aktivasi""), 0, STOP_ON_FAILURE)",,"Tap tombol ""Kirim Ulang Email Aktivasi""",,2023-08-03 10:24:07,2023-08-03 10:24:09,1.707s,PASSED
+"tap(findTestObject(""Object Repository/Aktivasi Email/Field Email Aktivasi""), 0, STOP_ON_FAILURE)",,Tap field 'Email',,2023-08-03 10:24:09,2023-08-03 10:24:10,0.618s,PASSED
+"setText(findTestObject(""Aktivasi Email/Field Email Aktivasi""), ""sulthanraihan@ymail.com"", 0, STOP_ON_FAILURE)",,Input email yang valid,,2023-08-03 10:24:10,2023-08-03 10:24:10,0.327s,PASSED
+"tap(findTestObject(""Object Repository/Aktivasi Email/Kirim Email Aktivasi""), 0, STOP_ON_FAILURE)",,"Tap tombol ""Kirim Email Aktivasi""",,2023-08-03 10:24:10,2023-08-03 10:24:11,1.369s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-03 10:24:11,2023-08-03 10:24:12,1.044s,PASSED
+"takeScreenshot(getReportFolder() + ""Cek Email Aktivasi.png"", STOP_ON_FAILURE)",,,,2023-08-03 10:24:12,2023-08-03 10:24:13,0.882s,PASSED
+"tap(findTestObject(""Object Repository/Aktivasi Email/Back Aktivasi Email""), 0)",,"Tap tombol ""Back""",,2023-08-03 10:24:13,2023-08-03 10:24:16,2.431s,PASSED
+closeApplication(),,Tutup Aplikasi Klik IGR,,2023-08-03 10:24:16,2023-08-03 10:24:16,0.473s,PASSED

@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sameday__Mobil_BNI,,"Test module Checkout produk, Pengiriman Sameday Mobil, Pembayaran VA BNI",,2023-07-28 16:11:32,2023-07-28 16:12:45,1m - 12.923s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang,,Test case cek fungsi pesan ulang produk,,2023-07-28 16:11:32,2023-07-28 16:11:53,20.551s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:11:32,2023-07-28 16:11:46,13.170s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-28 16:11:46,2023-07-28 16:11:47,1.249s,PASSED
+"if (waitForElementPresent(findTestObject(""Homepage/Pesan Ulang""), 0) == true)",,,,2023-07-28 16:11:47,2023-07-28 16:11:48,0.891s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,,,2023-07-28 16:11:48,2023-07-28 16:11:49,0.952s,PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang",,2023-07-28 16:11:49,2023-07-28 16:11:50,1.001s,PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1""), 0)",,"Tap tombol icon ""Keranjang"" pada homepage",,2023-07-28 16:11:50,2023-07-28 16:11:51,1.457s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,,,2023-07-28 16:11:51,2023-07-28 16:11:51,0.214s,PASSED
+"if (verifyElementExist(findTestObject(""Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok""), 1, OPTIONAL))",,,,2023-07-28 16:11:51,2023-07-28 16:11:52,1.108s,PASSED
+else,,,,2023-07-28 16:11:52,2023-07-28 16:11:53,0.183s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pengiriman/TC_Sameday_Mobil,,Test case pengiriman sameday mobil,,2023-07-28 16:11:53,2023-07-28 16:12:17,24.094s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Tambah_Kurang_Produk""), [:], CONTINUE_ON_FAILURE)",,,,2023-07-28 16:11:53,2023-07-28 16:11:59,5.978s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Panah Ke atas Rincian Promosi""), 0)",,Tap icon 'panah ke atas',,2023-07-28 16:11:59,2023-07-28 16:12:00,0.977s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,Tap tombol 'Pengiriman',,2023-07-28 16:12:00,2023-07-28 16:12:01,1.048s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,,,2023-07-28 16:12:01,2023-07-28 16:12:05,4.128s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-07-28 16:12:05,2023-07-28 16:12:08,3.312s,PASSED
+"takeScreenshot(getReportFolder() + ""Belum pilih pengiriman.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:08,2023-07-28 16:12:09,1.061s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:09,2023-07-28 16:12:12,3.027s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/Indopaket Mobil SAMEDAY""), 0)",,,,2023-07-28 16:12:12,2023-07-28 16:12:13,0.239s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Indopaket Mobil SAMEDAY""), 0)",,Tap opsi pengiriman 'Sameday Mobil',,2023-07-28 16:12:13,2023-07-28 16:12:13,0.776s,PASSED
+"takeScreenshot(getReportFolder() + ""Sameday Mobil.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:13,2023-07-28 16:12:14,0.950s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-07-28 16:12:14,2023-07-28 16:12:16,1.466s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-07-28 16:12:16,2023-07-28 16:12:17,0.814s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pembayaran/TC_Bayar_BNI,,test case pembayaran dengan VA BNI,,2023-07-28 16:12:17,2023-07-28 16:12:24,7.454s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-07-28 16:12:17,2023-07-28 16:12:20,3.010s,PASSED
+"takeScreenshot(getReportFolder() + ""Gagal Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:20,2023-07-28 16:12:21,1.137s,PASSED
+"swipe(0, 475, 0, 0)",,,,2023-07-28 16:12:21,2023-07-28 16:12:22,1.099s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA BNI""), 0)",,Pilih opsi 'Virtual Account BNI',,2023-07-28 16:12:22,2023-07-28 16:12:23,0.729s,PASSED
+"takeScreenshot(getReportFolder() + ""VA BNI.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:23,2023-07-28 16:12:24,1.130s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout,,Test case tap tombol Checkout,,2023-07-28 16:12:24,2023-07-28 16:12:45,20.585s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,Tap tombol 'Checkout',,2023-07-28 16:12:25,2023-07-28 16:12:26,1.036s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Label Terima Kasih telah Belanja""), 0)",,,,2023-07-28 16:12:26,2023-07-28 16:12:29,3.146s,PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:29,2023-07-28 16:12:30,1.147s,PASSED
+"swipe(0, 600, 0, 0)",,,,2023-07-28 16:12:30,2023-07-28 16:12:31,1.088s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0)",,,,2023-07-28 16:12:31,2023-07-28 16:12:31,0.125s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0, STOP_ON_FAILURE)",,Tap tombol 'Lihat cara pembayaran',,2023-07-28 16:12:31,2023-07-28 16:12:32,1.099s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:32,2023-07-28 16:12:35,3.007s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:35,2023-07-28 16:12:37,1.575s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-07-28 16:12:37,2023-07-28 16:12:39,1.856s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:39,2023-07-28 16:12:42,3.009s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran Bawah.png"", CONTINUE_ON_FAILURE)",,,,2023-07-28 16:12:42,2023-07-28 16:12:43,1.462s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,Tap icon 'Back' dari laman Lihat Cara Pembayaran,,2023-07-28 16:12:43,2023-07-28 16:12:45,1.663s,PASSED

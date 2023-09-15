@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Register dengan nomor HP yang sudah terdaftar</description>
+   <name>TC_Register_Phone_Taken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f9dc0d0-34e7-4329-b1fa-9f585931532a</testCaseGuid>
+</TestCaseEntity>

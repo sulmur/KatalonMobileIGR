@@ -29,5 +29,5 @@ Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 'Tap tombol \'Konfirmasi\''
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Konfirmasi Lokasi'), 0)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Profil/Alamat_Penerima/Edit Alamat/Tombol Simpan Alamat'), 0)
 

@@ -24,7 +24,7 @@ Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Gagal Checkout.png',
 
 Mobile.swipe(0, 550, 0, 0)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Checkout/Pembayaran/VA BRI'), 0)
 
 'Pilih opsi \'Virtual Account BRI\''
 Mobile.tap(findTestObject('Checkout/Pembayaran/VA BRI'), 0)

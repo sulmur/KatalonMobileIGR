@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -23,6 +24,8 @@ Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 Mobile.tap(findTestObject('Profil/Informasi/Tentang Aplikasi'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Tentang Aplikasi.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap icon \'Bintang 5\''
 Mobile.tap(findTestObject('Profil/Informasi/Bintang 5'), 0)

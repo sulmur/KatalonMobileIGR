@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.swipe(100, 400, 0, 0)
-
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima'), 0)
 
 'Tap tombol \'Alamat Penerima\''
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Alamat_Button/Menu Kelola Alamat Penerima'), 0)

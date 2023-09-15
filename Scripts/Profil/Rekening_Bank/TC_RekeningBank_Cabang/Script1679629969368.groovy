@@ -21,5 +21,5 @@ import org.openqa.selenium.Keys as Keys
 Mobile.tap(findTestObject('Profil/Rekening_Bank/Field Cabang'), 0)
 
 'Input data pada field Cabang'
-Mobile.setText(findTestObject('Profil/Rekening_Bank/Field Cabang'), 'KPP Ciputat', 0)
+Mobile.setText(findTestObject('Profil/Rekening_Bank/Field Cabang'), 'KCP Ciputat', 0)
 

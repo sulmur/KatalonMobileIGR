@@ -40,5 +40,5 @@ Mobile.tap(findTestObject('Profil/Ubah_Password/Icon Konfirmasi Password Baru'),
 'Tap tombol "Simpan Perubahan"'
 Mobile.tap(findTestObject('Profil/Ubah_Password/Simpan Ubah Password'), 0)
 
-Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Password Invalid.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Cek Password Invalid.png')
 

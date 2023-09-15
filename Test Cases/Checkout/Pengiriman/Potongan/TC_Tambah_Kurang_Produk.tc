@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case tambah produk untuk cek biaya potongan kirim</description>
+   <name>TC_Tambah_Kurang_Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b26deb04-2e33-408f-9e1a-2b4e5cf1a2b4</testCaseGuid>
+</TestCaseEntity>

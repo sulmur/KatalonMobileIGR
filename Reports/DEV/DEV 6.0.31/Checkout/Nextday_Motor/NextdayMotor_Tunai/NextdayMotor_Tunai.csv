@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+NextdayMotor_Tunai,,"Test module checkout pengiriman next day motor, pembayaran Tunai",,2023-06-09 13:15:58,2023-06-09 13:17:13,1m - 15.156s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang,,Test case cek fungsi pesan ulang produk,,2023-06-09 13:15:58,2023-06-09 13:16:29,30.511s,PASSED
+"startApplication(APP, false)",,,,2023-06-09 13:15:59,2023-06-09 13:16:12,13.137s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-09 13:16:12,2023-06-09 13:16:14,2.035s,PASSED
+"if (waitForElementPresent(findTestObject(""Homepage/Pesan Ulang""), 0) == true)",,,,2023-06-09 13:16:14,2023-06-09 13:16:15,0.812s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,,,2023-06-09 13:16:15,2023-06-09 13:16:16,1.221s,PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang",,2023-06-09 13:16:16,2023-06-09 13:16:17,0.949s,PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1""), 0)",,"Tap tombol icon ""Keranjang"" pada homepage",,2023-06-09 13:16:17,2023-06-09 13:16:18,1.474s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/NEW Tombol Pengiriman""), 0)",,,,2023-06-09 13:16:18,2023-06-09 13:16:27,8.449s,PASSED
+"if (verifyElementExist(findTestObject(""Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok""), 1, OPTIONAL))",,,,2023-06-09 13:16:27,2023-06-09 13:16:29,1.939s,PASSED
+else,,,,2023-06-09 13:16:29,2023-06-09 13:16:29,0.150s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pengiriman/TC_Nextday_Motor,,Test case pengiriman dengan opsi nextday motor,,2023-06-09 13:16:29,2023-06-09 13:17:02,33.047s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Tambah_Kurang_Produk""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-09 13:16:29,2023-06-09 13:16:35,5.929s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/NEW Tombol Pengiriman""), 0)",,,,2023-06-09 13:16:35,2023-06-09 13:16:35,0.131s,PASSED
+"takeScreenshot(getReportFolder() + ""Isi Keranjang.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:16:35,2023-06-09 13:16:36,0.892s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Panah Ke atas Ringkasan Belanja""), 0, CONTINUE_ON_FAILURE)",,Tap icon 'panah ke atas',,2023-06-09 13:16:36,2023-06-09 13:16:37,1.162s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman""), 0)",,Tap tombol 'Pengiriman',,2023-06-09 13:16:37,2023-06-09 13:16:38,0.205s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,,,2023-06-09 13:16:38,2023-06-09 13:16:41,3.742s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-06-09 13:16:41,2023-06-09 13:16:45,3.509s,PASSED
+"takeScreenshot(getReportFolder() + ""Belum pilih pengiriman.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:16:45,2023-06-09 13:16:46,1.010s,PASSED
+"swipe(0, 600, 0, 0)",,Scroll ke bawah,,2023-06-09 13:16:46,2023-06-09 13:16:47,1.057s,PASSED
+"if (waitForElementPresent(findTestObject(""Checkout/Pengiriman/Potongan/NEXTDAY Motor""), 0))",,,,2023-06-09 13:16:47,2023-06-09 13:16:57,10.171s,PASSED
+else,,,,2023-06-09 13:16:57,2023-06-09 13:16:58,0.933s,PASSED
+"takeScreenshot(getReportFolder() + ""Potongan Nextday Motor.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:16:58,2023-06-09 13:16:59,0.898s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-06-09 13:16:59,2023-06-09 13:16:59,0.667s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-06-09 13:16:59,2023-06-09 13:17:02,2.262s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pembayaran/TC_Bayar_Tunai,,Test case pembayaran Tunai,,2023-06-09 13:17:02,2023-06-09 13:17:07,5.595s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-06-09 13:17:02,2023-06-09 13:17:05,2.929s,PASSED
+"takeScreenshot(getReportFolder() + ""Gagal Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:17:05,2023-06-09 13:17:06,1.085s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Bayar Tunai""), 0)",,Pilih opsi 'Tunai',,2023-06-09 13:17:06,2023-06-09 13:17:07,0.706s,PASSED
+"takeScreenshot(getReportFolder() + ""Bayar Tunai.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:17:07,2023-06-09 13:17:07,0.576s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout_Tunai,,Test case tap tombol Checkout case Tunai,,2023-06-09 13:17:07,2023-06-09 13:17:13,5.760s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,Tap tombol 'Checkout',,2023-06-09 13:17:08,2023-06-09 13:17:09,1.031s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Label Terima Kasih telah Belanja""), 0)",,,,2023-06-09 13:17:09,2023-06-09 13:17:10,1.082s,PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:17:10,2023-06-09 13:17:11,1.019s,PASSED
+"swipe(0, 600, 0, 0)",,,,2023-06-09 13:17:11,2023-06-09 13:17:12,1.028s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,,,2023-06-09 13:17:12,2023-06-09 13:17:12,0.217s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,Tap icon 'Back' dari laman Lihat Cara Pembayaran,,2023-06-09 13:17:12,2023-06-09 13:17:13,1.054s,PASSED

@@ -49,3 +49,21 @@ Mobile.tap(findTestObject('Register/Address/Dropdown Kelurahan - Register'), 0)
 'Pilih salah satu \'Kelurahan\''
 Mobile.tap(findTestObject('Register/Address/Register_ResetAddress/Opsi Kelurahan -Cisauk-'), 0)
 
+Mobile.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.swipe(100, 400, 0, 0)
+
+Mobile.waitForElementPresent(findTestObject('Register/Address/Tandai Lokasi di Peta'), 0)
+
+'Tap \'Tandai Lokasi di Peta\''
+Mobile.tap(findTestObject('Register/Address/Tandai Lokasi di Peta'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Register/Address/Konfirmasi'), 100)
+
+Mobile.swipe(100, 400, 0, 0)
+
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
+'Tap \'Konfirmasi\''
+Mobile.tap(findTestObject('Register/Address/Konfirmasi'), 0)
+

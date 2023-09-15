@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case pengiriman dengan opsi nextday mobil</description>
+   <name>TC_Nextday_Mobil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d56b91f6-a8e9-4bf9-bc84-dec7dd569cf5</testCaseGuid>
+</TestCaseEntity>

@@ -21,18 +21,26 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 'Tap tombol \'Checkout\''
 Mobile.tap(findTestObject('Checkout/Checkout/Tombol Checkout'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Checkout/Checkout/Label Terima Kasih telah Belanja'), 0)
 
 Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Checkout.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.swipe(0, 600, 0, 0)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Checkout/Checkout/Lihat Cara Pembayaran'), 0)
 
 'Tap tombol \'Lihat cara pembayaran\''
 Mobile.tap(findTestObject('Checkout/Checkout/Lihat Cara Pembayaran'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Lihat Cara Pembayaran.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.swipe(100, 600, 0, 0)
+
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Lihat Cara Pembayaran Bawah.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap icon \'Back\' dari laman Lihat Cara Pembayaran'
 Mobile.tap(findTestObject('Checkout/Checkout/Back Checkout'), 0)

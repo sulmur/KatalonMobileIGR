@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case pembayaran dengan Saldo Indogrosir</description>
+   <name>TC_Bayar_Saldo_Indogrosir</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>272a323c-ca07-491b-b167-e788f8da20ba</testCaseGuid>
+</TestCaseEntity>

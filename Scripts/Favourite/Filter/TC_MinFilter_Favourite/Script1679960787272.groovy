@@ -16,15 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+Mobile.waitForElementPresent(findTestObject('Favourite/Filter/Filter Button'), 0)
 
 'Tap tombol \'Filter\''
 Mobile.tap(findTestObject('Favourite/Filter/Filter Button'), 0)
 
-'Tap tombol \'Back\''
-Mobile.tap(findTestObject('Favourite/Filter/Back to Favourite'), 0)
-
-'Tap tombol \'Filter\''
-Mobile.tap(findTestObject('Favourite/Filter/Filter Button'), 0)
+'Tap tombol \'Reset\''
+Mobile.tap(findTestObject('Favourite/Filter/Reset Button'), 0)
 
 'Tap field \'Harga Minimum\''
 Mobile.tap(findTestObject('Favourite/Filter/Harga Minimum'), 0)
@@ -38,6 +38,8 @@ Mobile.pressBack()
 Mobile.tap(findTestObject('Favourite/Filter/Submit Button'), 0)
 
 Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Filter Min Favourite.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.swipe(100, 600, 0, 0)
 

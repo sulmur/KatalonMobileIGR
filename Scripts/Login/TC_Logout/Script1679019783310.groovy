@@ -16,12 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 'Tap menu Akun'
 Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
 
-'Swipe laman akun sampai terlihat tombol Keluar'
-Mobile.swipe(0, 700, 0, 0)
+Mobile.swipe(100, 600, 0, 0)
+
+Mobile.waitForElementPresent(findTestObject('Login/Logout/Signout'), 0)
 
 'Tap tombol Keluar'
 Mobile.tap(findTestObject('Login/Logout/Signout'), 0)
@@ -30,4 +32,6 @@ Mobile.tap(findTestObject('Login/Logout/Signout'), 0)
 Mobile.tap(findTestObject('Login/Logout/Setuju Logout'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Berhasil Logout.png', FailureHandling.CONTINUE_ON_FAILURE)
 

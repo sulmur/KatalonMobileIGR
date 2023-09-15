@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Detail_Pesanan,,Test module pesanan mengecek detail pesanan,,2023-06-15 08:34:30,2023-06-15 08:35:07,36.964s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Menu_Pesanan,,Test case mengakses menu 'Pesanan',,2023-06-15 08:34:30,2023-06-15 08:34:46,16.336s,PASSED
+"startApplication(APP, false)",,,,2023-06-15 08:34:30,2023-06-15 08:34:43,13.080s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-15 08:34:43,2023-06-15 08:34:46,2.637s,PASSED
+"tap(findTestObject(""Pesanan/Menu Pesanan""), 0)",,Tap menu 'Pesanan',,2023-06-15 08:34:46,2023-06-15 08:34:46,0.328s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Detail_Pesanan,,Test case cek detail pesanan,,2023-06-15 08:34:46,2023-06-15 08:35:07,20.405s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Detail Pesanan 1""), 0)",,Tap detail pesanan pada baris pertama,,2023-06-15 08:34:46,2023-06-15 08:34:49,2.218s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-15 08:34:49,2023-06-15 08:34:51,2.036s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Daftar Produk Pesanan""), 0)",,Tap dropdown 'Daftar Produk',,2023-06-15 08:34:51,2023-06-15 08:34:52,1.112s,PASSED
+"takeScreenshot(""Reports/Detail Pesanan.png"", CONTINUE_ON_FAILURE)",,,,2023-06-15 08:34:52,2023-06-15 08:34:54,1.919s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Tambah Keranjang Pesanan""), 0)",,Tap tombol 'Tambah Keranjang',,2023-06-15 08:34:54,2023-06-15 08:34:57,3.292s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-15 08:34:57,2023-06-15 08:34:59,2.004s,PASSED
+"swipe(100, 600, 0, 0)",,swipe ke bawah,,2023-06-15 08:34:59,2023-06-15 08:35:00,1.116s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan""), 0)",,,,2023-06-15 08:35:00,2023-06-15 08:35:00,0.108s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan""), 0)",,Tap tombol 'Pesan Ulang',,2023-06-15 08:35:00,2023-06-15 08:35:01,0.691s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Batal Pesan Ulang""), 0)",,Tap tombol 'Tidak' pada pop-up konfirmasi pesan ulang,,2023-06-15 08:35:01,2023-06-15 08:35:02,0.887s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan""), 0)",,Tap tombol 'Pesan Ulang',,2023-06-15 08:35:02,2023-06-15 08:35:03,0.744s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Setuju Pesan Ulang""), 0)",,Tap tombol 'Ya' pada pop-up konfirmasi pesan ulang,,2023-06-15 08:35:03,2023-06-15 08:35:04,1.052s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-15 08:35:04,2023-06-15 08:35:06,2.015s,PASSED
+"takeScreenshot(""Reports/Berhasil Pesan Ulang Pesanan.png"", CONTINUE_ON_FAILURE)",,,,2023-06-15 08:35:06,2023-06-15 08:35:07,0.965s,PASSED

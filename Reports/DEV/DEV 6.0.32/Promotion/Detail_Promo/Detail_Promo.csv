@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Detail__Promo,,Test module Promosi cek detail promo,,2023-06-12 11:26:56,2023-06-12 11:27:20,24.448s,PASSED
+,,,,,,,
+Test Cases/Promotion/TC_Promo_Selengkapnya,,Test case Promosi tap tombol 'Selengkapnya',,2023-06-12 11:26:56,2023-06-12 11:27:12,16.346s,PASSED
+"startApplication(APP, false)",,,,2023-06-12 11:26:56,2023-06-12 11:27:09,12.509s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-12 11:27:09,2023-06-12 11:27:11,2.127s,PASSED
+"tap(findTestObject(""Promotion/Promo_Selengkapnya/Banner Promo Selengkapnya""), 0)",,Tap tombol 'Selengkapnya',,2023-06-12 11:27:11,2023-06-12 11:27:12,1.163s,PASSED
+"waitForElementPresent(findTestObject(""Promotion/Detail_Promo/Banner Promo 1""), 0)",,,,2023-06-12 11:27:12,2023-06-12 11:27:12,0.246s,PASSED
+,,,,,,,
+Test Cases/Promotion/TC_Detail_Promo,,Test case Promosi tap salah satu Promo,,2023-06-12 11:27:12,2023-06-12 11:27:20,7.884s,PASSED
+"tap(findTestObject(""Promotion/Detail_Promo/Banner Promo 1""), 0)",,Tap salah satu banner Promo,,2023-06-12 11:27:13,2023-06-12 11:27:14,1.107s,PASSED
+"waitForElementPresent(findTestObject(""Promotion/Detail_Promo/Syarat dan Ketentuan 1""), 0)",,,,2023-06-12 11:27:14,2023-06-12 11:27:17,3.656s,PASSED
+"takeScreenshot(getReportFolder() + ""Produk Promo.png"", CONTINUE_ON_FAILURE)",,,,2023-06-12 11:27:17,2023-06-12 11:27:19,1.218s,PASSED
+"tap(findTestObject(""Promotion/Detail_Promo/Syarat dan Ketentuan 1""), 0)",,Tap tombol 'Syarat & Ketentuan',,2023-06-12 11:27:19,2023-06-12 11:27:20,1.184s,PASSED
+closeApplication(),,,,2023-06-12 11:27:20,2023-06-12 11:27:20,0.447s,PASSED

@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 Mobile.tap(findTestObject('Profil/Rekening_Bank/Field Nomor Rekening'), 0)
 
 'Input data pada field \'Nomor Rekening\''
-Mobile.setText(findTestObject('Profil/Rekening_Bank/Field Nomor Rekening'), '0670372120', 0)
+Mobile.setText(findTestObject('Profil/Rekening_Bank/Field Nomor Rekening'), '0611104579', 0)
 
 Mobile.hideKeyboard()
 

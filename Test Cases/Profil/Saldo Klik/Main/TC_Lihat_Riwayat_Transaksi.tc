@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case lihat riwayat transaksi</description>
+   <name>TC_Lihat_Riwayat_Transaksi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5fcec35-bf4e-44de-a0cc-454b59aca061</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test case cek menu search pada laman 'Favourite'</description>
-   <name>TC_Favourite_Search</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8d5c5043-5dad-4238-89f3-b504b61b7114</testCaseGuid>
-</TestCaseEntity>

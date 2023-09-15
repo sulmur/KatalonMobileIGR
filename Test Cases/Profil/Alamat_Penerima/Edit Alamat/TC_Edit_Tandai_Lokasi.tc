@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case edit field tandai lokasi alamat</description>
+   <name>TC_Edit_Tandai_Lokasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d528acdd-d64d-4c00-915b-f1c6a0110bb1</testCaseGuid>
+</TestCaseEntity>

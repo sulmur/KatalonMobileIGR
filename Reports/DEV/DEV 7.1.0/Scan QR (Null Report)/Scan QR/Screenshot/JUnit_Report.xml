@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scan__QR" time="27.088" tests="1" failures="0" errors="0">
+   <testsuite name="Scan__QR" tests="1" failures="0" errors="0" time="27.088" skipped="0" timestamp="2023-08-03 11:33:22" hostname="raiha - LAPTOP-UT2QLFD0" id="Test Suites/Scan QR/Scan__QR">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230803_113311\\Scan QR\\Scan__QR\\20230803_113311"/>
+         <property name="logFiles" value="C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230803_113311\\Scan QR\\Scan__QR\\20230803_113311\\appium.log, C:\\Users\\raiha\\Documents\\Katalon Studio\\Mobile Klik IGR\\Reports\\20230803_113311\\Scan QR\\Scan__QR\\20230803_113311\\execution0.log"/>
+         <property name="attachments" value="C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_113311\Scan QR\Scan__QR\20230803_113311Cek Flash Kamera.png, C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_113311\Scan QR\Scan__QR\20230803_113311Cek Flip Kamera.png"/>
+         <property name="hostName" value="raiha - LAPTOP-UT2QLFD0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="172.20.111.103"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="4LSG9XI7HU8HTOXW"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Scan QR/TC_Scan_QR" time="26.869" classname="Test Cases/Scan QR/TC_Scan_QR" status="PASSED">
+         <system-out><![CDATA[2023-08-03 11:33:22 - [TEST_CASE][PASSED] - Test Cases/Scan QR/TC_Scan_QR: Test Cases/Scan QR/TC_Scan_QR
+
+2023-08-03 11:33:23 - [TEST_STEP][PASSED] - startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE): Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:33:23 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.indogrosir.sd1.klikdev']
+
+2023-08-03 11:33:23 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.example.klik_indogrosir_playground.MainActivity']
+
+2023-08-03 11:33:23 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-08-03 11:33:23 - [MESSAGE][INFO] - User set preference: ['fullReset', 'false']
+
+2023-08-03 11:33:23 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-08-03 11:33:23 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-03 11:33:24 - [MESSAGE][INFO] - Appium server started on port 56,986
+
+2023-08-03 11:33:34 - [MESSAGE][PASSED] - Starting app with application ID: 'com.indogrosir.sd1.klikdev'
+
+2023-08-03 11:33:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Kategori/Minuman"), 0): Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:33:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:33:37 - [MESSAGE][PASSED] - Element 'Object Repository/Kategori/Minuman' is present
+
+2023-08-03 11:33:37 - [TEST_STEP][PASSED] - tap(findTestObject("Scan QR/Menu Scan QR"), 0): Tapped on element 'Object Repository/Scan QR/Menu Scan QR'
+
+2023-08-03 11:33:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:33:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Scan QR/Menu Scan QR'
+
+2023-08-03 11:33:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scan QR/Flash Kamera"), 0): Element 'Object Repository/Scan QR/Flash Kamera' is present
+
+2023-08-03 11:33:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:33:39 - [MESSAGE][PASSED] - Element 'Object Repository/Scan QR/Flash Kamera' is present
+
+2023-08-03 11:33:39 - [TEST_STEP][PASSED] - tap(findTestObject("Scan QR/Flash Kamera"), 0): Tapped on element 'Object Repository/Scan QR/Flash Kamera'
+
+2023-08-03 11:33:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:33:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Scan QR/Flash Kamera'
+
+2023-08-03 11:33:39 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Cek Flash Kamera.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-08-03 11:33:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_113311\Scan QR\Scan__QR\20230803_113311Cek Flash Kamera.png]]
+
+2023-08-03 11:33:42 - [TEST_STEP][PASSED] - tap(findTestObject("Scan QR/Flip Kamera"), 0): Tapped on element 'Object Repository/Scan QR/Flip Kamera'
+
+2023-08-03 11:33:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:33:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Scan QR/Flip Kamera'
+
+2023-08-03 11:33:43 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-08-03 11:33:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-03 11:33:46 - [TEST_STEP][PASSED] - takeScreenshot(getReportFolder() + "Cek Flip Kamera.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2023-08-03 11:33:48 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\raiha\Documents\Katalon Studio\Mobile Klik IGR\Reports\20230803_113311\Scan QR\Scan__QR\20230803_113311Cek Flip Kamera.png]]
+
+2023-08-03 11:33:48 - [TEST_STEP][PASSED] - tap(findTestObject("Scan QR/Cancel Kamera"), 0): Tapped on element 'Object Repository/Scan QR/Cancel Kamera'
+
+2023-08-03 11:33:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-08-03 11:33:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Scan QR/Cancel Kamera'
+
+2023-08-03 11:33:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-03 11:33:49 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-03 11:33:22 - [TEST_SUITE][PASSED] - Scan__QR: Test Cases/Scan QR/TC_Scan_QR]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

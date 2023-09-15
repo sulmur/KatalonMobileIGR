@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Login sukses dengan email yang terdaftar</description>
-   <name>TC_Login_ValidEmail</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3ccb62f1-1dfa-48ce-808e-d866ccbeead6</testCaseGuid>
-</TestCaseEntity>

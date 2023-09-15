@@ -15,14 +15,14 @@
       <guid>08a03d22-73cf-4f8f-84c0-dd6c460b2e10</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Checkout/Keranjang/TC_NEW_Tambah_Keranjang</testCaseId>
+      <testCaseId>Test Cases/Checkout/Keranjang/TC_Pesan_Ulang</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7a6e0d2c-3ac0-4200-9d4b-98ff445626f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Checkout/Pengiriman/TC_Ambil_DiGrosir</testCaseId>
+      <testCaseId>Test Cases/Checkout/Pengiriman/TC_Ambil_Di_Grosir</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

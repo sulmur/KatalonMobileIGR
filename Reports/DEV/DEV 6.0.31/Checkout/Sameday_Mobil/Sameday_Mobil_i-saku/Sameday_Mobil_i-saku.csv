@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sameday_Mobil__i-saku,,"Test module Checkout produk, Pengiriman Sameday Mobil, Pembayaran i-saku",,2023-06-09 13:12:19,2023-06-09 13:13:30,1m - 11.055s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang,,Test case cek fungsi pesan ulang produk,,2023-06-09 13:12:19,2023-06-09 13:12:42,22.601s,PASSED
+"startApplication(APP, false)",,,,2023-06-09 13:12:20,2023-06-09 13:12:33,13.225s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Ibu dan Anak""), 0)",,,,2023-06-09 13:12:33,2023-06-09 13:12:34,1.715s,PASSED
+"if (waitForElementPresent(findTestObject(""Homepage/Pesan Ulang""), 0) == true)",,,,2023-06-09 13:12:34,2023-06-09 13:12:36,1.731s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,,,2023-06-09 13:12:36,2023-06-09 13:12:37,0.912s,PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang",,2023-06-09 13:12:37,2023-06-09 13:12:38,0.991s,PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1""), 0)",,"Tap tombol icon ""Keranjang"" pada homepage",,2023-06-09 13:12:38,2023-06-09 13:12:40,1.454s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/NEW Tombol Pengiriman""), 0)",,,,2023-06-09 13:12:40,2023-06-09 13:12:40,0.894s,PASSED
+"if (verifyElementExist(findTestObject(""Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok""), 1, OPTIONAL))",,,,2023-06-09 13:12:40,2023-06-09 13:12:42,1.144s,PASSED
+else,,,,2023-06-09 13:12:42,2023-06-09 13:12:42,0.204s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pengiriman/TC_Sameday_Mobil,,Test case pengiriman sameday mobil,,2023-06-09 13:12:42,2023-06-09 13:13:03,21.630s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Tambah_Kurang_Produk""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-09 13:12:42,2023-06-09 13:12:47,5.070s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Panah Ke atas Ringkasan Belanja""), 0)",,Tap icon 'panah ke atas',,2023-06-09 13:12:47,2023-06-09 13:12:48,1.128s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Tombol Pengiriman""), 0)",,Tap tombol 'Pengiriman',,2023-06-09 13:12:48,2023-06-09 13:12:49,0.242s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,,,2023-06-09 13:12:49,2023-06-09 13:12:54,5.107s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-06-09 13:12:54,2023-06-09 13:12:57,3.573s,PASSED
+"takeScreenshot(getReportFolder() + ""Belum pilih pengiriman.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:12:57,2023-06-09 13:12:58,1.265s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/Indopaket Mobil SAMEDAY""), 0)",,,,2023-06-09 13:12:58,2023-06-09 13:12:59,0.232s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Indopaket Mobil SAMEDAY""), 0)",,Tap opsi pengiriman 'Sameday Mobil',,2023-06-09 13:12:59,2023-06-09 13:13:00,0.814s,PASSED
+"takeScreenshot(getReportFolder() + ""Sameday Mobil.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:00,2023-06-09 13:13:00,0.848s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-06-09 13:13:00,2023-06-09 13:13:03,2.212s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-06-09 13:13:03,2023-06-09 13:13:03,0.833s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pembayaran/TC_Bayar_i.saku,,Test case pembayaran dengan i.saku,,2023-06-09 13:13:03,2023-06-09 13:13:11,7.717s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-06-09 13:13:04,2023-06-09 13:13:08,3.942s,PASSED
+"takeScreenshot(getReportFolder() + ""Gagal Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:08,2023-06-09 13:13:08,0.655s,PASSED
+"swipe(0, 475, 0, 0)",,,,2023-06-09 13:13:08,2023-06-09 13:13:09,1.051s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/i-Saku""), 0)",,,,2023-06-09 13:13:09,2023-06-09 13:13:10,0.978s,PASSED
+"takeScreenshot(getReportFolder() + ""i-saku.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:10,2023-06-09 13:13:11,0.781s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout_i-saku,,Test case tap tombol Checkout,,2023-06-09 13:13:11,2023-06-09 13:13:30,18.862s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,Tap tombol 'Checkout',,2023-06-09 13:13:12,2023-06-09 13:13:13,1.100s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Label Terima Kasih telah Belanja""), 0)",,,,2023-06-09 13:13:13,2023-06-09 13:13:14,1.383s,PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:14,2023-06-09 13:13:15,1.207s,PASSED
+"swipe(0, 600, 0, 0)",,,,2023-06-09 13:13:15,2023-06-09 13:13:16,1.051s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0)",,,,2023-06-09 13:13:16,2023-06-09 13:13:16,0.154s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0, STOP_ON_FAILURE)",,Tap tombol 'Lihat cara pembayaran',,2023-06-09 13:13:16,2023-06-09 13:13:18,1.104s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:18,2023-06-09 13:13:19,1.038s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:19,2023-06-09 13:13:20,1.236s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-06-09 13:13:20,2023-06-09 13:13:21,1.414s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:21,2023-06-09 13:13:22,1.008s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran Bawah.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:22,2023-06-09 13:13:24,1.414s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,Tap icon 'Back' dari laman Lihat Cara Pembayaran,,2023-06-09 13:13:24,2023-06-09 13:13:25,1.741s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Bayar Sekarang""), 0)",,,,2023-06-09 13:13:25,2023-06-09 13:13:26,0.242s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:26,2023-06-09 13:13:29,3.008s,PASSED
+"takeScreenshot(getReportFolder() + ""i-saku.png"", CONTINUE_ON_FAILURE)",,,,2023-06-09 13:13:29,2023-06-09 13:13:30,1.377s,PASSED

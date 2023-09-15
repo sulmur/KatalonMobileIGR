@@ -22,9 +22,9 @@ Mobile.tap(findTestObject('Profil/Rekening_Bank/Dropdown Pilih Bank'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.swipe(100, 1740, 0, 0)
+Mobile.swipe(100, 1680, 0, 0)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Profil/Rekening_Bank/BCA'), 0)
 
 'Pilih bank \'BCA\''
 Mobile.tap(findTestObject('Profil/Rekening_Bank/BCA'), 0)

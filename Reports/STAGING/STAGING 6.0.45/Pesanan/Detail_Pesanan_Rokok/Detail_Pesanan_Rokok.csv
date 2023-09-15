@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Detail_Pesanan_Rokok,,Test module pesanan mengecek detail pesanan dengan rokok yang tidak bisa ditambah per item,,2023-07-13 09:07:56,2023-07-13 09:09:05,1m - 8.822s,PASSED
+,,,,,,,
+Test Cases/Pesanan/TC_Menu_Pesanan,,Test case mengakses menu 'Pesanan',,2023-07-13 09:07:56,2023-07-13 09:08:22,25.580s,PASSED
+"startApplication(APP, false)",,,,2023-07-13 09:07:57,2023-07-13 09:08:11,14.460s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-07-13 09:08:11,2023-07-13 09:08:20,9.361s,PASSED
+"tap(findTestObject(""Pesanan/Menu Pesanan""), 0)",,Tap menu 'Pesanan',,2023-07-13 09:08:20,2023-07-13 09:08:22,1.427s,PASSED
+,,,,,,,
+Test Cases/Pesanan/Case Rokok/TC_Detail_Pesanan_Rokok,,Test case cek detail pesanan,,2023-07-13 09:08:22,2023-07-13 09:09:05,42.994s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Detail Pesanan/Detail Pesanan 1""), 0)",,,,2023-07-13 09:08:22,2023-07-13 09:08:23,0.600s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Detail Pesanan 1""), 0)",,Tap detail pesanan pada baris pertama,,2023-07-13 09:08:23,2023-07-13 09:08:24,1.154s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Detail Pesanan/Daftar Produk Pesanan""), 0)",,,,2023-07-13 09:08:24,2023-07-13 09:08:27,3.383s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Daftar Produk Pesanan""), 0)",,Tap dropdown 'Daftar Produk',,2023-07-13 09:08:27,2023-07-13 09:08:29,1.324s,PASSED
+"takeScreenshot(""Reports/Detail Pesanan Rokok.png"", CONTINUE_ON_FAILURE)",,,,2023-07-13 09:08:29,2023-07-13 09:08:30,1.220s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Detail Pesanan/Tombol Tidak Tersedia""), 0)",,Tap tombol 'Tambah Keranjang',,2023-07-13 09:08:30,2023-07-13 09:08:30,0.191s,PASSED
+"verifyElementVisible(findTestObject(""Pesanan/Detail Pesanan/Tombol Tidak Tersedia""), 0)",,Pastikan muncul tombol 'Tidak Tersedia' pada produk rokok,,2023-07-13 09:08:30,2023-07-13 09:08:30,0.225s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-13 09:08:30,2023-07-13 09:08:32,2.032s,PASSED
+"swipe(100, 600, 0, 0)",,swipe ke bawah,,2023-07-13 09:08:32,2023-07-13 09:08:33,1.129s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan""), 0)",,,,2023-07-13 09:08:33,2023-07-13 09:08:34,0.233s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan""), 0)",,Tap tombol 'Pesan Ulang',,2023-07-13 09:08:34,2023-07-13 09:08:34,0.715s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Batal Pesan Ulang""), 0)",,Tap tombol 'Tidak' pada pop-up konfirmasi pesan ulang,,2023-07-13 09:08:34,2023-07-13 09:08:35,0.881s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Pesan Ulang Pesanan""), 0)",,Tap tombol 'Pesan Ulang',,2023-07-13 09:08:35,2023-07-13 09:08:36,0.733s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Detail Pesanan/Setuju Pesan Ulang""), 0)",,,,2023-07-13 09:08:36,2023-07-13 09:08:36,0.197s,PASSED
+"tap(findTestObject(""Pesanan/Detail Pesanan/Setuju Pesan Ulang""), 0)",,Tap tombol 'Ya' pada pop-up konfirmasi pesan ulang,,2023-07-13 09:08:36,2023-07-13 09:08:37,0.935s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-13 09:08:37,2023-07-13 09:08:39,2.012s,PASSED
+"takeScreenshot(""Reports/Berhasil Pesan Ulang Pesanan.png"", CONTINUE_ON_FAILURE)",,,,2023-07-13 09:08:39,2023-07-13 09:08:40,0.901s,PASSED
+pressBack(),,,,2023-07-13 09:08:40,2023-07-13 09:08:40,0.285s,PASSED
+pressBack(),,,,2023-07-13 09:08:40,2023-07-13 09:08:41,0.851s,PASSED
+"waitForElementPresent(findTestObject(""Pesanan/Dropdown Transaksi""), 0)",,,,2023-07-13 09:08:41,2023-07-13 09:08:51,10.108s,PASSED
+"tap(findTestObject(""Pesanan/Keranjang Pesanan""), 0)",,Tap icon 'Keranjang',,2023-07-13 09:08:51,2023-07-13 09:09:00,8.737s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Keranjang/Label Rokok Bisa Dibeli Lewat Website""), 0)",,,,2023-07-13 09:09:00,2023-07-13 09:09:05,4.599s,PASSED
+"verifyElementVisible(findTestObject(""Checkout/Keranjang/Label Rokok Bisa Dibeli Lewat Website""), 0)",,Pastikan muncul alert 'Item rokok hanya bisa dibeli pada website',,2023-07-13 09:09:05,2023-07-13 09:09:05,0.216s,PASSED

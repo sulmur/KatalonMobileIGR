@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Filter,,Test module Filter memilih semua fungsi filter,,2023-06-08 15:26:34,2023-06-08 15:30:00,3m - 25.597s,PASSED
+,,,,,,,
+Test Cases/Filter/Main/TC_Filter_Null,,Test case Filter Kosong,,2023-06-08 15:26:34,2023-06-08 15:27:05,31.019s,PASSED
+"callTestCase(findTestCase(""Kategori/TC_Kategori_IbuAnak""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:26:34,2023-06-08 15:26:55,20.094s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Button""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:26:55,2023-06-08 15:26:56,1.360s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Submit""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:26:56,2023-06-08 15:27:03,7.593s,PASSED
+"takeScreenshot(""Reports/Filter Null.png"")",,,,2023-06-08 15:27:03,2023-06-08 15:27:05,1.222s,PASSED
+closeApplication(),,,,2023-06-08 15:27:05,2023-06-08 15:27:05,0.463s,PASSED
+,,,,,,,
+Test Cases/Filter/Main/TC_Filter_Min,,Test case Filter harga minimum,,2023-06-08 15:27:05,2023-06-08 15:27:39,33.667s,PASSED
+"callTestCase(findTestCase(""Kategori/TC_Kategori_IbuAnak""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:27:05,2023-06-08 15:27:25,19.484s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Button""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:27:25,2023-06-08 15:27:26,1.147s,PASSED
+"tap(findTestObject(""Filter/Harga Minimum""), 0)",,Tap field 'Minimum',,2023-06-08 15:27:26,2023-06-08 15:27:28,1.889s,PASSED
+"setText(findTestObject(""Filter/Harga Minimum""), ""20000"", 0)",,Input data '20000' pada field Minimum,,2023-06-08 15:27:28,2023-06-08 15:27:29,0.615s,PASSED
+pressBack(),,,,2023-06-08 15:27:29,2023-06-08 15:27:29,0.607s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-08 15:27:29,2023-06-08 15:27:30,1.017s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Submit""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:27:30,2023-06-08 15:27:37,7.207s,PASSED
+"takeScreenshot(""Reports/Filter Min.png"")",,,,2023-06-08 15:27:37,2023-06-08 15:27:38,1.072s,PASSED
+closeApplication(),,,,2023-06-08 15:27:38,2023-06-08 15:27:39,0.389s,PASSED
+,,,,,,,
+Test Cases/Filter/Main/TC_Filter_Max,,Test case Filter harga maksimum,,2023-06-08 15:27:39,2023-06-08 15:28:10,31.087s,PASSED
+"callTestCase(findTestCase(""Kategori/TC_Kategori_IbuAnak""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:27:39,2023-06-08 15:27:56,17.271s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Button""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:27:56,2023-06-08 15:27:57,1.071s,PASSED
+"tap(findTestObject(""Filter/Harga Maksimum""), 0)",,Tap field 'Maksimum',,2023-06-08 15:27:57,2023-06-08 15:27:59,1.499s,PASSED
+"setText(findTestObject(""Filter/Harga Maksimum""), ""45000"", 0)",,Input data '40000' pada field Maksimum,,2023-06-08 15:27:59,2023-06-08 15:27:59,0.265s,PASSED
+pressBack(),,,,2023-06-08 15:27:59,2023-06-08 15:28:00,0.572s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-08 15:28:00,2023-06-08 15:28:01,1.010s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Submit""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:28:01,2023-06-08 15:28:08,7.565s,PASSED
+"takeScreenshot(""Reports/Filter Max.png"")",,,,2023-06-08 15:28:08,2023-06-08 15:28:10,1.176s,PASSED
+closeApplication(),,,,2023-06-08 15:28:10,2023-06-08 15:28:10,0.421s,PASSED
+,,,,,,,
+Test Cases/Filter/Main/TC_Filter_Min_Max,,Test case Filter rentang harga minimum dan maksimum,,2023-06-08 15:28:10,2023-06-08 15:28:50,39.585s,PASSED
+"callTestCase(findTestCase(""Kategori/TC_Kategori_IbuAnak""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:28:10,2023-06-08 15:28:34,23.323s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Button""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:28:34,2023-06-08 15:28:35,1.140s,PASSED
+"tap(findTestObject(""Filter/Harga Maksimum""), 0)",,Tap field 'Maksimum',,2023-06-08 15:28:35,2023-06-08 15:28:37,1.992s,PASSED
+"setText(findTestObject(""Filter/Harga Maksimum""), ""30000"", 0)",,Input field maksimum dengan data '30000',,2023-06-08 15:28:37,2023-06-08 15:28:37,0.429s,PASSED
+"tap(findTestObject(""Filter/Harga Minimum""), 0)",,Tap field 'Minimum',,2023-06-08 15:28:37,2023-06-08 15:28:39,1.762s,PASSED
+"setText(findTestObject(""Filter/Harga Minimum""), ""15000"", 0)",,Input field minimum dengan data '15000',,2023-06-08 15:28:39,2023-06-08 15:28:39,0.391s,PASSED
+pressBack(),,,,2023-06-08 15:28:39,2023-06-08 15:28:40,0.563s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-08 15:28:40,2023-06-08 15:28:41,1.017s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Submit""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:28:41,2023-06-08 15:28:48,7.232s,PASSED
+"takeScreenshot(""Reports/Filter Min Max.png"")",,,,2023-06-08 15:28:48,2023-06-08 15:28:49,1.114s,PASSED
+closeApplication(),,,,2023-06-08 15:28:49,2023-06-08 15:28:50,0.394s,PASSED
+,,,,,,,
+Test Cases/Filter/Main/TC_Filter_All,,Test case Filter cek semua fitur,,2023-06-08 15:28:50,2023-06-08 15:29:27,37.271s,PASSED
+"callTestCase(findTestCase(""Kategori/TC_Kategori_IbuAnak""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:28:50,2023-06-08 15:29:09,19.309s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Button""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:09,2023-06-08 15:29:10,1.092s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Two_Product""), [:], STOP_ON_FAILURE)",,,,2023-06-08 15:29:10,2023-06-08 15:29:12,1.762s,PASSED
+"tap(findTestObject(""Filter/Harga Maksimum""), 0)",,Tap field 'Maksimum',,2023-06-08 15:29:12,2023-06-08 15:29:14,1.966s,PASSED
+"setText(findTestObject(""Filter/Harga Maksimum""), ""30000"", 0)",,Input field maksimum dengan data '30000',,2023-06-08 15:29:14,2023-06-08 15:29:14,0.411s,PASSED
+"tap(findTestObject(""Filter/Harga Minimum""), 0)",,Tap field 'Minimum',,2023-06-08 15:29:14,2023-06-08 15:29:15,0.963s,PASSED
+"setText(findTestObject(""Filter/Harga Minimum""), ""15000"", 0)",,Input field minimum dengan data '15000',,2023-06-08 15:29:15,2023-06-08 15:29:17,1.257s,PASSED
+pressBack(),,,,2023-06-08 15:29:17,2023-06-08 15:29:17,0.583s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:17,2023-06-08 15:29:18,1.014s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Submit""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:18,2023-06-08 15:29:25,7.223s,PASSED
+"takeScreenshot(""Reports/Filter All.png"")",,,,2023-06-08 15:29:25,2023-06-08 15:29:26,1.055s,PASSED
+closeApplication(),,,,2023-06-08 15:29:26,2023-06-08 15:29:27,0.399s,PASSED
+,,,,,,,
+Test Cases/Filter/Main/TC_Reset_Filter,,Test case reset filter,,2023-06-08 15:29:27,2023-06-08 15:30:00,32.666s,PASSED
+"callTestCase(findTestCase(""Kategori/TC_Kategori_IbuAnak""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:27,2023-06-08 15:29:46,19.404s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Button""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:46,2023-06-08 15:29:48,1.081s,PASSED
+"callTestCase(findTestCase(""Filter/TC_Filter_Two_Product""), [:], CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:48,2023-06-08 15:29:49,1.659s,PASSED
+"tap(findTestObject(""Filter/Harga Maksimum""), 0)",,Tap field 'Maksimum',,2023-06-08 15:29:49,2023-06-08 15:29:51,1.970s,PASSED
+"setText(findTestObject(""Filter/Harga Maksimum""), ""30000"", 0)",,Input field maksimum dengan data '30000',,2023-06-08 15:29:51,2023-06-08 15:29:52,0.430s,PASSED
+"tap(findTestObject(""Filter/Harga Minimum""), 0)",,Tap field 'Minimum',,2023-06-08 15:29:52,2023-06-08 15:29:53,1.764s,PASSED
+"setText(findTestObject(""Filter/Harga Minimum""), ""15000"", 0)",,Input field minimum dengan data '15000',,2023-06-08 15:29:53,2023-06-08 15:29:54,0.407s,PASSED
+pressBack(),,,,2023-06-08 15:29:54,2023-06-08 15:29:54,0.599s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:54,2023-06-08 15:29:55,1.007s,PASSED
+"tap(findTestObject(""Filter/Tombol Reset""), 0)",,Tap tombol 'Reset',,2023-06-08 15:29:55,2023-06-08 15:29:56,0.708s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-06-08 15:29:56,2023-06-08 15:29:59,3.005s,PASSED
+closeApplication(),,,,2023-06-08 15:29:59,2023-06-08 15:30:00,0.396s,PASSED

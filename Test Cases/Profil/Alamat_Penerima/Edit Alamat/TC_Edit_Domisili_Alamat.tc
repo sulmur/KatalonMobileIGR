@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case edit field opsi domisili</description>
+   <name>TC_Edit_Domisili_Alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1023eaa5-12f8-4ef4-b3fe-5b36dd7ebf5b</testCaseGuid>
+</TestCaseEntity>
