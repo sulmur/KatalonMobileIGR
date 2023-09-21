@@ -3,7 +3,7 @@
    <description></description>
    <name>Bantuan HP</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>ed527d15-f095-4d72-bf74-4b51b26d0b8a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.View</value>
-      <webElementGuid>8032a88e-7459-4658-96fc-51c6981a2f96</webElementGuid>
+      <webElementGuid>fac30e62-e20a-4a14-a1a9-a8c8b2f7e340</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>89162640-f6cf-4a72-8fce-9c84a078e46d</webElementGuid>
+      <webElementGuid>acf7713f-8cca-4e5c-9388-5d31e36de874</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.indogrosir.sd1.klikdev</value>
-      <webElementGuid>19d13385-7b59-4a76-9e72-6db5ab48f306</webElementGuid>
+      <webElementGuid>85a12b76-d3aa-41e4-8d79-2355ede4c91d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <value>Bantuan HP
 088290123818
 Hari Kerja 08.00-17.00 WIB</value>
-      <webElementGuid>1ee428da-1d1c-4fbb-9726-c290aed3efac</webElementGuid>
+      <webElementGuid>0ea2bf37-5d20-4686-8cf3-175bb15e2f01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>618b1806-1dac-4783-9459-141e2d97547d</webElementGuid>
+      <webElementGuid>8ab25000-3c13-4203-82d8-3e5513074592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3876849d-e12b-4485-a805-2e6df58b7a7f</webElementGuid>
+      <webElementGuid>779a9f0f-3c19-4192-8c56-73563d3b7912</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7e39156a-b0bc-43ff-b0df-d8b9c4368964</webElementGuid>
+      <webElementGuid>74ad7299-f2fe-43eb-851e-f6a73fa0a173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>0c8cc34b-e9cc-478f-b457-0475bc557a59</webElementGuid>
+      <webElementGuid>6d12bc5c-b956-43e3-9878-43be0ec2a8a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3c2e566f-84ce-4987-9b95-4104cd9b6b50</webElementGuid>
+      <webElementGuid>d253fbda-51b6-475d-abdc-cb91cd061977</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7f50a773-143f-4c2d-84cf-670cae511512</webElementGuid>
+      <webElementGuid>62dec88d-4a2b-4fcd-a758-50311f21ad00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b7ff2e36-2f27-4fd4-9c9d-7393dd3e4895</webElementGuid>
+      <webElementGuid>6f34a351-3a0e-45ba-a511-f803b1682f6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>df7c15b3-4cf5-4124-9d08-7b49fd9a46e6</webElementGuid>
+      <webElementGuid>9b4db85b-3b3a-4672-b8e1-965f51e09c5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>625d0e56-0179-49d0-908a-48f413598502</webElementGuid>
+      <webElementGuid>86fee2fc-22f9-4b10-9b34-93a2e71d2e08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -118,7 +118,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3ca975ad-7647-46ee-a65d-737daaf8c31c</webElementGuid>
+      <webElementGuid>ab240d65-d50a-4dae-8c1a-87fe5848ff66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>x</name>
       <type>Main</type>
       <value>28</value>
-      <webElementGuid>b9f5560e-075b-4ff2-93af-bd615d2fba84</webElementGuid>
+      <webElementGuid>a4c1fdf2-3ca8-443a-b0d6-4d19647d4e99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -134,7 +134,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>y</name>
       <type>Main</type>
       <value>1486</value>
-      <webElementGuid>58bb11d7-80cf-4185-9973-ee62f9fbdd1c</webElementGuid>
+      <webElementGuid>9b29c6bd-da3a-48ba-9309-7751532bdaea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -142,7 +142,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>width</name>
       <type>Main</type>
       <value>1025</value>
-      <webElementGuid>3ce5a208-a75c-4f8f-88ac-7130f65c55d7</webElementGuid>
+      <webElementGuid>65112363-2655-4668-8b58-a76a9f0b125b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -150,7 +150,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>height</name>
       <type>Main</type>
       <value>195</value>
-      <webElementGuid>ac5d7080-c557-4730-84dc-a05dc239e70a</webElementGuid>
+      <webElementGuid>33bf1836-694d-41d9-a370-87fa62d11c22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -158,7 +158,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>bounds</name>
       <type>Main</type>
       <value>[28,1486][1053,1681]</value>
-      <webElementGuid>33a4b9e4-c6a3-4b56-951e-54b20d52a4ff</webElementGuid>
+      <webElementGuid>f213016f-5a25-4078-91f4-765abf4ba725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -166,7 +166,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e56bb050-9b65-4286-a87e-8826b9cfb65d</webElementGuid>
+      <webElementGuid>f1c4ea5f-3dda-44f2-b117-178723433b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -174,7 +174,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>7f0081d3-d188-44dd-96e6-f63e21e08c11</webElementGuid>
+      <webElementGuid>7723d100-c8c6-4577-840a-4dd1b553d628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -182,7 +182,7 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>2e14dac7-e9b3-42a1-afb5-b991e80fd83e</webElementGuid>
+      <webElementGuid>1edd4c41-9e16-4ef4-bd8f-e6057db24593</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -190,10 +190,8 @@ Hari Kerja 08.00-17.00 WIB</value>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[1]</value>
-      <webElementGuid>3a8a8262-3fc6-49f0-8c5d-3674c8bdff5d</webElementGuid>
+      <webElementGuid>e83a7cb1-7186-499c-9090-afc4889e69ec</webElementGuid>
    </webElementProperties>
-   <locator>Bantuan HP
-088290123818
-Hari Kerja 08.00-17.00 WIB</locator>
-   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+   <locator>//*[contains(@content-desc, &quot;Telepon&quot;)]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

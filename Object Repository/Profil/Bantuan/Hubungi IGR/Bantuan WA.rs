@@ -3,7 +3,7 @@
    <description></description>
    <name>Bantuan WA</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>0815de5a-75f6-487a-b9f6-f6d969c4c703</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.ImageView</value>
-      <webElementGuid>be7ae3e6-ccea-4baf-823c-c9e99f8085a8</webElementGuid>
+      <webElementGuid>bf26c06a-c791-4a43-b6e3-9d61aed6201e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>0dccf1b1-9747-4588-aa7b-a6d5e0a5bf92</webElementGuid>
+      <webElementGuid>4027d839-d9bc-409d-ba78-c2f0d3e608b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.indogrosir.sd1.klikdev</value>
-      <webElementGuid>f765ca44-4123-48b5-b78b-ca27ffecf9bd</webElementGuid>
+      <webElementGuid>9d55741d-c428-4a35-97d5-59652a830792</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <value>Bantuan WA
 08879807
 Setiap Hari 08.00-21.00 WIB</value>
-      <webElementGuid>2e347684-3114-48e3-a099-05e85f6ce188</webElementGuid>
+      <webElementGuid>bc4e14f6-01a3-4cb0-ad86-7dc4e03bf45e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bd01ea10-aef3-43ec-84e5-48988e515a78</webElementGuid>
+      <webElementGuid>55a97172-7f33-4349-8550-9c9835e517e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5215ab29-7f48-41a9-9102-5197e897d7f6</webElementGuid>
+      <webElementGuid>409a546f-6cd8-43b8-8661-d81570270f5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>eba35a9c-07fc-4271-9309-00e81703424b</webElementGuid>
+      <webElementGuid>bc184c75-8420-4528-95ef-131de70f388f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>50885307-051c-4d9f-943a-b4c3159e5405</webElementGuid>
+      <webElementGuid>e29749f8-ca74-446e-8e51-747dcae0cf5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7986fbcf-02e7-490a-a83e-db7fe8cd9f68</webElementGuid>
+      <webElementGuid>dd61e1b2-111a-41bb-a467-32c0a5f91888</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e7a466f7-cd90-41a9-87f5-b10b1c85616a</webElementGuid>
+      <webElementGuid>9d289604-c800-465d-8667-48e73326f900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4ffd4478-13da-4a14-9168-1cfd7743ed52</webElementGuid>
+      <webElementGuid>1f3d58e1-5996-42f7-af86-7dfa2b77c814</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>68d27bc5-3587-4b26-b1f1-6e36609000dd</webElementGuid>
+      <webElementGuid>f5d32b81-abe6-4a45-a0a3-f59d228c3282</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2ee45dda-d9c4-4f05-914a-ef4ea8124160</webElementGuid>
+      <webElementGuid>8a3030e0-d2e3-41fe-b8a8-4391e54dad0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -118,7 +118,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e13b00ef-7f90-41ca-a569-1ccf639d17cb</webElementGuid>
+      <webElementGuid>10cd5115-8901-4817-b3e0-27a2aa0b854f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>x</name>
       <type>Main</type>
       <value>28</value>
-      <webElementGuid>d9c8a863-d7b8-4cc9-a4e4-5834c29de63d</webElementGuid>
+      <webElementGuid>4a4173ec-fa68-4e4a-9c00-851a9a9f9edf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -134,7 +134,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>y</name>
       <type>Main</type>
       <value>1681</value>
-      <webElementGuid>2703933f-dce0-4225-ad74-0ba42b6555b6</webElementGuid>
+      <webElementGuid>6e520be4-3a0f-4d67-a40e-93c50ec28946</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -142,7 +142,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>width</name>
       <type>Main</type>
       <value>1025</value>
-      <webElementGuid>59d942e8-44b0-4b32-b444-87bcf1813d99</webElementGuid>
+      <webElementGuid>24ded0b8-00cd-41c5-ba58-e2e628553a8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -150,7 +150,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>height</name>
       <type>Main</type>
       <value>196</value>
-      <webElementGuid>9e9986f7-7bd6-4005-8581-6a689c0c3001</webElementGuid>
+      <webElementGuid>2e1b4812-2c01-4cae-a11d-ba087cd96edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -158,7 +158,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>bounds</name>
       <type>Main</type>
       <value>[28,1681][1053,1877]</value>
-      <webElementGuid>373e2edb-2f2e-43d6-9b08-cd8adf86a649</webElementGuid>
+      <webElementGuid>839ebfb4-fa0c-406d-a263-23e224bc2341</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -166,7 +166,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>dceac501-ae0c-4677-8ddf-27f47bd929ef</webElementGuid>
+      <webElementGuid>911aa864-b4dc-46fa-b758-d2260f15f3ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -174,7 +174,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>71ee3141-8e04-4365-b984-878ed6725d2d</webElementGuid>
+      <webElementGuid>49a257c2-e11a-44e1-a1c0-9a265d49152e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -182,7 +182,7 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>6210eacc-8644-45fe-a857-483aaf72e190</webElementGuid>
+      <webElementGuid>b786c322-ee89-42b2-8c05-31ab3a38436f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -190,8 +190,8 @@ Setiap Hari 08.00-21.00 WIB</value>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]/android.widget.ImageView[1]</value>
-      <webElementGuid>50bf57b2-af10-4291-987b-d43c2f70dde9</webElementGuid>
+      <webElementGuid>96ed379b-4175-46c0-92bd-c29503abbcf9</webElementGuid>
    </webElementProperties>
-   <locator>//*[contains(@content-desc, &quot;Bantuan WA&quot;)]</locator>
+   <locator>//*[contains(@content-desc, &quot;WhatsApp&quot;)]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

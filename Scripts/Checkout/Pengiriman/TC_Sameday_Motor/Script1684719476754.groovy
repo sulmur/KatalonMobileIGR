@@ -37,7 +37,7 @@ Mobile.tap(findTestObject('Checkout/Pembayaran/Tombol Pembayaran'), 0)
 
 Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Belum pilih pengiriman.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Scroll ke bawah'
 Mobile.swipe(0, 600, 0, 0)

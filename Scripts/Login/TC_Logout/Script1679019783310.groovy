@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+//import io.appium.java_client.android.AndroidDriver as AndroidDriver
 
 'Tap menu Akun'
 Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
 
 Mobile.swipe(100, 600, 0, 0)
+//Mobile.scrollToText('KELUAR', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Login/Logout/Signout'), 0)
 

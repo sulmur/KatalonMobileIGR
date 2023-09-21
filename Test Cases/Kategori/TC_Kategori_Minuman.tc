@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case kategori jenis produk 'Minuman'</description>
+   <name>TC_Kategori_Minuman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae734874-f037-4a54-b99c-0a6f71ed3e30</testCaseGuid>
+</TestCaseEntity>

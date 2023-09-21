@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case Filter dua produk</description>
+   <name>TC_Filter_Two_Product_Minuman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34f66f45-a382-4754-93dd-ca6dfa2afb02</testCaseGuid>
+</TestCaseEntity>

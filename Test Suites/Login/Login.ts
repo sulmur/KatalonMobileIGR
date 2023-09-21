@@ -26,10 +26,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ca8171e9-c361-4b2a-864c-e74a65d4fc67</guid>
+      <guid>c2d28dad-2274-4ce9-a73e-e1987c4bd8f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Main/TC_Login_Blocking_Case</testCaseId>
+      <testCaseId>Test Cases/Login/Main/TC_Login_Case_Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

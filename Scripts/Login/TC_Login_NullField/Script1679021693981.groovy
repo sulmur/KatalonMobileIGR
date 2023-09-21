@@ -22,13 +22,18 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 'Buka aplikasi Klik Indogrosir pada android'
 Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 60)
+if (Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 20, FailureHandling.OPTIONAL)) {
 
-'Klik menu akun'
-Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
-
-'Klik Login tanpa input field Email/No. HP dan Password'
-Mobile.waitForElementPresent(findTestObject('Login/Tombol Login'), 25)
+	'Klik menu akun'
+	Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
+	
+	'Klik Login tanpa input field Email/No. HP dan Password'
+	Mobile.waitForElementPresent(findTestObject('Login/Tombol Login'), 25)
+	
+} else {
+	'Klik Login tanpa input field Email/No. HP dan Password'
+	Mobile.waitForElementPresent(findTestObject('Login/Tombol Login'), 25)
+}
 
 'Klik Login tanpa input field Email/No. HP dan Password'
 Mobile.tap(findTestObject('Login/Tombol Login'), 0)

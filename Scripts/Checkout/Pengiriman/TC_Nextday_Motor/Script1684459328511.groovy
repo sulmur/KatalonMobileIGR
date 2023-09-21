@@ -20,8 +20,6 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 Mobile.callTestCase(findTestCase('Checkout/Pengiriman/TC_Tambah_Kurang_Produk'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Checkout/Pengiriman/NEW Tombol Pengiriman'), 0)
-
 Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Isi Keranjang.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Tap icon \'panah ke atas\''
@@ -36,6 +34,8 @@ Mobile.waitForElementPresent(findTestObject('Checkout/Pembayaran/Tombol Pembayar
 Mobile.tap(findTestObject('Checkout/Pembayaran/Tombol Pembayaran'), 0)
 
 Mobile.takeScreenshot(RunConfiguration.getReportFolder() + 'Belum pilih pengiriman.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Scroll ke bawah'
 Mobile.swipe(0, 600, 0, 0)

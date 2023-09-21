@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//import io.appium.java_client.android.AndroidDriver as AndroidDriver
 
 Mobile.callTestCase(findTestCase('Login/TC_Login_NullField'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

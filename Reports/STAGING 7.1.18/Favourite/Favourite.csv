@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Favourite,,Test module Favourite,,2023-09-18 16:34:55,2023-09-18 16:37:07,2m - 11.664s,FAILED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Check_Favourite_List,,Test case melihat menu favorit,,2023-09-18 16:34:56,2023-09-18 16:35:18,22.736s,PASSED
+"startApplication(APP, false)",,,,2023-09-18 16:34:56,2023-09-18 16:35:10,14.012s,PASSED
+"swipe(100, 1000, 0, 0)",,,,2023-09-18 16:35:10,2023-09-18 16:35:11,1.215s,PASSED
+"tap(findTestObject(""Object Repository/Favourite/List_Favourite/android.view.View""), 0)",,,,2023-09-18 16:35:11,2023-09-18 16:35:12,0.339s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",,,,2023-09-18 16:35:12,2023-09-18 16:35:13,1.050s,PASSED
+"takeScreenshot(getReportFolder() + ""Wishlist.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 16:35:13,2023-09-18 16:35:14,1.185s,PASSED
+"swipe(100, 500, 0, 0)",,,,2023-09-18 16:35:14,2023-09-18 16:35:15,1.088s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-09-18 16:35:15,2023-09-18 16:35:18,3.014s,PASSED
+closeApplication(),,,,2023-09-18 16:35:18,2023-09-18 16:35:18,0.498s,PASSED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Favourite_Search,,Test case Favourite cek menu search,,2023-09-18 16:35:18,2023-09-18 16:35:44,25.339s,PASSED
+"callTestCase(findTestCase(""Favourite/TC_Menu_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-09-18 16:35:19,2023-09-18 16:35:37,18.040s,PASSED
+driver = getDriver(),,,,2023-09-18 16:35:37,2023-09-18 16:35:37,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Favourite/Search/Favourite Search""), 0)",,,,2023-09-18 16:35:37,2023-09-18 16:35:37,0.620s,PASSED
+"tap(findTestObject(""Favourite/Search/Favourite Search""), 0)",,Tap field 'Search' pada menu 'Favourite',,2023-09-18 16:35:37,2023-09-18 16:35:39,1.318s,PASSED
+"setText(findTestObject(""Favourite/Search/Favourite Search""), ""pronas"", 0)",,Input data pada field 'Search',,2023-09-18 16:35:39,2023-09-18 16:35:39,0.335s,PASSED
+driver.pressKeyCode(KEYCODE_ENTER),,Tap 'Enter' pada keyboard,,2023-09-18 16:35:39,2023-09-18 16:35:40,0.537s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-09-18 16:35:40,2023-09-18 16:35:42,2.009s,PASSED
+"takeScreenshot(""Reports\Favourite Search.png"")",,,,2023-09-18 16:35:42,2023-09-18 16:35:43,0.993s,PASSED
+"tap(findTestObject(""Favourite/Search/Cancel Search""), 0)",,Tap icon 'X' untuk membatalkan pencarian produk favorit,,2023-09-18 16:35:43,2023-09-18 16:35:43,0.778s,PASSED
+closeApplication(),,,,2023-09-18 16:35:43,2023-09-18 16:35:44,0.405s,PASSED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Sort_Favourite,,Test case favorit cek fitur sorting,,2023-09-18 16:35:44,2023-09-18 16:36:36,52.008s,PASSED
+"callTestCase(findTestCase(""Favourite/TC_Menu_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-09-18 16:35:44,2023-09-18 16:36:00,15.680s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_A-Z_Sort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-09-18 16:36:00,2023-09-18 16:36:09,8.774s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_Z-A_Sort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-09-18 16:36:09,2023-09-18 16:36:17,8.248s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_LowestSort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-09-18 16:36:17,2023-09-18 16:36:25,8.487s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_HighestSort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-09-18 16:36:25,2023-09-18 16:36:35,9.994s,PASSED
+closeApplication(),,,,2023-09-18 16:36:35,2023-09-18 16:36:36,0.453s,PASSED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Filter_Favourite,,Test case Favourite cek fitur filter,,2023-09-18 16:36:36,2023-09-18 16:37:07,31.324s,FAILED
+"callTestCase(findTestCase(""Favourite/Filter/TC_ResetFilter_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-09-18 16:36:36,2023-09-18 16:37:07,31.007s,FAILED

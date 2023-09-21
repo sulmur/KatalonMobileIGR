@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Kategori/TC_Kategori_IbuAnak'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Kategori/TC_Kategori_Minuman'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Filter/TC_Filter_Button'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Filter/TC_Filter_Two_Product'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Filter/TC_Filter_Two_Product_Minuman'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Tap field \'Maksimum\''
 Mobile.tap(findTestObject('Filter/Harga Maksimum'), 0)

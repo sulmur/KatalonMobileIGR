@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hitam312'</initValue>
+      <initValue>'user123'</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

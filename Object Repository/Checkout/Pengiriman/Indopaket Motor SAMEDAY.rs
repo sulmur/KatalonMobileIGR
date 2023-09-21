@@ -3,7 +3,7 @@
    <description></description>
    <name>Indopaket Motor SAMEDAY</name>
    <tag></tag>
-   <elementGuidId>3bb5a355-f5f5-4a0e-b953-49093f37fa26</elementGuidId>
+   <elementGuidId>bb97d19d-85dd-4718-bd12-d899738c919e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.ImageView</value>
-      <webElementGuid>60b5e7cd-491b-4b0f-9212-556504ef507c</webElementGuid>
+      <webElementGuid>2f08fa86-983a-40ed-8a55-e8601c5a6043</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>139bb977-6ed0-4096-bbf0-537aaeca9911</webElementGuid>
+      <webElementGuid>ef599d6f-fb67-4660-b06d-959d7302ec5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.indogrosir.sd1.klikdev</value>
-      <webElementGuid>fe37e5ee-fcb0-4797-84c0-5128f26ade79</webElementGuid>
+      <webElementGuid>d68c8e8c-326f-469b-aeab-d5383d43c168</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <type>Main</type>
       <value>Indopaket Motor (Max 30kg) SAMEDAY 
 Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikirim H+1)</value>
-      <webElementGuid>a9f712c0-afec-4482-86d5-68b545ed3eb6</webElementGuid>
+      <webElementGuid>693e14bb-ddb1-4231-b312-9477bd57c700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3852ac42-01fa-44f4-b96f-4e6be06fe928</webElementGuid>
+      <webElementGuid>5fc18e59-c2bf-40ad-8084-1f1942c60f39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1f09fcb8-ae3f-4d09-8777-0ee64c22d9b3</webElementGuid>
+      <webElementGuid>9e5d744a-f88b-4c67-a9ae-9da96bed9484</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>59f1e54d-6f7b-47e1-bcfc-668d05344f25</webElementGuid>
+      <webElementGuid>8cdcd539-bc24-4b1a-909c-99cccf2a9982</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fe58a1d0-d7e2-4e1b-96b4-a36156e37add</webElementGuid>
+      <webElementGuid>1cb7cadf-da66-48df-b6ed-643315c3ceb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cd03f69b-71f1-4c95-99cc-bdcdb54cb323</webElementGuid>
+      <webElementGuid>ff72e4e8-4dfb-4706-8ba0-2a59e37ae111</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b733988d-1b60-48ac-bc00-38823cbd429b</webElementGuid>
+      <webElementGuid>110b431b-17f2-44d8-b847-8bac3c6e134a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3c2b8890-a8ac-45a7-a548-743367751700</webElementGuid>
+      <webElementGuid>ea4ccc2d-2e9a-4754-b7e6-d2722b33816e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>14aa2066-aa9b-41fe-aed8-7d58c5a6e926</webElementGuid>
+      <webElementGuid>21c936d7-7b27-4b2d-a593-b4665b055a0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4ddaff13-c4c3-4c7b-b54a-17483069a860</webElementGuid>
+      <webElementGuid>5a50cff7-5f57-472c-92c1-cf520de88484</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -117,7 +117,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a7df595e-10ac-46f0-bf9a-0f1b1345ec27</webElementGuid>
+      <webElementGuid>53485e6d-fa4a-4677-8e6a-e99abda7c432</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>x</name>
       <type>Main</type>
       <value>61</value>
-      <webElementGuid>8188af3a-406e-42de-a020-a716f12cae93</webElementGuid>
+      <webElementGuid>57edd894-d6dc-4ec3-a4a9-6f505959db60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>y</name>
       <type>Main</type>
       <value>882</value>
-      <webElementGuid>ddc4194e-b22c-4cdf-9bd5-f77865669cc3</webElementGuid>
+      <webElementGuid>f8835451-ecfa-4f5e-b200-03b40165a3cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -141,7 +141,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>width</name>
       <type>Main</type>
       <value>959</value>
-      <webElementGuid>141c34ba-174c-47ae-bce3-0dadadc8164a</webElementGuid>
+      <webElementGuid>1c9cee53-0851-47ab-8c39-411c885de0ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -149,7 +149,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>height</name>
       <type>Main</type>
       <value>308</value>
-      <webElementGuid>b6478ffc-6f15-411f-88a8-37001747d190</webElementGuid>
+      <webElementGuid>5def592f-2e3a-4d24-96b5-5b4bedaf39ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -157,7 +157,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>bounds</name>
       <type>Main</type>
       <value>[61,882][1020,1190]</value>
-      <webElementGuid>492e5f65-24ae-4b1e-9a9f-ece9070e3b1e</webElementGuid>
+      <webElementGuid>11bc1a02-e350-4408-ac9e-4ba56a0377ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -165,7 +165,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>88ba5670-3b41-4e3c-a56e-66b0a2db4960</webElementGuid>
+      <webElementGuid>333fd67d-854b-4829-8e4d-1fbc009e6dca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -173,7 +173,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>937afa4a-7da2-4449-af04-b095f8f85cea</webElementGuid>
+      <webElementGuid>b9417994-abe4-48fe-ba51-8b7d6582941d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -181,7 +181,7 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>9ca1eaad-48ae-4ce7-80d3-db624f597cde</webElementGuid>
+      <webElementGuid>da334037-e05f-4ac5-ba69-e69eaf5f7a43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -189,8 +189,8 @@ Rp 26.000 (Pesan &lt; jam 12.00 dikirim Hari yang sama, Pesan > jam 12.00 dikiri
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.ImageView[1]/android.view.View[4]/android.widget.ImageView[1]</value>
-      <webElementGuid>f466e540-aa16-4dc8-8c03-8b6242220f6d</webElementGuid>
+      <webElementGuid>e403baa9-8922-4a55-b70c-ed9a352e7cf4</webElementGuid>
    </webElementProperties>
-   <locator>//*[contains(@content-desc, &quot;Indopaket Motor (Max 30kg) SAMEDAY &quot;)]</locator>
+   <locator>//*[contains(@content-desc, &quot;Indopaket Motor (Max 18kg) SAMEDAY &quot;)]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

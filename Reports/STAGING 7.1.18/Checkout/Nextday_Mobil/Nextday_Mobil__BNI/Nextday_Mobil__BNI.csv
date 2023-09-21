@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nextday_Mobil__BNI,,"Test module checkout produk, pengiriman nextday mobil, pembayaran VA BNI",,2023-09-18 17:27:38,2023-09-18 17:28:57,1m - 18.590s,PASSED
+,,,,,,,
+Test Cases/Checkout/Keranjang/TC_Pesan_Ulang,,Test case cek fungsi pesan ulang produk,,2023-09-18 17:27:39,2023-09-18 17:28:00,21.459s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-09-18 17:27:39,2023-09-18 17:27:50,10.909s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-09-18 17:27:50,2023-09-18 17:27:53,2.802s,PASSED
+"if (waitForElementPresent(findTestObject(""Homepage/Pesan Ulang""), 0) == true)",,,,2023-09-18 17:27:53,2023-09-18 17:27:54,1.692s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,,,2023-09-18 17:27:54,2023-09-18 17:27:55,0.838s,PASSED
+"tap(findTestObject(""Homepage/Tutup Pop-up Pesan Ulang""), 0)",,"Tap tombol ""Tutup"" pada pop-up berhasil pesan ulang",,2023-09-18 17:27:55,2023-09-18 17:27:56,0.933s,PASSED
+"tap(findTestObject(""Homepage/Keranjang Home 1""), 0)",,"Tap tombol icon ""Keranjang"" pada homepage",,2023-09-18 17:27:56,2023-09-18 17:27:57,1.200s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,,,2023-09-18 17:27:57,2023-09-18 17:27:59,1.546s,PASSED
+"if (verifyElementExist(findTestObject(""Checkout/Keranjang/Case Potongan Pengiriman/Dji Sam Soe/Gambar Rokok""), 1, OPTIONAL))",,,,2023-09-18 17:27:59,2023-09-18 17:28:00,1.132s,PASSED
+else,,,,2023-09-18 17:28:00,2023-09-18 17:28:00,0.122s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pengiriman/TC_Nextday_Mobil,,Test case pengiriman dengan opsi nextday mobil,,2023-09-18 17:28:00,2023-09-18 17:28:25,25.052s,PASSED
+"callTestCase(findTestCase(""Checkout/Pengiriman/TC_Tambah_Kurang_Produk""), [:], CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:00,2023-09-18 17:28:06,5.673s,PASSED
+"tap(findTestObject(""Checkout/Keranjang/Rincian Promosi/Panah Ke atas Rincian Promosi""), 0)",,Tap icon 'panah ke atas',,2023-09-18 17:28:06,2023-09-18 17:28:07,0.690s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/NEW Tombol Pengiriman""), 0)",,Tap tombol 'Pengiriman',,2023-09-18 17:28:07,2023-09-18 17:28:08,1.005s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,,,2023-09-18 17:28:08,2023-09-18 17:28:14,6.554s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-09-18 17:28:14,2023-09-18 17:28:15,0.977s,PASSED
+"takeScreenshot(getReportFolder() + ""Belum pilih pengiriman.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:15,2023-09-18 17:28:16,0.880s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:16,2023-09-18 17:28:19,3.015s,PASSED
+"swipe(0, 600, 0, 0)",,Scroll ke bawah,,2023-09-18 17:28:19,2023-09-18 17:28:20,1.010s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Pengiriman/Indopaket Mobil NEXTDAY""), 0)",,,,2023-09-18 17:28:20,2023-09-18 17:28:20,0.138s,PASSED
+"tap(findTestObject(""Checkout/Pengiriman/Indopaket Mobil NEXTDAY""), 0)",,Tap opsi pengiriman 'Nextday Mobil',,2023-09-18 17:28:20,2023-09-18 17:28:21,0.669s,PASSED
+"takeScreenshot(getReportFolder() + ""Nextday Mobil.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:21,2023-09-18 17:28:22,0.765s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/Tombol Pembayaran""), 0)",,Tap tombol 'Pembayaran',,2023-09-18 17:28:22,2023-09-18 17:28:22,0.649s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-09-18 17:28:22,2023-09-18 17:28:25,2.766s,PASSED
+,,,,,,,
+Test Cases/Checkout/Pembayaran/TC_Bayar_BNI,,test case pembayaran dengan VA BNI,,2023-09-18 17:28:25,2023-09-18 17:28:32,6.512s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,,,2023-09-18 17:28:25,2023-09-18 17:28:28,2.944s,PASSED
+"takeScreenshot(getReportFolder() + ""Gagal Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:28,2023-09-18 17:28:29,0.898s,PASSED
+"swipe(0, 475, 0, 0)",,,,2023-09-18 17:28:29,2023-09-18 17:28:30,1.013s,PASSED
+"tap(findTestObject(""Checkout/Pembayaran/VA BNI""), 0)",,Pilih opsi 'Virtual Account BNI',,2023-09-18 17:28:30,2023-09-18 17:28:31,0.726s,PASSED
+"takeScreenshot(getReportFolder() + ""VA BNI.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:31,2023-09-18 17:28:32,0.680s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC_Checkout,,Test case tap tombol Checkout,,2023-09-18 17:28:32,2023-09-18 17:28:57,25.351s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Tombol Checkout""), 0)",,Tap tombol 'Checkout',,2023-09-18 17:28:32,2023-09-18 17:28:33,0.939s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Label Terima Kasih telah Belanja""), 0)",,,,2023-09-18 17:28:33,2023-09-18 17:28:43,10.142s,PASSED
+"takeScreenshot(getReportFolder() + ""Checkout.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:43,2023-09-18 17:28:44,0.754s,PASSED
+"swipe(0, 600, 0, 0)",,,,2023-09-18 17:28:44,2023-09-18 17:28:45,0.968s,PASSED
+"waitForElementPresent(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0)",,,,2023-09-18 17:28:45,2023-09-18 17:28:45,0.124s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Lihat Cara Pembayaran""), 0, STOP_ON_FAILURE)",,Tap tombol 'Lihat cara pembayaran',,2023-09-18 17:28:45,2023-09-18 17:28:46,1.140s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:46,2023-09-18 17:28:49,3.011s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:49,2023-09-18 17:28:50,0.926s,PASSED
+"swipe(100, 600, 0, 0)",,,,2023-09-18 17:28:50,2023-09-18 17:28:51,1.442s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:51,2023-09-18 17:28:54,3.016s,PASSED
+"takeScreenshot(getReportFolder() + ""Lihat Cara Pembayaran Bawah.png"", CONTINUE_ON_FAILURE)",,,,2023-09-18 17:28:54,2023-09-18 17:28:55,1.037s,PASSED
+"tap(findTestObject(""Checkout/Checkout/Back Checkout""), 0)",,Tap icon 'Back' dari laman Lihat Cara Pembayaran,,2023-09-18 17:28:55,2023-09-18 17:28:57,1.618s,PASSED
