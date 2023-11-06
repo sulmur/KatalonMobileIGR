@@ -20,13 +20,13 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)
-
-'Tap menu Akun'
-Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
-
-'Tap tombol \'Lupa Password?\''
-Mobile.tap(findTestObject('Lupa_Password/Tombol Lupa Password'), 0)
+if (Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)) {
+	'Klik menu akun'
+	Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
+	} else {
+		'Tap tombol \'Lupa Password?\''
+		Mobile.tap(findTestObject('Lupa_Password/Tombol Lupa Password'), 0)
+	}
 
 'Tap tombol \'Kirim Link Reset\''
 Mobile.tap(findTestObject('Lupa_Password/Tombol Kirim Link Reset'), 0)

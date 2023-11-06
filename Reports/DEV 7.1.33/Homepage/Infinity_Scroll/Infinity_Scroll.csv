@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Infinity_Scroll,,Test module homepage infinity scroll produk,,2023-11-06 21:21:45,2023-11-06 21:22:11,26.317s,PASSED
+,,,,,,,
+Test Cases/Homepage/TC_Infinity_Scroll,,Test case infinity scroll produk,,2023-11-06 21:21:45,2023-11-06 21:22:11,25.810s,PASSED
+"startExistingApplication(APP_EXIST, STOP_ON_FAILURE)",,,,2023-11-06 21:21:46,2023-11-06 21:22:03,16.975s,PASSED
+"waitForElementPresent(findTestObject(""Kategori/Minuman""), 0)",,,,2023-11-06 21:22:03,2023-11-06 21:22:04,0.908s,PASSED
+"swipe(0, 1400, 0, 0)",,,,2023-11-06 21:22:04,2023-11-06 21:22:05,1.278s,PASSED
+"waitForElementPresent(findTestObject(""Search/Tambah Keranjang""), 0)",,,,2023-11-06 21:22:05,2023-11-06 21:22:08,2.179s,PASSED
+"takeScreenshot(getReportFolder() + ""Scroll Produk.png"", CONTINUE_ON_FAILURE)",,,,2023-11-06 21:22:08,2023-11-06 21:22:09,1.394s,PASSED
+"swipe(0, 1200, 0, 0)",,,,2023-11-06 21:22:09,2023-11-06 21:22:10,1.127s,PASSED
+"takeScreenshot(getReportFolder() + ""Continue Scroll Produk.png"", CONTINUE_ON_FAILURE)",,,,2023-11-06 21:22:10,2023-11-06 21:22:11,1.121s,PASSED

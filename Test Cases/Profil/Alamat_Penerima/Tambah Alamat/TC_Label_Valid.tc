@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Case Tambah Alamat input field Label valid</description>
-   <name>TC_Label_Valid</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>de63fc34-e079-4911-a7c0-1bf8fb8ee1f6</testCaseGuid>
-</TestCaseEntity>

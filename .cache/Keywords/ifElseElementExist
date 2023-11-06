@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "3B5A0AFEA1345CFBDA8A62668F128F21",
+  "keywordFileContentHash": "BA2DA5BD4AC660106115032A82B196A2",
   "keywordClasses": [
     {
       "name": "ifElseElementExist",
@@ -34,7 +34,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
+          "javadoc": "/**\r\n\t * Check if element present in timeout\r\n\t * @param to Katalon test object\r\n\t * @param timeout time to wait for element to show up\r\n\t * @return true if element present, otherwise false\r\n\t */"
         }
       ]
     }

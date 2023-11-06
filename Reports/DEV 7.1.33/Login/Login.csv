@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,Test module login,,2023-11-06 20:00:36,2023-11-06 20:05:31,4m - 54.866s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Email,,Test case login cek tiap case email,,2023-11-06 20:00:36,2023-11-06 20:01:44,1m - 7.425s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_NullField""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:00:37,2023-11-06 20:01:07,29.594s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_InvalidEmail""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:01:07,2023-11-06 20:01:24,17.862s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Email_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:01:24,2023-11-06 20:01:34,9.517s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:01:34,2023-11-06 20:01:43,9.242s,PASSED
+closeApplication(),,,,2023-11-06 20:01:43,2023-11-06 20:01:44,0.566s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Phone,,Test case login cek tiap case No. HP,,2023-11-06 20:01:44,2023-11-06 20:03:34,1m - 50.554s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-11-06 20:01:44,2023-11-06 20:01:57,12.592s,PASSED
+"if (waitForElementPresent(findTestObject(""Kategori/Minuman""), 0))",,,,2023-11-06 20:01:57,2023-11-06 20:02:57,1m - 0.118s,PASSED
+else,,,,2023-11-06 20:02:57,2023-11-06 20:03:16,18.753s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Phone_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:03:16,2023-11-06 20:03:25,9.769s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:03:25,2023-11-06 20:03:34,8.370s,PASSED
+closeApplication(),,,,2023-11-06 20:03:34,2023-11-06 20:03:34,0.448s,PASSED
+,,,,,,,
+Test Cases/Login/Main/TC_Login_Case_Password,,Test case login cek tiap case password,,2023-11-06 20:03:34,2023-11-06 20:05:31,1m - 56.424s,PASSED
+"startExistingApplication(APP_EXIST, CONTINUE_ON_FAILURE)",,,,2023-11-06 20:03:35,2023-11-06 20:03:47,12.219s,PASSED
+"if (waitForElementPresent(findTestObject(""Kategori/Minuman""), 0))",,,,2023-11-06 20:03:47,2023-11-06 20:04:47,1m - 0.170s,PASSED
+else,,,,2023-11-06 20:04:47,2023-11-06 20:05:10,22.459s,PASSED
+"callTestCase(findTestCase(""Login/TC_Login_Email_Success""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:05:10,2023-11-06 20:05:21,11.788s,PASSED
+"callTestCase(findTestCase(""Login/TC_Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-11-06 20:05:21,2023-11-06 20:05:30,8.707s,PASSED
+closeApplication(),,,,2023-11-06 20:05:30,2023-11-06 20:05:31,0.637s,PASSED

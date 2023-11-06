@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Favourite,,Test module Favourite,,2023-11-06 22:15:21,2023-11-06 22:18:35,3m - 13.371s,FAILED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Check_Favourite_List,,Test case melihat menu favorit,,2023-11-06 22:15:22,2023-11-06 22:15:30,7.903s,FAILED
+"startApplication(APP, false)",,,,2023-11-06 22:15:23,2023-11-06 22:15:30,6.921s,FAILED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Favourite_Search,,Test case Favourite cek menu search,,2023-11-06 22:15:30,2023-11-06 22:15:57,27.489s,PASSED
+"callTestCase(findTestCase(""Favourite/TC_Menu_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:15:31,2023-11-06 22:15:46,15.762s,PASSED
+driver = getDriver(),,,,2023-11-06 22:15:46,2023-11-06 22:15:46,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Favourite/Search/Favourite Search""), 0)",,,,2023-11-06 22:15:46,2023-11-06 22:15:48,2.070s,PASSED
+"tap(findTestObject(""Favourite/Search/Favourite Search""), 0)",,Tap field 'Search' pada menu 'Favourite',,2023-11-06 22:15:48,2023-11-06 22:15:49,0.824s,PASSED
+"setText(findTestObject(""Favourite/Search/Favourite Search""), ""pronas"", 0)",,Input data pada field 'Search',,2023-11-06 22:15:49,2023-11-06 22:15:51,1.467s,PASSED
+driver.pressKeyCode(KEYCODE_ENTER),,Tap 'Enter' pada keyboard,,2023-11-06 22:15:51,2023-11-06 22:15:51,0.572s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-11-06 22:15:51,2023-11-06 22:15:53,2.029s,PASSED
+"takeScreenshot(""Reports\Favourite Search.png"")",,,,2023-11-06 22:15:53,2023-11-06 22:15:56,2.188s,PASSED
+"tap(findTestObject(""Favourite/Search/Cancel Search""), 0)",,Tap icon 'X' untuk membatalkan pencarian produk favorit,,2023-11-06 22:15:56,2023-11-06 22:15:57,1.231s,PASSED
+closeApplication(),,,,2023-11-06 22:15:57,2023-11-06 22:15:57,0.602s,PASSED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Sort_Favourite,,Test case favorit cek fitur sorting,,2023-11-06 22:15:57,2023-11-06 22:16:56,59.019s,PASSED
+"callTestCase(findTestCase(""Favourite/TC_Menu_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:15:58,2023-11-06 22:16:15,16.452s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_A-Z_Sort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:16:15,2023-11-06 22:16:24,9.329s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_Z-A_Sort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:16:24,2023-11-06 22:16:33,9.212s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_LowestSort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:16:33,2023-11-06 22:16:42,8.951s,PASSED
+"callTestCase(findTestCase(""Favourite/Sorting/TC_HighestSort_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:16:42,2023-11-06 22:16:56,13.975s,PASSED
+closeApplication(),,,,2023-11-06 22:16:56,2023-11-06 22:16:56,0.405s,PASSED
+,,,,,,,
+Test Cases/Favourite/Main/TC_Filter_Favourite,,Test case Favourite cek fitur filter,,2023-11-06 22:16:56,2023-11-06 22:18:35,1m - 38.394s,PASSED
+"callTestCase(findTestCase(""Favourite/Filter/TC_ResetFilter_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:16:57,2023-11-06 22:17:32,35.247s,PASSED
+"callTestCase(findTestCase(""Favourite/Filter/TC_MinFilter_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:17:32,2023-11-06 22:17:46,13.379s,PASSED
+"callTestCase(findTestCase(""Favourite/Filter/TC_MaxFilter_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:17:46,2023-11-06 22:17:59,13.181s,PASSED
+"callTestCase(findTestCase(""Favourite/Filter/TC_MinMax_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:17:59,2023-11-06 22:18:15,16.489s,PASSED
+"callTestCase(findTestCase(""Favourite/Filter/TC_AllFilter_Favourite""), [:], STOP_ON_FAILURE)",,,,2023-11-06 22:18:15,2023-11-06 22:18:35,19.596s,PASSED

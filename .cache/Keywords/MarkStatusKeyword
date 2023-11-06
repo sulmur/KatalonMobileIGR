@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6E5CF4AC76BD3D90A7E6B3DA18F91E88",
+  "keywordFileContentHash": "E2404D65F4100E130F757891D91DFB6E",
   "keywordClasses": [
     {
       "name": "MarkStatusKeyword",
@@ -34,12 +34,12 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
+          "javadoc": "/**\r\n\t * Check if element present in timeout\r\n\t * @param to Katalon test object\r\n\t * @param timeout time to wait for element to show up\r\n\t * @return true if element present, otherwise false\r\n\t */"
         },
         {
           "name": "getCurrentSessionMobileDriver",
           "parameters": [],
-          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
+          "javadoc": "/**\r\n\t * Get mobile driver for current session\r\n\t * @return mobile driver for current session\r\n\t */"
         }
       ]
     }

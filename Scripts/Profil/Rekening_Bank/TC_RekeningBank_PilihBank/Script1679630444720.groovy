@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Tap dropdown \'Pilih Bank\''
-Mobile.tap(findTestObject('Profil/Rekening_Bank/Dropdown Pilih Bank'), 0)
+Mobile.tap(findTestObject('Profil/Rekening_Bank/Dropdown Pilih Bank NEW'), 0)
 
 Mobile.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 

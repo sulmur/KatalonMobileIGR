@@ -21,10 +21,10 @@ import org.openqa.selenium.Keys as Keys
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Tambah Alamat'), 0)
 
 'Tap field \'Label\''
-Mobile.tap(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Label'), 0)
+Mobile.tap(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Nama Penerima'), 0)
 
 'Input data pada field \'Label\''
-Mobile.setText(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Label'), 'Rumah Enin', 0)
+Mobile.setText(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Nama Penerima'), 'Rumah Enin', 0)
 
 'Tap field \'Alamat Lengkap\''
 Mobile.tap(findTestObject('Profil/Alamat_Penerima/Tambah Alamat/Field Alamat Lengkap'), 0)

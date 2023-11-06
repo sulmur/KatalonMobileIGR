@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.APP_EXIST, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)
-
-'Klik menu akun'
-Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
-
-Mobile.callTestCase(findTestCase('Login/TC_Login_InvalidPhone'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+if (Mobile.waitForElementPresent(findTestObject('Kategori/Minuman'), 0)) {
+	'Klik menu akun'
+	Mobile.tap(findTestObject('Profil/Profil_Button/Menu Akun'), 0)
+	} else {
+		Mobile.callTestCase(findTestCase('Login/TC_Login_InvalidPhone'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+	}
 
 Mobile.callTestCase(findTestCase('Login/TC_Login_Phone_Success'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

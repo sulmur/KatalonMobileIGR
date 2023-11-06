@@ -22,7 +22,7 @@ Mobile.callTestCase(findTestCase('Profil/TC_Profil_Button'), [:], FailureHandlin
 
 Mobile.callTestCase(findTestCase('Profil/Alamat_Penerima/TC_Alamat_Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Profil/Alamat_Penerima/Tambah Alamat/TC_Label_Valid'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Profil/Alamat_Penerima/Tambah Alamat/TC_Nama_Penerima_Valid'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Profil/Alamat_Penerima/Tambah Alamat/TC_Alamat_Lengkap_Invalid'), [:], FailureHandling.STOP_ON_FAILURE)
 
